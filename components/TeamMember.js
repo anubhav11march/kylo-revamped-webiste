@@ -4,55 +4,32 @@ import SectionTitle from './SectionTitle';
 import TeamMemberCard from './TeamMemberCard';
 
 const MEMBER_DATA = [
-    {
-      memberImg:"/assets/images/team/member-1.jpg",
-      memberLink:"/single-team",
-      memberName:"John Smith",
-      memberPosition:"Web Developer"
-    },
-    {
-      memberImg:"/assets/images/team/member-2.jpg",
-      memberLink:"/single-team",
-      memberName:"Alisha Alima",
-      memberPosition:"Product Designer"
-    },
-    {
-      memberImg:"/assets/images/team/member-3.jpg",
-      memberLink:"/single-team",
-      memberName:"David Park",
-      memberPosition:"UI/UX Designer"
-    },
-    {
-      memberImg:"/assets/images/team/member-4.jpg",
-      memberLink:"/single-team",
-      memberName:"Tailor Milan",
-      memberPosition:"Marketing Manager"
-    },
-    {
-      memberImg:"/assets/images/team/member-1.jpg",
-      memberLink:"/single-team",
-      memberName:"John Smith",
-      memberPosition:"Web Developer"
-    },
-    {
-      memberImg:"/assets/images/team/member-2.jpg",
-      memberLink:"/single-team",
-      memberName:"Alisha Alima",
-      memberPosition:"Product Designer"
-    },
-    {
-      memberImg:"/assets/images/team/member-3.jpg",
-      memberLink:"/single-team",
-      memberName:"David Park",
-      memberPosition:"UI/UX Designer"
-    },
-    {
-      memberImg:"/assets/images/team/member-4.jpg",
-      memberLink:"/single-team",
-      memberName:"Tailor Milan",
-      memberPosition:"Marketing Manager"
-    },
-  ];
+  {
+    memberImg: "https://www.kyloapps.com/anubhav.jpeg",
+    memberLink: "/single-team",
+    memberName: "Anubhav Mittal",
+    memberPosition: "Head - Research & Technology",
+  },
+  {
+    memberImg: "https://www.kyloapps.com/saumya.jpeg",
+    memberLink: "/single-team",
+    memberName: "Saumya Thakur",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "https://www.kyloapps.com/anubhav.jpeg",
+    memberLink: "/single-team",
+    memberName: "Anubhav Mittal",
+    memberPosition: "Head - Research & Technology",
+  },
+  {
+    memberImg: "https://www.kyloapps.com/saumya.jpeg",
+    memberLink: "/single-team",
+    memberName: "Saumya Thakur",
+    memberPosition: "Head - Marketing & Operations",
+  },
+
+];
 
 const TeamMember = ({subTitle}) => {
     return (

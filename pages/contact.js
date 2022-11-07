@@ -9,19 +9,20 @@ import Footer from "../components/Footer";
 
 const ContactPage = () => {
     return (
-        <Layout pageTitle="Maxdi | Business & Digital Agency">
-            <PageHeader title="Contact us" crumbTitle="Contact us"/>
-            <Header heroLogo="/assets/images/logo/logo.svg"
-            headerClass="header__white"
-            menuClass="main-menu-3"
-            />      
-            <main>
-                <Contact/>      
-                <ContactForm/>      
-                <LetsWork/>
-            </main> 
-            <Footer/>     
-        </Layout>
+      <Layout pageTitle="Maxdi | Business & Digital Agency">
+        <PageHeader title="Contact us" crumbTitle="Contact us" />
+        <Header
+          heroLogo="/assets/images/logo/kylo-image.png"
+          headerClass="header__white"
+          menuClass="main-menu-3"
+        />
+        <main>
+          <Contact />
+          <ContactForm />
+          <LetsWork />
+        </main>
+        <Footer />
+      </Layout>
     );
 };
 

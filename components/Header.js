@@ -31,16 +31,16 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
             <div id="header-sticky" className={`header__area header__transparent ${headerClass} ${sticky === true ? "sticky" : " "}`}>
                 <Container>
                     <Row className="align-items-center">
-                        <Col xxl={5} xl={4} lg={3} md={5} xs={6}>
+                        <Col xxl={3} xl={2} lg={1} md={3} xs={4}>
                             <div className="logo">
                             <Link href="/">
                                 <a>
-                                    <img src={heroLogo} alt="logo" />
+                                    <img src={heroLogo} alt="logo"/>
                                 </a>
                             </Link>
                             </div>
                         </Col>
-                        <Col xxl={7} xl={8} lg={9} md={7} xs={6} className="d-lg-block">
+                        <Col xxl={9} xl={10} lg={11} md={9} xs={8} className="d-lg-block">
                             <div className={`main-menu d-flex justify-content-end ${menuClass}`}>
                                 <nav id="mobile-menu" className="d-none d-xl-block">
                                     <NavMenu/>

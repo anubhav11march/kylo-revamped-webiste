@@ -57,7 +57,9 @@ const GrowthServicesDetails = () => {
                 <div className="tech__stack">
                   <h4>Tech Stack:</h4>
                   <div>
-                    <div>Angular</div>
+                    <div>
+                      Intercom, Google Analytics, Mixpanel
+                    </div>
                   </div>
                 </div>
 

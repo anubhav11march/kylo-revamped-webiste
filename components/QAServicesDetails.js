@@ -58,7 +58,10 @@ const QAServicesDetails = () => {
                 <div className="tech__stack">
                   <h4>Tech Stack:</h4>
                   <div>
-                    <div>Angular</div>
+                    <div>
+                      Manual Testing, Selenium, Appium, AWS Device
+                      Farm, Browserstack
+                    </div>
                   </div>
                 </div>
 

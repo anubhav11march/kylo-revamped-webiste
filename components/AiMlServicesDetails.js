@@ -48,14 +48,13 @@ const AiMlServicesDetails = () => {
                       <li>Conversational Chatbot</li>
                       <li>Appointment Scheduling</li>
                     </ul>
-
                   </div>
                 </div>
 
                 <div className="tech__stack">
                   <h4>Tech Stack:</h4>
                   <div>
-                    <div>Angular</div>
+                    <div>Dialogflow, Google Assistant</div>
                   </div>
                 </div>
 

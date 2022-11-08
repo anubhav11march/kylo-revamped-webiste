@@ -58,7 +58,10 @@ const UiUxServicesDetails = () => {
                 <div className="tech__stack">
                   <h4>Tech Stack:</h4>
                   <div>
-                    <div>Angular</div>
+                    <div>
+                      After Effects, Premiere Pro, Blender,
+                       Lottie, Sketch, Illustrator, Photoshop, Framer, Marvel, Invision, Adobe XD 
+                    </div>
                   </div>
                 </div>
 

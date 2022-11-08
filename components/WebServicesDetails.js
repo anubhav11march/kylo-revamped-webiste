@@ -61,7 +61,11 @@ const WebServicesDetails = () => {
                 <div className="tech__stack">
                   <h4>Tech Stack:</h4>
                   <div>
-                    <div>Angular</div>
+                    <p>
+                      Angular, React, React, Vue.js, jQuery, SASS,
+                       Bootstrap, HTML5, CSS3, NodeJS, PHP, Python, MySQL, MongoDB, AWS,
+                       Redis, Firebase
+                    </p>
                   </div>
                 </div>
 

@@ -60,7 +60,9 @@ const MobileServicesDetails = () => {
               <div className="tech__stack">
                 <h4>Tech Stack:</h4>
                 <div>
-                  <div>Angular</div>
+                  <div>
+                    Android, iOS, Ionic, React Native, PWA, Flutter
+                  </div>
                 </div>
               </div>
 

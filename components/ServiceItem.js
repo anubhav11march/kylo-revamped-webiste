@@ -2,7 +2,7 @@ import React from 'react';
 import { Col } from "react-bootstrap";
 import Link from 'next/link';
 
-const ServiceItem = ({serviceIcon, serviceTitle, serviceDesc, serviceLink}) => {
+const ServiceItem = ({serviceIcon, serviceTitle, serviceDesc, serviceLink,servicePoints}) => {
     return (
         <Col xl={4} lg={6} md={6}>
             <div className="single__bg">

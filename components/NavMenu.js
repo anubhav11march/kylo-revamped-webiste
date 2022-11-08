@@ -38,41 +38,12 @@ const NavMenu = () => {
           <Link href="/services">
             <a>Services</a>
           </Link>
-          <button className="dropdown" onClick={showActive}>
-            <i className="fa-solid fa-chevron-left"></i>
-          </button>
-          <ul className="submenu">
-            <li>
-              <Link href="/services">
-                <a>Services</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/services-details">
-                <a>Services Details</a>
-              </Link>
-            </li>
-          </ul>
         </li>
+
         <li>
           <Link href="/portfolio">
             <a>Portfolio</a>
           </Link>
-          <button className="dropdown" onClick={showActive}>
-            <i className="fa-solid fa-chevron-left"></i>
-          </button>
-          <ul className="submenu">
-            <li>
-              <Link href="/portfolio">
-                <a>Portfolio</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/single-portfolio">
-                <a>Portfolio Details</a>
-              </Link>
-            </li>
-          </ul>
         </li>
 
         <li>
@@ -95,13 +66,13 @@ const NavMenu = () => {
             </li>
           </ul>
         </li>
-        
+
         <li>
           <Link href="/career">
             <a>Career</a>
           </Link>
         </li>
-        
+
         <li>
           <Link href="/blog">
             <a>Blog</a>
@@ -122,7 +93,6 @@ const NavMenu = () => {
             </li>
           </ul>
         </li>
-       
       </ul>
     );
 };

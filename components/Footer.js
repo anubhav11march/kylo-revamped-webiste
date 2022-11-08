@@ -188,7 +188,7 @@ const Footer = () => {
               <Col xl={12}>
                 <div className="footer__copyright">
                   <p>
-                    © 2022 KyloApps (A unit of Arihant Reclamation Pvt Ltd)
+                    © 2022 Kylo Technologies LLP
                     {/* <Link href="https://alimasha.net/">
                       <a>Alimasha</a>
                     </Link> */}

@@ -51,8 +51,8 @@ const Contact = () => {
                       </Link>
                     </p>
                     <p>
-                      <Link href="mailto:sales@kyloapp.com">
-                        <a>sales@kyloapp.com</a>
+                      <Link href="mailto:sales@kyloapps.com">
+                        <a>sales@kyloapps.com</a>
                       </Link>
                     </p>
                   </div>

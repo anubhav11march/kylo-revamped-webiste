@@ -5,43 +5,54 @@ import ServiceItem from './ServiceItem';
 
 
 const SERVICE_DATA = [
-    {
-      serviceIcon:"/assets/images/icon/s-icon-1.png",
-      serviceTitle:"UI/UX Design",
-      serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
-      serviceLink:"/services-details"
-    },
-    {
-      serviceIcon:"/assets/images/icon/s-icon-2.png",
-      serviceTitle:"Web Development",
-      serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
-      serviceLink:"/services-details"
-    },
-    {
-      serviceIcon:"/assets/images/icon/s-icon-3.png",
-      serviceTitle:"App Development",
-      serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
-      serviceLink:"/services-details"
-    },
-    {
-      serviceIcon:"/assets/images/icon/s-icon-4.png",
-      serviceTitle:"Digital Marketing",
-      serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
-      serviceLink:"/services-details"
-    },
-    {
-      serviceIcon:"/assets/images/icon/s-icon-5.png",
-      serviceTitle:"Content Writing",
-      serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
-      serviceLink:"/services-details"
-    },
-    {
-      serviceIcon:"/assets/images/icon/s-icon-6.png",
-      serviceTitle:"E-commerce",
-      serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
-      serviceLink:"/services-details"
-    },
-  ];
+  {
+    serviceIcon: "/assets/images/icon/s-icon-2.png",
+    serviceTitle: "Web App Development",
+    serviceDesc:
+      "We build beautiful and responsive frontend and backend supported web applications to fulfill real world client requirements.",
+    serviceLink: "/web-details",
+
+  },
+  {
+    serviceIcon: "/assets/images/icon/s-icon-3.png",
+    serviceTitle: "Mobile App Development",
+    serviceDesc:
+      "We build Native and Cross Platform applications that work dynamically with all devices, screen sizes and resolutions.",
+    serviceLink: "/mobile-details",
+
+  },
+  {
+    serviceIcon: "/assets/images/icon/s-icon-1.png",
+    serviceTitle: "UI/UX Design",
+    serviceDesc:
+      "Everything great built seems futile, if it does not have a likeable design.",
+    serviceLink: "/uiux-details",
+
+  },
+  {
+    serviceIcon: "/assets/images/icon/s-icon-4.png",
+    serviceTitle: "AI / ML / Chatbot",
+    serviceDesc:
+      "We’re always innovating and stay updated with upcoming trends in technology and will take you along on this journey.",
+    serviceLink: "/aiml-details",
+
+  },
+  {
+    serviceIcon: "/assets/images/icon/s-icon-5.png",
+    serviceTitle: "Growth Hacking",
+    serviceDesc:
+      "We build products and ensure they reach the desired customers.",
+    serviceLink: "/growth-details",
+
+  },
+  {
+    serviceIcon: "/assets/images/icon/s-icon-6.png",
+    serviceTitle: "Quality Assurance",
+    serviceDesc:
+      "No product is deemed a market fit without rigorous testing, we have the solution to this test.",
+    serviceLink: "/qa-details",
+  },
+];
 
 const Services = ({extraClass}) => {
     return (
@@ -62,7 +73,7 @@ const Services = ({extraClass}) => {
                     </Row>  
                     <Row>                                         
                           {SERVICE_DATA.map(
-                              ({serviceIcon, serviceTitle, serviceDesc, serviceLink}, index) => (
+                              ({serviceIcon, serviceTitle, serviceDesc, serviceLink }, index) => (
                                   <ServiceItem
                                   key={index}
                                   serviceIcon={serviceIcon}
@@ -71,7 +82,7 @@ const Services = ({extraClass}) => {
                                   serviceLink={serviceLink}
                                   />
                               )
-                          )}                                
+                            )}                                
                     </Row>
                 </Container>
             </section>

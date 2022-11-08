@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from './SectionTitle';
-import Link from 'next/link';
+import Link from 'next/link'; 
 
 const Footer = () => {
     return (
@@ -88,8 +88,8 @@ const Footer = () => {
                   <div className="footer__widget-link">
                     <ul>
                       <li>
-                        <Link href="/services-details">
-                          <a>Development</a>
+                        <Link href="/web-details">
+                          <a>Web App Development</a>
                         </Link>
                       </li>
                       <li>

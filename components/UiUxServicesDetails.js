@@ -45,12 +45,12 @@ const UiUxServicesDetails = () => {
                     <ul>
                       <li>User research</li>
                       <li>Prototyping</li>
-                      <li>Apple's Flat Design</li>
+                      <li>Apple&apos;s Flat Design</li>
                     </ul>
                     <ul>
                       <li>Wireframing</li>
                       <li>Responsive design</li>
-                      <li>Google's Material Design</li>
+                      <li>Google&apos;s Material Design</li>
                     </ul>
                   </div>
                 </div>

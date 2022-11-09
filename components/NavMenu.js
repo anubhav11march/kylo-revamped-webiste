@@ -13,6 +13,12 @@ const NavMenu = () => {
           <Link href="/">
             <a>Home</a>
           </Link>
+        </li>
+
+        {/* <li>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
           <button className="dropdown" onClick={showActive}>
             <i className="fa-solid fa-chevron-left"></i>
           </button>
@@ -28,7 +34,7 @@ const NavMenu = () => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li>
           <Link href="/about">
             <a>About</a>

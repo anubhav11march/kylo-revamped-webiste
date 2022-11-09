@@ -80,7 +80,7 @@ const Footer = () => {
                   </div>
                 </div>
               </Col>
-              <Col xl={3} lg={3} md={3} sm={7}>
+              <Col xl={2} lg={2} md={2} sm={8}>
                 <div className="footer__widget">
                   <div className="footer__widget-title">
                     <h5>Our Services</h5>
@@ -121,7 +121,7 @@ const Footer = () => {
                   </div>
                 </div>
               </Col>
-              <Col xl={2} lg={2} md={4} sm={6}>
+              <Col xl={2} lg={2} md={2} sm={6} className="pl-70">
                 <div className="footer__widget footer__widget-mt-2">
                   <div className="footer__widget-title">
                     <h5>Company</h5>
@@ -134,13 +134,23 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
+                        <Link href="/servi">
+                          <a>Services</a>
+                        </Link>
+                      </li>
+                      <li>
                         <Link href="/portfolio">
                           <a>Portfolio</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/team">
-                          <a>Our Team</a>
+                        <Link href="/career">
+                          <a>Career</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/blog">
+                          <a>Blog</a>
                         </Link>
                       </li>
                       <li>
@@ -148,16 +158,11 @@ const Footer = () => {
                           <a>Contact</a>
                         </Link>
                       </li>
-                      <li>
-                        <Link href="/services">
-                          <a>Services</a>
-                        </Link>
-                      </li>
                     </ul>
                   </div>
                 </div>
               </Col>
-              <Col xl={3} lg={3} md={3} sm={9}>
+              <Col xl={4} lg={4} md={4} sm={4} className="pl-50">
                 <div className="footer__widget footer__widget-mt">
                   <div className="footer__widget-title">
                     <h5>Stay Connected</h5>
@@ -176,12 +181,22 @@ const Footer = () => {
                           <a>+91-8860732624</a>
                         </Link>
                       </p>
+                      <p>
+                        <Link href="tel:+918920607430">
+                          <a>, +91-8920607430</a>
+                        </Link>
+                      </p>
                     </div>
                     <div className="footer__widget-email d-flex align-items-center">
                       <i className="fa-solid fa-paper-plane"></i>
                       <p>
                         <Link href="mailto:info@kyloapps.com">
                           <a>info@kyloapps.com</a>
+                        </Link>
+                      </p>
+                      <p>
+                        <Link href="mailto:sales@kyloapps.com">
+                          <a>, sales@kyloapps.com</a>
                         </Link>
                       </p>
                     </div>

@@ -46,7 +46,7 @@ const NavMenu = () => {
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link href="/team">
             <a>Crew</a>
           </Link>
@@ -65,7 +65,7 @@ const NavMenu = () => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
 
         <li>
           <Link href="/career">

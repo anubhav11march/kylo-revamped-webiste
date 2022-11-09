@@ -24,11 +24,7 @@ const PortfolioItem = ({portfolioImg, portfolioCat, portfolioTitle, portfolioLin
               </div>
             </div>
           </div>
-          <Link href={portfolioLink}>
-            <a className="m-btn mt-5" style={{ margin: "10px 30%" }}>
-              View More
-            </a>
-          </Link>
+          
         </div>
       </Col>
     );

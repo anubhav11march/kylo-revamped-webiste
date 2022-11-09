@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import SectionTitle from './SectionTitle';
 import PortfolioItem from './PortfolioItem';
+import Link from "next/link";
 
 const PORTFOLIO_ALL = [
   {
@@ -52,49 +53,69 @@ const PORTFOLIO_ALL = [
 
 const Services = () => {
     return (
-
-            <section className="portfolio__area fix p-relative pb-90">
-                <div className="portfolio__shape">
-                    <img className="portfolio-s-1" src="/assets/images/shape/portfolio/portfolio-s-1.png" alt=""/>
-                    <img className="portfolio-s-2" src="/assets/images/shape/portfolio/portfolio-s-2.png" alt=""/>
-                    <img className="portfolio-s-3 d-none d-sm-block" src="/assets/images/shape/portfolio/portfolio-s-3.png" alt=""/>
-                    <img className="portfolio-s-4" src="/assets/images/shape/portfolio/portfolio-s-4.png" alt=""/>
+      <section className="portfolio__area fix p-relative pb-90">
+        <div className="portfolio__shape">
+          <img
+            className="portfolio-s-1"
+            src="/assets/images/shape/portfolio/portfolio-s-1.png"
+            alt=""
+          />
+          <img
+            className="portfolio-s-2"
+            src="/assets/images/shape/portfolio/portfolio-s-2.png"
+            alt=""
+          />
+          <img
+            className="portfolio-s-3 d-none d-sm-block"
+            src="/assets/images/shape/portfolio/portfolio-s-3.png"
+            alt=""
+          />
+          <img
+            className="portfolio-s-4"
+            src="/assets/images/shape/portfolio/portfolio-s-4.png"
+            alt=""
+          />
+        </div>
+        <Container>
+          <Row>
+            <Col xl={9}>
+              <div className="portfolio__wrapper">
+                <div className="portfolio__content">
+                  <div className="portfolio__title">
+                    <SectionTitle
+                      subTitle="Portfolio"
+                      titleFirst="Some of our amazing works"
+                    />
+                  </div>
                 </div>
-                <Container>
-                    <Row>
-                        <Col xl={9}>
-                            <div className="portfolio__wrapper">
-                                <div className="portfolio__content">
-                                    <div className="portfolio__title">
-                                        <SectionTitle subTitle="Portfolio"
-                                        titleFirst="Some of our amazing works"/> 
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                    </Row>
-                    <div className="portfolio">
-                        {/* <Tabs
+              </div>
+            </Col>
+          </Row>
+          <div className="portfolio">
+            {/* <Tabs
                         defaultActiveKey="all"
                         transition={false}
                         id="noanim-tab-example"
                         className="portfolio__menu"
                         >
                           <Tab eventKey="all" title="Show All"> */}
-                            <Row className="mt-150">
-                            {PORTFOLIO_ALL.map(
-                                ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}, index) => (
-                                  <PortfolioItem
-                                  key={index}
-                                  portfolioImg={portfolioImg}
-                                  portfolioCat={portfolioCat}
-                                  portfolioTitle={portfolioTitle}
-                                  portfolioLink={portfolioLink}
-                                  />
-                              )
-                            )} 
-                            </Row>
-                          {/* </Tab>
+            <Row className="mt-150">
+              {PORTFOLIO_ALL.map(
+                (
+                  { portfolioImg, portfolioCat, portfolioTitle, portfolioLink },
+                  index
+                ) => (
+                  <PortfolioItem
+                    key={index}
+                    portfolioImg={portfolioImg}
+                    portfolioCat={portfolioCat}
+                    portfolioTitle={portfolioTitle}
+                    portfolioLink={portfolioLink}
+                  />
+                )
+              )}
+            </Row>
+            {/* </Tab>
                           <Tab eventKey="ui" title="UI/UX Design">
                             <Row className="mt-150">
                             {PORTFOLIO_UI.map(
@@ -156,11 +177,14 @@ const Services = () => {
                             </Row>
                           </Tab>
                       </Tabs>   */}
-                    </div>
-                </Container>      
-            </section>                               
-                                                          
-                   
+          </div>
+        </Container>
+        <Link href={"/portfolio"}>
+          <a className="m-btn mt-5" style={{ margin: "0 44%" }}>
+            View More
+          </a>
+        </Link>
+      </section>
     );
 };
 

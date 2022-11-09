@@ -5,7 +5,7 @@ import Link from 'next/link';
 const PortfolioItem = ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}) => {
     return (
       <Col xl={4} lg={4} md={6}>
-        <div className="portfolio__item mb-30 wow fadeIn" data-wow-delay=".3s">
+        <div className="portfolio__item mb-30 wow fadeIn p-3" data-wow-delay=".3s" style={{ minHeight: "450px" }}>
           <div className="portfolio__image">
             <img src={portfolioImg} alt="portfolio" />
             <div className="portfolio__text">

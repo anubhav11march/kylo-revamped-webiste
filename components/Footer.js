@@ -50,7 +50,7 @@ const Footer = () => {
               <Col xl={4} lg={4} md={10} sm={10}>
                 <div className="footer__widget wow fadeIn" data-wow-delay=".5s">
                   <div className="footer__widget-logo">
-                    <img src="assets/images/logo/Logo-footer.svg" alt="logo" />
+                    <img src="assets/images/logo/logo_footer.png" alt="logo" />
                     <p>
                       Core object made kolor adipisci elit sed diam nonummy nibh
                       euismod tincidunt laoreet dolore magna grinjon.
@@ -93,23 +93,28 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services-details">
-                          <a>marketing</a>
+                        <Link href="/mobile-details">
+                          <a>Mobile App Development</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services-details">
+                        <Link href="/uiux-details">
                           <a>UI/UX Design</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services-details">
-                          <a>E-commerce</a>
+                        <Link href="/aiml-details">
+                          <a>AI/ML/Chatbot</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services-details">
-                          <a>Content Writing</a>
+                        <Link href="/growth-details">
+                          <a>Growth Hacking</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/qa-details">
+                          <a>Quality Assurance</a>
                         </Link>
                       </li>
                     </ul>

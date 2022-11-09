@@ -4,26 +4,33 @@ import Link from 'next/link';
 
 const PortfolioItem = ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}) => {
     return (
-        <Col xl={4} lg={4} md={6}>
-            <div className="portfolio__item mb-30 wow fadeIn" data-wow-delay=".3s">
-                <div className="portfolio__image">
-                    <img src={portfolioImg} alt="portfolio"/>
-                    <div className="portfolio__text">
-                        <p>{portfolioCat}</p>
-                        <h3>
-                            <Link href={portfolioLink}>
-                                <a>{portfolioTitle}</a>
-                            </Link>
-                        </h3>  
-                        <div className="portfolio__link">
-                        <Link href={portfolioLink}>
-                            <a><i className="fas fa-plus"></i></a>
-                        </Link>
-                        </div>                                  
-                    </div>
-                </div>                                
+      <Col xl={4} lg={4} md={6}>
+        <div className="portfolio__item mb-30 wow fadeIn" data-wow-delay=".3s">
+          <div className="portfolio__image">
+            <img src={portfolioImg} alt="portfolio" />
+            <div className="portfolio__text">
+              <p>{portfolioCat}</p>
+              <h3>
+                <Link href={portfolioLink}>
+                  <a>{portfolioTitle}</a>
+                </Link>
+              </h3>
+              <div className="portfolio__link">
+                <Link href={portfolioLink}>
+                  <a>
+                    <i className="fas fa-plus"></i>
+                  </a>
+                </Link>
+              </div>
             </div>
-        </Col>
+          </div>
+          <Link href={portfolioLink}>
+            <a className="m-btn mt-5" style={{ margin: "10px 30%" }}>
+              View More
+            </a>
+          </Link>
+        </div>
+      </Col>
     );
 };
 

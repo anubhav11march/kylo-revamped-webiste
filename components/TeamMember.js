@@ -16,18 +16,6 @@ const MEMBER_DATA = [
     memberName: "Saumya Thakur",
     memberPosition: "Head - Marketing & Operations",
   },
-  {
-    memberImg: "https://www.kyloapps.com/anubhav.jpeg",
-    memberLink: "/single-team",
-    memberName: "Anubhav Mittal",
-    memberPosition: "Head - Research & Technology",
-  },
-  {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
-    memberPosition: "Head - Marketing & Operations",
-  },
 
 ];
 
@@ -51,7 +39,7 @@ const TeamMember = ({subTitle}) => {
                             </div>
                         </Col>
                     </Row>  
-                    <Row>                        
+                    <Row className="d-flex justify-content-around">                        
                     {MEMBER_DATA.map(
                               ({memberImg, memberLink, memberName, memberPosition}, index) => (
                                   <TeamMemberCard

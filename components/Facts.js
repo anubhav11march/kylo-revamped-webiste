@@ -19,6 +19,7 @@ const Facts = () => {
                                 </div>
                                 <div className="facts__thumb-image">
                                     <img src="/assets/images/Home Page/H3.jpg" alt=""/>
+                                    {/* <img src="/assets/images/facts/facts-img.png" alt=""/> */}
                                 </div>
                             </div>
                         </Col>

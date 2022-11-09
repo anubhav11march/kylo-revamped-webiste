@@ -31,11 +31,11 @@ const Hero = () => {
             src="/assets/images/shape/hero/hero-shape-5.png"
             alt=""
           />
-          <img
+          {/* <img
             className="hero-shape-6 d-none d-xl-block"
             src="/assets/images/shape/hero/hero-shape-6.png"
             alt=""
-          />
+          /> */}
           <img
             className="hero-shape-7 d-none d-sm-block"
             src="/assets/images/shape/hero/hero-shape-7.png"

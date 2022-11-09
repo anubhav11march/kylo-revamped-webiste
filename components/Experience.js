@@ -11,7 +11,7 @@ const Experience = ({extraClass}) => {
     }
     return (
       <section
-        className={`experience__area fix p-relative pt-120 pb-120 ${extraClass}`}
+        className={`experience__area fix p-relative pt-120 pb-120 ${extraClass} mt-40`}
       >
         <>
           <Modal showModal={showModal} setShowModal={setShowModal} />
@@ -62,7 +62,8 @@ const Experience = ({extraClass}) => {
                   </span>
                 </div>
                 <div className="experience__thumb text-end">
-                  <img src="/assets/images/Home Page/H4.jpg" alt="" />
+                  {/* <img src="/assets/images/Home Page/H4.jpg" alt="" /> */}
+                  <img src="https://maxdi.vercel.app/assets/images/experience/experience-img.png" alt="" />
                 </div>
               </Col>
             </Row>

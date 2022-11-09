@@ -12,6 +12,7 @@ import Faq from "../components/Faq";
 import BlogHome from "../components/BlogHome";
 import LetsWork from "../components/LetsWork";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 const HomeOne = () => {
   return (
@@ -27,6 +28,11 @@ const HomeOne = () => {
         <Services extraClass="mt-75" />
         <Facts />
         <Portfolio />
+        <Link href={"/portfolio"} style={{margin: "0px auto"}}>
+          <a className="m-btn viewMore">
+            View More
+          </a>
+        </Link>
         <Experience />
         <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120" />
         <Faq />

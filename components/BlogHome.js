@@ -39,7 +39,7 @@ const BlogHome = ({extraClass}) => {
                     <img className="blog-shape-2" src="assets/images/shape/blog/blog-s-2.png" alt=""/>
                     <img className="blog-shape-3 d-none d-sm-block" src="assets/images/shape/blog/blog-s-3.png" alt=""/>
                     <img className="blog-shape-4" src="assets/images/shape/blog/blog-s-4.png" alt=""/>
-                    <img className="blog-shape-5 d-none d-sm-block" src="assets/images/shape/blog/blog-s-5.png" alt=""/>
+                    {/* <img className="blog-shape-5 d-none d-sm-block" src="assets/images/shape/blog/blog-s-5.png" alt=""/> */}
                 </div>
                 <Container>
                     <Row className="mb-65">

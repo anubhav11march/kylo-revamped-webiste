@@ -2568,11 +2568,14 @@ textarea {
   }
 }
 .portfolio__shape img.portfolio-s-4 {
-  bottom: 5%;
+  bottom: 0%;
   left: 12.5%;
   max-width: 112px;
   z-index: 6;
   mix-blend-mode: multiply;
+}
+.viewMore{
+  margin-left: 45%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio__shape img.portfolio-s-4 {
@@ -2592,9 +2595,13 @@ textarea {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .portfolio__shape img.portfolio-s-4 {
-    bottom: 2%;
+    bottom: 0%;
+  }
+  .viewMore{
+    margin-left: 35%;
   }
 }
+
 .portfolio__shape-2 img {
   position: absolute;
 }

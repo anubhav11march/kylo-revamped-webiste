@@ -20,7 +20,7 @@ const Footer = () => {
             />
           </div>
           <Container>
-            <Row className="mb-145">
+            <Row className="mb-110">
               <Col xxl={6} xl={7} lg={8} md={10}>
                 <div className="footer__newsletter">
                   <SectionTitle
@@ -57,14 +57,9 @@ const Footer = () => {
                     </p>
                   </div>
                   <div className="footer__widget-social">
-                    <Link href="https://www.facebook.com/kyloapps">
+                    <Link href="https://www.linkedin.com/company/kylo-apps">
                       <a>
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </a>
-                    </Link>
-                    <Link href="https://twitter.com/kyloapps">
-                      <a>
-                        <i className="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                       </a>
                     </Link>
                     <Link href="https://www.instagram.com/kyloappsglobal/">
@@ -72,15 +67,20 @@ const Footer = () => {
                         <i className="fa-brands fa-instagram"></i>
                       </a>
                     </Link>
-                    <Link href="https://www.linkedin.com/company/kylo-apps">
+                    <Link href="https://twitter.com/kyloapps">
                       <a>
-                        <i className="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-twitter"></i>
+                      </a>
+                    </Link>
+                    <Link href="https://www.facebook.com/kyloapps">
+                      <a>
+                        <i className="fa-brands fa-facebook-f"></i>
                       </a>
                     </Link>
                   </div>
                 </div>
               </Col>
-              <Col xl={2} lg={2} md={4} sm={6}>
+              <Col xl={3} lg={3} md={3} sm={7}>
                 <div className="footer__widget">
                   <div className="footer__widget-title">
                     <h5>Our Services</h5>
@@ -157,7 +157,7 @@ const Footer = () => {
                   </div>
                 </div>
               </Col>
-              <Col xl={4} lg={4} md={4} sm={10}>
+              <Col xl={3} lg={3} md={3} sm={9}>
                 <div className="footer__widget footer__widget-mt">
                   <div className="footer__widget-title">
                     <h5>Stay Connected</h5>

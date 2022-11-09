@@ -52,8 +52,9 @@ const PORTFOLIO_ALL = [
 ];
 
 const Services = () => {
-    return (
-      <section className="portfolio__area fix p-relative pb-90">
+  return (
+    <>
+      <section className="portfolio__area fix p-relative pb-20">
         <div className="portfolio__shape">
           <img
             className="portfolio-s-1"
@@ -179,13 +180,10 @@ const Services = () => {
                       </Tabs>   */}
           </div>
         </Container>
-        <Link href={"/portfolio"}>
-          <a className="m-btn mt-5" style={{ margin: "0 44%" }}>
-            View More
-          </a>
-        </Link>
       </section>
-    );
+      
+    </>
+  );
 };
 
 export default Services;

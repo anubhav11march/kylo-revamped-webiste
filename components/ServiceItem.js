@@ -5,7 +5,7 @@ import Link from 'next/link';
 const ServiceItem = ({serviceIcon, serviceTitle, serviceDesc, serviceLink,servicePoints}) => {
     return (
       <Col xl={4} lg={6} md={6}>
-        <div className="single__bg" style={{ minHeight: "600px" }}>
+        <div className="single__bg">
           <div className="single__service">
             <div className="single__service-icon">
               <img src={serviceIcon} alt="icon" />

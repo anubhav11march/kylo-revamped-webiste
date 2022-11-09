@@ -18,7 +18,8 @@ const Facts = () => {
                                     <img className="facts-s-4 d-none d-md-block" src="/assets/images/shape/facts/facts-s-4.png" alt=""/>
                                 </div>
                                 <div className="facts__thumb-image">
-                                    <img src="/assets/images/Home Page/H3.jpg" alt=""/>
+                                    {/* <img src="/assets/images/Home Page/H3.jpg" alt=""/> */}
+                                    <img src="https://maxdi.vercel.app/assets/images/facts/facts-img.png" alt=""/>
                                     {/* <img src="/assets/images/facts/facts-img.png" alt=""/> */}
                                 </div>
                             </div>
@@ -26,7 +27,7 @@ const Facts = () => {
                         <Col xxl={6} xl={7} lg={7} md={9}>
                             <div className="facts__content">
                                 <div className="facts__content-text">
-                                    <SectionTitle subTitle="Facts To Know"
+                                    <SectionTitle subTitle="Why Choose us ?"
                                     titleFirst="Our project will help"
                                     titleSecond="you standout"
                                     />                                    

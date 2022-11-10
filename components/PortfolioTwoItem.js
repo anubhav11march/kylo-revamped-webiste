@@ -3,7 +3,7 @@ import { Col } from "react-bootstrap";
 import Link from 'next/link';
 
 const PortfolioTwoItem = ({ portfolioImg, portfolioLink, portfolioTitle, portfolioText }) => {
-    const shortText = portfolioText.slice(0, 100);
+    const shortText = portfolioText.slice(0, 95);
     return (
       <Col xl={6} lg={6}>
         <div className="portfolio__item-2 mb-30">
@@ -19,7 +19,9 @@ const PortfolioTwoItem = ({ portfolioImg, portfolioLink, portfolioTitle, portfol
             <p>
               {shortText}...{" "}
               <Link href={portfolioLink}>
-                <a style={{ color: "#1D233A !important" }}>Know More</a>
+                <a style={{ color: "#7432ff !important" }}>
+                  <b>Know More</b>
+                </a>
               </Link>
             </p>
           </div>

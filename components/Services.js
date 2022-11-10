@@ -6,7 +6,7 @@ import ServiceItem from './ServiceItem';
 
 const SERVICE_DATA = [
   {
-    serviceIcon: "/assets/images/icon/s-icon-2.png",
+    serviceIcon: "/assets/images/icon/laptop.png",
     serviceTitle: "Web App Development",
     serviceDesc:
       "We build beautiful and responsive frontend and backend supported web applications to fulfill real world client requirements.",
@@ -34,14 +34,14 @@ const SERVICE_DATA = [
     serviceLink: "/aiml-details",
   },
   {
-    serviceIcon: "/assets/images/icon/growth-w.svg",
+    serviceIcon: "/assets/images/icon/growth-w.png",
     serviceTitle: "Growth Hacking",
     serviceDesc:
       "We build products and ensure they reach the desired customers.",
     serviceLink: "/growth-details",
   },
   {
-    serviceIcon: "/assets/images/icon/bug.svg",
+    serviceIcon: "/assets/images/icon/qa.png",
     serviceTitle: "Quality Assurance",
     serviceDesc:
       "No product is deemed a market fit without rigorous testing, we have the solution to this test.",

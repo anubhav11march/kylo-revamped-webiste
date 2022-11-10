@@ -29,7 +29,7 @@ const QAServicesDetails = () => {
             </Col>
             <Col xl={8} lg={8}>
               <div className="services__details-thumb mb-60">
-                <img src="assets/images/Services/Web dev.jpg" alt="" />
+                <img src="assets/images/Services/qa.jpg" alt="" />
               </div>
               <div className="services__details-content">
                 <h2>Quality Assurance</h2>

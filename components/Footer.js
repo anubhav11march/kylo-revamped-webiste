@@ -50,7 +50,7 @@ const Footer = () => {
               <Col xl={4} lg={4} md={10} sm={10}>
                 <div className="footer__widget wow fadeIn" data-wow-delay=".5s">
                   <div className="footer__widget-logo">
-                    <img src="assets/images/logo/logo_footer.png" alt="logo" />
+                    <img src="assets/images/logo/logo_footer.jpg" alt="logo" />
                     <p>
                       Core object made kolor adipisci elit sed diam nonummy nibh
                       euismod tincidunt laoreet dolore magna grinjon.
@@ -134,18 +134,13 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/servi">
-                          <a>Services</a>
-                        </Link>
-                      </li>
-                      <li>
                         <Link href="/portfolio">
                           <a>Portfolio</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/career">
-                          <a>Career</a>
+                          <a>Careers</a>
                         </Link>
                       </li>
                       <li>
@@ -174,31 +169,42 @@ const Footer = () => {
                         India 110034
                       </p>
                     </div>
-                    <div className="footer__widget-phone d-flex align-items-center">
-                      <i className="fa-solid fa-phone"></i>
-                      <p>
-                        <Link href="tel:+918860732624">
-                          <a>+91-8860732624</a>
-                        </Link>
-                      </p>
-                      <p>
-                        <Link href="tel:+918920607430">
-                          <a>, +91-8920607430</a>
-                        </Link>
-                      </p>
+                    <div className="contact__info-content d-flex mb-30">
+                      <div className="contact__info-icon">
+                        <i className="fa-solid fa-phone green"></i>
+                      </div>
+                      <div className="contact__info-title">
+                        <h5>Phone</h5>
+                        <p>
+                          <Link href="tel:+918860732624">
+                            <a>+91-8860732624</a>
+                          </Link>
+                        </p>
+                        <p>
+                          <Link href="tel:+918920607430">
+                            <a>+91-8920607430</a>
+                          </Link>
+                        </p>
+                      </div>
                     </div>
-                    <div className="footer__widget-email d-flex align-items-center">
-                      <i className="fa-solid fa-paper-plane"></i>
-                      <p>
-                        <Link href="mailto:info@kyloapps.com">
-                          <a>info@kyloapps.com</a>
-                        </Link>
-                      </p>
-                      <p>
-                        <Link href="mailto:sales@kyloapps.com">
-                          <a>, sales@kyloapps.com</a>
-                        </Link>
-                      </p>
+
+                    <div className="contact__info-content d-flex">
+                      <div className="contact__info-icon">
+                        <i className="fa-solid fa-paper-plane blue"></i>
+                      </div>
+                      <div className="contact__info-title">
+                        <h5>Email us</h5>
+                        <p>
+                          <Link href="mailto:info@kyloapps.com">
+                            <a>info@kyloapps.com</a>
+                          </Link>
+                        </p>
+                        <p>
+                          <Link href="mailto:sales@kyloapps.com">
+                            <a>sales@kyloapps.com</a>
+                          </Link>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -57,10 +57,10 @@
   },
   {
     "id": "9",
-    "portfolioImg": "/assets/images/portfolio/p-16.png",
+    "portfolioImg": "/assets/images/portfolio/p-17.png",
     "portfolioLink": "/portfolio/9",
-    "portfolioTitle": "Hermann Gmeiner Schools & Training Institutions",
-    "portfolioText": "Hermann Gmeiner Schools & Training Institutions are under one the largest non profit organisations in the world SOS Children ' s Villages of India and has over 12 institutions across India."
+    "portfolioTitle": "BillBerry",
+    "portfolioText": "A restaurant management software for users to track orders of different outlets, analytical performance on different metrics. The app is available on Web, Android and IOS"
   },
   {
     "id": "10",
@@ -114,12 +114,12 @@
     "portfolioTitle": "Flywise",
     "portfolioText": "Flywise is India ' s best overseas education platform which unlike any traditional consultancies travel with you till you land your dream job in North America and Europe"
   },
-
   {
     "id": "17",
-    "portfolioImg": "/assets/images/portfolio/p-17.png",
+    "portfolioImg": "/assets/images/portfolio/p-16.png",
     "portfolioLink": "/portfolio/17",
-    "portfolioTitle": "BillBerry",
-    "portfolioText": "A restaurant management software for users to track orders of different outlets, analytical performance on different metrics. The app is available on Web, Android and IOS"
+    "portfolioTitle": "Hermann Gmeiner Schools & Training Institutions",
+    "portfolioText": "Hermann Gmeiner Schools & Training Institutions are under one the largest non profit organisations in the world SOS Children ' s Villages of India and has over 12 institutions across India."
   }
+  
 ]

@@ -37,11 +37,11 @@ const TeamMember = ({subTitle}) => {
             src="/assets/images/shape/testimonials/t-shape-3.png"
             alt=""
           />
-          <img
+          {/* <img
             className="t-shape-4"
             src="/assets/images/shape/testimonials/t-shape-4.png"
             alt=""
-          />
+          /> */}
         </div>
         <Container>
           <Row className="mb-65">

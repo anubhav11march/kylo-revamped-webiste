@@ -32,7 +32,7 @@ const MobileServicesDetails = () => {
               <img src="assets/images/Services/Mob dev.jpg" alt="" />
             </div>
             <div className="services__details-content">
-              <h2>Mobile Development</h2>
+              <h2>Mobile App Development</h2>
               <p>
                 We build Native and Cross Platform applications that work
                 dynamically with all devices, screen sizes and resolutions.

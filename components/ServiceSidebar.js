@@ -26,7 +26,7 @@ const ServiceSidebar = () => {
             </li>
             <li>
               <Link href="/aiml-details">
-                <a>AI/ML Chatbot</a>
+                <a>AI/ML/Chatbot</a>
               </Link>
             </li>
             <li>

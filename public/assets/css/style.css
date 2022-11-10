@@ -733,10 +733,10 @@ textarea {
 }
 .hero__area-2 {
   background: #1d233a;
-  padding-bottom: 140px;
+  padding-bottom: 80px;
 }
 .hero__height {
-  min-height: 1080px;
+  min-height: 880px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero__height {
@@ -766,7 +766,7 @@ textarea {
   z-index: 3;
 }
 .hero__shape img.hero-shape-1 {
-  top: 10%; /* originally was 18*/
+  top: 18%; /* originally was 18*/
   right: 11%;
   max-width: 34%;
   mix-blend-mode: multiply;
@@ -1189,7 +1189,7 @@ textarea {
   position: absolute;
 }
 .hero__content-shape img.hero-c-shape-1 {
-  top: 10%;  /* originally was 18  */
+  top: 13%;  /* originally was 18  */
   left: 6%;
   max-width: 69%;
 }
@@ -2829,6 +2829,7 @@ textarea {
   -moz-box-shadow: 0 30px 40px 0 rgba(29, 35, 58, 0.1);
   box-shadow: 0 30px 40px 0 rgba(29, 35, 58, 0.1);
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .portfolio__item-2:hover .portfolio__image-2 img {
   transform: scale(1.1);
@@ -5362,7 +5363,7 @@ textarea {
   }
 }
 .footer__widget-logo img {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   max-width: 197px;
 }
 .footer__widget-logo p {

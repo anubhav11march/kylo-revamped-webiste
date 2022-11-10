@@ -32,7 +32,7 @@ const AiMlServicesDetails = () => {
                 <img src="assets/images/Services/ai ml chatbot.webp" alt="" />
               </div>
               <div className="services__details-content">
-                <h2>AI/ML Development</h2>
+                <h2>AI/ML/Chatbot</h2>
                 <p>
                   We’re always innovating and stay updated with upcoming trends
                   in technology and will take you along on this journey.

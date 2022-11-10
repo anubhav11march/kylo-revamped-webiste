@@ -32,7 +32,7 @@ const WebServicesDetails = () => {
                 <img src="assets/images/Services/Web dev.jpg" alt="" />
               </div>
               <div className="services__details-content">
-                <h2>Web Development</h2>
+                <h2>Web App Development</h2>
                 <p>
                   We build beautiful and responsive frontend and backend
                   supported web applications to fulfill real world client

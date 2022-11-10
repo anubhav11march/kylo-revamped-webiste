@@ -53,14 +53,14 @@ const Hero = () => {
                 />
               </div>
               <div className="hero__content">
-                <h4 className="section__sub-title">Creative Digital Agency</h4>
+                <h4 className="section__sub-title">Kylo Apps</h4>
                 <h2 className="hero__title">
                   <span>We build creative</span>
                   websites & apps
                 </h2>
                 <p>
-                  The carbon in our apple pies extraordinary claims require
-                  extraord evidence permanence of the stars energy.
+                  We are an IT services company providing robust, reliable and
+                  attractive mobile and web applications across the globe.
                 </p>
                 <Link href="/contact">
                   <a className="m-btn mt-35">Get Started</a>

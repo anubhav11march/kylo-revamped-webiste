@@ -11,7 +11,6 @@ const SERVICE_DATA = [
     serviceDesc:
       "We build beautiful and responsive frontend and backend supported web applications to fulfill real world client requirements.",
     serviceLink: "/web-details",
-
   },
   {
     serviceIcon: "/assets/images/icon/s-icon-3.png",
@@ -19,7 +18,6 @@ const SERVICE_DATA = [
     serviceDesc:
       "We build Native and Cross Platform applications that work dynamically with all devices, screen sizes and resolutions.",
     serviceLink: "/mobile-details",
-
   },
   {
     serviceIcon: "/assets/images/icon/s-icon-1.png",
@@ -27,26 +25,23 @@ const SERVICE_DATA = [
     serviceDesc:
       "Everything great built seems futile, if it does not have a likeable design.",
     serviceLink: "/uiux-details",
-
   },
   {
-    serviceIcon: "/assets/images/icon/s-icon-4.png",
+    serviceIcon: "/assets/images/icon/ai.png",
     serviceTitle: "AI / ML / Chatbot",
     serviceDesc:
       "We’re always innovating and stay updated with upcoming trends in technology and will take you along on this journey.",
     serviceLink: "/aiml-details",
-
   },
   {
-    serviceIcon: "/assets/images/icon/s-icon-5.png",
+    serviceIcon: "/assets/images/icon/growth-w.svg",
     serviceTitle: "Growth Hacking",
     serviceDesc:
       "We build products and ensure they reach the desired customers.",
     serviceLink: "/growth-details",
-
   },
   {
-    serviceIcon: "/assets/images/icon/s-icon-6.png",
+    serviceIcon: "/assets/images/icon/bug.svg",
     serviceTitle: "Quality Assurance",
     serviceDesc:
       "No product is deemed a market fit without rigorous testing, we have the solution to this test.",

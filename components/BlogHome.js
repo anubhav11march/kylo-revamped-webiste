@@ -4,32 +4,31 @@ import SectionTitle from './SectionTitle';
 import BlogHomeCard from './BlogHomeCard';
 
 const BLOG_DATA = [
-    {
-      blogImg:"/assets/images/blog/blog-img-1.jpg",
-      blogLink:"/single-blog",
-      blogDate:"22 March, 2022",
-      blogCat:"Marketing",
-      catLink:"/blog",
-      blogTitle:"Post launch shower initiative forward"
-    },
-    {
-      blogImg:"/assets/images/blog/blog-img-2.jpg",
-      blogLink:"/single-blog",
-      blogDate:"22 March, 2022",
-      blogCat:"Marketing",
-      catLink:"/blog",
-      blogTitle:"Delivering the best digital marketing"
-    },
-    {
-      blogImg:"/assets/images/blog/blog-img-3.jpg",
-      blogLink:"/single-blog",
-      blogDate:"22 March, 2022",
-      blogCat:"Marketing",
-      catLink:"/blog",
-      blogTitle:"This is our north star design baseline"
-    },
-    
-  ];
+  {
+    blogImg: "https://maxdi.vercel.app/assets/images/blog/blog-img-1.jpg",
+    blogLink: "/single-blog",
+    blogDate: "22 March, 2022",
+    blogCat: "Marketing",
+    catLink: "/blog",
+    blogTitle: "Post launch shower initiative forward",
+  },
+  {
+    blogImg: "https://maxdi.vercel.app/assets/images/blog/blog-img-2.jpg",
+    blogLink: "/single-blog",
+    blogDate: "22 March, 2022",
+    blogCat: "Marketing",
+    catLink: "/blog",
+    blogTitle: "Delivering the best digital marketing",
+  },
+  {
+    blogImg: "https://maxdi.vercel.app/assets/images/blog/blog-img-3.jpg",
+    blogLink: "/single-blog",
+    blogDate: "22 March, 2022",
+    blogCat: "Marketing",
+    catLink: "/blog",
+    blogTitle: "This is our north star design baseline",
+  },
+];
 
 const BlogHome = ({extraClass}) => {
     return (

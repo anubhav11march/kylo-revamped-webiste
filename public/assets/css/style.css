@@ -736,7 +736,7 @@ textarea {
   padding-bottom: 80px;
 }
 .hero__height {
-  min-height: 880px;
+  min-height: 95vh;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero__height {
@@ -1189,7 +1189,7 @@ textarea {
   position: absolute;
 }
 .hero__content-shape img.hero-c-shape-1 {
-  top: 13%;  /* originally was 18  */
+  top: 7%;  /* originally was 18  */
   left: 6%;
   max-width: 69%;
 }

@@ -89,32 +89,32 @@ const Footer = () => {
                     <ul>
                       <li>
                         <Link href="/web-details">
-                          <a>Web App Development</a>
+                          <a id="footer_link">Web App Development</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/mobile-details">
-                          <a>Mobile App Development</a>
+                          <a id="footer_link">Mobile App Development</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/uiux-details">
-                          <a>UI/UX Design</a>
+                          <a id="footer_link">UI/UX Design</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/aiml-details">
-                          <a>AI/ML/Chatbot</a>
+                          <a id="footer_link">AI/ML/Chatbot</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/growth-details">
-                          <a>Growth Hacking</a>
+                          <a id="footer_link">Growth Hacking</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/qa-details">
-                          <a>Quality Assurance</a>
+                          <a id="footer_link">Quality Assurance</a>
                         </Link>
                       </li>
                     </ul>
@@ -130,27 +130,27 @@ const Footer = () => {
                     <ul>
                       <li>
                         <Link href="/about">
-                          <a>About us</a>
+                          <a id="footer_link">About us</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/portfolio">
-                          <a>Portfolio</a>
+                          <a id="footer_link">Portfolio</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/career">
-                          <a>Careers</a>
+                          <a id="footer_link">Careers</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/blog">
-                          <a>Blog</a>
+                          <a id="footer_link">Blog</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/contact">
-                          <a>Contact</a>
+                          <a id="footer_link">Contact</a>
                         </Link>
                       </li>
                     </ul>

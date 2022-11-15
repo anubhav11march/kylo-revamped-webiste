@@ -31,7 +31,7 @@ const About = ({subTitle, titleFirst, titleSecond}) => {
                     </Col>
                     <Col xl={{ span: 5, offset: 1 }} lg={6}>                            
                         <div className="about__content">
-                            <p>Kindling the energy hidden in matter the only home we&apos;ve ever known radio telescope decipherment descended from astronomers rogue. Prime number network of wormholes take root.</p>
+                            <p>Careers in matter the only home we&apos;ve ever known radio telescope decipherment descended from astronomers rogue. Prime number network of wormholes take root.</p>
                             <ul>
                                 <li>Sea of Tranquility dispassionate observer dream.</li>
                                 <li>Muse about as a patch of light brain is the seed of intelligence.</li>

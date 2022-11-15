@@ -74,7 +74,7 @@ const NavMenu = () => {
         </li> */}
 
         <li>
-          <Link href="/career">
+          <Link href="/careers">
             <a>Careers</a>
           </Link>
         </li>

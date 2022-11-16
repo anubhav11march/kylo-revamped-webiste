@@ -1,22 +1,27 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
+import { useRouter } from 'next/router'
 
 const data = [
   {
+    id: "1",
     title: "React Dev",
     desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
   },
   {
+    id: "2",
     title: "Backend Dev",
     desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
   },
   {
+    id: "3",
     title: "Full Stack Dev",
     desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
   },
 ];
 
 const Jobs = () => {
+  const {push} = useRouter();
   return (
     <section className="pb-100">
       <header
@@ -59,9 +64,10 @@ const Jobs = () => {
       <main style={{ padding: "30px 20%" }}>
         {data?.map((job, id) => (
           <Row
+            onClick={() => push(`jobs/${job.id}`)}
             key={id}
             className="border pt-20 pb-20 mb-20 jobCard"
-            style={{ position: "relative", cursor: "pointer"}}
+            style={{ position: "relative", cursor: "pointer" }}
           >
             <Col>
               <div className="d-flex">

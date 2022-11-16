@@ -5,7 +5,6 @@ import Layout from "../../components/Layout";
 import LetsWork from "../../components/LetsWork";
 import PageHeader from "../../components/PageHeader";
 import PortfolioDetails from "../../components/PortfolioDetails";
-import { useRouter } from "next/router";
 
 const TeamPage = () => {
 

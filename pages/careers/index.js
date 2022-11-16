@@ -1,13 +1,13 @@
 import React from "react";
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import PageHeader from "../components/PageHeader";
-import LetsWork from "../components/LetsWork";
-import Footer from "../components/Footer";
-import KyloDes from "../components/KyloDes";
-import WhyKylo from "../components/Whykylo";
-import QuickApply from "../components/QuickApply";
-import LifeAtKylo from "../components/LifeAtKylo";
+import Layout from "../../components/Layout";
+import Header from "../../components/Header";
+import PageHeader from "../../components/PageHeader";
+import LetsWork from "../../components/LetsWork";
+import Footer from "../../components/Footer";
+import KyloDes from "../../components/KyloDes";
+import WhyKylo from "../../components/Whykylo";
+import QuickApply from "../../components/QuickApply";
+import LifeAtKylo from "../../components/LifeAtKylo";
 
 const Careers = () => {
   return (

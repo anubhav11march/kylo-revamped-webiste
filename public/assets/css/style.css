@@ -8008,3 +8008,10 @@ textarea {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.jobCard{
+  border-radius: 5px;
+}
+.jobCard:hover{
+  background-color: rgba(231, 231, 231, 0.285);
+}

@@ -21,7 +21,7 @@ const ServicesPage = () => {
                 <Services/>   
                 <Maxdi/>   
                 <Faq/>   
-                <Pricing extraClass="mt-60 mb-260"/>   
+                {/* <Pricing extraClass="mt-60 mb-260"/>    */}
                 <LetsWork/>
             </main> 
             <Footer/>     

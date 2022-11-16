@@ -177,7 +177,7 @@ input::-moz-placeholder,
   opacity: 1;
 }
 
-input::placeholder,
+input::placeholder, select::-ms-value,
 .form-control::placeholder {
   font-size: 14px;
   font-weight: 500;
@@ -199,7 +199,7 @@ input::-ms-input-placeholder,
   color: #b2bcd6;
 }
 
-input,
+input, select,
 .form-control {
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -213,8 +213,24 @@ input,
   padding: 16px 24px;
   width: 100%;
 }
+.resume_input{
+  background: #eef3ff;
+  color: #4a4f61;
+  padding: 10px 24px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume_input > img {
+  cursor: pointer;
+}
 
-input:focus,
+input:focus, select:focus,
 .form-control:focus {
   outline: none;
   box-shadow: none;
@@ -1415,6 +1431,15 @@ textarea {
   -ms-border-radius: 190px;
   -o-border-radius: 190px;
 }
+.quick-apply_thumb-image img{
+  height: 610px !important;
+  width: 460px !important;
+  top: -120px;
+  left: 178px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .hero__thumb-image img {
     width: 340px;
@@ -1447,6 +1472,16 @@ textarea {
   -ms-border-radius: 212px;
   -o-border-radius: 212px;
 }
+
+.quick-apply_thumb-image::before{
+  height: 630px !important;
+  width: 500px !important;
+  background: #C3F318;
+  top: -120px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .hero__thumb-image::before {
     width: 383px;
@@ -3403,6 +3438,12 @@ textarea {
   right: 38%;
   z-index: 4;
 }
+
+.kylo_video-btn{
+  top: 46%;
+  right: 26%;
+}
+
 .experience__video-btn i {
   position: relative;
   z-index: 5;
@@ -7917,6 +7958,11 @@ textarea {
   -moz-box-shadow: 0 0 100px 0 rgba(29, 35, 58, 0.1);
   box-shadow: 0 0 100px 0 rgba(29, 35, 58, 0.1);
 }
+.quick_apply{
+  margin-top: 0;
+  margin-left: 0;
+}
+
 .contact__form-title {
   font-size: 24px;
   font-weight: 500;

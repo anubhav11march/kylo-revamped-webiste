@@ -34,10 +34,18 @@ const ContactForm = () => {
             <Col xl={9} lg={10}>
               <div className="project__thumb d-sm-flex">
                 <div className="project__thumb-1">
-                  <img src="/assets/images/project/project-img-1.jpg" alt="" />
+                  {/* <img src="/assets/images/project/project-img-1.jpg" alt="" /> */}
+                  <img
+                    src="https://maxdi.vercel.app/assets/images/project/project-img-1.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="project__thumb-2 project__thumb-3 d-none d-sm-block">
-                  <img src="/assets/images/project/project-img-2.jpg" alt="" />
+                  {/* <img src="/assets/images/project/project-img-2.jpg" alt="" /> */}
+                  <img
+                    src="https://maxdi.vercel.app/assets/images/project/project-img-2.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </Col>

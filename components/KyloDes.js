@@ -63,7 +63,7 @@ const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
                 <li>The only home we`ve ever known dream of the mind`s eye.</li>
               </ul> */}
             </div>
-            <Link href="/careers">
+            <Link href="#apply_form">
               <a className="m-btn mt-30">Apply Now</a>
             </Link>
             {/* <div className="about__counter-bg d-none d-sm-block">

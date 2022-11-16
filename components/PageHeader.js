@@ -51,7 +51,7 @@ const PageHeader = ({title, crumbTitle}) => {
               {title === "Careers" ? (
                 <Link href="/careers/jobs">
                   <a
-                    className="m-btn mt-50"
+                    className="m-btn mt-50 job-btn"
                     style={{
                       background: "transparent",
                       border: "2px solid white",
@@ -61,7 +61,7 @@ const PageHeader = ({title, crumbTitle}) => {
                       marginLeft: "10px",
                     }}
                   >
-                    Job Openings
+                    Job Openings &nbsp;<span>→</span>
                   </a>
                 </Link>
               ) : (

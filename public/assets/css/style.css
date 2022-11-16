@@ -995,6 +995,13 @@ textarea {
   right: 35.5%;
   max-width: 119px;
 }
+.quick_apply-shape-7{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -50px;
+  right: -40px;
+}
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .hero__shape img.hero-shape-7 {
     bottom: 20%;
@@ -1434,8 +1441,8 @@ textarea {
 .quick-apply_thumb-image img{
   height: 610px !important;
   width: 460px !important;
-  top: -120px;
-  left: 178px;
+  top: -67px;
+  left: 118px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -1477,7 +1484,7 @@ textarea {
   height: 630px !important;
   width: 500px !important;
   background: #C3F318;
-  top: -120px;
+  top: -67px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -1636,6 +1643,11 @@ textarea {
   -o-animation: hero-shape-2 2s linear infinite alternate;
   animation: hero-shape-2 2s linear infinite alternate;
 }
+.quick_apply-s-1{
+  left: 52% !important;
+  top: 40% !important;
+}
+
 @media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about__thumb-shape img.about-s-1 {
     left: 4%;
@@ -1946,6 +1958,9 @@ textarea {
   -moz-animation: hero-shape-5 2s linear 0s infinite alternate;
   -o-animation: hero-shape-5 2s linear 0s infinite alternate;
   animation: hero-shape-5 2s linear 0s infinite alternate;
+}
+.why_kylo-s-2{
+  left: 6%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services__shape img.services-s-2 {
@@ -8014,4 +8029,9 @@ textarea {
 }
 .jobCard:hover{
   background-color: rgba(231, 231, 231, 0.285);
+}
+
+.job-btn:hover{
+  transform: scaleX(1.1);
+  color: white
 }

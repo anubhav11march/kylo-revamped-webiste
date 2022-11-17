@@ -6,7 +6,7 @@ import Typical from "react-typical";
 
 const Hero = () => {
   return (
-    <section className="hero__area hero__height fix p-relative d-flex align-items-center">
+    <section className="hero__area hero__height fix p-relative d-flex align-items-center pb-50">
       <div className="hero__shape">
         <img
           className="hero-shape-1"

@@ -25,21 +25,21 @@ const Jobs = () => {
   return (
     <section className="pb-100">
       <header
+        className="jobs-padding"
         style={{
-          padding: "40px 20%",
           background: "#F8F9FA",
         }}
       >
         <h3 className="mb-20">Open Positions</h3>
         <Row className="mb-20">
-          <Col>
+          <Col xs={12} xl={6} className="mb-20 mb-md-0">
             <select>
               <option>Choose Department</option>
               <option>Tech</option>
               <option>Non-Tech</option>
             </select>
           </Col>
-          <Col>
+          <Col xs={12} xl={6}>
             <select>
               <option>Choose Work Type</option>
               <option>Remote</option>
@@ -61,25 +61,25 @@ const Jobs = () => {
           </Col>
         </Row>
       </header>
-      <main style={{ padding: "30px 20%" }}>
+      <main className="jobs-padding">
         {data?.map((job, id) => (
           <Row
             onClick={() => push(`jobs/${job.id}`)}
             key={id}
             className="border pt-20 pb-20 mb-20 jobCard"
-            style={{ position: "relative", cursor: "pointer" }}
+            style={{ cursor: "pointer" }}
           >
-            <Col>
+            <Col className="position-relative">
               <div className="d-flex">
                 <h5>{job.title}</h5>
                 &nbsp; &nbsp;
                 <h7>|&nbsp;&nbsp;Full Time</h7>
               </div>
               <p>{job.desc}</p>
+              <div style={{ position: "absolute", left: "95%", top: "38%" }}>
+                {">"}
+              </div>
             </Col>
-            <div style={{ position: "absolute", left: "95%", top: "38%" }}>
-              {">"}
-            </div>
           </Row>
         ))}
       </main>

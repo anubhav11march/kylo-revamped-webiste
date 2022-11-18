@@ -8019,6 +8019,37 @@ textarea {
 .quick_apply{
   margin-top: 0;
   margin-left: 0;
+  padding: 60px 20%;
+}
+.jobs_desc{
+  padding: 10px 20%;
+  height: auto;
+}
+
+.job_jd-header{
+  padding: 30px 20%;
+  background: #F8F9FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 575px) {
+  .quick_apply{
+    padding: 60px 8%;
+  }
+  .jobs_desc{
+    padding: 10px 8%;
+  }
+  .job_jd-header{
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .job_jd-header div {
+    text-align: center;
+  }
 }
 
 .contact__form-title {
@@ -8078,3 +8109,12 @@ textarea {
   transform: scaleX(1.1);
   color: white;
 }
+
+.jobs-padding{
+  padding: 30px 10vw;
+}
+/* @media (max-width: 575px) {
+  .jobs-padding{
+    padding: 30px 5%;
+  }
+} */

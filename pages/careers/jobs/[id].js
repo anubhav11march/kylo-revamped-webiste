@@ -17,17 +17,21 @@ const JobDetails = () => {
         <main>
           <section className="pt-100">
             <header
-              style={{
-                padding: "30px 20%",
-                background: "#F8F9FA",
-                position: "relative",
-              }}
+              className='job_jd-header'
             >
-              <h2>React Dev</h2>
-              <h5>Work Type: Full Time</h5>
-              <a style={{position: "absolute", right: "20%", bottom: "30%"}} href='#apply_form' className="m-btn mt-35">Apply Now</a>
+              <div>
+                <h2>React Dev</h2>
+                <h5>Work Type: Full Time</h5>
+              </div>
+              <a
+               
+                href="#apply_form"
+                className="m-btn"
+              >
+                Apply Now
+              </a>
             </header>
-            <div style={{ padding: "10px 20%" }}>
+            <div className='jobs_desc'>
               <p>
                 Business Development Intern duties and responsibilities:
                 Developing and executing sales plans to meet and exceed monthly
@@ -52,11 +56,10 @@ const JobDetails = () => {
               </p>
             </div>
             <div
-            style={{padding: "60px 20%"}}
+              style={{marginTop: "10px"}}
               className="contact__form contact__form-2 quick_apply"
               id="apply_form"
             >
-
               <div className="contact__form-content">
                 <form action="#" id="contact-form" method="POST">
                   <div className="field-format d-sm-flex justify-content-between mb-40">

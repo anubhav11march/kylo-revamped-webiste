@@ -51,7 +51,7 @@ const WhyKylo = ({ extraClass }) => {
         <Row>
           <Col xs={12} xl={6}>
             <Row className="mb-20">
-              <Col className="position-relative">
+              <Col xs={12} md={6} className="position-relative">
                 <p
                   style={{
                     position: "absolute",
@@ -70,7 +70,7 @@ const WhyKylo = ({ extraClass }) => {
                 ></div>
                 {/* <img src="https://images.unsplash.com/photo-1622675363311-3e1904dc1885?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGl2ZXJzZSUyMHRlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=330&h=200" /> */}
               </Col>
-              <Col className="position-relative">
+              <Col xs={12} md={6} className="position-relative mt-20 mt-md-0">
                 <p
                   style={{
                     position: "absolute",
@@ -92,8 +92,8 @@ const WhyKylo = ({ extraClass }) => {
                 {/* <img src="https://images.unsplash.com/photo-1467139701929-18c0d27a7516?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dHJla2tpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=330&h=200" /> */}
               </Col>
             </Row>
-            <Row className="mb-20">
-              <Col className="position-relative">
+            <Row className="mb-20 mt-20 mt-md-0">
+              <Col xs={12} md={6} className="position-relative">
                 <p
                   style={{
                     position: "absolute",
@@ -112,7 +112,7 @@ const WhyKylo = ({ extraClass }) => {
                 ></div>
                 {/* <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2ZmaWNlJTIwcGFydHl8ZW58MHx8MHx8&auto=format&fit=crop&w=330&h=200" /> */}
               </Col>
-              <Col className="position-relative">
+              <Col xs={12} md={6} className="position-relative mt-20 mt-md-0">
                 <p
                   style={{
                     position: "absolute",
@@ -156,7 +156,7 @@ const WhyKylo = ({ extraClass }) => {
           </Col>
 
           <Col xs={12} xl={6}>
-            <Row className="mb-20 mt-20 mt-md-0">
+            <Row className="mb-20 mt-20 mt-xl-0">
               <Col className="position-relative">
                 <div className="experience__video-btn kylo_video-btn">
                   <span onClick={openModal}>

@@ -51,7 +51,7 @@ const PageHeader = ({title, crumbTitle}) => {
               {title === "Careers" ? (
                 <Link href="/careers/jobs">
                   <a
-                    className="m-btn mt-50 job-btn"
+                    className="m-btn mb-20 mb-md-0 mt-10 mt-md-50 job-btn"
                     style={{
                       background: "transparent",
                       border: "2px solid white",

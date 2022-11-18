@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const QuickApply = () => {
   return (
-    <section className="about__area fix p-relative pt-100 pb-120 about__pb quick_apply">
+    <section className="about__area fix p-relative pt-100 pb-120 about__pb quick_apply_career">
       <Container>
         <Row>
           <Col>
             <div
-              className="contact__form contact__form-2 quick_apply"
+              className="contact__form contact__form-2 quick_apply_career"
               id="apply_form"
               style={{ boxShadow: "0", paddingTop: "0", paddingRight: "10px" }}
             >

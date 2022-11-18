@@ -323,6 +323,9 @@ textarea {
   .section__sub-title {
     font-size: 18px;
   }
+  .why-kylo_subtitle{
+    font-size: 16px;
+  }
 }
 .section__title {
   font-size: 50px;
@@ -331,7 +334,7 @@ textarea {
   color: #1d233a;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .section__title {
+  .section__title, .why-kylo_title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -347,7 +350,31 @@ textarea {
     font-size: 35px;
     line-height: 45px;
   }
+
+  .lifeKylo_container{
+    flex-direction: column;
+  }
+  .lifeKylo_item{
+    margin-bottom: 10px;
+  }
 }
+
+@media (min-width: 575px) {
+  .lifeKylo_item-2{
+    align-self: flex-end;
+  }
+
+  .lifeKylo_item{
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .lifeKylo_container{
+    gap: 10px
+  }
+}
+
+
 .section__title span {
   display: inline-block;
   position: relative;
@@ -1426,6 +1453,7 @@ textarea {
   .hero__thumb-image {
     text-align: left;
   }
+
 }
 .hero__thumb-image img {
   position: relative;
@@ -1438,13 +1466,37 @@ textarea {
   -ms-border-radius: 190px;
   -o-border-radius: 190px;
 }
-.quick-apply_thumb-image img{
-  height: 610px !important;
-  width: 460px !important;
-  top: -67px;
-  left: 118px;
+.quick-apply_thumb-image{
+  height: 600px;
+  max-width: 480px;
+  border-radius: 190px;
+  border: 15px solid #C3F318;
+  border-top: 0;
+  -webkit-border-radius: 190px;
+  -moz-border-radius: 190px;
+  -ms-border-radius: 190px;
+  -o-border-radius: 190px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+
+}
+
+.quick-apply_thumb-image img{
+  border-radius: 175px;
+  -webkit-border-radius: 175px;
+  -moz-border-radius: 175px;
+  -ms-border-radius: 175px;
+  -o-border-radius: 175px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (min-width: 1400px) {
+  .quick-apply_thumb-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
@@ -1478,15 +1530,6 @@ textarea {
   -moz-border-radius: 212px;
   -ms-border-radius: 212px;
   -o-border-radius: 212px;
-}
-
-.quick-apply_thumb-image::before{
-  height: 630px !important;
-  width: 500px !important;
-  background: #C3F318;
-  top: -67px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {

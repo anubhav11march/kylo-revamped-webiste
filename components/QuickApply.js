@@ -10,10 +10,14 @@ const QuickApply = () => {
             <div
               className="contact__form contact__form-2 quick_apply"
               id="apply_form"
-              style={{ boxShadow: "0" }}
+              style={{ boxShadow: "0", paddingTop: "0", paddingRight: "10px" }}
             >
               <Row>
-                <Col>
+                <Col
+                  xl={{ span: 6, order: 1 }}
+                  xs={{ span: 12, order: 2 }}
+                  className="pt-60"
+                >
                   <div className="contact__form-title mb-40">
                     <h4>Quick Apply</h4>
                   </div>
@@ -96,7 +100,7 @@ const QuickApply = () => {
                     </form>
                   </div>
                 </Col>
-                <Col>
+                <Col xl={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
                   <div className="about__thumb">
                     <div className="about__thumb-shape">
                       <img
@@ -110,15 +114,13 @@ const QuickApply = () => {
                         alt=""
                       />
                     </div>
-                    <div className="hero__thumb-image quick-apply_thumb-image">
+                    <div className="quick-apply_thumb-image">
                       <img
+                        style={{ width: "100%", height: "100%" }}
                         src="https://img.freepik.com/free-photo/charming-businesswoman-glasses-striped-shirt-working-with-laptop-computer-while-siting-home_171337-13027.jpg?w=1060&t=st=1668582899~exp=1668583499~hmac=db91c9098a5681b5143228dddf0c1a268e3babf7048d534cdb3f377d53cde789"
                         alt=""
                       />
                     </div>
-                    {/* <div className="about__thumb-image">
-                <img src="/assets/images/Home Page/H2.jpg" alt="" />
-              </div> */}
                   </div>
                 </Col>
               </Row>

@@ -1481,6 +1481,14 @@ textarea {
 
 }
 
+@media (max-width: 575px){
+  .quick-apply_thumb-image{
+    height: 400px;
+  }
+}
+
+
+
 .quick-apply_thumb-image img{
   border-radius: 175px;
   -webkit-border-radius: 175px;
@@ -8017,7 +8025,7 @@ textarea {
   box-shadow: 0 0 100px 0 rgba(29, 35, 58, 0.1);
 }
 
-.quick_apply_career{
+.quick_apply_career, .quick_apply_career-div{
   margin-top: 0;
   margin-left: 0;
 }
@@ -8055,6 +8063,15 @@ textarea {
 
   .job_jd-header div {
     text-align: center;
+  }
+
+  .quick_apply_career{
+    padding-left: 0px !important;
+  }
+
+  .quick_apply_career-div{
+    margin-left: 0;
+    padding-left: 10px !important;
   }
 }
 

@@ -8,7 +8,7 @@ const QuickApply = () => {
         <Row>
           <Col>
             <div
-              className="contact__form contact__form-2 quick_apply_career"
+              className="contact__form contact__form-2 quick_apply_career-div"
               id="apply_form"
               style={{ boxShadow: "0", paddingTop: "0", paddingRight: "10px" }}
             >

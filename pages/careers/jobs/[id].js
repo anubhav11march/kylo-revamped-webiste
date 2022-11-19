@@ -16,47 +16,56 @@ const JobDetails = () => {
         />
         <main>
           <section className="pt-100">
-            <header
-              className='job_jd-header'
-            >
+            <header className="job_jd-header">
               <div>
                 <h2>React Dev</h2>
                 <h5>Work Type: Full Time</h5>
               </div>
-              <a
-               
-                href="#apply_form"
-                className="m-btn"
-              >
+              <a href="#apply_form" className="m-btn">
                 Apply Now
               </a>
             </header>
-            <div className='jobs_desc'>
-              <p>
-                Business Development Intern duties and responsibilities:
-                Developing and executing sales plans to meet and exceed monthly
-                and quarterly sales goals Growing business through the
-                development of new leads and new contacts Lead Generation
-                Building business relationships with current and potential
-                clients Maintaining and updating sales, marketing and business
-                development documentation Collaborating with management on sales
-                goals Support the team with other responsibilities as required
-                Business Development Intern requirements and qualifications:
-                Minimum of a Bachelor’s Degree in Business, Marketing, Finance
-                or similar field Minimum of 0-6 months of experience in sales,
-                business development or similar role Experience with CRM
-                software Proficiency in MS Office Excellent multitasking skills
-                Ability to prioritize tasks Excellent verbal and written
-                communication skills Ability to present and explain ideas to a
-                variety of audiences Ability to work under pressure Ability to
-                sell value and create credibility Ability to maintain a high
-                level of professionalism and confidentiality Enthusiastic to
-                build good relationships with people Ability to work well in a
-                team environment
-              </p>
+            <div className="jobs_desc">
+              <p>Responsibilities</p>
+              <ul style={{ paddingLeft: "25px" }}>
+                <li style={{ listStyle: "disc" }}>
+                  Developing new user-facing features using React.js
+                </li>
+                <li style={{ listStyle: "disc" }}>
+                  Building reusable components and front-end libraries for
+                  future use
+                </li>
+                <li style={{ listStyle: "disc" }}>
+                  Translating designs and wireframes into high-quality code
+                </li>
+                <li style={{ listStyle: "disc" }}>
+                  Optimizing components for maximum performance across a vast
+                  array of web-capable devices and browsers
+                </li>
+              </ul>
+
+              <br/>
+
+              <p>Skills</p>
+              <ul style={{ paddingLeft: "25px" }}>
+                <li style={{ listStyle: "disc" }}>
+                  Strong proficiency in JavaScript, including DOM manipulation
+                  and the JavaScript object model
+                </li>
+                <li style={{ listStyle: "disc" }}>
+                  Thorough understanding of React.js and its core principles
+                </li>
+                <li style={{ listStyle: "disc" }}>
+                  Experience with popular React.js workflows (such as Flux or
+                  Redux)
+                </li>
+                <li style={{ listStyle: "disc" }}>
+                  Familiarity with modern front-end build pipelines and tools
+                </li>
+              </ul>
             </div>
             <div
-              style={{marginTop: "10px"}}
+              style={{ marginTop: "10px" }}
               className="contact__form contact__form-2 quick_apply"
               id="apply_form"
             >

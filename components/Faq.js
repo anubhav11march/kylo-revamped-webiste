@@ -46,7 +46,7 @@ const Faq = () => {
                     titleSecond="questions"
                   />
                   <div className="faq__wrapper">
-                    <Accordion defaultActiveKey="0" flush>
+                    <Accordion  flush>
                       <Accordion.Item eventKey="0">
                         <Accordion.Header>
                           How much will I be charged for the services?
@@ -85,7 +85,7 @@ const Faq = () => {
                       </Accordion.Item>
                       <Accordion.Item eventKey="4">
                         <Accordion.Header>
-                          Will you provide tech support after the delivery <br/> of 
+                          Will you provide tech support after the delivery of 
                           the project?
                         </Accordion.Header>
                         <Accordion.Body>

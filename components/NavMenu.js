@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 
-const NavMenu = () => {
+const NavMenu = ({mobile}) => {
     const showActive = (e) => {
         let clickedItem = e.currentTarget.parentNode;
         clickedItem.querySelector(".submenu").classList.toggle("show");
@@ -99,6 +99,16 @@ const NavMenu = () => {
             </li>
           </ul>
         </li>
+
+        {mobile ? (
+          <li>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </li>
+        ) : (
+          ""
+        )}
       </ul>
     );
 };

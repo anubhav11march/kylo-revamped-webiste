@@ -87,7 +87,7 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
             </button>
             <div className="side-info-content">
               <nav className="mobile-menu">
-                <NavMenu />
+                <NavMenu mobile={true} />
               </nav>
               <div className="sidebar__contact mb-30">
                 <div className="contact-list mb-30">
@@ -96,18 +96,49 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
                       <i className="fas fa-map-marker-alt"></i>203-204, NDM 1,
                       Netaji Subash Place, Pitampura, Delhi, India 110034
                     </li>
-                    <li>
-                      <i className="far fa-paper-plane"></i>
-                      <Link href="mailto:info@kyloapps.com">
-                        <a>info@kyloapps.com</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="fas fa-phone"></i>
-                      <Link href="tel:+918860732624">
-                        <a>+91-8860732624</a>
-                      </Link>
-                    </li>
+                    <div className="contact__info-content d-flex">
+                      <div className="contact__info-icon">
+                        <i
+                          style={{ color: "#8b61ff" }}
+                          className="far fa-paper-plane"
+                        ></i>
+                      </div>
+                      <div className="contact__info-title">
+                        <h5>Email us</h5>
+                        <p>
+                          <Link href="mailto:info@kyloapps.com">
+                            <a>info@kyloapps.com</a>
+                          </Link>
+                        </p>
+                        <p>
+                          <Link href="mailto:sales@kyloapps.com">
+                            <a>sales@kyloapps.com</a>
+                          </Link>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="contact__info-content d-flex mb-30">
+                      <div className="contact__info-icon">
+                        <i
+                          style={{ color: "#8b61ff" }}
+                          className="fas fa-phone"
+                        ></i>
+                      </div>
+                      <div className="contact__info-title">
+                        <h5>Phone</h5>
+                        <p>
+                          <Link href="tel:+918860732624">
+                            <a>+91-8860732624</a>
+                          </Link>
+                        </p>
+                        <p>
+                          <Link href="tel:+918920607430">
+                            <a>+91-8920607430</a>
+                          </Link>
+                        </p>
+                      </div>
+                    </div>
                   </ul>
                   <div className="sidebar__social">
                     <Link href="https://www.linkedin.com/company/kylo-apps">

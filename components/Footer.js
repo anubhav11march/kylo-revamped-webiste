@@ -121,7 +121,7 @@ const Footer = () => {
                   </div>
                 </div>
               </Col>
-              <Col xl={2} lg={2} md={2} sm={6} className="pl-70">
+              <Col xl={2} lg={2} md={2} sm={6} className="footer_padding">
                 <div className="footer__widget footer__widget-mt-2">
                   <div className="footer__widget-title">
                     <h5>Company</h5>
@@ -157,7 +157,7 @@ const Footer = () => {
                   </div>
                 </div>
               </Col>
-              <Col xl={4} lg={4} md={4} sm={4} className="pl-50">
+              <Col xl={4} lg={4} md={4} sm={4} className="footer_padding">
                 <div className="footer__widget footer__widget-mt">
                   <div className="footer__widget-title">
                     <h5>Stay Connected</h5>

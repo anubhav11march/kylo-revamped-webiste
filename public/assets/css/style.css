@@ -8141,3 +8141,9 @@ textarea {
     padding: 30px 5%;
   }
 } */
+
+@media (min-width: 1400px) {
+  .footer_padding{
+    padding-left: 50px;
+  }
+}

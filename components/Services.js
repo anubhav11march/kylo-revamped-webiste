@@ -47,6 +47,27 @@ const SERVICE_DATA = [
       "No product is deemed a market fit without rigorous testing, we have the solution to this test.",
     serviceLink: "/qa-details",
   },
+  {
+    serviceIcon: "/assets/images/icon/devops.png",
+    serviceTitle: "DevOps",
+    serviceDesc:
+      "No product is deemed a market fit without rigorous testing, we have the solution to this test.",
+    serviceLink: "/devops",
+  },
+  {
+    serviceIcon: "/assets/images/icon/data.png",
+    serviceTitle: "Data Engineering",
+    serviceDesc:
+      "No product is deemed a market fit without rigorous testing, we have the solution to this test.",
+    serviceLink: "/data-engineering",
+  },
+  {
+    serviceIcon: "/assets/images/icon/brand.png",
+    serviceTitle: "Branding",
+    serviceDesc:
+      "No product is deemed a market fit without rigorous testing, we have the solution to this test.",
+    serviceLink: "/branding",
+  },
 ];
 
 const Services = ({extraClass}) => {

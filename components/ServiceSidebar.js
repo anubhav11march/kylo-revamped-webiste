@@ -39,6 +39,21 @@ const ServiceSidebar = () => {
                 <a>Quality Assurance</a>
               </Link>
             </li>
+            <li>
+              <Link href="/devops">
+                <a>DevOps</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/data-engineering">
+                <a>Data Engineering</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/branding">
+                <a>Branding</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

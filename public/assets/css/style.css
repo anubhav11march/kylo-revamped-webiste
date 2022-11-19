@@ -356,6 +356,7 @@ textarea {
   }
   .lifeKylo_item{
     margin-bottom: 10px;
+    width: 100%;
   }
 }
 
@@ -367,10 +368,15 @@ textarea {
   .lifeKylo_item{
     flex-grow: 1;
     flex-shrink: 1;
+    width: 250px;
   }
 
   .lifeKylo_container{
     gap: 10px
+  }
+
+  .lifeKylo_item_big{
+    width: 570px;
   }
 }
 
@@ -8040,6 +8046,7 @@ textarea {
 .quick_apply_career, .quick_apply_career-div{
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 20px;
 }
 
 .quick_apply{
@@ -8084,6 +8091,7 @@ textarea {
   .quick_apply_career-div{
     margin-left: 0;
     padding-left: 10px !important;
+    margin-bottom: 100px;
   }
 }
 

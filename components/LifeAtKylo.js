@@ -8,15 +8,9 @@ const LifeAtKylo = () => {
 
       <div
         className="mt-60 d-flex justify-content-between flex-wrap lifeKylo_container"
-        style={{ minHeight: "330px" }}
       >
         <div
           className="lifeKylo_item lifeKylo_item-2"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-            // alignSelf: "flex-end",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -26,10 +20,6 @@ const LifeAtKylo = () => {
 
         <div
           className="lifeKylo_item"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -39,10 +29,6 @@ const LifeAtKylo = () => {
 
         <div
           className="lifeKylo_item lifeKylo_item_big"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -52,11 +38,6 @@ const LifeAtKylo = () => {
 
         <div
           className="lifeKylo_item lifeKylo_item-2"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-            // alignSelf: "flex-end",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -66,15 +47,9 @@ const LifeAtKylo = () => {
       </div>
       <div
         className="d-flex justify-content-between flex-wrap lifeKylo_container"
-        style={{ minHeight: "330px" }}
       >
         <div
           className="lifeKylo_item lifeKylo_item-2"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-            // alignSelf: "flex-end",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -84,10 +59,6 @@ const LifeAtKylo = () => {
 
         <div
           className="lifeKylo_item lifeKylo_item_big"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -97,10 +68,6 @@ const LifeAtKylo = () => {
 
         <div
           className="lifeKylo_item"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}
@@ -110,10 +77,6 @@ const LifeAtKylo = () => {
 
         <div
           className="lifeKylo_item lifeKylo_item-2"
-          style={{
-            height: "300px",
-            background: "#4a4f61",
-          }}
         >
           <img
             style={{ width: "100%", height: "100%" }}

@@ -353,10 +353,12 @@ textarea {
 
   .lifeKylo_container{
     flex-direction: column;
+    min-height: 320px;
   }
   .lifeKylo_item{
     margin-bottom: 10px;
     width: 100%;
+    height: 300px;
   }
 }
 
@@ -368,15 +370,19 @@ textarea {
   .lifeKylo_item{
     flex-grow: 1;
     flex-shrink: 1;
-    width: 250px;
+    flex-basis: 16vw;
+    height: 19vw;
   }
 
   .lifeKylo_container{
-    gap: 10px
+    gap: 1vw;
+    height: 20vw;
   }
 
   .lifeKylo_item_big{
-    width: 570px;
+    flex-basis: 32vw;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
 

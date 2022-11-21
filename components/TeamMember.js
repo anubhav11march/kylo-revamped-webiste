@@ -21,7 +21,7 @@ const MEMBER_DATA = [
 
 const TeamMember = ({subTitle}) => {
     return (
-        <section className="team__area-2 pt-110 pb-120 mb-105 fix p-relative">
+        <section className="team__area-2 pt-70 pb-120 mb-105 fix p-relative">
                 <div className="team__shape team__shape-2">
                     <img className="t-shape-1" src="/assets/images/shape/testimonials/t-shape-1.png" alt=""/>
                     <img className="t-shape-2" src="/assets/images/shape/testimonials/t-shape-2.png" alt=""/>

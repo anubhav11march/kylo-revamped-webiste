@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const LifeAtKylo = () => {
   return (
-    <section className="about__area fix p-relative pt-60 pb-120 about__pb">
+    <section className="about__area fix p-relative pt-60 pb-60 about__pb">
       <h1 className="text-center">Life At Kylo Apps</h1>
 
       <div className="mt-60 d-flex justify-content-between flex-wrap lifeKylo_container">

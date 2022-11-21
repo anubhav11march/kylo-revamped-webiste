@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const QuickApply = () => {
   return (
-    <section className="about__area fix p-relative pt-100 pb-120 about__pb quick_apply_career">
+    <section className="about__area fix p-relative pt-50 pb-120 about__pb quick_apply_career">
       <Container>
         <Row>
           <Col>

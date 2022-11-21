@@ -29,7 +29,7 @@ const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
                   alt=""
                 />
                 <img
-                  className="about-s-2 d-none d-md-block"
+                  className="about-s-2 d-block kyloDes_circle"
                   src="/assets/images/shape/about/about-s-2.png"
                   alt=""
                 />
@@ -64,7 +64,7 @@ const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
               </ul> */}
             </div>
             <Link href="#apply_form">
-              <a className="m-btn mt-30">Apply Now</a>
+              <a className="m-btn">Apply Now</a>
             </Link>
             {/* <div className="about__counter-bg d-none d-sm-block">
               <div className="about__counter-content d-flex">

@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
+import { Schema, models, model } from "mongoose";
 
-const BlogSchema = new mongoose.Schema({
+const BlogSchema = new Schema({
   author: String,
   avatar: String,
   thumbnail: String,
@@ -13,4 +13,4 @@ const BlogSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("Blogs", BlogSchema);
+export default models["Blogs"] || model("Blogs", BlogSchema);

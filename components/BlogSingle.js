@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import BlogSingleCard from './BlogSingleCard';
 import BlogSidebar from './BlogSidebar';
 import BlogPagination from './BlogPagination';
+import absoluteUrl from "next-absolute-url";
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 const BLOG_DATA = [   
     {
@@ -49,6 +52,24 @@ const BLOG_DATA = [
   ];
 
 const Blog = () => {
+
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    fetch("http://localhost:3000/api/blogs")
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No blog data</p>;
+  
+    console.log("data: ", data);
     return (        
         <section className="blog__area blog__area-pb p-relative pt-120 pb-260">
             <Container>
@@ -82,4 +103,8 @@ const Blog = () => {
     );
 };
 
+
+
 export default Blog;
+
+//http://localhost:3000/blog

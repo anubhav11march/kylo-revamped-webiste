@@ -33,6 +33,25 @@ export default async function handler(req, res) {
             }
             break;
 
+        case "PUT": 
+            try {
+                const updatedBlog = await Blogs.findByIdAndUpdate(req.params.id, req.body, {
+                    new: true,
+                    runValidators: true,
+                    useFindAndModify: false,
+                });
+                res.status(200).json({ success: true, updatedBlog });
+            } catch (err) {
+                res.status(400).json({ success: false, error: err.message });
+            }
+        case "DELETE": 
+            try {
+                const blog = await Blogs.findById(req.params.id);
+                await blog.remove();
+                res.status(200).json({ success: true, message: "Blog deleted successfully" });
+            } catch (err) {
+                res.status(400).json({ success: false, error: err.message });
+            }
         default:
             res.status(400).json({ success: false, message: "Default request" });
             break;

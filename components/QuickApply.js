@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const QuickApply = () => {
   return (
-    <section className="about__area fix p-relative pt-50 pb-120 about__pb quick_apply_career">
+    <section className="about__area fix p-relative pt-110 pb-120 about__pb quick_apply_career">
       <Container>
         <Row>
           <Col>
@@ -115,11 +115,10 @@ const QuickApply = () => {
                       />
                     </div>
                     <div className="quick-apply_thumb-image">
-                      <img
-                        style={{ width: "100%", height: "100%" }}
+                      {/* <img
                         src="https://img.freepik.com/free-photo/charming-businesswoman-glasses-striped-shirt-working-with-laptop-computer-while-siting-home_171337-13027.jpg?w=1060&t=st=1668582899~exp=1668583499~hmac=db91c9098a5681b5143228dddf0c1a268e3babf7048d534cdb3f377d53cde789"
                         alt=""
-                      />
+                      /> */}
                     </div>
                   </div>
                 </Col>

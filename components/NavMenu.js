@@ -83,6 +83,9 @@ const NavMenu = ({mobile}) => {
           <Link href="/blog">
             <a>Blog</a>
           </Link>
+        </li>
+
+        {/* <li>
           <button className="dropdown" onClick={showActive}>
             <i className="fa-solid fa-chevron-left"></i>
           </button>
@@ -98,7 +101,7 @@ const NavMenu = ({mobile}) => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
 
         {mobile ? (
           <li>

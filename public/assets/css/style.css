@@ -1497,39 +1497,36 @@ textarea {
   -o-border-radius: 190px;
 }
 .quick-apply_thumb-image{
-  height: 600px;
-  max-width: 480px;
-  border-radius: 190px;
+  height: 500px;
+  width: 480px;
+  /* border-radius: 190px;
+   */
+   border-radius: 0px 0px 50% 50%;
+   /* padding:2% 8% 20% 8%; */
   border: 15px solid #C3F318;
-  border-top: 0;
-  -webkit-border-radius: 190px;
+  background-image: url("https://img.freepik.com/free-photo/charming-businesswoman-glasses-striped-shirt-working-with-laptop-computer-while-siting-home_171337-13027.jpg?w=1060&t=st=1668582899~exp=1668583499~hmac=db91c9098a5681b5143228dddf0c1a268e3babf7048d534cdb3f377d53cde789");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* border-top: 0;
+  -webkit-border-radius: 200px;
   -moz-border-radius: 190px;
   -ms-border-radius: 190px;
   -o-border-radius: 190px;
   border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-right-radius: 0; */
 
 }
 
+
 @media (max-width: 575px){
   .quick-apply_thumb-image{
-    height: 400px;
+    height: 350px;
+    width: 90vw;
   }
 }
 
 
-
-.quick-apply_thumb-image img{
-  border-radius: 175px;
-  -webkit-border-radius: 175px;
-  -moz-border-radius: 175px;
-  -ms-border-radius: 175px;
-  -o-border-radius: 175px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
   .quick-apply_thumb-image{
     position: absolute;
     top: 0;

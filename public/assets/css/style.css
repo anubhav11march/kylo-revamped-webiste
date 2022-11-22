@@ -8186,8 +8186,22 @@ textarea {
 }
 
 .job-btn:hover{
-  transform: scaleX(1.1);
+  /* transform: scaleX(1.1); */
   color: white;
+}
+
+.arrow_svg{
+  transition: transform 5s ease-in;
+  transition: width .4s ease-in;
+  overflow: visible;
+  height:1em;
+  width:1em;
+}
+
+.arrow_svg:hover{
+  width: 1.8em;
+  transform: scaleX(2);
+  /* color: white; */
 }
 
 .jobs-padding{

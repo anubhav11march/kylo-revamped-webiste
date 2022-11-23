@@ -240,6 +240,10 @@ input:focus, select:focus,
   background: #eef3ff;
 }
 
+select, select:focus{
+  border-right: 20px solid transparent;
+}
+
 textarea {
   resize: none;
   background: #eef3ff;

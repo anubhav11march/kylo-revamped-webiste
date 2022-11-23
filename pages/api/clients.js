@@ -32,6 +32,16 @@ export default async function handler(req, res) {
            res.status(400).json({ success: false, error: err.message });
          }
          break;
+       case "DELETE":
+         try {
+           const message = await ClientMessages.findById(req.query.id);
+           await message.remove();
+           res
+             .status(200)
+             .json({ success: true, message: "Client message deleted successfully" });
+         } catch (err) {
+           res.status(400).json({ success: false, error: err.message });
+         }
        default:
          res.status(400).json({ success: false, message: "Default request" });
          break;

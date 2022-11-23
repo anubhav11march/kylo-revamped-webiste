@@ -1,7 +1,44 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 
+const INITIAL_VALUES = {
+  firstName: "",
+  lastName: "",
+  email: "",
+  city: "",
+  phone: "",
+  budget: "",
+  message: "",
+};
+
 const ContactForm = () => {
+
+  const [form, setForm] = useState(INITIAL_VALUES);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("form: ", form);
+
+    const res = await fetch('/api/clients', {
+      method: 'POST',
+      body: JSON.stringify(form),
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    })
+    const data = await res.json();
+    if (data.success) {
+      alert("Message Sent !!");
+      setForm(INITIAL_VALUES);
+    }
+    else alert("Something went wrong!!");
+  }
+
     return (
       <section
         id="contact"
@@ -59,14 +96,16 @@ const ContactForm = () => {
                   <h4>Send us a message</h4>
                 </div>
                 <div className="contact__form-content">
-                  <form action="#" id="contact-form" method="POST">
+                  <form id="contact-form" onSubmit={handleSubmit}>
                     <div className="field-format d-sm-flex justify-content-between mb-40">
                       <div className="form-group pr-10 form-group-2">
                         <input
                           type="text"
                           className="form-control"
-                          name="fname"
+                          name="firstName"
                           placeholder="First Name"
+                          value={form.firstName}
+                          onChange={handleChange}
                           required
                         />
                       </div>
@@ -74,9 +113,11 @@ const ContactForm = () => {
                         <input
                           type="text"
                           className="form-control"
-                          name="lname"
+                          name="lastName"
                           placeholder="Last Name"
                           required
+                          value={form.lastName}
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
@@ -89,6 +130,8 @@ const ContactForm = () => {
                           name="email"
                           placeholder="Email Address"
                           required
+                          value={form.email}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="form-group pr-10 form-group-2">
@@ -98,6 +141,8 @@ const ContactForm = () => {
                           name="city"
                           placeholder="City"
                           required
+                          value={form.city}
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
@@ -107,11 +152,13 @@ const ContactForm = () => {
                         <input
                           type="text"
                           className="form-control"
-                          name="number"
+                          name="phone"
                           placeholder="Phone Number"
                           maxLength={10}
                           minLength={10}
                           required
+                          value={form.phone}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="form-group pr-10 form-group-2">
@@ -121,6 +168,8 @@ const ContactForm = () => {
                           name="budget"
                           placeholder="Your Budget"
                           required
+                          value={form.budget}
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
@@ -136,6 +185,8 @@ const ContactForm = () => {
                         name="message"
                         placeholder="Your Message"
                         required
+                        value={form.message}
+                        onChange={handleChange}
                       ></textarea>
                     </div>
                     <button type="submit" className="m-btn">

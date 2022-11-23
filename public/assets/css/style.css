@@ -8181,10 +8181,12 @@ textarea {
 .jobCard:hover{
   background-color: rgba(231, 231, 231, 0.285);
 }
-
 .job-btn:hover{
-  /* transform: scaleX(1.1); */
   color: white;
+}
+.job-btn:hover svg{
+  width: 1.8em;
+  transform: scaleX(2);
 }
 
 .arrow_svg{
@@ -8195,11 +8197,10 @@ textarea {
   width:1em;
 }
 
-.arrow_svg:hover{
+/* .arrow_svg:hover{
   width: 1.8em;
   transform: scaleX(2);
-  /* color: white; */
-}
+} */
 
 .jobs-padding{
   padding: 30px 10vw;

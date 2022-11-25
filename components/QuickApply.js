@@ -1,7 +1,72 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { storage } from "../firebase/firebase";
+import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
+import { v4 } from "uuid";
+import Spinner from "react-bootstrap/Spinner";
+
+const INITIAL_VALUES = {
+  fullName: "",
+  email: "",
+  phone: "",
+  designation: "",
+  resume: ""
+}
 
 const QuickApply = () => {
+  const [form, setForm] = useState(INITIAL_VALUES);
+  const [fileUpload, setFileupload] = useState(null);
+  const [uploading, setUploading] = useState(false);
+  const URL = useRef();
+
+  const uploadFile = async () => {
+    if (fileUpload == null) return;
+    const fileRef = ref(storage, `resume/${fileUpload.name + v4()}`);
+    await uploadBytes(fileRef, fileUpload).then(async (snapshot) => {
+      await getDownloadURL(snapshot.ref).then(async (url) => {
+        URL.current = url;
+      });
+    });
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("form: ", form);
+
+    await uploadFile();
+
+    if (!URL.current) {
+      alert("Something went wrong !!");
+      return;
+    }
+
+    const formData = {
+      fullName: form.fullName,
+      email: form.email,
+      phone: form.phone,
+      designation: form.designation,
+      resume: URL.current,
+    };
+
+    const res = await fetch("/api/applications", {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const data = await res.json();
+    if (data.success) {
+      alert("Message Sent !!");
+      setForm(INITIAL_VALUES);
+      } else alert("Something went wrong!!");
+  };
+
   return (
     <section className="about__area fix p-relative pt-110 pb-120 about__pb quick_apply_career">
       <Container>
@@ -22,13 +87,15 @@ const QuickApply = () => {
                     <h4>Quick Apply</h4>
                   </div>
                   <div className="contact__form-content">
-                    <form action="#" id="contact-form" method="POST">
+                    <form id="contact-form" onSubmit={handleSubmit}>
                       <div className="field-format d-sm-flex justify-content-between mb-40">
                         <div className="form-group pr-10 form-group-2">
                           <input
                             type="text"
                             className="form-control"
-                            name="name"
+                            name="fullName"
+                            value={form.fullName}
+                            onChange={handleChange}
                             placeholder="Full Name"
                             required
                           />
@@ -41,6 +108,8 @@ const QuickApply = () => {
                             type="email"
                             className="form-control"
                             name="email"
+                            onChange={handleChange}
+                            value={form.email}
                             placeholder="Email Address"
                             required
                           />
@@ -52,10 +121,12 @@ const QuickApply = () => {
                           <input
                             type="text"
                             className="form-control"
-                            name="number"
+                            name="phone"
                             placeholder="Phone Number"
                             maxLength={10}
                             minLength={10}
+                            value={form.phone}
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -63,10 +134,14 @@ const QuickApply = () => {
 
                       <div className="field-format d-sm-flex justify-content-between mb-40">
                         <div className="form-group pr-10 form-group-2">
-                          <select>
-                            <option>Designation Applying for</option>
-                            <option>React Developer</option>
-                            <option>Backend Developer</option>
+                          <select name="designation" onChange={handleChange}>
+                            <option value="">Designation Applying for</option>
+                            <option value="React Developer">
+                              React Developer
+                            </option>
+                            <option value="Backend Developer">
+                              Backend Developer
+                            </option>
                           </select>
                         </div>
                       </div>
@@ -81,9 +156,14 @@ const QuickApply = () => {
                             required
                             style={{ display: "none" }}
                             id="resume"
+                            onChange={(e) => setFileupload(e.target.files[0])}
                           />
                           <div className="resume_input">
-                            <p>Upload Resume</p>
+                            <p>
+                              {fileUpload === null
+                                ? "Upload Resume"
+                                : "File Uploaded"}
+                            </p>
                             <img
                               onClick={() =>
                                 document.querySelector("#resume").click()
@@ -94,8 +174,22 @@ const QuickApply = () => {
                         </div>
                       </div>
 
-                      <button type="submit" className="m-btn">
-                        Send to us
+                      <button
+                        type="submit"
+                        className="m-btn"
+                        disabled={uploading ? true : false}
+                      >
+                        {uploading ? (
+                          <Spinner
+                            as="span"
+                            animation="border"
+                            size="sm"
+                            role="status"
+                            aria-hidden="true"
+                          />
+                        ) : (
+                          "Send to us"
+                        )}
                       </button>
                     </form>
                   </div>

@@ -4,6 +4,7 @@ const ClientMessages = require("../../models/Client");
 
 
 export default async function handler(req, res) {
+  // await runMiddleware(req, res, cors);
     await NextCors(req, res, {
         // Options
         methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
@@ -35,6 +36,8 @@ export default async function handler(req, res) {
        case "DELETE":
          try {
            const message = await ClientMessages.findById(req.query.id);
+           console.log("DELEETEDD");
+           if (!message) res.status(400).json({ success: false, message: "Message not found" });
            await message.remove();
            res
              .status(200)

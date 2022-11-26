@@ -36,7 +36,7 @@ const QuickApply = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("form: ", form);
+    setUploading(true);
 
     await uploadFile();
 
@@ -49,7 +49,7 @@ const QuickApply = () => {
       fullName: form.fullName,
       email: form.email,
       phone: form.phone,
-      designation: form.designation,
+        designation: form.designation,
       resume: URL.current,
     };
 
@@ -62,7 +62,8 @@ const QuickApply = () => {
     });
     const data = await res.json();
     if (data.success) {
-      alert("Message Sent !!");
+      setUploading(false);
+      alert("Application Sent !!");
       setForm(INITIAL_VALUES);
       } else alert("Something went wrong!!");
   };

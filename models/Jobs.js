@@ -5,6 +5,8 @@ const JobSchema = new mongoose.Schema({
   workType: { type: String, required: true },
   department: { type: String, required: true },
   description: { type: String, required: true },
+  roles: { type: String, required: true },
+  skills: { type: String, required: true },
   date: {
     type: Date,
     default: Date.now(),

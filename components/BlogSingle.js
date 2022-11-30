@@ -71,7 +71,6 @@ const Blog = () => {
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;
 
-  const shortdescription = "lorem epsum lorem epsum lorem epsumlorem epsum";
   
     console.log("data: ", data);
     return (
@@ -82,7 +81,15 @@ const Blog = () => {
               <div className="blog__wrapper">
                 {data?.map(
                   (
-                    { _id, thumbnail, category, author, date, title },
+                    {
+                      _id,
+                      thumbnail,
+                      category,
+                      author,
+                      date,
+                      title,
+                      description,
+                    },
                     index
                   ) => (
                     <BlogSingleCard
@@ -94,7 +101,7 @@ const Blog = () => {
                       blogAuthor={author}
                       blogDate={date}
                       blogTitle={title}
-                      blogText={shortdescription}
+                      blogText={description}
                     />
                   )
                 )}

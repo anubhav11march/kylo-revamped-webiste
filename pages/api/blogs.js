@@ -18,9 +18,7 @@ export default async function handler(req, res) {
   switch (req.method) {
     case "POST":
       try {
-        const blog = await Blogs.create(req.body, function (err, data) {
-          return res.status(200).json(data);
-        });
+        const blog = await Blogs.create(req.body);
         res.status(201).json({ success: true, data: blog });
       } catch (err) {
         res.status(400).json({ success: false, error: err.message });

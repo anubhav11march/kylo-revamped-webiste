@@ -58,7 +58,7 @@ const Blog = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3000/api/blogs")
+    fetch("/api/blogs")
       .then((res) => res.json())
       .then((data) => {
         setData(data);

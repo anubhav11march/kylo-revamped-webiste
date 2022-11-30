@@ -1,6 +1,6 @@
-const connectDatabase = require("../../utils/db");
+const connectDatabase = require("../../../utils/db");
 import NextCors from "nextjs-cors";
-import Blogs from "../../models/Blogs";
+import Blogs from "../../../models/Blogs";
 
 connectDatabase();
 

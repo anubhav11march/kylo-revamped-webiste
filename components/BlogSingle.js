@@ -61,45 +61,52 @@ const Blog = () => {
     fetch("/api/blogs")
       .then((res) => res.json())
       .then((data) => {
-        setData(data);
+        setData(data?.data);
         setLoading(false);
       });
   }, []);
 
+  console.log("data", data);
+
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;
+
+  const shortdescription = "lorem epsum lorem epsum lorem epsumlorem epsum";
   
     console.log("data: ", data);
-    return (        
-        <section className="blog__area blog__area-pb p-relative pt-120 pb-260">
-            <Container>
-                <Row>                        
-                    <Col xl={8} lg={8}> 
-                        <div className="blog__wrapper">
-                            {BLOG_DATA.map(
-                                ({blogLink, blogImg, catLink, blogCat, blogAuthor, blogDate, blogTitle, blogText}, index) => (
-                                    <BlogSingleCard
-                                    key={index}
-                                    blogLink={blogLink}
-                                    blogImg={blogImg}
-                                    catLink={catLink}
-                                    blogCat={blogCat}
-                                    blogAuthor={blogAuthor}
-                                    blogDate={blogDate}
-                                    blogTitle={blogTitle}
-                                    blogText={blogText}
-                                    />
-                                )
-                            )}          
-                            <BlogPagination/>
-                        </div>
-                    </Col>                        
-                    <Col xl={4} lg={4}>
-                        <BlogSidebar/>
-                    </Col> 
-                </Row>                                        
-            </Container>
-        </section>             
+    return (
+      <section className="blog__area blog__area-pb p-relative pt-120 pb-260">
+        <Container>
+          <Row>
+            <Col xl={8} lg={8}>
+              <div className="blog__wrapper">
+                {data?.map(
+                  (
+                    { _id, thumbnail, category, author, date, title },
+                    index
+                  ) => (
+                    <BlogSingleCard
+                      key={index}
+                      blogLink={`blog/${_id}`}
+                      blogImg={thumbnail}
+                      catLink={category}
+                      blogCat={category}
+                      blogAuthor={author}
+                      blogDate={date}
+                      blogTitle={title}
+                      blogText={shortdescription}
+                    />
+                  )
+                )}
+                <BlogPagination />
+              </div>
+            </Col>
+            <Col xl={4} lg={4}>
+              <BlogSidebar />
+            </Col>
+          </Row>
+        </Container>
+      </section>
     );
 };
 

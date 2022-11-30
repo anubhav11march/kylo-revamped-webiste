@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import PageHeader from "../components/PageHeader";
-import BlogSingle from "../components/BlogSingle";
-import LetsWork from "../components/LetsWork";
-import Footer from "../components/Footer";
+import Layout from "../../components/Layout";
+import Header from "../../components/Header";
+import PageHeader from "../../components/PageHeader";
+import BlogSingle from "../../components/BlogSingle";
+import LetsWork from "../../components/LetsWork";
+import Footer from "../../components/Footer";
 
 const BlogPage = () => {
     return (

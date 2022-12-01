@@ -51,7 +51,7 @@ const BlogDetails = ({ data }) => {
                     </div>
                     <h2>{data.title}</h2>
 
-                    <div>{content}</div>
+                    <div className='blog-content'>{content}</div>
                     {/* <PostAuthor/>
                                         <PostComment/>
                                         <CommentForm/> */}

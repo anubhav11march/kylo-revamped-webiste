@@ -132,12 +132,12 @@ h6 {
   margin-bottom: 10px;
 }
 
-ul {
+ul:not(.blog-content > ul) {
   margin: 0px;
   padding: 0px;
 }
 
-li {
+li:not(.blog-content > ul > li) {
   list-style: none;
 }
 
@@ -8220,3 +8220,5 @@ textarea {
     padding-left: 50px;
   }
 }
+
+

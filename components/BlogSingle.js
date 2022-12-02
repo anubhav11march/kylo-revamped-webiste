@@ -55,6 +55,11 @@ const Blog = () => {
 
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [recordsPerPage] = useState(2);
+
+  const indexOfLastRecord = currentPage * recordsPerPage;
+  const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
 
   useEffect(() => {
     setLoading(true);
@@ -66,20 +71,21 @@ const Blog = () => {
       });
   }, []);
 
-  console.log("data", data);
 
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;
 
   
-    console.log("data: ", data);
+  const currentRecords = data.slice(indexOfFirstRecord, indexOfLastRecord);
+  const nPages = Math.ceil(data.length / recordsPerPage);
+
     return (
       <section className="blog__area blog__area-pb p-relative pt-120 pb-260">
         <Container>
           <Row>
             <Col xl={8} lg={8}>
               <div className="blog__wrapper">
-                {data?.map(
+                {currentRecords?.map(
                   (
                     {
                       _id,
@@ -105,7 +111,11 @@ const Blog = () => {
                     />
                   )
                 )}
-                <BlogPagination />
+                <BlogPagination
+                  nPages={nPages}
+                  currentPage={currentPage}
+                  setCurrentPage={setCurrentPage}
+                />
               </div>
             </Col>
             <Col xl={4} lg={4}>

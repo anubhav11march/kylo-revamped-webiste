@@ -3,55 +3,57 @@ import { Container, Row, Col } from "react-bootstrap";
 import BlogSingleCard from './BlogSingleCard';
 import BlogSidebar from './BlogSidebar';
 import BlogPagination from './BlogPagination';
-import absoluteUrl from "next-absolute-url";
-import axios from "axios";
 import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 
-const BLOG_DATA = [   
-    {
-      blogImg:"/assets/images/blog/blog-1.jpg",
-      blogLink:"/single-blog",
-      catLink:"/blog",
-      blogCat:"Digital Marketing",
-      blogAuthor:"Andrew Smith",
-      blogDate:"23 Mar 2022",
-      blogTitle:"Prim umber network ormholes take hidden musics",
-      blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
-    },   
-    {
-      blogImg:"/assets/images/blog/blog-2.jpg",
-      blogLink:"/single-blog",
-      catLink:"/blog",
-      blogCat:"Digital Marketing",
-      blogAuthor:"Andrew Smith",
-      blogDate:"23 Mar 2022",
-      blogTitle:"Prim umber network ormholes take hidden musics",
-      blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
-    },   
-    {
-      blogImg:"/assets/images/blog/blog-3.jpg",
-      blogLink:"/single-blog",
-      catLink:"/blog",
-      blogCat:"Digital Marketing",
-      blogAuthor:"Andrew Smith",
-      blogDate:"23 Mar 2022",
-      blogTitle:"Prim umber network ormholes take hidden musics",
-      blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
-    },   
-    {
-      blogImg:"/assets/images/blog/blog-4.jpg",
-      blogLink:"/single-blog",
-      catLink:"/blog",
-      blogCat:"Digital Marketing",
-      blogAuthor:"Andrew Smith",
-      blogDate:"23 Mar 2022",
-      blogTitle:"Prim umber network ormholes take hidden musics",
-      blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
-    } 
+
+// const BLOG_DATA = [   
+//     {
+//       blogImg:"/assets/images/blog/blog-1.jpg",
+//       blogLink:"/single-blog",
+//       catLink:"/blog",
+//       blogCat:"Digital Marketing",
+//       blogAuthor:"Andrew Smith",
+//       blogDate:"23 Mar 2022",
+//       blogTitle:"Prim umber network ormholes take hidden musics",
+//       blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
+//     },   
+//     {
+//       blogImg:"/assets/images/blog/blog-2.jpg",
+//       blogLink:"/single-blog",
+//       catLink:"/blog",
+//       blogCat:"Digital Marketing",
+//       blogAuthor:"Andrew Smith",
+//       blogDate:"23 Mar 2022",
+//       blogTitle:"Prim umber network ormholes take hidden musics",
+//       blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
+//     },   
+//     {
+//       blogImg:"/assets/images/blog/blog-3.jpg",
+//       blogLink:"/single-blog",
+//       catLink:"/blog",
+//       blogCat:"Digital Marketing",
+//       blogAuthor:"Andrew Smith",
+//       blogDate:"23 Mar 2022",
+//       blogTitle:"Prim umber network ormholes take hidden musics",
+//       blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
+//     },   
+//     {
+//       blogImg:"/assets/images/blog/blog-4.jpg",
+//       blogLink:"/single-blog",
+//       catLink:"/blog",
+//       blogCat:"Digital Marketing",
+//       blogAuthor:"Andrew Smith",
+//       blogDate:"23 Mar 2022",
+//       blogTitle:"Prim umber network ormholes take hidden musics",
+//       blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
+//     } 
     
-  ];
+//   ];
 
 const Blog = () => {
+
+  const { query } = useRouter();
 
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
@@ -63,19 +65,18 @@ const Blog = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("/api/blogs")
+    fetch(`/api/blogs?category=${query.category}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data?.data);
         setLoading(false);
       });
-  }, []);
+  }, [query.category]);
 
 
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;
 
-  
   const currentRecords = data.slice(indexOfFirstRecord, indexOfLastRecord);
   const nPages = Math.ceil(data.length / recordsPerPage);
 

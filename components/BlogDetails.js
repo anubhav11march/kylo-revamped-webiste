@@ -10,7 +10,8 @@ import parse from 'html-react-parser';
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
 
 const BlogDetails = ({ data }) => {
-    const content = parse(data.content);
+  const content = parse(data.content);
+  
     return (
       <section className="blog__area blog__area-pb-2 p-relative pt-120 pb-260">
         <Container>

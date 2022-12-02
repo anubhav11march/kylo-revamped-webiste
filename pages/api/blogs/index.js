@@ -26,7 +26,13 @@ export default async function handler(req, res) {
       break;
     case "GET":
       try {
-        const blogs = await Blogs.find({});
+        let blogs = await Blogs.find({});
+        const { category } = req.query;
+        console.log("category: ", category);
+
+        if (category && category !== "") {
+          blogs = blogs.filter((blog) => blog.category === category);
+        }
         res.status(200).json({ success: true, data: blogs });
       } catch (err) {
         res.status(400).json({ success: false, error: err.message });

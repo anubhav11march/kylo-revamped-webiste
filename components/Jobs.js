@@ -1,27 +1,60 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Col, Row } from 'react-bootstrap';
 import { useRouter } from 'next/router'
 
-const data = [
-  {
-    id: "1",
-    title: "React Dev",
-    desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
-  },
-  {
-    id: "2",
-    title: "Backend Dev",
-    desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
-  },
-  {
-    id: "3",
-    title: "Full Stack Dev",
-    desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
-  },
-];
+// const data = [
+//   {
+//     id: "1",
+//     title: "React Dev",
+//     desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
+//   },
+//   {
+//     id: "2",
+//     title: "Backend Dev",
+//     desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
+//   },
+//   {
+//     id: "3",
+//     title: "Full Stack Dev",
+//     desc: "lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum",
+//   },
+// ];
 
 const Jobs = () => {
-  const {push} = useRouter();
+  const { push, query } = useRouter();
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(false);
+  const [wordEntered, setWordEntered] = useState("");
+  const [filterData, setFilteredData] = useState(null);
+  
+  useEffect(() => {
+    setLoading(true);
+    fetch(`/api/jobs?department=${query.department}&workType=${query.workType}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data?.data);
+        setLoading(false);
+      });
+  }, [query]);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No blog data</p>;
+
+  const handleFilter = (event) => {
+    const searchWord = event.target.value;
+    setWordEntered(searchWord);
+
+    const newFilter = data?.filter((value) => {
+      return value.jobTitle.toLowerCase().includes(searchWord.toLowerCase());
+    });
+
+    if (searchWord === "") {
+      setFilteredData([]);
+    } else {
+      setFilteredData(newFilter);
+    }
+  };
+
   return (
     <section className="pb-100">
       <header
@@ -33,17 +66,31 @@ const Jobs = () => {
         <h3 className="mb-20">Open Positions</h3>
         <Row className="mb-20">
           <Col xs={12} xl={6} className="mb-20 mb-md-0">
-            <select>
-              <option>Choose Department</option>
-              <option>Tech</option>
-              <option>Non-Tech</option>
+            <select
+              onChange={(e) =>
+                e.target.value === "none"
+                  ? push(`/careers/jobs`)
+                  : push(`/careers/jobs?department=${e.target.value}`)
+              }
+              value={query.department || "none"}
+            >
+              <option value="none">Choose Department</option>
+              <option value="Tech">Tech</option>
+              <option value="Non-Tech">Non-Tech</option>
             </select>
           </Col>
           <Col xs={12} xl={6}>
-            <select>
-              <option>Choose Work Type</option>
-              <option>Remote</option>
-              <option>Hybrid</option>
+            <select
+              onChange={(e) =>
+                e.target.value === "none"
+                  ? push(`/careers/jobs`)
+                  : push(`/careers/jobs?workType=${e.target.value}`)
+              }
+              value={query.workType || "none"}
+            >
+              <option value="none">Choose Work Type</option>
+              <option value="Full-Time">Full-Time</option>
+              <option value="Internship">Internship</option>
             </select>
           </Col>
         </Row>
@@ -53,6 +100,8 @@ const Jobs = () => {
               className="pl-50"
               type="text"
               placeholder="Search for Job Title"
+              value={wordEntered}
+              onChange={handleFilter}
             />
             <img
               style={{ position: "absolute", left: "30px", top: "20px" }}
@@ -62,26 +111,51 @@ const Jobs = () => {
         </Row>
       </header>
       <main className="jobs-padding">
-        {data?.map((job, id) => (
-          <Row
-            onClick={() => push(`jobs/${job.id}`)}
-            key={id}
-            className="border pt-20 pb-20 mb-20 jobCard"
-            style={{ cursor: "pointer" }}
-          >
-            <Col className="position-relative">
-              <div className="d-flex">
-                <h5>{job.title}</h5>
-                &nbsp; &nbsp;
-                <h7>|&nbsp;&nbsp;Full Time</h7>
-              </div>
-              <p>{job.desc}</p>
-              <div style={{ position: "absolute", left: "95%", top: "38%" }}>
-                {">"}
-              </div>
-            </Col>
-          </Row>
-        ))}
+        {wordEntered?.length > 0
+          ? filterData?.map((job, id) => (
+              <Row
+                onClick={() => push(`jobs/${job._id}`)}
+                key={id}
+                className="border pt-20 pb-20 mb-20 jobCard"
+                style={{ cursor: "pointer" }}
+              >
+                <Col className="position-relative">
+                  <div className="d-flex">
+                    <h5>{job?.jobTitle}</h5>
+                    &nbsp; &nbsp;
+                    <h7>|&nbsp;&nbsp;{job?.workType}</h7>
+                  </div>
+                  <p style={{ paddingRight: "60px" }}>{job?.description}</p>
+                  <div
+                    style={{ position: "absolute", left: "95%", top: "38%" }}
+                  >
+                    {">"}
+                  </div>
+                </Col>
+              </Row>
+            ))
+          : data?.map((job, id) => (
+              <Row
+                onClick={() => push(`jobs/${job._id}`)}
+                key={id}
+                className="border pt-20 pb-20 mb-20 jobCard"
+                style={{ cursor: "pointer" }}
+              >
+                <Col className="position-relative">
+                  <div className="d-flex">
+                    <h5>{job?.jobTitle}</h5>
+                    &nbsp; &nbsp;
+                    <h7>|&nbsp;&nbsp;{job?.workType}</h7>
+                  </div>
+                  <p style={{ paddingRight: "60px" }}>{job?.description}</p>
+                  <div
+                    style={{ position: "absolute", left: "95%", top: "38%" }}
+                  >
+                    {">"}
+                  </div>
+                </Col>
+              </Row>
+            ))}
       </main>
     </section>
   );

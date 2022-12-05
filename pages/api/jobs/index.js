@@ -1,6 +1,6 @@
-const connectDatabase = require("../../utils/db");
+const connectDatabase = require("../../../utils/db");
 import NextCors from "nextjs-cors";
-const Jobs = require("../../models/Jobs");
+const Jobs = require("../../../models/Jobs");
 
 export default async function handler(req, res) {
   await NextCors(req, res, {
@@ -17,7 +17,17 @@ export default async function handler(req, res) {
     switch (req.method) {
         case "GET":
             try {
-              const jobs = await Jobs.find({});
+              let jobs = await Jobs.find({});
+
+              const { department, workType } = req.query;
+
+              if (department && department.length > 0 && department !== "undefined") {
+                jobs = jobs.filter((m) => m.department === department);
+              }
+
+              if (workType && workType?.length > 0 && workType !== "undefined") {
+                jobs = jobs.filter((m) => m.workType === workType);
+              }
               res.status(200).json({ success: true, data: jobs });
             } catch (err) {
               res.status(400).json({ success: false, error: err.message });

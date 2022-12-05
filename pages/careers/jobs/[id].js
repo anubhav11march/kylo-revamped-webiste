@@ -1,5 +1,5 @@
 
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Footer from '../../../components/Footer';
 import Header from '../../../components/Header';
 import Layout from '../../../components/Layout';
@@ -8,6 +8,7 @@ import { storage } from "../../../firebase/firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { v4 } from "uuid";
 import Spinner from "react-bootstrap/Spinner";
+import { useRouter } from "next/router";
 
 const INITIAL_VALUES = {
   fullName: "",
@@ -24,6 +25,25 @@ const JobDetails = () => {
   const [fileUpload, setFileupload] = useState(null);
   const [uploading, setUploading] = useState(false);
   const URL = useRef();
+
+  const { query } = useRouter();
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    fetch(`/api/jobs/${query.id}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data?.data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No blog data</p>;
+
+  console.log("data", data);
 
    const uploadFile = async () => {
      if (fileUpload == null) return;
@@ -87,8 +107,8 @@ const JobDetails = () => {
           <section className="pt-100 pb-80">
             <header className="job_jd-header">
               <div>
-                <h2>React Dev</h2>
-                <h5>Work Type: Full Time</h5>
+                <h2>{data?.jobTitle}</h2>
+                <h5>Work Type: {data?.workType}</h5>
               </div>
               <a
                 href="#apply_form"
@@ -101,40 +121,22 @@ const JobDetails = () => {
             <div className="mt-40 jobs_desc">
               <p>Responsibilities</p>
               <ul style={{ paddingLeft: "25px" }}>
-                <li style={{ listStyle: "disc" }}>
-                  Developing new user-facing features using React.js
-                </li>
-                <li style={{ listStyle: "disc" }}>
-                  Building reusable components and front-end libraries for
-                  future use
-                </li>
-                <li style={{ listStyle: "disc" }}>
-                  Translating designs and wireframes into high-quality code
-                </li>
-                <li style={{ listStyle: "disc" }}>
-                  Optimizing components for maximum performance across a vast
-                  array of web-capable devices and browsers
-                </li>
+                {data?.roles?.split("|").map((item, index) => (
+                  <li key={index} style={{ listStyle: "disc" }}>
+                    {item}
+                  </li>
+                ))}
               </ul>
 
               <br />
 
               <p>Skills</p>
               <ul style={{ paddingLeft: "25px" }}>
-                <li style={{ listStyle: "disc" }}>
-                  Strong proficiency in JavaScript, including DOM manipulation
-                  and the JavaScript object model
-                </li>
-                <li style={{ listStyle: "disc" }}>
-                  Thorough understanding of React.js and its core principles
-                </li>
-                <li style={{ listStyle: "disc" }}>
-                  Experience with popular React.js workflows (such as Flux or
-                  Redux)
-                </li>
-                <li style={{ listStyle: "disc" }}>
-                  Familiarity with modern front-end build pipelines and tools
-                </li>
+                {data?.skills?.split("|").map((item, index) => (
+                  <li key={index} style={{ listStyle: "disc" }}>
+                    {item}
+                  </li>
+                ))}
               </ul>
             </div>
             {disable ? (

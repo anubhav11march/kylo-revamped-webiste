@@ -38,7 +38,6 @@ export default async function handler(req, res) {
            const message = await ClientMessages.findByIdAndDelete(req.query.id);
           //  console.log("DELEETEDD");
            if (!message) res.status(400).json({ success: false, message: "Message not found" });
-           await message.remove();
            res
              .status(200)
              .json({ success: true, message: "Client message deleted successfully" });

@@ -27,7 +27,7 @@ export default async function handler(req, res) {
       break;
     case "PUT":
       try {
-        const updatedRole = await Jobs.findByIdAndUpdate(
+        const blog = await Blogs.findByIdAndUpdate(
           req.params.id,
           req.body,
           {
@@ -36,7 +36,7 @@ export default async function handler(req, res) {
             useFindAndModify: false,
           }
         );
-        res.status(200).json({ success: true, updatedRole });
+        res.status(200).json({ success: true, blog });
       } catch (err) {
         res.status(400).json({ success: false, error: err.message });
       }

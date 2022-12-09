@@ -18,13 +18,38 @@ export default async function handler(req, res) {
   switch (req.method) {
     case "GET":
       try {
-        const {id} = req.query;
+        const { id } = req.query;
         const blog = await Blogs.findById(id);
         res.status(200).json({ success: true, data: blog });
       } catch (err) {
         res.status(400).json({ success: false, error: err.message });
       }
       break;
+    case "PUT":
+      try {
+        const updatedRole = await Jobs.findByIdAndUpdate(
+          req.params.id,
+          req.body,
+          {
+            new: true,
+            runValidators: true,
+            useFindAndModify: false,
+          }
+        );
+        res.status(200).json({ success: true, updatedRole });
+      } catch (err) {
+        res.status(400).json({ success: false, error: err.message });
+      }
+
+    case "DELETE":
+      try {
+        const blog = await Blogs.findByIdAndDelete(req.params.id);
+        res
+          .status(200)
+          .json({ success: true, message: "Blog deleted successfully" });
+      } catch (err) {
+        res.status(400).json({ success: false, error: err.message });
+      }
 
     default:
       res.status(400).json({ success: false, message: "Default request" });

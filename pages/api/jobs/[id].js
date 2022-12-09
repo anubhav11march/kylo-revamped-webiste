@@ -24,6 +24,31 @@ export default async function handler(req, res) {
         res.status(400).json({ success: false, error: err.message });
       }
       break;
+    case "PUT":
+      try {
+        const updatedRole = await Jobs.findByIdAndUpdate(
+          req.params.id,
+          req.body,
+          {
+            new: true,
+            runValidators: true,
+            useFindAndModify: false,
+          }
+        );
+        res.status(200).json({ success: true, updatedRole });
+      } catch (err) {
+        res.status(400).json({ success: false, error: err.message });
+      }
+
+    case "DELETE":
+      try {
+        const job = await Jobs.findByIdAndDelete(req.params.id);
+        res
+          .status(200)
+          .json({ success: true, message: "Job deleted successfully" });
+      } catch (err) {
+        res.status(400).json({ success: false, error: err.message });
+      }
 
     default:
       res.status(400).json({ success: false, message: "Default request" });

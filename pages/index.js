@@ -28,10 +28,8 @@ const HomeOne = () => {
         <Services extraClass="mt-75" />
         <Facts />
         <Portfolio />
-        <Link href={"/portfolio"} style={{margin: "0px auto"}}>
-          <a className="m-btn viewMore">
-            View More
-          </a>
+        <Link href={"/portfolio"} style={{ margin: "0px auto" }}>
+          <a className="m-btn viewMore">View More</a>
         </Link>
         <Experience />
         <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120" />

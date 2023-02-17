@@ -15,14 +15,14 @@ const SERVICE_DATA = [
     serviceIcon: "/assets/images/icon/s-icon-3.png",
     serviceTitle: "Mobile App Development",
     serviceDesc:
-      "We build Native and Cross Platform applications that work dynamically with all devices, screen sizes and resolutions.",
+      "We build Native and Cross Platform applications that will work dynamically and will perform well on all devices, screen sizes and resolutions.",
     serviceLink: "/mobile-details",
   },
   {
     serviceIcon: "/assets/images/icon/s-icon-1.png",
-    serviceTitle: "UI/UX Design",
+    serviceTitle: "UI/UX Designing",
     serviceDesc:
-      "Everything great built seems futile, if it does not have a likable design. We create amazing user-friendly products using our UI/UX expertise.",
+      "Everything great built seems futile, if it does not have a likable design. We create amazing user-friendly products and help your business stand out from the crowd using our UI/UX expertise.",
     serviceLink: "/uiux-details",
   },
   {
@@ -50,21 +50,21 @@ const SERVICE_DATA = [
     serviceIcon: "/assets/images/icon/devops.png",
     serviceTitle: "DevOps",
     serviceDesc:
-      "We combine development and operations to unite people, processes, and technology in application planning, development, delivery, and operations.",
+      "We combine development and ops to unite people, processes, and technology in application planning, development, delivery, and operations.",
     serviceLink: "/devops",
   },
   {
     serviceIcon: "/assets/images/icon/data.png",
     serviceTitle: "Data Engineering",
     serviceDesc:
-      "Our team of data engineers designs and builds systems for collecting, storing, and analyzing data at scale.",
+      "Our team of data engineers designs and builds systems for collecting, storing, and analyzing data at scale and converting it into usable form.",
     serviceLink: "/data-engineering",
   },
   {
     serviceIcon: "/assets/images/icon/brand.png",
     serviceTitle: "Branding",
     serviceDesc:
-      "We give a specific name and image to your company’s products and services by creating and shaping the brand.",
+      "We give a specific name and image to your company’s products and services by creating and shaping the brand from the scratch.",
     serviceLink: "/branding",
   },
 ];

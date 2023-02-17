@@ -60,6 +60,7 @@ const Hero = () => {
               </h2>
               <div>
                 <Typical
+                  style={{ color: "#7432ff" }}
                   steps={[
                     "Web App Development",
                     3000,

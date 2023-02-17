@@ -33,12 +33,10 @@ const Facts = () => {
                 />
               </div>
               <div className="facts__thumb-image">
-                {/* <img src="/assets/images/Home Page/H3.jpg" alt=""/> */}
                 <img
                   src="https://maxdi.vercel.app/assets/images/facts/facts-img.png"
                   alt=""
                 />
-                {/* <img src="/assets/images/facts/facts-img.png" alt=""/> */}
               </div>
             </div>
           </Col>
@@ -46,14 +44,14 @@ const Facts = () => {
             <div className="facts__content">
               <div className="facts__content-text">
                 <SectionTitle
-                  subTitle="Why Choose us ?"
-                  titleFirst="One stop solution"
-                  titleSecond="for all your tech needs"
+                  subTitle="Why Choose us"
+                  titleFirst="One stop solution for"
+                  titleSecond="all your tech needs"
                 />
                 <p>
                   We understand that tech can be complex and hard to set up. It
-                  might also cost a bomb to hire and manage a tech team. Don’t
-                  worry, with us you get -
+                  might cost a bomb to hire and manage a tech team. Don’t worry,
+                  with us you get
                 </p>
               </div>
               {/* <div className="facts__counter-content d-flex">

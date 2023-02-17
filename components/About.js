@@ -40,7 +40,7 @@ const About = ({ subTitle, titleFirst, titleSecond }) => {
           </Col>
           <Col xl={{ span: 5, offset: 1 }} lg={6}>
             <div className="about__content">
-              <p>
+              <p style={{ marginBottom: "10px" }}>
                 We are a visionary team helping companies across all industries
                 and countries expand their businesses and build software through
                 powerful engineering and execution. By bringing together our

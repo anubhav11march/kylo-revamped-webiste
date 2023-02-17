@@ -1,10 +1,13 @@
 import React from "react";
 
-const SectionTitle = ({ subTitle, titleFirst, titleSecond }) => {
+const SectionTitle = ({ subTitle, titleFirst, titleSecond, smallFont }) => {
   return (
     <>
       <h4 className="section__sub-title">{subTitle}</h4>
-      <h2 className="section__title">
+      <h2
+        className="section__title"
+        style={{ fontSize: smallFont ? "30px" : "" }}
+      >
         <span>{titleFirst}&nbsp;</span>
         {titleSecond}
       </h2>

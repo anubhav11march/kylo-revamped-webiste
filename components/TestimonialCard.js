@@ -19,12 +19,14 @@ const TestimonialCard = ({
           <p>{clientText}</p>
         </div>
         <div className="testimonials__client d-flex align-items-center">
-          {/* <div className="testimonials__client-thumb">
-            <img src={clientImg} alt="client" />
-          </div> */}
           <div className="testimonials__client-text">
-            <h4>{clientName}</h4>
-            <span>{clientPosition}</span>
+            <div>
+              <img src={clientImg} alt="client" width="70px" />
+            </div>
+            <div style={{ marginLeft: "20px", marginTop: "10px" }}>
+              <h4>{clientName}</h4>
+              <span>{clientPosition}</span>
+            </div>
           </div>
         </div>
       </div>

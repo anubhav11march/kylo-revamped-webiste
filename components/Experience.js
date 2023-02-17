@@ -11,7 +11,7 @@ const Experience = ({ extraClass }) => {
   };
   return (
     <section
-      className={`experience__area fix p-relative pt-120 pb-120 ${extraClass} mt-40`}
+      className={`experience__area fix p-relative pt-80 pb-80 ${extraClass} mt-40`}
     >
       <>
         <Modal showModal={showModal} setShowModal={setShowModal} />
@@ -39,12 +39,12 @@ const Experience = ({ extraClass }) => {
         </div>
         <Container>
           <Row className="align-items-center">
-            <Col xl={5} lg={6} md={9} sm={10}>
+            <Col xl={6} lg={6} md={9} sm={10}>
               <div className="experience__content">
                 <SectionTitle
                   subTitle="Engineered for excellence"
-                  titleFirst="Planning To Transform"
-                  titleSecond="Your Business?"
+                  titleFirst="Planning to transform your business?"
+                  titleSecond=""
                 />
                 <p>
                   We can help you with the Estimation, Prototype, Minimum Viable
@@ -56,11 +56,11 @@ const Experience = ({ extraClass }) => {
                 </Link>
               </div>
             </Col>
-            <Col xl={7} lg={6} md={9}>
+            <Col xl={6} lg={6} md={9}>
               <div className="experience__video-btn">
-                <span onClick={openModal}>
+                {/* <span onClick={openModal}>
                   <i className="fas fa-play"></i>
-                </span>
+                </span> */}
               </div>
               <div className="experience__thumb text-end">
                 {/* <img src="/assets/images/Home Page/H4.jpg" alt="" /> */}

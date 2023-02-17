@@ -435,7 +435,7 @@ textarea {
   content: "";
   left: 0;
   bottom: 12px;
-  width: 100%;
+  width: 80%;
   height: 9px;
   background: #f2dac0;
   z-index: -1;
@@ -1884,6 +1884,7 @@ textarea {
 .about__content {
   margin-top: -24px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about__content {
     margin-top: -30px;
@@ -1920,6 +1921,10 @@ textarea {
 .about__content ul {
   position: relative;
   margin-bottom: 20px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  white-space: nowrap;
 }
 .about__content ul li {
   padding-left: 37px;
@@ -1962,9 +1967,9 @@ textarea {
 .about__counter-bg {
   position: absolute;
   right: 16%;
-  bottom: -8%;
+  bottom: 6%;
   background: #7432ff;
-  width: 940px;
+  width: 880px;
   height: 207px;
   z-index: 3;
   border-radius: 20px 20px 80px 20px;
@@ -1975,7 +1980,7 @@ textarea {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about__counter-bg {
-    width: 781px;
+    width: 880px;
     height: 177px;
   }
 }
@@ -2001,8 +2006,7 @@ textarea {
   }
 }
 .about__counter-content {
-  padding-left: 100px;
-  padding-top: 50px;
+  padding: 50px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about__counter-content {
@@ -2562,12 +2566,12 @@ textarea {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .facts__thumb-shape img.facts-s-1 {
-    left: 9%;
+    left: 8%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .facts__thumb-shape img.facts-s-1 {
-    left: 5%;
+    left: 2%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2589,23 +2593,23 @@ textarea {
   }
 }
 .facts__thumb-shape img.facts-s-2 {
-  top: 37%;
+  top: 40%;
   left: 29%;
   mix-blend-mode: multiply;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .facts__thumb-shape img.facts-s-2 {
-    left: 25%;
+    left: 22%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .facts__thumb-shape img.facts-s-2 {
-    left: 17%;
+    left: 13%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .facts__thumb-shape img.facts-s-2 {
-    left: 15%;
+    left: 13%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -3557,7 +3561,7 @@ textarea {
 }
 .experience__shape img.experience-s-1 {
   top: 20%;
-  right: 42%;
+  right: 38%;
   -webkit-animation: hero-shape-5 2s linear 0s infinite alternate;
   -moz-animation: hero-shape-5 2s linear 0s infinite alternate;
   -o-animation: hero-shape-5 2s linear 0s infinite alternate;
@@ -4008,6 +4012,7 @@ textarea {
 .testimonials__client-text {
   position: absolute;
   bottom: 30px;
+  display: flex;
 }
 .testimonials__client-text h4 {
   color: #7432ff;

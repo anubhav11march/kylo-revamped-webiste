@@ -85,13 +85,13 @@ const Hero = () => {
                   loop={Infinity}
                 />
               </div>
-              <p>
+              <p className="mt-3">
                 We are a Software Development company that builds top notch web
                 applications, mobile applications and other custom softwares for
                 startups, SMBs or well-established enterprises.
               </p>
-              <Link href="/contact">
-                <a className="m-btn mt-35">Explore our work</a>
+              <Link href="/portfolio">
+                <a className="m-btn mt-20">Explore our work</a>
               </Link>
             </div>
           </Col>

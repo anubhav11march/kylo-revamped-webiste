@@ -273,11 +273,16 @@ textarea {
 .p-absolute {
   position: absolute;
 }
-
+.typingtext {
+  color: #7432ff;
+}
+.typingtext:after {
+  content: "" !important;
+}
 .hero__title {
-  font-size: 60px;
-  line-height: 72px;
-  margin-bottom: 28px;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 10px;
   color: #1d233a;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -309,8 +314,8 @@ textarea {
   position: absolute;
   content: "";
   left: 0;
-  bottom: 15px;
-  width: 100%;
+  bottom: 5px;
+  width: 86%;
   height: 9px;
   background: #f2dac0;
   z-index: -1;
@@ -865,19 +870,19 @@ textarea {
   z-index: 3;
 }
 .hero__shape img.hero-shape-1 {
-  top: 18%; /* originally was 18*/
-  right: 11%;
+  top: 12%; /* originally was 18*/
+  right: 12%;
   max-width: 34%;
   mix-blend-mode: multiply;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .hero__shape img.hero-shape-1 {
-    right: 4%;
+    right: 12%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__shape img.hero-shape-1 {
-    right: 3%;
+    right: 12%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1399,7 +1404,7 @@ textarea {
   position: absolute;
 }
 .hero__thumb-shape img.hero-t-shape-1 {
-  top: 21%;
+  top: 18%;
   right: 13%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1700px) {

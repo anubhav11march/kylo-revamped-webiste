@@ -55,12 +55,12 @@ const Hero = () => {
             </div>
             <div className="hero__content">
               {/* <h4 className="section__sub-title">Kylo Apps</h4> */}
-              <h2 className="hero__title">
+              <h3 className="hero__title">
                 <span>Transforming businesses through</span>
-              </h2>
+              </h3>
               <div>
                 <Typical
-                  style={{ color: "#7432ff" }}
+                  className="typingtext"
                   steps={[
                     "Web App Development",
                     3000,
@@ -81,7 +81,7 @@ const Hero = () => {
                     "Branding",
                     3000,
                   ]}
-                  wrapper="h3"
+                  wrapper="h1"
                   loop={Infinity}
                 />
               </div>

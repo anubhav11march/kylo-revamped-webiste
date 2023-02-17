@@ -45,7 +45,10 @@ const WhatWePromise = () => {
           <Col xxl={6} xl={7} lg={7} md={9}>
             <div className="facts__content">
               <div className="facts__content-text">
-                <h1 style={{marginBottom: "40px", color: "#7432ff"}}>What we promise ?</h1>
+                <h1 style={{ color: "#7432ff" }}>What we promise ?</h1>
+                <h6 style={{ marginBottom: "40px", color: "#7432ff" }}>
+                  Skyrocket your growth with us
+                </h6>
                 <ul style={{ paddingLeft: "25px" }}>
                   <li style={{ listStyle: "disc" }}>
                     <h5>Exceeding your expectations</h5>

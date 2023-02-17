@@ -23,15 +23,15 @@ const AboutPage = () => {
       <main>
         <About
           subTitle="We are Kylo Apps"
-          titleFirst="We are a visionary team  "
-          titleSecond="helping companies across all industries and countries expand their businesses and build software through powerful engineering and execution."
+          titleFirst="We bring your business"
+          titleSecond="ideas to life by means of Technology"
         />
         <Experience extraClass="mt-70" />
         <WhatWePromise />
         <TeamHome subTitle="Team Members" />
-        <Project extraClass="project__area-pt" subTitle="Get Started" />
-        <BlogHome extraClass="pt-110" />
-        <LetsWork />
+        {/* <Project extraClass="project__area-pt" subTitle="Get Started" /> */}
+        {/* <BlogHome extraClass="pt-110" /> */}
+        {/* <LetsWork /> */}
       </main>
       <Footer />
     </Layout>

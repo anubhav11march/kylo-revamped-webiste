@@ -51,9 +51,9 @@ const Facts = () => {
                   titleSecond="for all your tech needs"
                 />
                 <p>
-                  The carbon in our apple pies extraordinary claims require
-                  extraord evidence permanence of the stars kindling the energy
-                  hidden in matter from which we spring emerged.
+                  We understand that tech can be complex and hard to set up. It
+                  might also cost a bomb to hire and manage a tech team. Don’t
+                  worry, with us you get -
                 </p>
               </div>
               {/* <div className="facts__counter-content d-flex">

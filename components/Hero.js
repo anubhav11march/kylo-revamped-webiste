@@ -1,8 +1,7 @@
-import React  from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 import Typical from "react-typical";
-  
 
 const Hero = () => {
   return (
@@ -57,16 +56,28 @@ const Hero = () => {
             <div className="hero__content">
               <h4 className="section__sub-title">Kylo Apps</h4>
               <h2 className="hero__title">
-                <span>We build creative</span>
+                <span>Transforming businesses through</span>
               </h2>
               <div>
                 <Typical
                   steps={[
-                    "Websites",
+                    "Web App Development",
                     3000,
-                    "Mobile Apps",
+                    "Mobile App Development",
                     3000,
-                    "AI/ML/Chatbots",
+                    "UI/UX Designing",
+                    3000,
+                    "AI/ML/Chatbot",
+                    3000,
+                    "Growth Hacking",
+                    3000,
+                    "Quality Assurance",
+                    3000,
+                    "Devops",
+                    3000,
+                    "Data Engineering",
+                    3000,
+                    "Branding",
                     3000,
                   ]}
                   wrapper="h3"
@@ -74,11 +85,12 @@ const Hero = () => {
                 />
               </div>
               <p>
-                We are an IT services company providing robust, reliable and
-                attractive mobile and web applications across the globe.
+                We are a Software Development company that builds top notch web
+                applications, mobile applications and other custom softwares for
+                startups, SMBs or well-established enterprises.
               </p>
               <Link href="/contact">
-                <a className="m-btn mt-35">Get Started</a>
+                <a className="m-btn mt-35">Explore our work</a>
               </Link>
             </div>
           </Col>

@@ -9,26 +9,56 @@ const TESTIMONIAL_DATA = [
   {
     clientLogo: "/assets/images/testimonials/client-logo/google.png",
     clientText:
-      "Big data run it up the flag pole core competencies bench mark. Three martini lunch we need to dialog around your choice of work attire data-point. Show pony after I ran into realized two projects crank this out.",
+      "Team Kylo has been highly available, they have low latency with failover policy. Also, they are very responsive and ready to fix any type of application issues. They delivered an amazing application to us.",
     clientImg: "/assets/images/testimonials/t-client-1.png",
-    clientName: "Alima Alisha",
-    clientPosition: "CEO",
+    clientName: "Bhanu Pasyavula",
+    clientPosition: "Founder",
+    company: "Rentout",
   },
   {
     clientLogo: "/assets/images/testimonials/client-logo/payoneer.png",
     clientText:
-      "Big data run it up the flag pole core competencies bench mark. Three martini lunch we need to dialog around your choice of work attire data-point. Show pony after I ran into realized two projects crank this out.",
+      "Understanding the customer requirement with pinpoint accuracy is something that Kylo strives for. The flexibility with which the team operates and cooperates really helps us in banking on the team at ease.They put in great effort to make us understand the complexities and helped us feel comfortable with their customer centric approach and interaction.",
     clientImg: "/assets/images/testimonials/t-client-2.png",
-    clientName: "David Clark",
-    clientPosition: "Marketing Manager",
+    clientName: "Bharath Aditya",
+    clientPosition: "Managing Director",
+    company: "Active Solutions",
   },
   {
     clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
     clientText:
-      "Big data run it up the flag pole core competencies bench mark. Three martini lunch we need to dialog around your choice of work attire data-point. Show pony after I ran into realized two projects crank this out.",
+      "Being a start-up, we were looking for a team who can  develop the perfect product from our thoughts and guide us in kickoff. It's really appreciative that the Kylo team was innovative to give us a product better than our expectations. Their biggest strength is their pricing which is unbeatable in the market. Kudos to their flexibility!",
     clientImg: "/assets/images/testimonials/t-client-3.png",
-    clientName: "Moran Sham",
-    clientPosition: "Team Leader",
+    clientName: "Manideep Mittapeli",
+    clientPosition: "Founder",
+    company: "Heybuddy",
+  },
+  {
+    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientText:
+      "Kylo Apps is wonderful for developing applications. They supported as per our requirements and made an innovative app which exceeded our expectations. All their team members were very cooperative and responsive",
+    clientImg: "/assets/images/testimonials/t-client-3.png",
+    clientName: "Sumeet Jain",
+    clientPosition: "Founder",
+    company: "Stelo",
+  },
+  {
+    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientText:
+      "Kylo Apps fulfilled all our requirements efficiently. They continuously roll out new features that help scale our business. Our customers are very satisfied with the website Kylo Apps made for us.",
+    clientImg: "/assets/images/testimonials/t-client-3.png",
+    clientName: "Krishna K. Pidaparthy",
+    clientPosition: "Founder",
+    company: "Jyotishi",
+  },
+  {
+    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientText:
+      "It was a pleasure working with Kylo Apps. The passion and professionalism they showcased was exceptional. They worked on our dream project as if it was their own excellent data analysis, which allows us to manage our operations conveniently.",
+    clientImg: "/assets/images/testimonials/t-client-3.png",
+    clientName: "Kartik Gabra",
+    clientPosition: "Founder",
+    company: "Corp86",
   },
 ];
 
@@ -108,6 +138,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
                     clientImg,
                     clientName,
                     clientPosition,
+                    company,
                   },
                   index
                 ) => (
@@ -118,6 +149,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
                       clientImg={clientImg}
                       clientName={clientName}
                       clientPosition={clientPosition}
+                      company={company}
                     />
                   </SwiperSlide>
                 )

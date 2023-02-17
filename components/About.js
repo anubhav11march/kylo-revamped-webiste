@@ -41,18 +41,20 @@ const About = ({ subTitle, titleFirst, titleSecond }) => {
           <Col xl={{ span: 5, offset: 1 }} lg={6}>
             <div className="about__content">
               <p>
-                By bringing together our team’s expertise and modern IT
-                advancements, we deliver custom applications that fit the needs
-                and behavior of end users
+                We are a visionary team helping companies across all industries
+                and countries expand their businesses and build software through
+                powerful engineering and execution. By bringing together our
+                team’s expertise and modern IT advancements, we deliver custom
+                applications that fit the needs and behavior of end users.
               </p>
               <p>
                 With innovation, passion, accountability and customer focus as
                 our core values, our mission is to enhance growth of our clients
-                with innovative design and development and to deliver top notch
+                with innovative design and development and to deliver the finest
                 solutions that create value and competitive advantage for them
-                around the globe
+                around the globe.
               </p>
-              <ul>
+              {/* <ul>
                 <li>Sea of Tranquility dispassionate observer dream.</li>
                 <li>
                   Muse about as a patch of light brain is the seed of
@@ -60,7 +62,7 @@ const About = ({ subTitle, titleFirst, titleSecond }) => {
                 </li>
                 <li>The only home we`ve ever known dream of the mind`s eye.</li>
                 <li>The only home we`ve ever known dream of the mind`s eye.</li>
-              </ul>
+              </ul> */}
             </div>
             <div className="about__counter-bg d-none d-sm-block">
               <div className="about__counter-content d-flex">
@@ -68,7 +70,7 @@ const About = ({ subTitle, titleFirst, titleSecond }) => {
                   <h2>
                     <CountUp end={200} duration={5} />+
                   </h2>
-                  <p>Project Delivered</p>
+                  <p>Projects Delivered</p>
                 </div>
                 <div className="about__counter-text text-center">
                   <h2>

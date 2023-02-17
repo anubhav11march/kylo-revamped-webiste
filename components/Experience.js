@@ -43,12 +43,13 @@ const Experience = ({ extraClass }) => {
               <div className="experience__content">
                 <SectionTitle
                   subTitle="Engineered for excellence"
-                  titleFirst="Planning  to transform"
-                  titleSecond="your business?"
+                  titleFirst="Planning To Transform"
+                  titleSecond="Your Business?"
                 />
                 <p>
-                  That&apos;s not on the roadmap losing these latest prospects
-                  is like putting socks on an octopus to give you a heads-up.
+                  We can help you with the Estimation, Prototype, Minimum Viable
+                  Product and Complete Solution for your new or existing
+                  venture.
                 </p>
                 <Link href="/contact">
                   <a className="m-btn mt-35">Let's Connect</a>

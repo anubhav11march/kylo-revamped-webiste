@@ -34,10 +34,9 @@
 
 **********************************************/
 
-#footer_link:hover{
-  text-decoration: underline
+#footer_link:hover {
+  text-decoration: underline;
 }
-
 
 /*----------------------------------------*/
 /*  01. Common CSS
@@ -177,7 +176,8 @@ input::-moz-placeholder,
   opacity: 1;
 }
 
-input::placeholder, select::-ms-value,
+input::placeholder,
+select::-ms-value,
 .form-control::placeholder {
   font-size: 14px;
   font-weight: 500;
@@ -199,7 +199,8 @@ input::-ms-input-placeholder,
   color: #b2bcd6;
 }
 
-input, select,
+input,
+select,
 .form-control {
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -213,7 +214,7 @@ input, select,
   padding: 16px 24px;
   width: 100%;
 }
-.resume_input{
+.resume_input {
   background: #eef3ff;
   color: #4a4f61;
   padding: 10px 24px;
@@ -230,7 +231,8 @@ input, select,
   cursor: pointer;
 }
 
-input:focus, select:focus,
+input:focus,
+select:focus,
 .form-control:focus {
   outline: none;
   box-shadow: none;
@@ -240,7 +242,8 @@ input:focus, select:focus,
   background: #eef3ff;
 }
 
-select, select:focus{
+select,
+select:focus {
   border-right: 20px solid transparent;
 }
 
@@ -283,7 +286,8 @@ textarea {
     line-height: 60px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .hero__title {
     font-size: 40px;
     line-height: 50px;
@@ -311,7 +315,10 @@ textarea {
   background: #f2dac0;
   z-index: -1;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__title span::after {
     bottom: 12px;
   }
@@ -323,11 +330,14 @@ textarea {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .section__sub-title {
     font-size: 18px;
   }
-  .why-kylo_subtitle{
+  .why-kylo_subtitle {
     font-size: 16px;
   }
 }
@@ -338,12 +348,14 @@ textarea {
   color: #1d233a;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .section__title, .why-kylo_title {
+  .section__title,
+  .why-kylo_title {
     font-size: 45px;
     line-height: 55px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .section__title {
     font-size: 38px;
     line-height: 48px;
@@ -355,59 +367,58 @@ textarea {
     line-height: 45px;
   }
 
-  .lifeKylo_container{
+  .lifeKylo_container {
     flex-direction: column;
     min-height: 320px;
   }
-  .lifeKylo_item{
+  .lifeKylo_item {
     margin-bottom: 10px;
     width: 100%;
     height: 300px;
   }
-  .lifeKylo_middleParent{
+  .lifeKylo_middleParent {
     flex-direction: column;
   }
 }
 
-.lifeKylo_middleParent{
+.lifeKylo_middleParent {
   display: flex;
-   gap: 15px;
+  gap: 15px;
   align-items: flex-end;
-   align-self: flex-start;
+  align-self: flex-start;
 }
 
-
 @media (min-width: 575px) {
-  .lifeKylo_item-2{
+  .lifeKylo_item-2 {
     align-self: flex-end;
   }
-  .lifeKylo_item, .lifeKylo_item img{
+  .lifeKylo_item,
+  .lifeKylo_item img {
     border-radius: 10px;
   }
 
-  .lifeKylo_item{
+  .lifeKylo_item {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 15vw;
     height: 19vw;
   }
 
-  .lifeKylo_item-3{
+  .lifeKylo_item-3 {
     height: 20vw;
   }
 
-  .lifeKylo_container{
+  .lifeKylo_container {
     gap: 1vw;
     height: 21vw;
   }
 
-  .lifeKylo_item_big{
+  .lifeKylo_item_big {
     flex-basis: 30vw;
     flex-grow: 1;
     flex-shrink: 1;
   }
 }
-
 
 .section__title span {
   display: inline-block;
@@ -500,7 +511,10 @@ textarea {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .m-btn.blog-btn {
     font-size: 14px;
     padding: 4px 17px;
@@ -549,7 +563,9 @@ textarea {
 /*----------------------------------------*/
 /*  02. Header CSS
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .header__area {
     padding: 15px 0;
   }
@@ -988,7 +1004,8 @@ textarea {
     right: 51%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__shape img.hero-shape-4 {
     bottom: 15%;
     right: 80%;
@@ -1027,7 +1044,8 @@ textarea {
     right: 19%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__shape img.hero-shape-5 {
     top: 49%;
     right: 53%;
@@ -1056,7 +1074,7 @@ textarea {
   right: 35.5%;
   max-width: 119px;
 }
-.quick_apply-shape-7{
+.quick_apply-shape-7 {
   position: absolute;
   width: 150px;
   height: 150px;
@@ -1087,7 +1105,8 @@ textarea {
     right: 40%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__shape img.hero-shape-7 {
     bottom: 16%;
     right: 37%;
@@ -1103,7 +1122,8 @@ textarea {
   max-width: 311px;
   z-index: 1;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__shape-2 img.hero2-s-1 {
     right: 28%;
   }
@@ -1137,18 +1157,21 @@ textarea {
   right: 12%;
   max-width: 76px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__shape-2 img.hero2-s-2 {
     right: 6%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__shape-2 img.hero2-s-2 {
     top: 9%;
     right: 7%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__shape-2 img.hero2-s-2 {
     top: 18%;
   }
@@ -1189,7 +1212,8 @@ textarea {
   -o-animation: hero-shape-5 2s linear 0s infinite alternate;
   animation: hero-shape-5 2s linear 0s infinite alternate;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__shape-2 img.hero2-s-4 {
     top: 32%;
   }
@@ -1199,7 +1223,8 @@ textarea {
     right: 38%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__shape-2 img.hero2-s-4 {
     top: 30%;
   }
@@ -1229,7 +1254,8 @@ textarea {
     top: 7%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__shape-2 img.hero2-s-5 {
     top: 17%;
     right: 0;
@@ -1244,12 +1270,14 @@ textarea {
   bottom: 28%;
   right: 9%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__shape-2 img.hero2-s-6 {
     right: 1%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__shape-2 img.hero2-s-6 {
     bottom: 24%;
     right: -7%;
@@ -1260,7 +1288,8 @@ textarea {
     bottom: 41%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__shape-2 img.hero2-s-6 {
     bottom: 52%;
     right: 1%;
@@ -1279,7 +1308,7 @@ textarea {
   position: absolute;
 }
 .hero__content-shape img.hero-c-shape-1 {
-  top: 7%;  /* originally was 18  */
+  top: 7%; /* originally was 18  */
   left: 6%;
   max-width: 69%;
 }
@@ -1328,7 +1357,8 @@ textarea {
     padding-right: 40px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__content p {
     padding-right: 0;
   }
@@ -1351,7 +1381,9 @@ textarea {
     padding-right: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__content-2 p {
     padding-right: 0;
   }
@@ -1465,7 +1497,8 @@ textarea {
   z-index: 2;
   margin-right: -28px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__thumb-2 {
     margin-top: 60px;
   }
@@ -1487,7 +1520,6 @@ textarea {
   .hero__thumb-image {
     text-align: left;
   }
-
 }
 .hero__thumb-image img {
   position: relative;
@@ -1500,14 +1532,14 @@ textarea {
   -ms-border-radius: 190px;
   -o-border-radius: 190px;
 }
-.quick-apply_thumb-image{
+.quick-apply_thumb-image {
   height: 500px;
   width: 480px;
   /* border-radius: 190px;
    */
-   border-radius: 0px 0px 50% 50%;
-   /* padding:2% 8% 20% 8%; */
-  border: 15px solid #C3F318;
+  border-radius: 0px 0px 50% 50%;
+  /* padding:2% 8% 20% 8%; */
+  border: 15px solid #c3f318;
   background-image: url("https://img.freepik.com/free-photo/charming-businesswoman-glasses-striped-shirt-working-with-laptop-computer-while-siting-home_171337-13027.jpg?w=1060&t=st=1668582899~exp=1668583499~hmac=db91c9098a5681b5143228dddf0c1a268e3babf7048d534cdb3f377d53cde789");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1518,20 +1550,17 @@ textarea {
   -o-border-radius: 190px;
   border-top-left-radius: 0;
   border-top-right-radius: 0; */
-
 }
 
-
-@media (max-width: 575px){
-  .quick-apply_thumb-image{
+@media (max-width: 575px) {
+  .quick-apply_thumb-image {
     height: 350px;
     width: 90vw;
   }
 }
 
-
 @media (min-width: 1000px) {
-  .quick-apply_thumb-image{
+  .quick-apply_thumb-image {
     position: absolute;
     top: 0;
     right: 0;
@@ -1550,7 +1579,9 @@ textarea {
     height: 480px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__thumb-image img {
     width: 270px;
     height: 400px;
@@ -1583,7 +1614,9 @@ textarea {
     height: 522px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .hero__thumb-image::before {
     top: -15px;
     right: -16px;
@@ -1698,7 +1731,8 @@ textarea {
 /*----------------------------------------*/
 /*  04. About CSS
 /*----------------------------------------*/
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .about__pb {
     padding-bottom: 245px;
   }
@@ -1725,12 +1759,13 @@ textarea {
   -o-animation: hero-shape-2 2s linear infinite alternate;
   animation: hero-shape-2 2s linear infinite alternate;
 }
-.quick_apply-s-1{
+.quick_apply-s-1 {
   left: 52% !important;
   top: 40% !important;
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about__thumb-shape img.about-s-1 {
     left: 4%;
   }
@@ -1747,20 +1782,19 @@ textarea {
 }
 
 @media (max-width: 576px) {
-  .kyloDes_circle{
+  .kyloDes_circle {
     top: 20% !important;
     left: 60% !important;
   }
 }
 
-
-
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about__thumb-shape img.about-s-2 {
     bottom: 18%;
     left: 39%;
   }
-  .kyloDes_circle{
+  .kyloDes_circle {
     bottom: 4% !important;
   }
 }
@@ -1796,7 +1830,9 @@ textarea {
     height: 350px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .about__thumb-image img {
     width: 600px;
     height: 370px;
@@ -1827,7 +1863,9 @@ textarea {
     height: 310px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .about__thumb-image::before {
     width: 522px;
     height: 341px;
@@ -1846,7 +1884,9 @@ textarea {
     margin-top: -30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .about__content {
     margin-top: -20px;
   }
@@ -1864,7 +1904,9 @@ textarea {
     margin-bottom: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .about__content p {
     margin-top: 50px;
     margin-bottom: 35px;
@@ -1906,7 +1948,8 @@ textarea {
   top: 5px;
   line-height: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .about__content ul li {
     padding-right: 20px;
   }
@@ -1937,7 +1980,8 @@ textarea {
     height: 150px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .about__counter-bg {
     bottom: 45px;
     left: 0;
@@ -1999,7 +2043,8 @@ textarea {
     margin-bottom: 4px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .about__counter-text h2 {
     margin-bottom: 3px;
   }
@@ -2014,7 +2059,8 @@ textarea {
   color: #f2dac0;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .about__counter-text p {
     margin-top: 0;
   }
@@ -2054,7 +2100,7 @@ textarea {
   -o-animation: hero-shape-5 2s linear 0s infinite alternate;
   animation: hero-shape-5 2s linear 0s infinite alternate;
 }
-.why_kylo-s-2{
+.why_kylo-s-2 {
   left: 6%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2079,7 +2125,9 @@ textarea {
 .services__title .section__title span::after {
   background: #7432ff;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .services__details {
     padding-bottom: 260px;
   }
@@ -2094,12 +2142,16 @@ textarea {
   mix-blend-mode: multiply;
   z-index: 1;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .services__details-shape img.s-details-s-1 {
     left: 29.5%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .services__details-shape img.s-details-s-1 {
     top: 3%;
     left: 11%;
@@ -2115,18 +2167,23 @@ textarea {
   left: 30.5%;
   max-width: 50px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .services__details-shape img.s-details-s-2 {
     left: 26.5%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .services__details-shape img.s-details-s-2 {
     top: 19.8%;
     left: 4.5%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .services__details-shape img.s-details-s-2 {
     top: 15%;
   }
@@ -2135,7 +2192,8 @@ textarea {
   top: 18%;
   right: 0;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .services__details-shape img.s-details-s-3 {
     top: 15%;
   }
@@ -2194,7 +2252,9 @@ textarea {
   font-size: 45px;
   margin-bottom: 50px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .services__details-content h2 {
     font-size: 38px;
   }
@@ -2209,12 +2269,15 @@ textarea {
   padding-right: 65px;
   margin-bottom: 24px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .services__details-content p {
     padding-right: 30px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .services__details-content p {
     padding-right: 0;
   }
@@ -2256,7 +2319,8 @@ textarea {
 .single__bg-yellow:hover {
   background: #fff5e8;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .single__bg-yellow {
     margin-top: 10px;
   }
@@ -2273,7 +2337,8 @@ textarea {
     margin-top: 0;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .single__bg-green {
     margin-top: 10px;
   }
@@ -2475,7 +2540,9 @@ textarea {
 /*----------------------------------------*/
 /*  06. Facts CSS
 /*----------------------------------------*/
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .facts__pb {
     padding-bottom: 110px;
   }
@@ -2503,7 +2570,8 @@ textarea {
     left: 2%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .facts__thumb-shape img.facts-s-1 {
     top: 15%;
     left: 10%;
@@ -2535,7 +2603,8 @@ textarea {
     left: 15%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .facts__thumb-shape img.facts-s-2 {
     top: 24%;
     left: 35%;
@@ -2561,7 +2630,8 @@ textarea {
     left: 40%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .facts__thumb-shape img.facts-s-3 {
     top: 12%;
     left: 73%;
@@ -2595,11 +2665,12 @@ textarea {
   }
 }
 
-
 .facts__thumb-image img {
   margin-left: -45px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .facts__thumb-image img {
     margin-left: 0;
   }
@@ -2615,7 +2686,9 @@ textarea {
     padding-left: 70px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .facts__content {
     padding-left: 0;
     padding-top: 60px;
@@ -2664,7 +2737,8 @@ textarea {
   top: 7%;
   left: 0;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio__shape img.portfolio-s-1 {
     top: 17%;
   }
@@ -2679,7 +2753,9 @@ textarea {
     top: 13%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__shape img.portfolio-s-1 {
     z-index: -1;
   }
@@ -2703,12 +2779,14 @@ textarea {
   -o-animation: hero-shape-2 2s linear 0s infinite alternate;
   animation: hero-shape-2 2s linear 0s infinite alternate;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio__shape img.portfolio-s-3 {
     right: 4%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio__shape img.portfolio-s-3 {
     right: 3%;
   }
@@ -2725,10 +2803,11 @@ textarea {
   z-index: 6;
   mix-blend-mode: multiply;
 }
-.viewMore{
+.viewMore {
   margin-left: 45%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio__shape img.portfolio-s-4 {
     left: 2%;
   }
@@ -2738,17 +2817,19 @@ textarea {
     left: 4%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__shape img.portfolio-s-4 {
     bottom: 13%;
     left: 10%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__shape img.portfolio-s-4 {
     bottom: 0%;
   }
-  .viewMore{
+  .viewMore {
     margin-left: 35%;
   }
 }
@@ -2761,7 +2842,8 @@ textarea {
   left: 5%;
   max-width: 119px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio__shape-2 img.p-s-1 {
     left: 1%;
   }
@@ -2781,12 +2863,14 @@ textarea {
   left: 16%;
   max-width: 104px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio__shape-2 img.p-s-2 {
     left: 9%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__shape-2 img.p-s-2 {
     top: 2%;
     left: 5%;
@@ -2803,12 +2887,14 @@ textarea {
   right: 14%;
   max-width: 110px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio__shape-2 img.p-s-3 {
     right: 3%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__shape-2 img.p-s-3 {
     top: 2%;
     right: 3%;
@@ -2819,12 +2905,14 @@ textarea {
   right: 21%;
   max-width: 94px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio__shape-2 img.p-s-4 {
     right: 11%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__shape-2 img.p-s-4 {
     top: 9%;
     right: 6%;
@@ -2864,7 +2952,7 @@ textarea {
   -o-border-radius: 0 164px 20px 0;
   z-index: -1;
 }
-.portfolio_margin{
+.portfolio_margin {
   margin-top: 150px;
 }
 @media (max-width: 576px) {
@@ -2872,11 +2960,12 @@ textarea {
     width: 100%;
     height: 230px;
   }
-  .portfolio_margin{
+  .portfolio_margin {
     margin-top: 50px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio__wrapper::before {
     width: 1108px;
   }
@@ -2886,7 +2975,9 @@ textarea {
     width: 990px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__wrapper::before {
     width: 100%;
   }
@@ -2894,7 +2985,8 @@ textarea {
 .portfolio__content {
   padding-top: 90px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__content {
     padding-top: 50px;
   }
@@ -2918,13 +3010,13 @@ textarea {
     display: none;
   }
 }
-.portfolio__menu{   
+.portfolio__menu {
   padding-top: 22px;
   position: relative;
-  z-index: 4;   
-  border: none;  
+  z-index: 4;
+  border: none;
 }
-.portfolio__menu li:not(:last-child) {  
+.portfolio__menu li:not(:last-child) {
   margin-right: 35px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2932,7 +3024,8 @@ textarea {
     margin-right: 25px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__menu li:not(:last-child) {
     margin-right: 20px;
   }
@@ -2941,13 +3034,14 @@ textarea {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
-  color: #ffffff;  
+  color: #ffffff;
   background: transparent;
   border: none;
   outline: none;
   padding: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__menu li .nav-link {
     font-size: 16px;
   }
@@ -2957,7 +3051,8 @@ textarea {
     font-size: 14px;
   }
 }
-.portfolio__menu li .nav-link:hover, .portfolio__menu li .nav-link.active {
+.portfolio__menu li .nav-link:hover,
+.portfolio__menu li .nav-link.active {
   color: #c5f617;
   background: transparent;
 }
@@ -2967,14 +3062,16 @@ textarea {
 .portfolio__menu-2 li .nav-link {
   color: #1d233a;
 }
-.portfolio__menu-2 li .nav-link:hover, .portfolio__menu-2 li .nav-link.active {
+.portfolio__menu-2 li .nav-link:hover,
+.portfolio__menu-2 li .nav-link.active {
   color: #7432ff;
 }
 .portfolio__item {
   position: relative;
   border-radius: 20px;
   z-index: 4;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 .portfolio__item:hover .portfolio__text {
   bottom: 0;
@@ -2992,7 +3089,8 @@ textarea {
   -moz-box-shadow: 0 30px 40px 0 rgba(29, 35, 58, 0.1);
   box-shadow: 0 30px 40px 0 rgba(29, 35, 58, 0.1);
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .portfolio__item-2:hover .portfolio__image-2 img {
   transform: scale(1.1);
@@ -3067,7 +3165,9 @@ textarea {
 .portfolio__link a:hover {
   background: #7432ff;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .portfolio__link a {
     height: 40px;
     width: 40px;
@@ -3097,7 +3197,9 @@ textarea {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .portfolio__text {
     margin: 25px;
     padding: 16px 25px;
@@ -3122,7 +3224,9 @@ textarea {
     margin-top: 5px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .portfolio__text h3 {
     font-size: 18px;
     margin-top: 2px;
@@ -3152,18 +3256,25 @@ textarea {
   left: 8%;
   max-width: 104px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__details-shape img.p-details-1 {
     top: 3%;
     left: 2%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio__details-shape img.p-details-1 {
     left: 1%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__details-shape img.p-details-1 {
     left: 8%;
   }
@@ -3173,12 +3284,14 @@ textarea {
   right: 12%;
   max-width: 29px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio__details-shape img.p-details-2 {
     right: 2%;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio__details-shape img.p-details-2 {
     right: 3%;
   }
@@ -3193,7 +3306,8 @@ textarea {
     top: 20%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__details-shape img.p-details-2 {
     top: 16%;
     right: 6%;
@@ -3264,7 +3378,9 @@ textarea {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__details-content h2 {
     font-size: 35px;
   }
@@ -3282,7 +3398,9 @@ textarea {
     padding-right: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .portfolio__details-content p {
     padding-right: 0;
   }
@@ -3322,7 +3440,9 @@ textarea {
   font-weight: 700;
   font-size: 24px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .values__content-text h3 {
     font-size: 20px;
   }
@@ -3331,7 +3451,10 @@ textarea {
   margin-bottom: 0;
   padding-right: 150px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .values__content-text P {
     padding-right: 0;
   }
@@ -3357,7 +3480,8 @@ textarea {
     padding: 30px 30px 5px 30px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .sidebar__content {
     margin-top: 50px;
   }
@@ -3466,7 +3590,9 @@ textarea {
   -o-animation: hero-shape-2 2s linear 0s infinite alternate;
   animation: hero-shape-2 2s linear 0s infinite alternate;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .experience__shape img.experience-s-2 {
     top: 15%;
     right: 5%;
@@ -3504,7 +3630,8 @@ textarea {
   right: 10%;
   max-width: 105px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .experience__shape img.experience-s-4 {
     bottom: 9%;
     right: 4%;
@@ -3522,12 +3649,15 @@ textarea {
     right: 22%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .experience__shape img.experience-s-4 {
     bottom: 8%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .experience__content {
     margin-bottom: 60px;
   }
@@ -3561,7 +3691,7 @@ textarea {
   z-index: 4;
 }
 
-.kylo_video-btn{
+.kylo_video-btn {
   top: 42% !important;
   right: 43% !important;
 }
@@ -3573,7 +3703,8 @@ textarea {
 .experience__video-btn span::before {
   animation-delay: 0.8s;
 }
-.experience__video-btn span::after, .experience__video-btn span::before {
+.experience__video-btn span::after,
+.experience__video-btn span::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -3615,7 +3746,8 @@ textarea {
     right: 64%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .experience__video-btn {
     top: 80%;
     right: 40%;
@@ -3676,7 +3808,8 @@ textarea {
   max-width: 104px;
   z-index: 1;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .testimonials__shape img.t-shape-1 {
     left: 13%;
   }
@@ -3686,7 +3819,8 @@ textarea {
     left: 12%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .testimonials__shape img.t-shape-1 {
     top: 7%;
     left: 5%;
@@ -3696,7 +3830,8 @@ textarea {
   top: 26%;
   left: 9%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .testimonials__shape img.t-shape-2 {
     left: 1%;
   }
@@ -3706,13 +3841,15 @@ textarea {
     left: -3%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .testimonials__shape img.t-shape-2 {
     top: 29%;
     left: -11%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .testimonials__shape img.t-shape-2 {
     top: 33%;
     left: 2%;
@@ -3742,7 +3879,8 @@ textarea {
     right: 13%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .testimonials__shape img.t-shape-3 {
     right: 4%;
   }
@@ -3763,7 +3901,8 @@ textarea {
     right: 9%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .testimonials__shape img.t-shape-4 {
     top: 14%;
     right: 11%;
@@ -3822,11 +3961,15 @@ textarea {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  height: 35em;
+  margin-bottom: 2em;
+  position: relative;
 }
 .testimonials__item-content {
-  padding: 48px 54px;
+  padding: 40px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonials__item-content {
     padding: 32px 38px;
   }
@@ -3848,13 +3991,18 @@ textarea {
 .testimonials__client-thumb {
   margin-right: 20px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonials__client-thumb {
     margin-right: 17px;
   }
 }
 .testimonials__client-thumb img {
   max-width: 75px;
+}
+.testimonials__client-text {
+  position: absolute;
+  bottom: 30px;
 }
 .testimonials__client-text h4 {
   color: #7432ff;
@@ -3988,7 +4136,9 @@ textarea {
     width: 77%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .faq__bg::before {
     right: 18%;
     top: 34%;
@@ -3996,7 +4146,8 @@ textarea {
     width: 90%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .faq__bg::before {
     top: 60%;
     height: 40%;
@@ -4095,10 +4246,10 @@ textarea {
   padding-bottom: 35px;
   border: none;
   border-bottom: 1px solid #8b61ff;
-  background: none; 
+  background: none;
 }
 .faq__wrapper .accordion-item:last-child {
-  border-bottom: none; 
+  border-bottom: none;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .faq__wrapper .accordion-item {
@@ -4115,12 +4266,14 @@ textarea {
   text-align: left;
   box-shadow: none;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .faq__wrapper .accordion-item .accordion-header .accordion-button {
     font-size: 17px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .faq__wrapper .accordion-item .accordion-header .accordion-button {
     font-size: 17px;
     padding-right: 20px;
@@ -4143,7 +4296,10 @@ textarea {
   font-weight: 600;
   content: "\f068";
 }
-.faq__wrapper .accordion-item .accordion-header .accordion-button.collapsed::after {
+.faq__wrapper
+  .accordion-item
+  .accordion-header
+  .accordion-button.collapsed::after {
   content: "\f067";
 }
 .faq__wrapper .accordion-collapse {
@@ -4170,7 +4326,8 @@ textarea {
 /*----------------------------------------*/
 /*  11. Blog CSS
 /*----------------------------------------*/
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__area-pb {
     padding-bottom: 220px;
   }
@@ -4180,7 +4337,8 @@ textarea {
     padding-bottom: 195px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__area-pb-2 {
     padding-bottom: 215px;
   }
@@ -4204,7 +4362,8 @@ textarea {
   max-width: 94px;
   z-index: -1;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__shape img.blog-shape-2 {
     bottom: 15%;
     left: 4%;
@@ -4220,7 +4379,8 @@ textarea {
   right: 14%;
   max-width: 54px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__shape img.blog-shape-3 {
     top: 14%;
     right: 8%;
@@ -4237,7 +4397,8 @@ textarea {
   mix-blend-mode: multiply;
   z-index: 1;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .blog__shape img.blog-shape-4 {
     right: 30%;
   }
@@ -4271,7 +4432,8 @@ textarea {
   left: 21%;
   max-width: 24px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__shape img.blog-shape-5 {
     top: 7%;
     left: 11%;
@@ -4320,7 +4482,9 @@ textarea {
   font-size: 28px;
   line-height: 1.3;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .blog__content h3 {
     font-size: 22px;
   }
@@ -4337,7 +4501,8 @@ textarea {
     margin-right: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .blog__date p {
     font-size: 14px;
     margin-right: 15px;
@@ -4436,7 +4601,8 @@ textarea {
   margin-bottom: 47px;
   margin-top: 47px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .blog__quote {
     padding: 36px 55px;
   }
@@ -4480,7 +4646,10 @@ textarea {
     padding-right: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__quote blockquote p {
     padding-right: 0;
   }
@@ -4550,7 +4719,8 @@ textarea {
     padding: 30px 25px 15px 32px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .blog__content {
     padding: 25px 25px 15px 32px;
   }
@@ -4595,7 +4765,8 @@ textarea {
   padding: 50px;
   position: relative;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__single-content {
     padding: 40px;
     padding-top: 55px;
@@ -4666,7 +4837,8 @@ textarea {
   font-size: 18px;
   font-weight: 600;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__single-content-meta ul li a {
     font-size: 16px;
   }
@@ -4685,7 +4857,8 @@ textarea {
   -o-border-radius: 50%;
   margin-right: 10px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__single-content-meta ul li a i {
     font-size: 13px;
     width: 22px;
@@ -4702,7 +4875,8 @@ textarea {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__single-content h2 {
     font-size: 35px;
   }
@@ -4719,7 +4893,8 @@ textarea {
   margin-bottom: 27px;
   padding-right: 70px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__single-content p {
     padding-right: 0;
   }
@@ -4730,7 +4905,8 @@ textarea {
 .blog__single-details p {
   padding-right: 19px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__single-details p {
     padding-right: 0;
   }
@@ -4743,7 +4919,9 @@ textarea {
     padding-left: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .blog__sidebar {
     padding-top: 70px;
     padding-left: 0;
@@ -4864,7 +5042,9 @@ textarea {
     margin-right: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .sidebar__widget-2 {
     margin-right: 0;
     margin-top: 50px;
@@ -5013,7 +5193,9 @@ textarea {
     padding: 35px 40px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .post__author {
     padding: 30px 30px;
   }
@@ -5053,7 +5235,8 @@ textarea {
     padding-left: 37px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .post__author-content {
     padding-left: 30px;
   }
@@ -5080,7 +5263,11 @@ textarea {
   padding-right: 50px;
   margin-bottom: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .post__author-content p {
     padding-right: 0;
   }
@@ -5146,7 +5333,8 @@ textarea {
 .post__comment-content ul li.children {
   padding-left: 100px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .post__comment-content ul li.children {
     padding-left: 50px;
   }
@@ -5187,7 +5375,8 @@ textarea {
     padding-top: 20px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .comment__box-content p {
     padding-right: 0;
   }
@@ -5268,13 +5457,15 @@ textarea {
   max-width: 451px;
   z-index: 2;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .lets-work__shape img.lets-work-shape-1 {
     left: 4%;
     max-width: 31%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .lets-work__shape img.lets-work-shape-1 {
     left: 2%;
     max-width: 35%;
@@ -5297,12 +5488,16 @@ textarea {
   right: 9%;
   max-width: 466px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .lets-work__shape img.lets-work-shape-2 {
     right: 2%;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .lets-work__shape img.lets-work-shape-2 {
     max-width: 32%;
   }
@@ -5312,7 +5507,8 @@ textarea {
     max-width: 36%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .lets-work__shape img.lets-work-shape-2 {
     right: 4%;
     max-width: 41%;
@@ -5442,7 +5638,10 @@ textarea {
     padding-left: 40px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .footer__subscribe-input {
     padding-left: 0;
   }
@@ -5525,7 +5724,8 @@ textarea {
 .footer__widget {
   position: relative;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .footer__widget-mt {
     margin-top: 60px;
   }
@@ -5549,12 +5749,16 @@ textarea {
     padding-right: 50px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .footer__widget-logo p {
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .footer__widget-social {
     margin-bottom: 60px;
   }
@@ -5606,7 +5810,8 @@ textarea {
 .footer__widget-address {
   margin-bottom: 53px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .footer__widget-address {
     margin-bottom: 30px;
   }
@@ -5620,7 +5825,9 @@ textarea {
     padding-right: 38px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .footer__widget-address p {
     padding-right: 0;
   }
@@ -5633,7 +5840,8 @@ textarea {
 .footer__widget-phone {
   margin-bottom: 53px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .footer__widget-phone {
     margin-bottom: 30px;
   }
@@ -5714,7 +5922,8 @@ textarea {
     left: 9%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__shape img.m-shape-1 {
     top: 37%;
     left: 6%;
@@ -5724,12 +5933,14 @@ textarea {
   top: 24%;
   left: 8%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .maxdi__shape img.m-shape-2 {
     left: 5%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .maxdi__shape img.m-shape-2 {
     top: 31%;
     left: 6%;
@@ -5740,7 +5951,8 @@ textarea {
     top: 38%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__shape img.m-shape-2 {
     top: 39%;
     left: 3%;
@@ -5761,7 +5973,8 @@ textarea {
   -o-animation: hero-shape-5 2s linear 0s infinite alternate;
   animation: hero-shape-5 2s linear 0s infinite alternate;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .maxdi__shape img.m-shape-3 {
     right: 14%;
   }
@@ -5771,7 +5984,9 @@ textarea {
     right: 9%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__shape img.m-shape-3 {
     top: 36%;
     right: 5%;
@@ -5787,12 +6002,16 @@ textarea {
   right: 14%;
   max-width: 24px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .maxdi__shape img.m-shape-4 {
     right: 8%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__shape img.m-shape-4 {
     top: 11%;
     right: 6%;
@@ -5816,17 +6035,20 @@ textarea {
     padding: 0 80px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__title p {
     padding: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .maxdi__title .section__title span {
     display: inline;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .maxdi__title .section__title span::after {
     display: none;
   }
@@ -5836,7 +6058,8 @@ textarea {
   left: 20%;
   top: 72%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .maxdi__counter {
     left: 15%;
   }
@@ -5892,7 +6115,8 @@ textarea {
     height: 185px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__counter-content::before {
     width: 165px;
     height: 165px;
@@ -5910,7 +6134,8 @@ textarea {
     margin-bottom: 3px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__counter-content h2 {
     font-size: 32px;
     margin-bottom: 1px;
@@ -5928,7 +6153,8 @@ textarea {
     font-size: 17px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__counter-content p {
     font-size: 15px;
   }
@@ -5958,7 +6184,8 @@ textarea {
     top: 77%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .maxdi__counter-2 {
     left: 78%;
   }
@@ -5978,7 +6205,8 @@ textarea {
     margin-left: 100px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .maxdi__thumb-1 {
     margin-left: 0;
   }
@@ -6148,7 +6376,8 @@ textarea {
     padding-top: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .project__area-pt {
     padding-top: 100px;
   }
@@ -6386,7 +6615,8 @@ textarea {
     height: 500px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .project__thumb-1 img {
     height: 335px;
     border-radius: 20px 150px 20px 20px;
@@ -6453,7 +6683,8 @@ textarea {
     width: 340px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .project__thumb-2 img {
     height: 250px;
     border-radius: 130px 20px 20px 20px;
@@ -6625,7 +6856,8 @@ textarea {
     margin-left: 110px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .project__content {
     padding-top: 68px;
     margin-left: 0;
@@ -6662,7 +6894,10 @@ textarea {
   left: 13%;
   max-width: 107px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .customers__shape img.c-s-1 {
     top: 78%;
     left: 7%;
@@ -6685,7 +6920,10 @@ textarea {
   right: 14%;
   max-width: 104px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .customers__shape img.c-s-2 {
     top: 44%;
     right: 9%;
@@ -6722,7 +6960,9 @@ textarea {
     padding: 60px 85px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .customers__container {
     padding: 45px 60px;
   }
@@ -6755,7 +6995,8 @@ textarea {
     left: 21%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing__shape img.p-shape-1 {
     top: 11%;
     left: 14%;
@@ -6816,7 +7057,8 @@ textarea {
     right: 2%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing__shape img.p-shape-3 {
     top: 4%;
     right: 0;
@@ -6844,7 +7086,8 @@ textarea {
     left: 8%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing__shape img.p-shape-4 {
     top: 25%;
     left: 7%;
@@ -6913,7 +7156,9 @@ textarea {
     padding: 0 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .pricing__title P {
     padding: 0;
   }
@@ -6954,7 +7199,8 @@ textarea {
   background: #1d233a;
   color: #ffffff;
 }
-.pricing__nav li .nav-link:hover, .nav-link:focus {
+.pricing__nav li .nav-link:hover,
+.nav-link:focus {
   color: #f2dac0;
 }
 .pricing__box {
@@ -6977,7 +7223,8 @@ textarea {
     padding: 35px 50px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing__box {
     padding: 30px 40px;
   }
@@ -7033,7 +7280,8 @@ textarea {
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing__header P {
     font-size: 13px;
   }
@@ -7076,7 +7324,8 @@ textarea {
   font-weight: normal;
   margin-left: 8px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing__amount h2 > span {
     font-size: 15px;
     margin-left: 4px;
@@ -7120,7 +7369,10 @@ textarea {
 .page__title-height {
   min-height: 640px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .page__title-height {
     min-height: 540px;
   }
@@ -7192,7 +7444,8 @@ textarea {
     left: -10%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .page__title-shape img.page-title-s-4 {
     top: -2%;
     left: -18%;
@@ -7218,7 +7471,8 @@ textarea {
     left: 30%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .page__title-shape img.page-title-s-6 {
     left: 40%;
   }
@@ -7228,7 +7482,8 @@ textarea {
   right: 0;
   max-width: 285px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .page__title-shape img.page-title-s-7 {
     bottom: -10%;
   }
@@ -7260,7 +7515,8 @@ textarea {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .page__title-heading {
     font-size: 32px;
     margin-bottom: 15px;
@@ -7278,7 +7534,8 @@ textarea {
   position: relative;
   z-index: 3;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .breadcrumb {
     justify-content: flex-start;
   }
@@ -7337,7 +7594,8 @@ textarea {
   -o-animation: hero-shape-2 2s linear 0s infinite alternate;
   animation: hero-shape-2 2s linear 0s infinite alternate;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team__shape img.t-shape-1 {
     left: 13%;
   }
@@ -7347,7 +7605,8 @@ textarea {
     left: 6%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .team__shape img.t-shape-1 {
     top: 7%;
     left: 5%;
@@ -7368,7 +7627,8 @@ textarea {
   top: 26%;
   left: 9%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1700px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1700px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team__shape img.t-shape-2 {
     left: 1%;
   }
@@ -7415,7 +7675,8 @@ textarea {
     right: 13%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .team__shape img.t-shape-3 {
     right: 4%;
   }
@@ -7436,13 +7697,16 @@ textarea {
     right: 9%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__shape img.t-shape-4 {
     top: 14%;
     right: 11%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__shape img.t-shape-4 {
     top: 4%;
   }
@@ -7544,7 +7808,8 @@ textarea {
     margin-top: -50px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__content {
     margin: 0 70px;
     margin-top: -50px;
@@ -7598,7 +7863,10 @@ textarea {
 .team__title:hover {
   color: #f2dac0;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__title {
     font-size: 22px;
   }
@@ -7751,7 +8019,9 @@ textarea {
   z-index: 2;
   margin-top: 42px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 575px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  (max-width: 575px) {
   .team__details-thumb-social {
     margin-top: 35px;
   }
@@ -7776,7 +8046,8 @@ textarea {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .team__details-thumb-social a {
     font-size: 14px;
     width: 30px;
@@ -7795,7 +8066,8 @@ textarea {
     margin-right: 24px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .team__details-thumb-social a:not(:last-child) {
     margin-right: 10px;
   }
@@ -7810,7 +8082,8 @@ textarea {
     margin-left: 30px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__details-content {
     margin-top: 60px;
   }
@@ -7824,7 +8097,8 @@ textarea {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .team__details-content h2 {
     font-size: 35px;
   }
@@ -7843,7 +8117,10 @@ textarea {
     padding-right: 60px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__details-content p {
     padding-right: 0;
   }
@@ -7872,7 +8149,10 @@ textarea {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .team__details-counter-item h2 {
     font-size: 35px;
   }
@@ -7884,7 +8164,8 @@ textarea {
   padding-right: 0;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .team__details-counter-item p {
     font-size: 16px;
   }
@@ -7905,7 +8186,8 @@ textarea {
 /*----------------------------------------*/
 /*  20. Contact CSS
 /*----------------------------------------*/
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .contact__area {
     padding-bottom: 120px;
   }
@@ -7921,7 +8203,8 @@ textarea {
     margin-right: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .contact__info {
     padding: 85px 50px 40px 85px;
     margin-right: 65px;
@@ -7969,7 +8252,8 @@ textarea {
     -o-border-radius: 83px 141px 170px 110px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .contact__info::before {
     border-radius: 73px 100px 150px 100px;
     -webkit-border-radius: 73px 100px 150px 100px;
@@ -8002,7 +8286,8 @@ textarea {
     -o-border-radius: 70px 60px 220px 100px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 575px) {
   .contact__info::after {
     border-radius: 60px 50px 180px 90px;
     -webkit-border-radius: 60px 50px 180px 90px;
@@ -8049,17 +8334,20 @@ textarea {
 .contact__info-icon i.blue {
   color: #7432ff;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
   .contact__title {
     margin-top: 100px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .contact__title .section__title span {
     display: inline;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .contact__title .section__title span::after {
     display: none;
   }
@@ -8085,25 +8373,26 @@ textarea {
   box-shadow: 0 0 100px 0 rgba(29, 35, 58, 0.1);
 }
 
-.quick_apply_career, .quick_apply_career-div{
+.quick_apply_career,
+.quick_apply_career-div {
   margin-top: 0;
   margin-left: 0;
   margin-bottom: 20px;
 }
 
-.quick_apply{
+.quick_apply {
   margin-top: 0;
   margin-left: 0;
   padding: 60px 20%;
 }
-.jobs_desc{
+.jobs_desc {
   padding: 10px 20%;
   height: auto;
 }
 
-.job_jd-header{
+.job_jd-header {
   padding: 30px 20%;
-  background: #F8F9FA;
+  background: #f8f9fa;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8111,13 +8400,13 @@ textarea {
 }
 
 @media (max-width: 575px) {
-  .quick_apply{
+  .quick_apply {
     padding: 60px 8%;
   }
-  .jobs_desc{
+  .jobs_desc {
     padding: 10px 8%;
   }
-  .job_jd-header{
+  .job_jd-header {
     justify-content: center;
     flex-direction: column;
   }
@@ -8126,11 +8415,11 @@ textarea {
     text-align: center;
   }
 
-  .quick_apply_career{
+  .quick_apply_career {
     padding-left: 0px !important;
   }
 
-  .quick_apply_career-div{
+  .quick_apply_career-div {
     margin-left: 0;
     padding-left: 10px !important;
     margin-bottom: 100px;
@@ -8183,26 +8472,26 @@ textarea {
 
 /*# sourceMappingURL=style.css.map */
 
-.jobCard{
+.jobCard {
   border-radius: 5px;
 }
-.jobCard:hover{
+.jobCard:hover {
   background-color: rgba(231, 231, 231, 0.285);
 }
-.job-btn:hover{
+.job-btn:hover {
   color: white;
 }
-.job-btn:hover svg{
+.job-btn:hover svg {
   width: 1.8em;
   transform: scaleX(2);
 }
 
-.arrow_svg{
+.arrow_svg {
   transition: transform 5s ease-in;
-  transition: width .4s ease-in;
+  transition: width 0.4s ease-in;
   overflow: visible;
-  height:1em;
-  width:1em;
+  height: 1em;
+  width: 1em;
 }
 
 /* .arrow_svg:hover{
@@ -8210,7 +8499,7 @@ textarea {
   transform: scaleX(2);
 } */
 
-.jobs-padding{
+.jobs-padding {
   padding: 30px 10vw;
 }
 /* @media (max-width: 575px) {
@@ -8220,9 +8509,7 @@ textarea {
 } */
 
 @media (min-width: 1400px) {
-  .footer_padding{
+  .footer_padding {
     padding-left: 50px;
   }
 }
-
-

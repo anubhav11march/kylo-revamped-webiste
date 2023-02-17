@@ -45,55 +45,64 @@ const WhatWePromise = () => {
           <Col xxl={6} xl={7} lg={7} md={9}>
             <div className="facts__content">
               <div className="facts__content-text">
-                <h1 style={{ color: "#7432ff" }}>What we promise ?</h1>
+                <SectionTitle
+                  subTitle="What we promise"
+                  titleFirst="Skyrocket your growth"
+                  titleSecond="with us"
+                  smallFont={true}
+                />
+
+                {/* <h1 style={{ color: "#7432ff" }}></h1>
                 <h6 style={{ marginBottom: "40px", color: "#7432ff" }}>
-                  Skyrocket your growth with us
-                </h6>
-                <ul style={{ paddingLeft: "25px" }}>
-                  <li style={{ listStyle: "disc" }}>
-                    <h5>Exceeding your expectations</h5>
-                    <p style={{ marginLeft: "20px" }}>
-                      We don’t just like matching your expectations but rather
-                      crossing the line.
-                    </p>
-                  </li>
-                  <li style={{ listStyle: "disc" }}>
-                    <h5>Timely delivery</h5>
-                    <p style={{ marginLeft: "20px" }}>
-                      Well timing is crucial isn’t it? You don’t have wait for
-                      long to work on your dream project.
-                    </p>
-                  </li>
-                  <li style={{ listStyle: "disc" }}>
-                    <h5>Tech Support</h5>
-                    <p style={{ marginLeft: "20px" }}>
-                      All our services come with free 2 months tech support. Any
-                      production bugs that shouldn’t be there would be resolved
-                      free of cost.
-                    </p>
-                  </li>
-                  <li style={{ listStyle: "disc" }}>
-                    <h5>Best pricing in the industry</h5>
-                    <p style={{ marginLeft: "20px" }}>
-                      Why pay someone else more, when you can get a better work
-                      done for cheaper? We’ll do it for you.
-                    </p>
-                  </li>
-                  <li style={{ listStyle: "disc" }}>
-                    <h5>Bugs free applications</h5>
-                    <p style={{ marginLeft: "20px" }}>
-                      Who likes bugs? We don’t either. We make sure to squish
-                      even the tiniest bugs.
-                    </p>
-                  </li>
-                  <li style={{ listStyle: "disc" }}>
-                    <h5>Innovation</h5>
-                    <p style={{ marginLeft: "20px" }}>
-                      We keep coming up with new and innovative features to make
-                      your business stand out.
-                    </p>
-                  </li>
-                </ul>
+                 
+                </h6> */}
+                <div className="about-us">
+                  <ul style={{ paddingLeft: "25px" }}>
+                    <li>
+                      <h5>Exceeding your expectations</h5>
+                      <p>
+                        We don’t just like matching your expectations but rather
+                        crossing the line.
+                      </p>
+                    </li>
+                    <li>
+                      <h5>Timely delivery</h5>
+                      <p>
+                        Well timing is crucial isn’t it? You don’t have wait for
+                        long to work on your dream project.
+                      </p>
+                    </li>
+                    <li>
+                      <h5>Tech Support</h5>
+                      <p>
+                        All our services come with free 2 months tech support.
+                        Any production bugs that shouldn’t be there would be
+                        resolved free of cost.
+                      </p>
+                    </li>
+                    <li>
+                      <h5>Best pricing in the industry</h5>
+                      <p>
+                        Why pay someone else more, when you can get a better
+                        work done for cheaper? We’ll do it for you.
+                      </p>
+                    </li>
+                    <li>
+                      <h5>Bugs free applications</h5>
+                      <p>
+                        Who likes bugs? We don’t either. We make sure to squish
+                        even the tiniest bugs.
+                      </p>
+                    </li>
+                    <li>
+                      <h5>Innovation</h5>
+                      <p>
+                        We keep coming up with new and innovative features to
+                        make your business stand out.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Col>

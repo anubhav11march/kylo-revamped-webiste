@@ -22,13 +22,13 @@ const AboutPage = () => {
       />
       <main>
         <About
-          subTitle="We are Kylo Apps"
+          subTitle="ABout Us"
           titleFirst="We bring your business"
           titleSecond="ideas to life by means of Technology"
         />
         <Experience extraClass="mt-70" />
         <WhatWePromise />
-        <TeamHome subTitle="Team Members" />
+        <TeamHome subTitle="OUR TEAM" />
         {/* <Project extraClass="project__area-pt" subTitle="Get Started" /> */}
         {/* <BlogHome extraClass="pt-110" /> */}
         {/* <LetsWork /> */}

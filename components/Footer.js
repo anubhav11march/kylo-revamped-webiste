@@ -198,7 +198,7 @@ const Footer = () => {
 
                   <div className="contact__info-content d-flex">
                     <div className="contact__info-icon">
-                      <i className="fa-solid fa-paper-plane blue"></i>
+                      <i className="fa-solid fa-paper-plane green"></i>
                     </div>
                     <div className="contact__info-title">
                       <h5>Email us</h5>

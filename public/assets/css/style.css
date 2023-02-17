@@ -1944,7 +1944,7 @@ textarea {
   font-family: "Font Awesome 6 Free";
   font-size: 12px;
   font-weight: 900;
-  background: #4a4f61;
+  background: #7432ff;
   color: #ffffff;
   border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -1956,6 +1956,32 @@ textarea {
   text-align: center;
   left: 0;
   top: 5px;
+  line-height: 20px;
+}
+.about-us {
+  position: relative;
+}
+.about-us li {
+  margin-left: 5px;
+}
+.about-us ul li::before {
+  position: absolute;
+  content: "\f061";
+  font-family: "Font Awesome 6 Free";
+  font-size: 12px;
+  font-weight: 900;
+  background: #7432ff;
+  color: #ffffff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  left: 0;
+
   line-height: 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
@@ -2658,7 +2684,7 @@ textarea {
   }
 }
 .facts__thumb-shape img.facts-s-4 {
-  bottom: 10%;
+  bottom: 18%;
   left: 33%;
   max-width: 104px;
 }
@@ -7869,6 +7895,7 @@ textarea {
   position: relative;
   z-index: 5;
   margin-bottom: 5px;
+  white-space: nowrap;
 }
 .team__title:hover {
   color: #f2dac0;

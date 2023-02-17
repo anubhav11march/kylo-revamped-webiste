@@ -13,6 +13,7 @@ import BlogHome from "../components/BlogHome";
 import LetsWork from "../components/LetsWork";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Recommendations from "../components/Recommendations";
 
 const HomeOne = () => {
   return (
@@ -28,6 +29,7 @@ const HomeOne = () => {
           titleFirst="We bring your business ideas"
           titleSecond="to life by means of Technology"
         />
+        <Recommendations />
         <Services extraClass="mt-75" />
         <Facts />
         <Portfolio />

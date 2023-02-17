@@ -87,7 +87,7 @@ const Hero = () => {
               </div>
               <p className="mt-3">
                 We are a Software Development company that builds top notch web
-                applications, mobile applications and other custom softwares for
+                applications, mobile applications and other custom software for
                 startups, SMBs or well-established enterprises.
               </p>
               <Link href="/portfolio">

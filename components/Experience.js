@@ -43,8 +43,8 @@ const Experience = ({ extraClass }) => {
               <div className="experience__content">
                 <SectionTitle
                   subTitle="Engineered for excellence"
-                  titleFirst="Planning to transform your business?"
-                  titleSecond=""
+                  titleFirst="Planning to transform"
+                  titleSecond="your business?"
                 />
                 <p>
                   We can help you with the Estimation, Prototype, Minimum Viable

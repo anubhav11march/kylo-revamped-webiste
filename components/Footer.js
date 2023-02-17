@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer__area fix p-relative pt-200 pb-60">
+      <div className="footer__area fix p-relative pt-150 pb-40">
         <div className="footer__shape">
           <img
             className="footer-shape-1"
@@ -20,7 +20,7 @@ const Footer = () => {
           />
         </div>
         <Container>
-          <Row className="mb-110">
+          <Row className="mb-80">
             <Col xxl={6} xl={7} lg={8} md={10}>
               <div className="footer__newsletter">
                 <SectionTitle
@@ -53,8 +53,9 @@ const Footer = () => {
                 <div className="footer__widget-logo">
                   <img src="assets/images/logo/logo_footer.jpg" alt="logo" />
                   <p>
-                    Core object made kolor adipisci elit sed diam nonummy nibh
-                    euismod tincidunt laoreet dolore magna grinjon.
+                    A Software Development company that builds top notch web
+                    applications, mobile applications and other custom software
+                    for startups, SMBs or well-established enterprises.
                   </p>
                 </div>
                 <div className="footer__widget-social">
@@ -73,14 +74,14 @@ const Footer = () => {
                       <i className="fa-brands fa-twitter"></i>
                     </a>
                   </Link>
-                  <Link href="https://www.facebook.com/kyloapps">
+                  <Link href="https://www.youtube.com/@kyloapps">
                     <a>
-                      <i className="fa-brands fa-facebook-f"></i>
+                      <i className="fa-brands fa-youtube"></i>
                     </a>
                   </Link>
                   <Link href="https://www.facebook.com/kyloapps">
                     <a>
-                      <i className="fa-brands fa-youtube"></i>
+                      <i className="fa-brands fa-facebook-f"></i>
                     </a>
                   </Link>
                 </div>
@@ -163,7 +164,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col xl={1} lg={3} md={3} sm={6}></Col>
+
             <Col xl={2} lg={3} md={3} sm={2}>
               <div className="footer__widget footer__widget-mt">
                 <div className="footer__widget-title">
@@ -216,6 +217,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
+            <Col xl={1} lg={3} md={3} sm={6}></Col>
           </Row>
           <Row>
             <Col xl={12}>

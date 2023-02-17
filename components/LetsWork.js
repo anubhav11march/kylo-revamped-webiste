@@ -34,8 +34,8 @@ const LetsWork = () => {
             <div className="lets-work__title text-center">
               <SectionTitle
                 subTitle="THINK TECH, CHOOSE US"
-                titleFirst="Let’s build"
-                titleSecond="something innovative"
+                titleFirst="Let’s build something "
+                titleSecond="innovative"
               />
               <Link href="/contact">
                 <a className="m-btn mt-35">Get in touch</a>

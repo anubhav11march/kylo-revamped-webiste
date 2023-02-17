@@ -39,7 +39,7 @@ const NavMenu = ({ mobile }) => {
           </li>
           <li>
             <Link href="#service">
-              <a>UI/UX Design</a>
+              <a>UI/UX Designing</a>
             </Link>
           </li>
           <li>
@@ -55,6 +55,21 @@ const NavMenu = ({ mobile }) => {
           <li>
             <Link href="#service">
               <a>Quality Assurance</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#service">
+              <a>DevOps</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#service">
+              <a>Data Engineering</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#service">
+              <a>Branding</a>
             </Link>
           </li>
         </ul>

@@ -53,7 +53,7 @@ const Recommendations = () => {
           />
         </div>
         <Row className="d-flex justify-content-around">
-          <Marquee pauseOnHover speed="150" gradient={false}>
+          <Marquee speed="150" gradient={false}>
             {MEMBER_DATA.map(({ memberImg }, index) => (
               <img src={memberImg} key={index} width="235px" className="mx-4" />
             ))}

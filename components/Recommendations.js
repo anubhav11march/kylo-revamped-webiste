@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
-import BrandCard from "./BrandCard";
+import Marquee from "react-fast-marquee";
 
 const MEMBER_DATA = [
   {
@@ -53,9 +53,11 @@ const Recommendations = () => {
           />
         </div>
         <Row className="d-flex justify-content-around">
-          {MEMBER_DATA.map(({ memberImg }, index) => (
-            <BrandCard key={index} Img={memberImg} />
-          ))}
+          <Marquee pauseOnHover speed="150" gradient={false}>
+            {MEMBER_DATA.map(({ memberImg }, index) => (
+              <img src={memberImg} key={index} width="235px" className="mx-4" />
+            ))}
+          </Marquee>
         </Row>
       </Container>
     </section>

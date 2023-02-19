@@ -3116,6 +3116,7 @@ textarea {
 .portfolio__item-2 {
   background: #ffffff;
   border-radius: 20px;
+  transition: 1s ease-in-out;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
 import PageHeader from "../../components/PageHeader";
@@ -8,28 +8,27 @@ import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 
 const SingleBlog = () => {
-    const { query } = useRouter();
-    const [data, setData] = useState(null);
-    const [isLoading, setLoading] = useState(false);
+  const { query } = useRouter();
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(false);
 
-    useEffect(() => {
-      setLoading(true);
-      fetch(`/api/blogs/${query.id}`)
-        .then((res) => res.json())
-        .then((data) => {
-          setData(data?.data);
-          setLoading(false);
-        });
-    }, []);
+  useEffect(() => {
+    setLoading(true);
+    fetch(`/api/blogs/${query.id}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data?.data);
+        setLoading(false);
+      });
+  }, []);
 
-    
-    if (isLoading) return <p>Loading...</p>;
-    if (!data) return <p>No blog data</p>;
-    
-    console.log("data", data);
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No blog data</p>;
+
+  console.log("data", data);
 
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
+    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
       <PageHeader title="Blog Details" crumbTitle="Blog Details" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"

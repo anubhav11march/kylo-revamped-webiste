@@ -11,7 +11,7 @@ import LifeAtKylo from "../../components/LifeAtKylo";
 
 const Careers = () => {
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
+    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
       <PageHeader title="Careers" crumbTitle="Careers" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"
@@ -21,8 +21,8 @@ const Careers = () => {
       <main>
         <KyloDes subTitle="Kylo Apps" titleFirst="Careers at Kylo Apps" />
         <WhyKylo />
-        <LifeAtKylo/>
-        <QuickApply/>
+        <LifeAtKylo />
+        <QuickApply />
         <LetsWork />
       </main>
       <Footer />

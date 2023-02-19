@@ -28,47 +28,47 @@ const NavMenu = ({ mobile }) => {
         </button>
         <ul className="submenu">
           <li>
-            <Link href="#service">
+            <Link href="/web-details">
               <a>Web App Development</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/mobile-details">
               <a>Mobile App Development</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/uiux-details">
               <a>UI/UX Designing</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/aiml-details">
               <a>AI / ML / Chatbot</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/growth-details">
               <a>Growth Hacking</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/qa-details">
               <a>Quality Assurance</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/devops">
               <a>DevOps</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/data-engineering">
               <a>Data Engineering</a>
             </Link>
           </li>
           <li>
-            <Link href="#service">
+            <Link href="/branding">
               <a>Branding</a>
             </Link>
           </li>

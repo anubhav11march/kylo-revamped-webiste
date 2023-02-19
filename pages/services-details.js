@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const ServicesDetailsPage = () => {
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
+    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
       <PageHeader title="Services Details" crumbTitle="Services Details" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"

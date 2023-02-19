@@ -7,9 +7,8 @@ import PageHeader from "../../components/PageHeader";
 import PortfolioDetails from "../../components/PortfolioDetails";
 
 const TeamPage = () => {
-
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
+    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
       <PageHeader title="Portfolio Details" crumbTitle="Portfolio Details" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"

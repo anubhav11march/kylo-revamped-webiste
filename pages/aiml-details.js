@@ -8,7 +8,7 @@ import AiMlServicesDetails from "../components/AiMlServicesDetails";
 
 const ServicesDetailsPage = () => {
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
+    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
       <PageHeader title="Services Details" crumbTitle="Services Details" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"
@@ -16,7 +16,7 @@ const ServicesDetailsPage = () => {
         menuClass="main-menu-3"
       />
       <main>
-        <AiMlServicesDetails/>
+        <AiMlServicesDetails />
         <LetsWork />
       </main>
       <Footer />

@@ -43,23 +43,22 @@ const MEMBER_DATA = [
 ];
 const Recommendations = () => {
   return (
-    <section className="about__area  p-relative pt-120 pb-120 about__pb">
+    <section className="about__area  p-relative pt-120 pb-100 about__pb">
       <Container>
         <div className="about__title mb-80 text-center">
           <SectionTitle
             subTitle="RECOMMENDATIONS"
-            titleFirst="Globally trusted for"
-            titleSecond="innovative development"
+            titleFirst="Globally trusted for innovative development"
+            titleSecond=""
           />
         </div>
-        <Row className="d-flex justify-content-around">
-          <Marquee speed="150" gradient={false}>
-            {MEMBER_DATA.map(({ memberImg }, index) => (
-              <img src={memberImg} key={index} width="235px" className="mx-4" />
-            ))}
-          </Marquee>
-        </Row>
       </Container>
+
+      <Marquee pauseOnHover speed="80" gradient={false}>
+        {MEMBER_DATA.map(({ memberImg }, index) => (
+          <img src={memberImg} key={index} width="200px" className="mx-4" />
+        ))}
+      </Marquee>
     </section>
   );
 };

@@ -35,7 +35,7 @@ const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
                 />
               </div>
               <div className="about__thumb-image">
-                <img src="/assets/images/Home Page/H2.jpg" alt="" />
+                <img src="/assets/images/carrier/1.jpg" alt="" />
               </div>
             </div>
           </Col>

@@ -14,24 +14,28 @@ import Footer from "../components/Footer";
 
 const HomeTwo = () => {
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
-      <Header heroLogo="/assets/images/logo/Logo-white.svg"
-      headerClass="header__area-2"
-      menuClass="main-menu-2"
-      sideMenuClass="icon-white"
-      />      
+    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
+      <Header
+        heroLogo="/assets/images/logo/Logo-white.svg"
+        headerClass="header__area-2"
+        menuClass="main-menu-2"
+        sideMenuClass="icon-white"
+      />
       <main>
-        <HeroTwo/>      
-        <Maxdi/>      
-        <PortfolioTwo extraClass="pb-120"/>      
-        <Project subTitle="25 Years Of Experience"/>       
-        <Testimonial testimonialArea="testimonials__area-2" paddingTop="pt-110"/>     
-        <Pricing extraClass="mt-105"/>      
-        <Customer/>      
-        <BlogHome extraClass="pt-60"/>      
-        <LetsWork/>
-      </main> 
-      <Footer/>     
+        <HeroTwo />
+        <Maxdi />
+        <PortfolioTwo extraClass="pb-120" />
+        <Project subTitle="25 Years Of Experience" />
+        <Testimonial
+          testimonialArea="testimonials__area-2"
+          paddingTop="pt-110"
+        />
+        <Pricing extraClass="mt-105" />
+        <Customer />
+        <BlogHome extraClass="pt-60" />
+        <LetsWork />
+      </main>
+      <Footer />
     </Layout>
   );
 };

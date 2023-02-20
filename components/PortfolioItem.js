@@ -18,18 +18,18 @@ const PortfolioItem = ({
           <img src={portfolioImg} alt="portfolio" />
           <div className="portfolio__text">
             <p>{portfolioCat}</p>
-            <h3>
+            <h3 className="text-center">
               {/* <Link href={portfolioLink}> */}
               <a>{portfolioTitle}</a>
               {/* </Link> */}
             </h3>
-            <div className="portfolio__link">
-              {/* <Link href={portfolioLink}> */}
+            {/* <div className="portfolio__link">
+              <Link href={portfolioLink}>
               <a>
                 <i className="fas fa-plus"></i>
               </a>
-              {/* </Link> */}
-            </div>
+              </Link>
+            </div> */}
           </div>
         </div>
       </div>

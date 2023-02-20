@@ -43,22 +43,31 @@ const TESTIMONIAL_DATA = [
     company: "Stelo",
   },
   {
-    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientLogo: "/assets/images/testimonials/client-logo/joytshi.png",
     clientText:
       "Kylo Apps fulfilled all our requirements efficiently. They continuously roll out new features that help scale our business. Our customers are very satisfied with the website Kylo Apps made for us.",
-    clientImg: "/assets/images/testimonials/t-client-3.png",
+    clientImg: "/assets/images/testimonials/jyotishiVP.jpg",
     clientName: "Krishna K. Pidaparthy",
     clientPosition: "Founder",
     company: "Jyotishi",
   },
   {
-    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientLogo: "/assets/images/testimonials/client-logo/corp86Logo.png",
     clientText:
-      "It was a pleasure working with Kylo Apps. The passion and professionalism they showcased was exceptional. They worked on our dream project as if it was their own excellent data analysis, which allows us to manage our operations conveniently.",
-    clientImg: "/assets/images/testimonials/t-client-3.png",
-    clientName: "Kartik Gabra",
+      "It was a pleasure working with Kylo Apps. The passion and professionalism they showcased was exceptional. They worked on our dream project as if it was their own.",
+    clientImg: "/assets/images/testimonials/corp86Founder.jpg",
+    clientName: "Vineet Jain",
     clientPosition: "Founder",
     company: "Corp86",
+  },
+  {
+    clientLogo: "/assets/images/testimonials/client-logo/ubpLogo.png",
+    clientText:
+      "Kylo Apps offers one of the best software we have come across. The interface is user friendly, which is very easy to operate. It also provides us with excellent data analysis, which allows us to manage our operations conveniently.",
+    clientImg: "/assets/images/testimonials/ubpFounder.png",
+    clientName: "Kartik Gabra",
+    clientPosition: "Founder",
+    company: "UBP",
   },
 ];
 

@@ -34,15 +34,16 @@ const WhyKylo = ({ extraClass }) => {
                 className="why-kylo_title"
                 style={{ color: "white", textTransform: "uppercase" }}
               >
-                Why Kylo apps ?
+                Why Kylo apps?
               </h2>
               <h6
                 className="why-kylo_subtitle"
-                style={{ color: "white", marginTop: "20px" }}
+                style={{ color: "white", marginTop: "20px", fontWeigt: 300 }}
               >
-                Alone we can do so little, together we can achieve so much. Here
-                are some of the major highlights and perks of working at Kylo
-                Apps.
+                Coming together is the beginning, staying together is progress,
+                and working together is success.
+                <br /> Here are some of the major highlights and perks of
+                working at Kylo Apps.
               </h6>
             </div>
           </Col>
@@ -57,6 +58,10 @@ const WhyKylo = ({ extraClass }) => {
                     right: "25px",
                     bottom: "5px",
                     color: "white",
+                    background: "#7432ff",
+                    opacity: 0.8,
+                    borderRadius: "10px",
+                    padding: "5px",
                   }}
                 >
                   Diverse Team
@@ -74,7 +79,7 @@ const WhyKylo = ({ extraClass }) => {
                       height: "100%",
                       borderRadius: "10px",
                     }}
-                    src="/assets/images/carrier/5(1).jpg"
+                    src="/assets/images/carrier/2.jpg"
                   />
                 </div>
               </Col>
@@ -87,6 +92,10 @@ const WhyKylo = ({ extraClass }) => {
                     right: "25px",
                     bottom: "5px",
                     color: "white",
+                    background: "#7432ff",
+                    opacity: 0.8,
+                    borderRadius: "10px",
+                    padding: "5px",
                   }}
                 >
                   Recreational activities
@@ -104,7 +113,7 @@ const WhyKylo = ({ extraClass }) => {
                       height: "100%",
                       borderRadius: "10px",
                     }}
-                    src="/assets/images/carrier/IMG_2452.jpeg"
+                    src="/assets/images/carrier/3(3).jpg"
                   />
                 </div>
               </Col>
@@ -118,6 +127,10 @@ const WhyKylo = ({ extraClass }) => {
                     right: "25px",
                     bottom: "5px",
                     color: "white",
+                    background: "#7432ff",
+                    opacity: 0.8,
+                    borderRadius: "10px",
+                    padding: "5px",
                   }}
                 >
                   Frequent Parties
@@ -146,6 +159,10 @@ const WhyKylo = ({ extraClass }) => {
                     right: "25px",
                     bottom: "5px",
                     color: "white",
+                    background: "#7432ff",
+                    opacity: 0.8,
+                    borderRadius: "10px",
+                    padding: "5px",
                   }}
                 >
                   Work From Anywhere
@@ -163,7 +180,7 @@ const WhyKylo = ({ extraClass }) => {
                       height: "100%",
                       borderRadius: "10px",
                     }}
-                    src="/assets/images/carrier/12.jpg"
+                    src="/assets/images/carrier/wfh.jpg"
                   />
                 </div>
               </Col>
@@ -177,6 +194,10 @@ const WhyKylo = ({ extraClass }) => {
                     right: "25px",
                     bottom: "5px",
                     color: "white",
+                    background: "#7432ff",
+                    opacity: 0.8,
+                    borderRadius: "10px",
+                    padding: "5px",
                   }}
                 >
                   Rewarding Career
@@ -193,8 +214,9 @@ const WhyKylo = ({ extraClass }) => {
                       width: "100%",
                       height: "100%",
                       borderRadius: "10px",
+                      objectFit: "cover",
                     }}
-                    src="/assets/images/carrier/13.png"
+                    src="/assets/images/carrier/6.jpg"
                   />
                 </div>
               </Col>
@@ -235,6 +257,10 @@ const WhyKylo = ({ extraClass }) => {
                     right: "65px",
                     bottom: "5px",
                     color: "white",
+                    background: "#7432ff",
+                    opacity: 0.8,
+                    borderRadius: "10px",
+                    padding: "5px",
                   }}
                 >
                   Happy Environment
@@ -251,6 +277,7 @@ const WhyKylo = ({ extraClass }) => {
                       width: "100%",
                       height: "100%",
                       borderRadius: "10px",
+                      objectFit: "cover",
                     }}
                     src="/assets/images/carrier/7.jpg"
                   />

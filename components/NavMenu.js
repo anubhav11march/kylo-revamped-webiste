@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const NavMenu = ({ mobile }) => {
   const showActive = (e) => {
@@ -7,21 +8,24 @@ const NavMenu = ({ mobile }) => {
     clickedItem.querySelector(".submenu").classList.toggle("show");
     clickedItem.querySelector(".dropdown").classList.toggle("active");
   };
+  const router = useRouter();
+  const Path = router.pathname.replace("/", "");
+
   return (
     <ul className="main-menu__links">
       <li>
         <Link href="/">
-          <a>Home</a>
+          <a className={Path.length == 0 ? "active" : ""}>Home</a>
         </Link>
       </li>
 
       <li>
         <Link href="/about">
-          <a>About</a>
+          <a className={Path === "about" ? "active" : ""}>About</a>
         </Link>
       </li>
       <li>
-        <a>Services</a>
+        <a className={Path === "services" ? "active" : ""}>Services</a>
 
         <button className="dropdown" onClick={showActive}>
           <i className="fa-solid fa-chevron-left"></i>
@@ -77,7 +81,7 @@ const NavMenu = ({ mobile }) => {
 
       <li>
         <Link href="/portfolio">
-          <a>Portfolio</a>
+          <a className={Path === "portfolio" ? "active" : ""}>Portfolio</a>
         </Link>
       </li>
 
@@ -104,13 +108,13 @@ const NavMenu = ({ mobile }) => {
 
       <li>
         <Link href="/careers">
-          <a>Careers</a>
+          <a className={Path === "careers" ? "active" : ""}>Careers</a>
         </Link>
       </li>
 
       <li>
         <Link href="/blog">
-          <a>Blog</a>
+          <a className={Path === "blog" ? "active" : ""}>Blog</a>
         </Link>
       </li>
 

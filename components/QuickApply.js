@@ -10,8 +10,8 @@ const INITIAL_VALUES = {
   email: "",
   phone: "",
   designation: "",
-  resume: ""
-}
+  resume: "",
+};
 
 const QuickApply = () => {
   const [form, setForm] = useState(INITIAL_VALUES);
@@ -49,7 +49,7 @@ const QuickApply = () => {
       fullName: form.fullName,
       email: form.email,
       phone: form.phone,
-        designation: form.designation,
+      designation: form.designation,
       resume: URL.current,
     };
 
@@ -65,7 +65,7 @@ const QuickApply = () => {
       setUploading(false);
       alert("Application Sent !!");
       setForm(INITIAL_VALUES);
-      } else alert("Something went wrong!!");
+    } else alert("Something went wrong!!");
   };
 
   return (
@@ -136,7 +136,7 @@ const QuickApply = () => {
                       <div className="field-format d-sm-flex justify-content-between mb-40">
                         <div className="form-group pr-10 form-group-2">
                           <select name="designation" onChange={handleChange}>
-                            <option value="">Designation Applying for</option>
+                            <option value="">Position applying for</option>
                             <option value="React Developer">
                               React Developer
                             </option>

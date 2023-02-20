@@ -10,6 +10,7 @@ import BlogHome from "../components/BlogHome";
 import LetsWork from "../components/LetsWork";
 import Footer from "../components/Footer";
 import WhatWePromise from "../components/WhatWePromise";
+import Recommendations from "../components/Recommendations";
 
 const AboutPage = () => {
   return (
@@ -26,7 +27,9 @@ const AboutPage = () => {
           titleFirst="We bring your business"
           titleSecond="ideas to life by means of Technology"
         />
+        <Recommendations />
         <Experience extraClass="mt-70" />
+
         <WhatWePromise />
         <TeamHome subTitle="OUR TEAM" />
         {/* <Project extraClass="project__area-pt" subTitle="Get Started" /> */}

@@ -58,7 +58,7 @@ const Hero = () => {
               <h3 className="hero__title">
                 <span>Transforming businesses through</span>
               </h3>
-              <div>
+              <div style={{ height: "50px" }}>
                 <Typical
                   className="typingtext"
                   steps={[
@@ -74,7 +74,7 @@ const Hero = () => {
                     3000,
                     "Quality Assurance",
                     3000,
-                    "Devops",
+                    "DevOps",
                     3000,
                     "Data Engineering",
                     3000,
@@ -88,7 +88,7 @@ const Hero = () => {
               <p className="mt-3">
                 We are a Software Development company that builds top notch web
                 applications, mobile applications and other custom software for
-                startups, SMBs or well-established enterprises.
+                startups, SMBs and well-established enterprises.
               </p>
               <Link href="/portfolio">
                 <a className="m-btn mt-20">Explore our work</a>

@@ -34,25 +34,27 @@ const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
                   alt=""
                 />
               </div>
-              <div className="about__thumb-image">
+              <div className="about__thumb-image ml-2">
                 <img src="/assets/images/carrier/1.jpg" alt="" />
               </div>
             </div>
           </Col>
           <Col xl={{ span: 5, offset: 1 }} lg={6}>
             <div className="about__content">
-              <p>
+              <p className="mb-2">
                 Work with us to be a part of something that creates value for
                 its clients all over the world and to experience what a
-                collaborative team and work environment feels like. We value our
-                employees for who they are and believe that everyone is special
-                in their own unique way. We help in bringing out the best in our
-                employees, by giving them the finest opportunities and
-                challenges required for growth. With clear transparency in
-                structure, everyone in the team right from an intern to a senior
-                executive gets an equal chance to work and make an impact.
-                Flexible work timings and clear growth trajectory just add to
-                the perks of working at Kylo Apps.
+                collaborative team and fun work environment feels like. We value
+                our team for who they are and believe that everyone is special
+                in their own unique ways. We help in bringing out the best in
+                our teammates, by giving them the finest opportunities and
+                challenges required for growth.
+              </p>
+              <p>
+                With clear transparency in structure, everyone in the team right
+                from an intern to a senior executive gets an equal chance to
+                work and make an impact. Flexible work timings and clear growth
+                trajectory just add to the perks of working at Kylo Apps.
               </p>
               {/* <ul>
                 <li>Sea of Tranquility dispassionate observer dream.</li>

@@ -55,7 +55,7 @@ const Footer = () => {
                   <p>
                     A Software Development company that builds top notch web
                     applications, mobile applications and other custom software
-                    for startups, SMBs or well-established enterprises.
+                    for startups, SMBs and well-established enterprises.
                   </p>
                 </div>
                 <div className="footer__widget-social">

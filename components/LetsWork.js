@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
 import Link from "next/link";
 
-const LetsWork = () => {
+const LetsWork = ({ change }) => {
   return (
     <section className="lets-work__area p-relative pt-165 pb-160">
       <div className="lets-work__shape">
@@ -32,13 +32,23 @@ const LetsWork = () => {
         <Row>
           <Col xl={12}>
             <div className="lets-work__title text-center">
-              <SectionTitle
-                subTitle="THINK TECH, CHOOSE US"
-                titleFirst="Let’s build something "
-                titleSecond="innovative"
-              />
+              {!change ? (
+                <SectionTitle
+                  subTitle="LET’S WORK TOGETHER"
+                  titleFirst="Have more queries?"
+                  titleSecond=""
+                />
+              ) : (
+                <SectionTitle
+                  subTitle="THINK TECH, CHOOSE US"
+                  titleFirst="Let’s build something "
+                  titleSecond="innovative"
+                />
+              )}
               <Link href="/contact">
-                <a className="m-btn mt-35">Get in touch</a>
+                <a className="m-btn mt-35">
+                  {!change ? "Write to us" : "Get in touch"}
+                </a>
               </Link>
             </div>
           </Col>

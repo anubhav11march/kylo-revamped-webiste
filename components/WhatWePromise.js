@@ -35,7 +35,7 @@ const WhatWePromise = () => {
               <div className="facts__thumb-image">
                 {/* <img src="/assets/images/Home Page/H3.jpg" alt=""/> */}
                 <img
-                  src="https://maxdi.vercel.app/assets/images/facts/facts-img.png"
+                  src="\assets\images\Kylo Website Pics\facts-img.png"
                   alt=""
                 />
                 {/* <img src="/assets/images/facts/facts-img.png" alt=""/> */}

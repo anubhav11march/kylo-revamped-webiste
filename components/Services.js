@@ -9,42 +9,42 @@ const SERVICE_DATA = [
     serviceTitle: "Web App Development",
     serviceDesc:
       "We build beautiful and responsive frontend and backend supported web applications to fulfill real world client requirements.",
-    serviceLink: "/web-details",
+    serviceLink: "/web-app-development",
   },
   {
     serviceIcon: "/assets/images/icon/s-icon-3.png",
     serviceTitle: "Mobile App Development",
     serviceDesc:
       "We build Native and Cross Platform applications that will work dynamically and will perform well on all devices, screen sizes and resolutions.",
-    serviceLink: "/mobile-details",
+    serviceLink: "/mobile-app-development",
   },
   {
     serviceIcon: "/assets/images/icon/s-icon-1.png",
     serviceTitle: "UI/UX Designing",
     serviceDesc:
       "Everything great built seems futile, if it does not have a likable design. We create amazing user-friendly products and help your business stand out from the crowd using our UI/UX expertise.",
-    serviceLink: "/uiux-details",
+    serviceLink: "/uiux-designing",
   },
   {
     serviceIcon: "/assets/images/icon/ai.png",
     serviceTitle: "AI / ML / Chatbot",
     serviceDesc:
       "We’re always innovating and stay updated with upcoming trends in technology and will take you along on this journey.",
-    serviceLink: "/aiml-details",
+    serviceLink: "/aiml-development",
   },
   {
     serviceIcon: "/assets/images/icon/growth-w.png",
     serviceTitle: "Growth Hacking",
     serviceDesc:
       " We build products and ensure they reach the target audience which ultimately helps accelerate their company growth.",
-    serviceLink: "/growth-details",
+    serviceLink: "/growth-hacking",
   },
   {
     serviceIcon: "/assets/images/icon/qa.png",
     serviceTitle: "Quality Assurance",
     serviceDesc:
       "No product is deemed a market fit without rigorous testing, we have the solution to this test, our manual plus automation testing. ",
-    serviceLink: "/qa-details",
+    serviceLink: "/qa-assurance",
   },
   {
     serviceIcon: "/assets/images/icon/devops.png",

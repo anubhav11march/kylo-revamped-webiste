@@ -8552,3 +8552,23 @@ textarea {
     padding-left: 50px;
   }
 }
+.join-us {
+  padding: 30px 20px;
+  height: 325px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #23234c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.join-us h3 {
+  color: #23234c;
+}
+.join-us h4 {
+  font-size: 20px;
+}
+.join-us p:hover {
+  cursor: pointer;
+  color: #7432ff;
+}

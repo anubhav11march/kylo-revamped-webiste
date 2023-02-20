@@ -26,6 +26,7 @@ const AboutPage = () => {
           subTitle="ABout Us"
           titleFirst="We bring your business"
           titleSecond="ideas to life by means of Technology"
+          aboutpic={true}
         />
         <Recommendations />
         <Experience extraClass="mt-70" />

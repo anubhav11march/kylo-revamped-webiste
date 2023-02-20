@@ -5,52 +5,82 @@ import TeamMemberCard from "./TeamMemberCard";
 
 const MEMBER_DATA = [
   {
-    memberImg: "https://www.kyloapps.com/anubhav.jpeg",
-    memberLink: "/single-team",
+    memberImg: "../assets/images/team/Anubhav Mittal.png",
     memberName: "Anubhav Mittal",
     memberPosition: "Head - Research & Technology",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
+    memberImg: "../assets/images/team/Saumyaxyz.png",
     memberName: "Saumya Thakur",
     memberPosition: "Head - Marketing & Operations",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
+    memberImg: "../assets/images/team/Amit Sharma.png",
+    memberName: "Amit Sharma",
     memberPosition: "Head - Marketing & Operations",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
+    memberImg: "../assets/images/team/Arzoo Sirohi.png",
+    memberName: "Arzoo Sirohi",
     memberPosition: "Head - Marketing & Operations",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
+    memberImg: "../assets/images/team/Chaitanya Kumar Chandra.png",
+    memberName: "Chaitanya Kumar",
     memberPosition: "Head - Marketing & Operations",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
+    memberImg: "../assets/images/team/Mansha Rajpal.png",
+    memberName: "Mansha Rajpal",
     memberPosition: "Head - Marketing & Operations",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
+    memberImg: "../assets/images/team/MahfujarRahman.jpg",
+    memberName: "Mahfujar Rahman",
     memberPosition: "Head - Marketing & Operations",
   },
   {
-    memberImg: "https://www.kyloapps.com/saumya.jpeg",
-    memberLink: "/single-team",
-    memberName: "Saumya Thakur",
+    memberImg: "../assets/images/team/Nidhi Singh.png",
+    memberName: "Nidhi Singh",
     memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Pearl Singhal.png",
+    memberName: "Pearl Singhal",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Priya Verma.png",
+    memberName: "Priya Verma",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Resham Tolani.png",
+    memberName: "Resham Tolani",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Rohit Pal.png",
+    memberName: "Rohit Pal",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Sameer Khatri.png",
+    memberName: "Sameer Khatri",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Sulekha Bansal.png",
+    memberName: "Sulekha Bansal",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    memberImg: "../assets/images/team/Vikalp Kaushik.png",
+    memberName: "Vikalp Kaushik",
+    memberPosition: "Head - Marketing & Operations",
+  },
+  {
+    joinus: true,
   },
 ];
 
@@ -58,11 +88,11 @@ const TeamMember = ({ subTitle }) => {
   return (
     <section className="team__area pt-115 pb-80 mb-150 fix p-relative">
       <div className="team__shape">
-        <img
+        {/* <img
           className="t-shape-1"
           src="/assets/images/shape/testimonials/t-shape-1.png"
           alt=""
-        />
+        /> */}
         <img
           className="t-shape-2"
           src="/assets/images/shape/testimonials/t-shape-2.png"
@@ -96,13 +126,17 @@ const TeamMember = ({ subTitle }) => {
         </Row>
         <Row className="d-flex justify-content-around">
           {MEMBER_DATA.map(
-            ({ memberImg, memberLink, memberName, memberPosition }, index) => (
+            (
+              { memberImg, memberLink, memberName, memberPosition, joinus },
+              index
+            ) => (
               <TeamMemberCard
                 key={index}
                 memberImg={memberImg}
                 memberLink={memberLink}
                 memberName={memberName}
                 memberPosition={memberPosition}
+                joinus={joinus}
               />
             )
           )}

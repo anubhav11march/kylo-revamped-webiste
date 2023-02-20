@@ -32,32 +32,32 @@ const NavMenu = ({ mobile }) => {
         </button>
         <ul className="submenu">
           <li>
-            <Link href="/web-details">
+            <Link href="/web-app-development">
               <a>Web App Development</a>
             </Link>
           </li>
           <li>
-            <Link href="/mobile-details">
+            <Link href="/mobile-app-development">
               <a>Mobile App Development</a>
             </Link>
           </li>
           <li>
-            <Link href="/uiux-details">
+            <Link href="/uiux-designing">
               <a>UI/UX Designing</a>
             </Link>
           </li>
           <li>
-            <Link href="/aiml-details">
+            <Link href="/aiml-development">
               <a>AI / ML / Chatbot</a>
             </Link>
           </li>
           <li>
-            <Link href="/growth-details">
+            <Link href="/growth-hacking">
               <a>Growth Hacking</a>
             </Link>
           </li>
           <li>
-            <Link href="/qa-details">
+            <Link href="/qa-assurance">
               <a>Quality Assurance</a>
             </Link>
           </li>

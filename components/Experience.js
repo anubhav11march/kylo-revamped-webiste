@@ -65,7 +65,7 @@ const Experience = ({ extraClass }) => {
               <div className="experience__thumb text-end">
                 {/* <img src="/assets/images/Home Page/H4.jpg" alt="" /> */}
                 <img
-                  src="https://maxdi.vercel.app/assets/images/experience/experience-img.png"
+                  src="/assets/images/experience/experience-img.png"
                   alt=""
                 />
               </div>

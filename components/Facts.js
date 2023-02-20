@@ -33,10 +33,7 @@ const Facts = () => {
                 />
               </div>
               <div className="facts__thumb-image">
-                <img
-                  src="https://maxdi.vercel.app/assets/images/facts/facts-img.png"
-                  alt=""
-                />
+                <img src="/assets/images/facts/facts-img.png" alt="" />
               </div>
             </div>
           </Col>

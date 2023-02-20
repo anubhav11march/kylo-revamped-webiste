@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import CountUp from "react-countup";
 import SectionTitle from "./SectionTitle";
 
-const About = ({ subTitle, titleFirst, titleSecond }) => {
+const About = ({ subTitle, titleFirst, titleSecond, aboutpic }) => {
   return (
     <section className="about__area  p-relative pt-120 pb-120 about__pb">
       <Container>
@@ -34,7 +34,11 @@ const About = ({ subTitle, titleFirst, titleSecond }) => {
                 />
               </div>
               <div className="about__thumb-image">
-                <img src="/assets/images/Home Page/H2.jpg" alt="" />
+                {!aboutpic ? (
+                  <img src="/assets/images/Home Page/H2.jpg" alt="" />
+                ) : (
+                  <img src="/assets/images/about/about2.jpg" alt="" />
+                )}
               </div>
             </div>
           </Col>

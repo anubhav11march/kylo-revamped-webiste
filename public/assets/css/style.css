@@ -3110,7 +3110,7 @@ textarea {
   margin: 20px;
 }
 .portfolio__item:hover .portfolio__text {
-  bottom: 0;
+  bottom: -15px;
   visibility: visible;
   opacity: 1;
 }

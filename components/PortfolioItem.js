@@ -11,8 +11,7 @@ const PortfolioItem = ({
   return (
     <Col xl={4} lg={4} md={6}>
       <div
-        className="portfolio__item mb-30 wow fadeIn p-3"
-        data-wow-delay=".3s"
+        className="portfolio__item mb-30  p-3"
       >
         <div className="portfolio__image">
           <img src={portfolioImg} alt="portfolio" />

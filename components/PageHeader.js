@@ -46,7 +46,7 @@ const PageHeader = ({title, crumbTitle}) => {
           <Row className="align-items-center">
             <Col xl={6} lg={6} md={6} sm={10}>
               <div className="page__title-wrapper">
-                <h2 className="page__title-heading">{title}</h2>
+                <h2 className="page__title-heading"><nobr>{title}</nobr></h2>
               </div>
               {title === "Careers" ? (
                 <Link href="/careers/jobs">
@@ -55,7 +55,8 @@ const PageHeader = ({title, crumbTitle}) => {
                     style={{
                       background: "transparent",
                       border: "2px solid white",
-                      fontSize: "18px",
+                      fontSize: "21px",
+                      fontWeight : "550",
                       padding: "8px 30px",
                       borderRadius: "5px",
                       // marginLeft: "10px",

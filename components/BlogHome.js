@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
 import BlogHomeCard from "./BlogHomeCard";
 
+// import ScrollToTop from "react-scroll-to-top";
+
 const BlogHome = ({ extraClass }) => {
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
@@ -24,6 +26,7 @@ const BlogHome = ({ extraClass }) => {
 
   return (
     <section className={`blog__area fix p-relative ${extraClass} pb-225`}>
+      {/* <ScrollToTop style={{ zIndex : "999"}}/> */}
       <div className="blog__shape">
         <img
           className="blog-shape-1"

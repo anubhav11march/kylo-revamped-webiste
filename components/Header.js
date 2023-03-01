@@ -94,7 +94,7 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
                   <ul>
                     <li>
                       <i className="fas fa-map-marker-alt"></i>203-204, NDM 1,
-                      Netaji Subash Place, Pitampura, Delhi, India 110034
+                      Netaji Subjash Place, Pitampura, Delhi, India 110034
                     </li>
                     <div className="contact__info-content d-flex">
                       <div className="contact__info-icon">

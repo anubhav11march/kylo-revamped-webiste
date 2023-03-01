@@ -10,7 +10,7 @@ const PortfolioTwoItem = ({
   portfolioText,
   id,
 }) => {
-  const shortText = portfolioText.slice(0, 95);
+  const shortText = portfolioText.slice(0, 90);
   const [state, setState] = useState("");
   return (
     <Col xl={6} lg={6}>

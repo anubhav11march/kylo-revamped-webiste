@@ -1,154 +1,173 @@
 [
   {
-    "id": "1",
-    "portfolioImg": "/assets/images/portfolio/SOS.png",
-    "portfolioLink": "/portfolio/1",
-    "portfolioTitle": "SOS Children's Villages India",
+    "id": "12",
+    "portfolioImg": "/assets/images/portfolio/updated/SOS.png",
+    "portfolioLink": "/portfolio/12",
+    "portfolioTitle": "SOS Children's Village India",
     "portfolioText": "SOS Children's Village India uses social media and SOS Children's Village India websites to connect investors and entrepreneurs, with the potential to encourage entrepreneurship by broadening the pool of investors beyond the conventional circle of owners, family, and venture capitalists."
   },
   {
-    "id": "2",
-    "portfolioImg": "/assets/images/portfolio/Hiloramart.png",
-    "portfolioLink": "/portfolio/14",
-    "portfolioTitle": "Hilorke",
-    "portfolioText": "It is an e-commerce application that allows vendors to sell and advertise their items using short films/videos. Users can post their favourite short videos and purchase items through the same app. Whereas sellers can sell and show their product advertisements in between the short videos."
+    "id": "6",
+    "portfolioImg": "/assets/images/portfolio/updated/Panwari.png",
+    "portfolioLink": "/portfolio/6",
+    "portfolioTitle": "Panwari",
+    "portfolioText": "It is a B2B e-commerce mobile application that allows effortless onboarding of vendors and buyers on the platform. With simple and uncluttered navigation, the app brings together multiple vendors and consolidates their offerings under the same hood especially for paan shops."
   },
+  
   {
-    "id": "3",
-    "portfolioImg": "/assets/images/portfolio/Viosa.png",
-    "portfolioLink": "/single-portfolio",
+    "id": "16",
+    "portfolioImg": "/assets/images/portfolio/updated/Viosa.png",
+    "portfolioLink": "/portfolio/16",
     "portfolioTitle": "Viosa",
-    "portfolioText": "VIOSA is the EdTech industry's first unified technology platform that coaches students in acquiring sector-based competencies, helps them build their professional profiles, & guides them to achieve their aspirational employment through video courses, MCQ tests etc.The platform also has automated mock interviews where the users can practice in a real time interview environment with a real human like bot interviewer. Users can also create resumes in the easiest way possible with the help of AI powered by ChatGPT."
+    "portfolioText": "VIOSA is the EdTech industry's first unified technology platform that coaches students in acquiring sector-based competencies, helps them build their professional profiles, & guides them to achieve their aspirational employment through video courses, MCQ tests etc. The platform also has automated mock interviews where the users can practice in a real time interview environment with a real human like bot interviewer. Users can also create resumes in the easiest way possible with the help of AI powered by ChatGPT."
   },
-
   {
-    "id": "4",
-    "portfolioImg": "/assets/images/portfolio/Xpay.png",
-    "portfolioLink": "/portfolio/4",
+    "id": "2",
+    "portfolioImg": "/assets/images/portfolio/updated/xPay+.png",
+    "portfolioLink": "/portfolio/2",
     "portfolioTitle": "xPay+",
     "portfolioText": "xPay+ is a Fintech SAAS Platform offering Payment Solutions for Commercial Transport Industry & Corporates through prepaid loadable Rupay cards. Companies can manage fleet expenses, toll expenses, fuel expenses and lending to transport companies."
   },
   {
-    "id": "5",
-    "portfolioImg": "/assets/images/portfolio/Triponvo.png",
-    "portfolioLink": "/single-portfolio",
+    "id": "7",
+    "portfolioImg": "/assets/images/portfolio/updated/Triponvo.png",
+    "portfolioLink": "/portfolio/7",
     "portfolioTitle": "Triponvo",
     "portfolioText": "Plan your trip with real human beings. On Triponvo platform, travel experts can be onboarded and itineraries can be created for travellers for 50+ destinations. Travellers can also schedule one on one sessions with the travel experts for guidance."
   },
   {
-    "id": "6",
-    "portfolioImg": "/assets/images/portfolio/Glocal.png",
-    "portfolioLink": "/single-portfolio",
+    "id": "24",
+    "portfolioImg": "/assets/images/portfolio/updated/Glocal.png",
+    "portfolioLink": "/portfolio/24",
     "portfolioTitle": "Glocal CareX",
     "portfolioText": "Glocal CareX is a listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
   },
-
   {
-    "id": "7",
-    "portfolioImg": "/assets/images/portfolio/p-14.png",
-    "portfolioLink": "/portfolio/7",
-    "portfolioTitle": "Keto India",
-    "portfolioText": "Keto India is India ’ s largest Ketogenic consulting company that helps clients better manage their weight loss, PCOS, diabetes and thyroid through a personalized Ketogenic diet protocol."
-  },
-  {
-    "id": "8",
-    "portfolioImg": "/assets/images/portfolio/p-1.png",
-    "portfolioLink": "/portfolio/8",
+    "id": "1",
+    "portfolioImg": "/assets/images/portfolio/updated/Zeta.png",
+    "portfolioLink": "/portfolio/1",
     "portfolioTitle": "Zeta",
     "portfolioText": "No more concerns about gas mileage, gasoline prices, insurance, or vehicle breakdowns! Zeta has made driving around cities more convenient for commuters, and it is rapidly increasing its reach to multiple places. Customers enjoy greater control, privacy, and freedom thanks to Zeta's self-driving automobiles. With the Zeta app on your phone, you can book a self-drive automobile in whatever city you visit and feel right at home."
   },
   {
-    "id": "9",
-    "portfolioImg": "/assets/images/portfolio/p-17.png",
-    "portfolioLink": "/portfolio/9",
-    "portfolioTitle": "BillBerry",
-    "portfolioText": "It is a restaurant management software for users to track orders of different outlets, and analytical performance on different metrics. The application is available on Web, Android and IOS."
-  },
-  {
-    "id": "10",
-    "portfolioImg": "/assets/images/portfolio/p-8.png",
-    "portfolioLink": "/portfolio/10",
-    "portfolioTitle": "Bachat Cards - Earnest",
-    "portfolioText": "Bachat cards is a one stop destination for buying Prepaid virtual cards to manage users’ spending, loading and transactions on the platform. Users can also access their profiles, promo codes and redeem cashback against vouchers from multiple brands."
-  },
-  {
-    "id": "11",
-    "portfolioImg": "/assets/images/portfolio/p-9.png",
-    "portfolioLink": "/portfolio/11",
-    "portfolioTitle": "ERP App",
-    "portfolioText": "Logic ERP App is designed to solve the challenges of Retail, Distribution and Manufacturing business that keeps entrepreneurs tied to their desks. LOGIC ERP has been designed for Apparel and Footwear, FMCG, F&B, Electronics & Telecommunication and Pharmaceutical businesses that need complete visibility over their entire organisational structure."
+    "id": "3",
+    "portfolioImg": "/assets/images/portfolio/updated/Healthdbi.png",
+    "portfolioLink": "/portfolio/3",
+    "portfolioTitle": "HealthDBi",
+    "portfolioText": "HealthDBI is a Leads Management Platform for the healthcare industry in the United States. Companies can onboard and create teams and meticulously find leads from a database of more than 1 million records."
   },
 
   {
-    "id": "12",
-    "portfolioImg": "/assets/images/portfolio/p-5.png",
-    "portfolioLink": "/portfolio/12",
+    "id": "4",
+    "portfolioImg": "/assets/images/portfolio/updated/joya.png",
+    "portfolioLink": "/portfolio/4",
+    "portfolioTitle": "Joya",
+    "portfolioText": "Joya is one of the top companies in baby food products in Thailand selling D2C through their website and getting the customers onboarded for their subscriptions."
+  },
+  {
+    "id": "5",
+    "portfolioImg": "/assets/images/portfolio/updated/Flicksbuddy.png",
+    "portfolioLink": "/portfolio/5",
     "portfolioTitle": "Flicksbuddy",
     "portfolioText": "It is a social networking platform for Movies, TV shows and Web Series fans to connect with each other. Not only can you rate and review all that you watch, but you also get to share and discuss with your friends and the Flicksbuddy community."
   },
   {
-    "id": "13",
-    "portfolioImg": "/assets/images/portfolio/p-4.png",
-    "portfolioLink": "/portfolio/13",
-    "portfolioTitle": "Joya",
-    "portfolioText": "Joya is one of the top companies in baby food products in Thailand selling D2C through their website and getting the customers onboarded for their subscriptions."
+    "id": "8",
+    "portfolioImg": "/assets/images/portfolio/updated/Bachat Cards.png",
+    "portfolioLink": "/portfolio/8",
+    "portfolioTitle": "Bachat Cards",
+    "portfolioText": "Bachat cards is a one stop destination for buying Prepaid virtual cards to manage users’ spending, loading and transactions on the platform. Users can also access their profiles, promo codes and redeem cashback against vouchers from multiple brands."
   },
-
   {
-    "id": "14",
-    "portfolioImg": "/assets/images/portfolio/p-13.png",
-    "portfolioLink": "/portfolio/2",
+    "id": "9",
+    "portfolioImg": "/assets/images/portfolio/updated/Mega.png",
+    "portfolioLink": "/portfolio/9",
+    "portfolioTitle": "Mega Grain",
+    "portfolioText": "Mega Grain is a convenient trading facility that introduces buyers & sellers globally to perform business operations in Agri commodities. Likewise, other B2B platforms, Mega solution also goes through Seven easy processes which are Enquiry or Product Offer, Screen Verify Enquiry, Price Quoted, Negotiation, Inspection, Logistics  & Payment."
+  },
+  {
+    "id": "10",
+    "portfolioImg": "/assets/images/portfolio/updated/Flywise.png",
+    "portfolioLink": "/portfolio/10",
+    "portfolioTitle": "Flywise",
+    "portfolioText": "Flywise is India's best overseas education platform which unlike any traditional consultancies travel with you till you land your dream job in North America or Europe."
+  },
+  {
+    "id": "11",
+    "portfolioImg": "/assets/images/portfolio/updated/iMoney.png",
+    "portfolioLink": "/portfolio/11",
     "portfolioTitle": "iMoney",
     "portfolioText": "iMoney wallet started its journey in 2017, headquartered in New Delhi, India. Their strength lies in Digital Payments, Prepaid Cards, Cashbacks and Analytics. iMoney Wallet is considered as one of the most vibrant start-ups among peers. It has attracted top talents in the past two years."
   },
   {
-    "id": "15",
-    "portfolioImg": "/assets/images/portfolio/p-10.png",
-    "portfolioLink": "/portfolio/15",
-    "portfolioTitle": "Cafe Express",
-    "portfolioText": "It' s a B2B project deals with retailer and wholeseller , in webstore where different type of campaing for different customer"
+    "id": "13",
+    "portfolioImg": "/assets/images/portfolio/updated/Hermann Gmeiner.png",
+    "portfolioLink": "/portfolio/13",
+    "portfolioTitle": "Hermann Gmeiner Schools",
+    "portfolioText": "Hermann Gmeiner Schools & Training Institutions are under one the largest non profit organisations in the world- SOS Children's Villages and has over 12 institutions across India. All the 12 sites are lively and vibrant. Parents and students can log in to pay fees, store documents, watch tutorials etc."
   },
 
   {
-    "id": "16",
-    "portfolioImg": "/assets/images/portfolio/p-12.png",
-    "portfolioLink": "/portfolio/16",
-    "portfolioTitle": "Flywise",
-    "portfolioText": "Flywise is India ' s best overseas education platform which unlike any traditional consultancies travel with you till you land your dream job in North America and Europe"
+    "id": "14",
+    "portfolioImg": "/assets/images/portfolio/updated/Billberry.png",
+    "portfolioLink": "/portfolio/14",
+    "portfolioTitle": "Billberry",
+    "portfolioText": "It is a restaurant management software for users to track orders of different outlets, and analytical performance on different metrics. The application is available on Web, Android and IOS."
+  },
+  {
+    "id": "15",
+    "portfolioImg": "/assets/images/portfolio/updated/Finaccru.png",
+    "portfolioLink": "/portfolio/15",
+    "portfolioTitle": "Finaccru",
+    "portfolioText": "Finaccru helps to automate your accounting using technology such as Artificial Intelligence, Machine Learning and Robotic Process Automation (RPA), through our proprietary developed software, to perform tasks that would typically be done manually. This includes tasks such as bookkeeping, invoicing, and financial reporting."
   },
   {
     "id": "17",
-    "portfolioImg": "/assets/images/portfolio/p-16.png",
+    "portfolioImg": "/assets/images/portfolio/updated/Unicap.png",
     "portfolioLink": "/portfolio/17",
-    "portfolioTitle": "Hermann Gmeiner Schools & Training Institutions",
-    "portfolioText": "Hermann Gmeiner Schools & Training Institutions are under one the largest non profit organisations in the world- SOS Children's Villages and has over 12 institutions across India. All the 12 sites are lively and vibrant. Parents and students can log in to pay fees, store documents, watch tutorials etc."
+    "portfolioTitle": "Unicap",
+    "portfolioText": "Unicap is a Web Platform for curated investment opportunities beyond Stocks, Fixed Deposits and Gold in instruments such as Corporate bonds, Leasing, REITs, Startup Equity, Inventory financing etc."
   },
   {
     "id": "18",
-    "portfolioImg": "/assets/images/portfolio/p-3.png",
-    "portfolioLink": "/portfolio/3",
-    "portfolioTitle": "HealthDBi",
-    "portfolioText": "HealthDBI is a Leads Management Platform for healthcare industry in the United States. Companies can onboard and create teams and meticulously find leads from a database of more than 1 million records."
+    "portfolioImg": "/assets/images/portfolio/updated/Sammunati.png",
+    "portfolioLink": "/portfolio/18",
+    "portfolioTitle": "Samunnati",
+    "portfolioText": "Samunnati is an open agri network to unlock the trillion-dollar plus potential of Indian agriculture industry with smallholder farmers at the center of it. It is an educational streaming platform in regional languages for best agricultural practices."
   },
   {
     "id": "19",
-    "portfolioImg": "/assets/images/portfolio/SaverIt.png",
-    "portfolioLink": "/single-portfolio",
+    "portfolioImg": "/assets/images/portfolio/updated/SaverIt.png",
+    "portfolioLink": "/portfolio/19",
     "portfolioTitle": "SaverIt",
     "portfolioText": "It is a Mobile based restaurants commerce platform for restaurants to sell their surplus food prepared daily where customers can avail heavy discounts during the mentioned time period."
   },
   {
     "id": "20",
-    "portfolioImg": "/assets/images/portfolio/Kot_Kacheri.png",
-    "portfolioLink": "/single-portfolio",
+    "portfolioImg": "/assets/images/portfolio/updated/Kot Kacheri.png",
+    "portfolioLink": "/portfolio/20",
     "portfolioTitle": "Kot Kacheri",
     "portfolioText": "Kot Kacheri is an on demand legal services availing mobile application platform where users can create an account and choose from 20+ legal services like Tax filing, Corporate case, Personal cases etc. The users can share documents and get video consultation from the lawyers on the app itself."
   },
   {
     "id": "21",
-    "portfolioImg": "/assets/images/portfolio/p-11.png",
-    "portfolioLink": "/portfolio/6",
-    "portfolioTitle": "Mega Grain",
-    "portfolioText": "Mega Grain is a convenient trading facility that introduces buyers & sellers globally to perform business operations in Agri commodities. Likewise, other B2B platforms, Mega solution also goes through Seven easy processes which are Enquiry or Product Offer, Screen Verify Enquiry, Price Quoted, Negotiation, Inspection, Logistics  & Payment."
+    "portfolioImg": "/assets/images/portfolio/updated/Aspire.png",
+    "portfolioLink": "/portfolio/21",
+    "portfolioTitle": "Aspire",
+    "portfolioText": "Aspire is a Proptech company based out of Bangalore, India and selects only what's the best for you according to your requirements and provides a personalized home buying experience with all guidance needed for home loans and legal documentation to its registration. The platform also has a transformer homebuying experience dashboard, where homebuyers and builders can view all of their payments, documentations, amenities and everything else concerning to make their buying experience special and convenient."
+  },
+  {
+    "id": "22",
+    "portfolioImg": "/assets/images/portfolio/updated/LoopERP.png",
+    "portfolioLink": "/portfolio/22",
+    "portfolioTitle": "Loop ERP",
+    "portfolioText": "Loop ERP App is designed to solve the challenges of Retail, Distribution and Manufacturing business that keep entrepreneurs tied to their desks. Loop ERP has been designed for Apparel and Footwear, FMCG, F&B, Electronics & Telecommunication and Pharmaceutical businesses that need complete visibility over their entire organisational structure."
+  },
+  {
+    "id": "23",
+    "portfolioImg": "/assets/images/portfolio/updated/ActiveSollutions.png",
+    "portfolioLink": "/portfolio/23",
+    "portfolioTitle": "Active Solutions",
+    "portfolioText": "Active Solutions is an OEM company based out of Saudi Arabia with presence in GCC, MENA and APAC regions. They provide consulting services in various domains like product, project management, strategy, human resource and management."
   }
 ]

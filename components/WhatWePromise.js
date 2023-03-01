@@ -61,44 +61,38 @@ const WhatWePromise = () => {
                     <li>
                       <h5>Exceeding your expectations</h5>
                       <p>
-                        We don’t just like matching your expectations but rather
-                        crossing the line.
+                        We won’t just match your expectations but go above and beyond to exceed them.
                       </p>
                     </li>
                     <li>
                       <h5>Timely delivery</h5>
                       <p>
-                        Well timing is crucial isn’t it? You don’t have wait for
-                        long to work on your dream project.
+                        Well timing is crucial isn’t it? You don’t have to wait for long to launch your dream project.
                       </p>
                     </li>
                     <li>
                       <h5>Tech Support</h5>
                       <p>
-                        All our services come with free 2 months tech support.
-                        Any production bugs that shouldn’t be there would be
-                        resolved free of cost.
+                        All our services come with free 2 months tech support. Any production bugs that shouldn’t be there would be resolved free of cost.
                       </p>
                     </li>
                     <li>
                       <h5>Best pricing in the industry</h5>
                       <p>
-                        Why pay someone else more, when you can get a better
-                        work done for cheaper? We’ll do it for you.
+                        Why pay someone else more, when you can get better work done for lesser? We’ll do it for you.
                       </p>
                     </li>
                     <li>
                       <h5>Bugs free applications</h5>
                       <p>
-                        Who likes bugs? We don’t either. We make sure to squish
-                        even the tiniest bugs.
+                        Who likes bugs? We don’t either. We make sure to squish even the tiniest bugs.
+
                       </p>
                     </li>
                     <li>
                       <h5>Innovation</h5>
                       <p>
-                        We keep coming up with new and innovative features to
-                        make your business stand out.
+                        We keep coming up with new and innovative technologies to make your business stand out.
                       </p>
                     </li>
                   </ul>

@@ -146,7 +146,7 @@ const ContactForm = () => {
                         className="form-control"
                         name="phone"
                         placeholder="Phone Number"
-                        maxLength={10}
+                        maxLength={15}
                         minLength={10}
                         required
                         value={form.phone}

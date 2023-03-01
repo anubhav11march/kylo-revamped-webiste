@@ -1,6 +1,9 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 import Link from "next/link";
+import logo from "../public/assets/images/logo/favicon.png"
+
+import Image from "next/image";
 
 const TeamMemberCard = ({
   memberImg,
@@ -19,7 +22,7 @@ const TeamMemberCard = ({
           <div className="team__content text-center">
             {/* <Link href={memberLink}> */}
             <a>
-              <h3 className="team__title">{memberName}</h3>
+              <h3 className="team__title text-left" style={{ marginRight: "5px" }}>{memberName}</h3>
             </a>
             {/* </Link> */}
             <span className="team__position">{memberPosition}</span>
@@ -28,10 +31,16 @@ const TeamMemberCard = ({
       ) : (
         <>
           <div className="join-us">
-            <h3>Careers</h3>
-            <h4>This could be you ! Come work with us at Kylo Apps</h4>
+            <div style={{ display : "flex"}}>
+              <Image src={logo} width={"35px"} height={"1px"} alt="kylo-logo" />
+              <h3 style={{ marginBottom : "0px", marginLeft : "12px" }}>
+
+                Careers
+              </h3>
+            </div>
+            <p>This could be you ! Come work with us at Kylo Apps</p>
             <Link href="/careers">
-              <p>see open positions</p>
+              <h6>view openings</h6>
             </Link>
           </div>
         </>

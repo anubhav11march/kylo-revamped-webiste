@@ -1,9 +1,13 @@
-import React, { useRef, useState } from "react";
+//TODO: Fix routes, api and put mapping in functions 
+
+import React, { useRef, useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { storage } from "../firebase/firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { v4 } from "uuid";
 import Spinner from "react-bootstrap/Spinner";
+
+import { useRouter } from 'next/router'
 
 const INITIAL_VALUES = {
   fullName: "",
@@ -14,9 +18,17 @@ const INITIAL_VALUES = {
 };
 
 const QuickApply = () => {
+
+  const { push, query } = useRouter();
+  const [jobData, setJobData] = useState([]);
+  const [isLoading, setLoading] = useState(false);
+
   const [form, setForm] = useState(INITIAL_VALUES);
   const [fileUpload, setFileupload] = useState(null);
   const [uploading, setUploading] = useState(false);
+
+  const [uploadSuccess, setUploadSuccess] = useState(false);
+
   const URL = useRef();
 
   const uploadFile = async () => {
@@ -67,6 +79,29 @@ const QuickApply = () => {
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!!");
   };
+
+  // useEffect(() => {
+  //   if (!jobData) {
+  //     fetch(`/api/jobs?department=${query.department}&workType=${query.workType}`)
+  //       .then((res) => res.json())
+  //       .then((data) => {
+  //         setJobData(data?.data);
+  //         console.log(`jobData`, jobData)
+  //       });
+  //   }
+  //   //FIXME: Query in dependency array isnt fetching the data and jobData is making infinite calls 
+  // }, [jobData]);
+
+  useEffect(() => {
+    setLoading(true);
+    fetch(`/api/jobs?department=${query.department}&workType=${query.workType}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setJobData(data?.data);
+        console.log(`jobData : `, jobData)
+        setLoading(false);
+      });
+  }, [query, uploadSuccess]);
 
   return (
     <section className="about__area fix p-relative pt-110 pb-120 about__pb quick_apply_career">
@@ -137,12 +172,11 @@ const QuickApply = () => {
                         <div className="form-group pr-10 form-group-2">
                           <select name="designation" onChange={handleChange}>
                             <option value="">Position applying for</option>
-                            <option value="React Developer">
-                              React Developer
-                            </option>
-                            <option value="Backend Developer">
-                              Backend Developer
-                            </option>
+                            {
+                              jobData.length > 0 && jobData.map((x, y) =>
+                                <option key={y}>{x.jobTitle}</option>)
+
+                            }
                           </select>
                         </div>
                       </div>
@@ -189,9 +223,15 @@ const QuickApply = () => {
                             aria-hidden="true"
                           />
                         ) : (
+
                           "Send to us"
                         )}
                       </button>
+                      {uploadSuccess ?
+                        <h6 style={{ paddingTop: "21px" }}>Application submitted Successfully!</h6>
+                        :
+                        <></>
+                      }
                     </form>
                   </div>
                 </Col>

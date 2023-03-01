@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 
 const DB_URL =
     "mongodb+srv://tanwarAalok:kyloapps@cluster0.8kuaxur.mongodb.net/?retryWrites=true&w=majority";
+
+// const DB_URL = "mongodb://localhost:27017/kylo-test"
   
 const connectDatabase = () => {
   mongoose

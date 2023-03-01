@@ -69,7 +69,7 @@ const PortfolioDetails = () => {
                       <i className="fa-solid fa-screwdriver-wrench blue"></i>
                     </div>
                     <div className="values__content-text">
-                      <h3>Creative UI/UX Design</h3>
+                      <h3>Creative UI/UX Designing</h3>
                       <p>
                         Energy only home we&apos;ve ever known radio telescope
                         decipherment descended from rogue.

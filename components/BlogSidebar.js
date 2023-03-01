@@ -1,7 +1,26 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const BlogSidebar = () => {
+
+  const [data, setData] = useState(null);
+  const [isLoading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    fetch("/api/blogs")
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data?.data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No blog data</p>;
+
+  const topBlog = data.slice(0, 3);
+
   return (
     <div className="blog__sidebar">
       <div className="sidebar__widget-search mb-40">
@@ -42,69 +61,34 @@ const BlogSidebar = () => {
         </div>
         <div className="sidebar__rc">
           <ul>
-            <li className="sidebar__rc-item">
-              <div className="sidebar__rc-thumb">
-                <Link href="/single-blog">
-                  <a>
-                    <img src="/assets/images/blog/rc-1.jpg" alt="blog" />
-                  </a>
-                </Link>
-              </div>
-              <div className="sidebar__rc-content">
-                <h5>
-                  <Link href="/single-blog">
-                    <a>Post launch show initial product target business</a>
-                  </Link>
-                </h5>
-                <div className="sidebar__rc-meta">
-                  <span>
-                    <i className="fa-solid fa-calendar-days"></i>22 Mar 2022
-                  </span>
-                </div>
-              </div>
-            </li>
-            <li className="sidebar__rc-item">
-              <div className="sidebar__rc-thumb">
-                <Link href="/single-blog">
-                  <a>
-                    <img src="/assets/images/blog/rc-2.jpg" alt="blog" />
-                  </a>
-                </Link>
-              </div>
-              <div className="sidebar__rc-content">
-                <h5>
-                  <Link href="/single-blog">
-                    <a>Business transformation with abstract solutions</a>
-                  </Link>
-                </h5>
-                <div className="sidebar__rc-meta">
-                  <span>
-                    <i className="fa-solid fa-calendar-days"></i>22 Mar 2022
-                  </span>
-                </div>
-              </div>
-            </li>
-            <li className="sidebar__rc-item">
-              <div className="sidebar__rc-thumb">
-                <Link href="/single-blog">
-                  <a>
-                    <img src="/assets/images/blog/rc-3.jpg" alt="blog" />
-                  </a>
-                </Link>
-              </div>
-              <div className="sidebar__rc-content">
-                <h5>
-                  <Link href="/single-blog">
-                    <a>Kindling the energy hidden in matter only home</a>
-                  </Link>
-                </h5>
-                <div className="sidebar__rc-meta">
-                  <span>
-                    <i className="fa-solid fa-calendar-days"></i>22 Mar 2022
-                  </span>
-                </div>
-              </div>
-            </li>
+            {topBlog?.map(
+              (
+                { _id, thumbnail, category, date, title },
+                index
+              ) => (
+                <li className="sidebar__rc-item">
+                  <div className="sidebar__rc-thumb">
+                    <Link href={`/blog/${_id}`}>
+                      <a>
+                        <img src={thumbnail} alt="blog" />
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="sidebar__rc-content">
+                    <h5>
+                      <Link href="/single-blog">
+                        <a>{title}</a>
+                      </Link>
+                    </h5>
+                    <div className="sidebar__rc-meta">
+                      <span>
+                        <i className="fa-solid fa-calendar-days"></i>{date.slice(4, 15)}
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              )
+            )}
           </ul>
         </div>
       </div>
@@ -123,7 +107,7 @@ const BlogSidebar = () => {
             <a>Web Design</a>
           </Link>
           <Link href="/single-blog">
-            <a>UI/UX Design</a>
+            <a>UI/UX Designing</a>
           </Link>
           <Link href="/single-blog">
             <a>Landing</a>

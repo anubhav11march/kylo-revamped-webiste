@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className="contact__info-title">
                   <h5>Office Address</h5>
                   <p>
-                    203-204, NDM 1, Netaji Subash Place, Pitampura, Delhi, India
+                    203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi, India
                     110034
                   </p>
                 </div>

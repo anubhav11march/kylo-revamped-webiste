@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 const ContactPage = () => {
   return (
     <Layout pageTitle=" KYLO APPS | Transforming businesses through">
-      <PageHeader title="Contact us" crumbTitle="Contact us" />
+      <PageHeader title="Contact Us" crumbTitle="Contact Us" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"
         headerClass="header__white"
@@ -19,7 +19,7 @@ const ContactPage = () => {
       <main>
         <Contact />
         <ContactForm />
-        <LetsWork />
+        {/* <LetsWork /> */}
       </main>
       <Footer />
     </Layout>

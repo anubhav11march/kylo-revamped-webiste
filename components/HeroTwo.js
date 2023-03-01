@@ -7,7 +7,7 @@ import HeroService from './HeroService';
 const HERO_DATA = [
     {
       serviceIcon:"/assets/images/icon/s2-icon-1.png",
-      serviceTitle:"UI/UX Design",
+      serviceTitle:"UI/UX Designing",
       serviceDesc:"Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.",
       serviceLink:"/services-details",
       bgClass:"single__bg-pink",

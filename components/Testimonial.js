@@ -7,37 +7,37 @@ import TestimonialCard from "./TestimonialCard";
 
 const TESTIMONIAL_DATA = [
   {
-    clientLogo: "/assets/images/testimonials/client-logo/google.png",
+    clientLogo: "/assets/images/testimonials/client-logo/RentoutLogo.png",
     clientText:
-      "Team Kylo has been highly available, they have low latency with failover policy. Also, they are very responsive and ready to fix any type of application issues. They delivered an amazing application to us.",
-    clientImg: "/assets/images/testimonials/t-client-1.png",
+      "Team Kylo has been highly reliable. Also, they are very responsive and ready to fix any type of application issues. Their biggest strength is their pricing which is unbeatable in the market. They delivered an amazing application to us.",
+    clientImg: "/assets/images/testimonials/RentoutFounder",
     clientName: "Bhanu Pasyavula",
     clientPosition: "Founder",
     company: "Rentout",
   },
   {
-    clientLogo: "/assets/images/testimonials/client-logo/payoneer.png",
+    clientLogo: "/assets/images/testimonials/client-logo/ActiveSolutionsLogo.png",
     clientText:
-      "Understanding the customer requirement with pinpoint accuracy is something that Kylo strives for. The flexibility with which the team operates and cooperates really helps us in banking on the team at ease.They put in great effort to make us understand the complexities and helped us feel comfortable with their customer centric approach and interaction.",
-    clientImg: "/assets/images/testimonials/t-client-2.png",
+      "Understanding the customers’ requirement with accuracy is what Kylo strives for. They put in great effort to make us understand the complexities and helped us feel comfortable with their customer centric approach and interaction.",
+    clientImg: "/assets/images/testimonials/ActiveSolutionsMD.png",
     clientName: "Bharath Aditya",
     clientPosition: "Managing Director",
     company: "Active Solutions",
   },
   {
-    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientLogo: "/assets/images/testimonials/client-logo/HitikitLogo.png",
     clientText:
-      "Being a start-up, we were looking for a team who can  develop the perfect product from our thoughts and guide us in kickoff. It's really appreciative that the Kylo team was innovative to give us a product better than our expectations. Their biggest strength is their pricing which is unbeatable in the market. Kudos to their flexibility!",
-    clientImg: "/assets/images/testimonials/t-client-3.png",
+      "Being a start-up, we were looking for a team who can develop the perfect product we envisioned and guide us in kickoff. It's commendable that Kylo was innovative in giving us a product better than what we visualised.",
+    clientImg: "/assets/images/testimonials/HitikitFounder.png",
     clientName: "Manideep Mittapeli",
     clientPosition: "Founder",
-    company: "Heybuddy",
+    company: "Hitikit",
   },
   {
-    clientLogo: "/assets/images/testimonials/client-logo/instagram.png",
+    clientLogo: "/assets/images/testimonials/client-logo/SteloLogo.png",
     clientText:
-      "Kylo Apps is wonderful for developing applications. They supported as per our requirements and made an innovative app which exceeded our expectations. All their team members were very cooperative and responsive",
-    clientImg: "/assets/images/testimonials/t-client-3.png",
+      "Kylo Apps delivered a top-notch app which exceeded our expectations. The responsibility with which the team operated really helped us in banking on them easily. All their team members were very cooperative and responsive.",
+    clientImg: "/assets/images/testimonials/SteloFounder.png",
     clientName: "Sumeet Jain",
     clientPosition: "Founder",
     company: "Stelo",
@@ -45,7 +45,7 @@ const TESTIMONIAL_DATA = [
   {
     clientLogo: "/assets/images/testimonials/client-logo/joytshi.png",
     clientText:
-      "Kylo Apps fulfilled all our requirements efficiently. They continuously roll out new features that help scale our business. Our customers are very satisfied with the website Kylo Apps made for us.",
+      "Apps fulfilled all our requirements efficiently and supported us even after the launch. They continuously roll out new features that help scale our business. Our customers are very satisfied with the app Kylo Apps made for us.",
     clientImg: "/assets/images/testimonials/jyotishiVP.jpg",
     clientName: "Krishna K. Pidaparthy",
     clientPosition: "Founder",
@@ -54,7 +54,7 @@ const TESTIMONIAL_DATA = [
   {
     clientLogo: "/assets/images/testimonials/client-logo/corp86Logo.png",
     clientText:
-      "It was a pleasure working with Kylo Apps. The passion and professionalism they showcased was exceptional. They worked on our dream project as if it was their own.",
+      "It was a pleasure working with Kylo Apps. The passion and professionalism they showcased was exceptional. They worked on our dream project as if it was their own. I highly appreciate their dedication and flexibility.",
     clientImg: "/assets/images/testimonials/corp86Founder.jpg",
     clientName: "Vineet Jain",
     clientPosition: "Founder",
@@ -63,7 +63,7 @@ const TESTIMONIAL_DATA = [
   {
     clientLogo: "/assets/images/testimonials/client-logo/ubpLogo.png",
     clientText:
-      "Kylo Apps offers one of the best software we have come across. The interface is user friendly, which is very easy to operate. It also provides us with excellent data analysis, which allows us to manage our operations conveniently.",
+      "Kylo offers one of the best development services we have come across. The user interface is flawless and very easy to operate. It also provides us with excellent data analysis, which allows us to manage our operations conveniently.",
     clientImg: "/assets/images/testimonials/ubpFounder.png",
     clientName: "Kartik Gabra",
     clientPosition: "Founder",
@@ -117,7 +117,10 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
         <Row>
           <Col xl={12}>
             <Swiper
-              navigation={true}
+              navigation={{
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+              }}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
@@ -164,6 +167,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
                 )
               )}
             </Swiper>
+            <h6>Swiper Error</h6>
             <div className="swiper-pagination"></div>
           </Col>
         </Row>

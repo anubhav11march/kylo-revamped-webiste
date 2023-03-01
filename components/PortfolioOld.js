@@ -6,7 +6,7 @@ import PortfolioItem from './PortfolioItem';
 const PORTFOLIO_DATA = [
     {
       portfolioImg:"/assets/images/portfolio/portfolio-1.jpg",
-      portfolioCat:"UI/UX Design",
+      portfolioCat:"UI/UX Designing",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
       id:"ui/ux"
@@ -76,7 +76,7 @@ const Services = () => {
                                     </div>
                                     <div className="portfolio__menu">
                                         <button onClick={()=>setItems(PORTFOLIO_DATA)}>Show All</button>
-                                        <button onClick={()=>filterItem('ui/ux')}>UI/UX Design</button>
+                                        <button onClick={()=>filterItem('ui/ux')}>UI/UX Designing</button>
                                         <button onClick={()=>filterItem('marketing')}>Marketing</button>
                                         <button onClick={()=>filterItem('development')}>Development</button>
                                         <button onClick={()=>filterItem('writing')}>Content Writing</button>

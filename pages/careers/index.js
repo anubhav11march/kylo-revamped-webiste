@@ -8,6 +8,7 @@ import KyloDes from "../../components/KyloDes";
 import WhyKylo from "../../components/Whykylo";
 import QuickApply from "../../components/QuickApply";
 import LifeAtKylo from "../../components/LifeAtKylo";
+import WriteToUs from "../../components/WriteToUs";
 
 const Careers = () => {
   return (
@@ -19,11 +20,12 @@ const Careers = () => {
         menuClass="main-menu-3"
       />
       <main>
-        <KyloDes subTitle="Kylo Apps" titleFirst="Careers at Kylo Apps" />
+        <KyloDes subTitle="See Where You Fit In" titleFirst="Careers at Kylo Apps" />
         <WhyKylo />
         <LifeAtKylo />
         <QuickApply />
-        <LetsWork />
+        {/* <LetsWork /> */}
+        <WriteToUs />
       </main>
       <Footer />
     </Layout>

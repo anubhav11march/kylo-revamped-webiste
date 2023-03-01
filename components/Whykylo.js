@@ -254,13 +254,13 @@ const WhyKylo = ({ extraClass }) => {
                 <p
                   style={{
                     position: "absolute",
-                    right: "65px",
+                    right: "66px",
                     bottom: "5px",
                     color: "white",
                     background: "#7432ff",
                     opacity: 0.8,
                     borderRadius: "10px",
-                    padding: "5px",
+                    padding: "6px",
                   }}
                 >
                   Happy Environment

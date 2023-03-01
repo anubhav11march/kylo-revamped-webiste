@@ -1,9 +1,39 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
 import Link from "next/link";
 
 const Footer = () => {
+
+  const [email, setEmail] = useState("");
+  const [submitted, setSubmitted] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("email: ", email);
+
+    const res = await fetch("/api/emails", {
+      method: "POST",
+      body: JSON.stringify(email),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    const data = await res.json();
+    console.log(`Form DATA : `, data)
+    if (data.success) {
+      alert("Subscribed to the Newsletter !!");
+      setEmail("");
+    } else {
+      setSubmitted(false);
+      // alert("Something went wrong!!");
+    }
+  };
+
+  useEffect(() => {
+    <></>
+  }, [submitted])
   return (
     <footer>
       <div className="footer__area fix p-relative pt-150 pb-40">
@@ -32,16 +62,24 @@ const Footer = () => {
             </Col>
             <Col xxl={{ span: 5, offset: 1 }} xl={5} lg={4} md={4}>
               <div className="footer__subscribe">
-                <form action="#">
+                <form onSubmit={handleSubmit}>
                   <div className="footer__subscribe-input">
                     <div className="form-group">
                       <input
                         type="email"
                         className="form-control"
                         placeholder="Email address"
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>
-                    <button type="submit">Subscribe</button>
+                    {
+                      submitted == false ? 
+                      
+                      <button type="disabled">Subscribed !</button>
+                      :
+                      <button type="submit">Subscribe</button>
+
+                    }
                   </div>
                 </form>
               </div>
@@ -60,27 +98,27 @@ const Footer = () => {
                 </div>
                 <div className="footer__widget-social">
                   <Link href="https://www.linkedin.com/company/kylo-apps">
-                    <a>
+                    <a target={"_blank"}>
                       <i className="fa-brands fa-linkedin"></i>
                     </a>
                   </Link>
                   <Link href="https://www.instagram.com/kyloappsglobal/">
-                    <a>
+                    <a target={"_blank"}>
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </Link>
                   <Link href="https://twitter.com/kyloapps">
-                    <a>
+                    <a target={"_blank"}>
                       <i className="fa-brands fa-twitter"></i>
                     </a>
                   </Link>
                   <Link href="https://www.youtube.com/@kyloapps">
-                    <a>
+                    <a target={"_blank"}>
                       <i className="fa-brands fa-youtube"></i>
                     </a>
                   </Link>
                   <Link href="https://www.facebook.com/kyloapps">
-                    <a>
+                    <a target={"_blank"}>
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
                   </Link>
@@ -95,33 +133,48 @@ const Footer = () => {
                 <div className="footer__widget-link">
                   <ul>
                     <li>
-                      <Link href="/web-details">
+                      <Link href="/web-app-development">
                         <a id="footer_link">Web App Development</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/mobile-details">
+                      <Link href="/mobile-app-development">
                         <a id="footer_link">Mobile App Development</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/uiux-details">
-                        <a id="footer_link">UI/UX Design</a>
+                      <Link href="/uiux-designing">
+                        <a id="footer_link">UI/UX Designing</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/aiml-details">
+                      <Link href="/aiml-development">
                         <a id="footer_link">AI/ML/Chatbot</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/growth-details">
+                      <Link href="/growth-hacking">
                         <a id="footer_link">Growth Hacking</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/qa-details">
+                      <Link href="/qa-assurance">
                         <a id="footer_link">Quality Assurance</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/devops">
+                        <a id="footer_link">DevOps</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/data-engineering">
+                        <a id="footer_link">Data Engineering</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/branding">
+                        <a id="footer_link">Branding</a>
                       </Link>
                     </li>
                   </ul>
@@ -146,7 +199,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/career">
+                      <Link href="/careers">
                         <a id="footer_link">Careers</a>
                       </Link>
                     </li>
@@ -173,7 +226,7 @@ const Footer = () => {
                 <div className="footer__widget-info">
                   <div className="footer__widget-address">
                     <p>
-                      203-204, NDM 1, Netaji Subash Place, Pitampura, Delhi,
+                      203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi,
                       India 110034
                     </p>
                   </div>

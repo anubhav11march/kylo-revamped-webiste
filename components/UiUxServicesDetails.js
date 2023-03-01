@@ -32,7 +32,7 @@ const UiUxServicesDetails = () => {
                 <img src="assets/images/Services/ui ux.jpg" alt="" />
               </div>
               <div className="services__details-content">
-                <h2>UI/UX Design</h2>
+                <h2>UI/UX Designing</h2>
                 <p>
                   Everything great built seems futile, if it does not have a
                   likeable design.

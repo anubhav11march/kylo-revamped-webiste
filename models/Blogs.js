@@ -1,3 +1,4 @@
+//Will pass .toUTCString().slice(5,16) to date;
 import mongoose from "mongoose";
 
 const BlogSchema = new mongoose.Schema({
@@ -9,7 +10,7 @@ const BlogSchema = new mongoose.Schema({
   category: { type: String, required: true },
   description: { type: String, required: true },
   date: {
-    type: Date,
+    type: String,
     default: Date.now(),
   },
 });

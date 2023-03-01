@@ -15,7 +15,7 @@ import Recommendations from "../components/Recommendations";
 const AboutPage = () => {
   return (
     <Layout pageTitle="Kylo Apps | Business & Digital Agency">
-      <PageHeader title="About us" crumbTitle="About us" />
+      <PageHeader title="About Us" crumbTitle="About Us" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"
         headerClass="header__white"
@@ -35,7 +35,7 @@ const AboutPage = () => {
         <TeamHome subTitle="OUR TEAM" />
         {/* <Project extraClass="project__area-pt" subTitle="Get Started" /> */}
         {/* <BlogHome extraClass="pt-110" /> */}
-        {/* <LetsWork /> */}
+        <LetsWork change={true}/>
       </main>
       <Footer />
     </Layout>

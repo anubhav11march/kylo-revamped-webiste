@@ -21,7 +21,7 @@ const ServiceSidebar = () => {
             </li>
             <li>
               <Link href="/uiux-details">
-                <a>UI/UX Design</a>
+                <a>UI/UX Designing</a>
               </Link>
             </li>
             <li>

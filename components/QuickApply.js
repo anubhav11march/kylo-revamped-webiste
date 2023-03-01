@@ -75,6 +75,7 @@ const QuickApply = () => {
     const data = await res.json();
     if (data.success) {
       setUploading(false);
+      setUploadSuccess(true);
       alert("Application Sent !!");
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!!");

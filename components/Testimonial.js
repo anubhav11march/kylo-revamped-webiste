@@ -167,7 +167,6 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
                 )
               )}
             </Swiper>
-            <h6>Swiper Error</h6>
             <div className="swiper-pagination"></div>
           </Col>
         </Row>

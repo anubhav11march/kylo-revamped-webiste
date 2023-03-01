@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const INITIAL_VALUES = {
@@ -12,7 +12,10 @@ const INITIAL_VALUES = {
 };
 
 const ContactForm = () => {
+
   const [form, setForm] = useState(INITIAL_VALUES);
+
+  const [uploadSuccess, setUploadSuccess] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -36,6 +39,10 @@ const ContactForm = () => {
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!!");
   };
+
+  useEffect(() => {
+    <></>
+  }, [uploadSuccess])
 
   return (
     <section
@@ -184,6 +191,11 @@ const ContactForm = () => {
                   <button type="submit" className="m-btn">
                     Send to us
                   </button>
+                  {uploadSuccess ?
+                    <h6 style={{ paddingTop: "21px" }}>Application submitted Successfully!</h6>
+                    :
+                    <></>
+                  }
                 </form>
               </div>
             </div>

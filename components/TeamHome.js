@@ -5,77 +5,77 @@ import TeamMemberCard from "./TeamMemberCard";
 
 const MEMBER_DATA = [
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Anubhav Mittal.png",
+    memberImg: "/assets/images/team/kyloteamupdated/Anubhav Mittal.png",
     memberName: "Anubhav Mittal",
     memberPosition: "Founder",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Saumya Thakur.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Saumya Thakur.jpeg",
     memberName: "Saumya Thakur",
     memberPosition: "Founder",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Arzoo Sirohi.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Arzoo Sirohi.jpeg",
     memberName: "Arzoo Sirohi",
     memberPosition: "HR Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Amit Sharma.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Amit Sharma.jpeg",
     memberName: "Amit Sharma",
     memberPosition: "Tech Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Chaitanya Kumar Chandra.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Chaitanya Kumar Chandra.jpeg",
     memberName: "Chaitanya Kumar",
     memberPosition: "Tech Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/MahfujarRahman.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/MahfujarRahman.jpeg",
     memberName: "Mahfujar Rahman",
     memberPosition: "Tech Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Vikalp Kaushik.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Vikalp Kaushik.jpeg",
     memberName: "Vikalp Kaushik",
     memberPosition: "Tech Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Priya Verma.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Priya Verma.jpeg",
     memberName: "Priya Verma",
     memberPosition: "UI/UX Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Rohit Pal.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Rohit Pal.jpeg",
     memberName: "Rohit Pal",
     memberPosition: "UI/UX Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Sameer Khatri.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Sameer Khatri.jpeg",
     memberName: "Sameer Khatri",
     memberPosition: "UI/UX Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Mansha RajpalU.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Mansha RajpalU.jpeg",
     memberName: "Mansha Rajpal",
     memberPosition: "Marketing Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Nidhi Singh.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Nidhi Singh.jpeg",
     memberName: "Nidhi Singh",
     memberPosition: "Marketing Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Pearl Singhal.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Pearl Singhal.jpeg",
     memberName: "Pearl Singhal",
     memberPosition: "Content Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Resham TolaniU.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Resham TolaniU.jpeg",
     memberName: "Resham Tolani",
     memberPosition: "Content Team",
   },
   {
-    memberImg: "../assets/images/team/kyloteamupdated/Sulekha BansalU.jpeg",
+    memberImg: "/assets/images/team/kyloteamupdated/Sulekha BansalU.jpeg",
     memberName: "Sulekha Bansal",
     memberPosition: "Graphic Design Team",
   },

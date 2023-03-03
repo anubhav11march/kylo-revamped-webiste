@@ -2899,6 +2899,7 @@ textarea {
   top: 9%;
   left: 16%;
   max-width: 104px;
+  z-index: -1;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3147,9 +3148,12 @@ textarea {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  width : 510px;
+  height : 218px;
 }
 .portfolio__image-2 {
   position: relative;
+  height : 250px;
   overflow: hidden;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -3216,6 +3220,7 @@ textarea {
 .portfolio__text {
   position: absolute;
   margin: 30px;
+  margin-bottom: 45px;
   left: 0;
   right: 0;
   border-radius: 10px;
@@ -3774,7 +3779,7 @@ textarea {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   font-size: 25px;
-  color: #ffffff;
+  color: #7432ff;
   position: relative;
   z-index: 2;
   cursor: pointer;
@@ -7813,10 +7818,15 @@ textarea {
 .team__thumb {
   position: relative;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #dcdcdc;
+  height: 275px;
+
 }
 .team__thumb img {
   object-fit: cover;
-  height: 365px;
+  height: 275px;
+    width: 275px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -7825,12 +7835,16 @@ textarea {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team__thumb img {
-    height: 330px;
+    /* height: 330px; */
+    height: 275px;
+    width: 275px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team__thumb img {
-    height: 280px;
+    /* height: 280px; */
+    height: 235px;
+    width: 235px;
   }
 }
 .team__content {
@@ -8566,7 +8580,7 @@ textarea {
 
 .join-us {
   padding: 25px 20px;
-  height: 360px;
+  height: 305px;
   background-color: #ffffff;
   border-radius: 20px;
   border: 1px solid rgba(35, 35, 76, 0.85);

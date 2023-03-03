@@ -48,7 +48,7 @@ const Recommendations = () => {
         <div className="about__title mb-80 text-center">
           <SectionTitle
             subTitle="RECOMMENDATIONS"
-            titleFirst="Globally trusted for innovative development"
+            titleFirst="Globally trusted for innovative development    "
             titleSecond=""
           />
         </div>

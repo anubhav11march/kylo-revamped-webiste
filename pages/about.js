@@ -24,8 +24,8 @@ const AboutPage = () => {
       <main>
         <About
           subTitle="ABout Us"
-          titleFirst="We bring your business"
-          titleSecond="ideas to life by means of Technology"
+          titleFirst="We bring your business ideas"
+          titleSecond="to life by means of Technology"
           aboutpic={true}
         />
         <Recommendations />

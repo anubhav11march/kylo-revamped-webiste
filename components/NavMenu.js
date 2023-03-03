@@ -11,11 +11,17 @@ const NavMenu = ({ mobile }) => {
   const router = useRouter();
   const Path = router.pathname.replace("/", "");
 
+  const HomePath = router.pathname
+
+  console.log(HomePath)
+
   return (
     <ul className="main-menu__links">
       <li>
         <Link href="/">
-          <a className={Path.length == 0 ? "active" : ""}>Home</a>
+          <a className={HomePath === "/" ? "active" : ""}>
+            Home
+          </a>
         </Link>
       </li>
 
@@ -57,7 +63,7 @@ const NavMenu = ({ mobile }) => {
             </Link>
           </li>
           <li>
-            <Link href="/qa-assurance">
+            <Link href="/quality-assurance">
               <a>Quality Assurance</a>
             </Link>
           </li>

@@ -254,7 +254,7 @@ const WhyKylo = ({ extraClass }) => {
                 <p
                   style={{
                     position: "absolute",
-                    right: "66px",
+                    right: "25px",
                     bottom: "5px",
                     color: "white",
                     background: "#7432ff",

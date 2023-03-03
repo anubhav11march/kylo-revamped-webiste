@@ -12,7 +12,7 @@ const ServicesDetailsPage = () => {
   const path = route.pathname.replace("/", " ").replace("-", " ");
   return (
     <Layout pageTitle=" KYLO APPS | Transforming businesses through">
-      <PageHeader title={"UI/UX DESIGNING"} crumbTitle={"UI/UX Designing"} />
+      <PageHeader title={"UI/UX Designing"} crumbTitle={"UI/UX Designing"} />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"
         headerClass="header__white"

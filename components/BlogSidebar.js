@@ -76,7 +76,7 @@ const BlogSidebar = () => {
                   </div>
                   <div className="sidebar__rc-content">
                     <h5>
-                      <Link href="/single-blog">
+                      <Link href={`/blog/${_id}`}>
                         <a>{title}</a>
                       </Link>
                     </h5>

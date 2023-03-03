@@ -122,7 +122,7 @@ const GrowthServicesDetails = () => {
                 </div>
                 <div className="key__benefits">
                   <div className="key__benefits-title">
-                    <h3>Key Benefits</h3>
+                    <h3>Process We Follow</h3>
                   </div>
                   <div className="key__benefits-content">
                     <ul>

@@ -62,7 +62,7 @@ const PageHeader = ({title, crumbTitle}) => {
                       // marginLeft: "10px",
                     }}
                   >
-                    Job Openings &nbsp;
+                    View Openings &nbsp;
                     <span>
                       <svg
                         className='arrow_svg'

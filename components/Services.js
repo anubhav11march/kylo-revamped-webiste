@@ -44,7 +44,7 @@ const SERVICE_DATA = [
     serviceTitle: "Quality Assurance",
     serviceDesc:
       "No product is deemed a market fit without rigorous testing, we have the solution to this test, our manual plus automation testing. ",
-    serviceLink: "/qa-assurance",
+    serviceLink: "/quality-assurance",
   },
   {
     serviceIcon: "/assets/images/icon/devops.png",

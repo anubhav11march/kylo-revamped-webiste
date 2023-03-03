@@ -9,7 +9,7 @@ import PageHeader from "../../../components/PageHeader";
 const JobsPage = () => {
   return (
     <Layout pageTitle=" KYLO APPS | Transforming businesses through">
-      <PageHeader title="Open Roles" crumbTitle="Jobs" />
+      <PageHeader title="Open Positions" crumbTitle="Jobs" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"
         headerClass="header__white"

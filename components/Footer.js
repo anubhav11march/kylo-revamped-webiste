@@ -158,7 +158,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/qa-assurance">
+                      <Link href="/quality-assurance">
                         <a id="footer_link">Quality Assurance</a>
                       </Link>
                     </li>
@@ -166,7 +166,7 @@ const Footer = () => {
                       <Link href="/devops">
                         <a id="footer_link">DevOps</a>
                       </Link>
-                    </li>
+                    </li> 
                     <li>
                       <Link href="/data-engineering">
                         <a id="footer_link">Data Engineering</a>

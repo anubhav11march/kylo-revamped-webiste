@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Pagination, Navigation, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import SectionTitle from "./SectionTitle";
 import TestimonialCard from "./TestimonialCard";
 
@@ -116,7 +116,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
         </Row>
         <Row>
           <Col xl={12}>
-            {/* <Swiper
+            <Swiper
               navigation={{
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev'
@@ -166,8 +166,8 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
                   </SwiperSlide>
                 )
               )}
-            </Swiper> */}
-            <h6>SWIPER</h6>
+            </Swiper>
+            {/* <h6>SWIPER</h6> */}
             <div className="swiper-pagination"></div>
           </Col>
         </Row>

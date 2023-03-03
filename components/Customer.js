@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import SectionTitle from './SectionTitle';
 
 const Customer = () => {
@@ -19,7 +19,7 @@ const Customer = () => {
                                 /> 
                             </div>
                             <div className="customers__container">
-                                {/* <Swiper 
+                                <Swiper 
                                 spaceBetween={30}
                                 slidesPerView={"auto"}
                                 breakpoints= {{
@@ -66,8 +66,8 @@ const Customer = () => {
                                             <img src="assets/images/brand/logo-5.png" alt=""/>                                            
                                         </div>                                
                                     </SwiperSlide>                                
-                                </Swiper>                                 */}
-                            <h6>SWIPER</h6>
+                                </Swiper>                                
+                            {/* <h6>SWIPER</h6> */}
                             </div>
                         </Col>
                     </Row> 

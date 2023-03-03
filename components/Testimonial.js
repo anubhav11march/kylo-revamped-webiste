@@ -10,7 +10,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/RentoutLogo123.png",
     clientText:
       "Team Kylo has been highly reliable. Also, they are very responsive and ready to fix any type of application issues. Their biggest strength is their pricing which is unbeatable in the market. They delivered an amazing application to us.",
-    clientImg: "/assets/images/testimonials/RentoutFounder.jpeg",
+    clientImg: "/assets/images/testimonials/RentoutFounder.jpg",
     clientName: "Bhanu Pasyavula",
     clientPosition: "Founder",
     company: "Rentout",
@@ -19,7 +19,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/ActiveSolutionsLogo.png",
     clientText:
       "Understanding the customers’ requirement with accuracy is what Kylo strives for. They put in great effort to make us understand the complexities and helped us feel comfortable with their customer centric approach and interaction.",
-    clientImg: "/assets/images/testimonials/ActiveSolutionsMD.jpeg",
+    clientImg: "/assets/images/testimonials/ActiveSolutionsMD.jpg",
     clientName: "Bharath Aditya",
     clientPosition: "Managing Director",
     company: "Active Solutions",
@@ -28,7 +28,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/HitikitLogo.png",
     clientText:
       "Being a start-up, we were looking for a team who can develop the perfect product we envisioned and guide us in kickoff. It's commendable that Kylo was innovative in giving us a product better than what we visualised.",
-    clientImg: "/assets/images/testimonials/HitikitFounder.jpeg",
+    clientImg: "/assets/images/testimonials/HitikitFounder.jpg",
     clientName: "Manideep Mittapeli",
     clientPosition: "Founder",
     company: "Hitikit",
@@ -37,7 +37,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/SteloLogo.png",
     clientText:
       "Kylo Apps delivered a top-notch app which exceeded our expectations. The responsibility with which the team operated really helped us in banking on them easily. All their team members were very cooperative and responsive.",
-    clientImg: "/assets/images/testimonials/SteloFounder.jpeg",
+    clientImg: "/assets/images/testimonials/SteloFounder.jpg",
     clientName: "Sumeet Jain",
     clientPosition: "Founder",
     company: "Stelo",

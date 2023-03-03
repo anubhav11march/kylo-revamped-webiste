@@ -19,7 +19,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/ActiveSolutionsLogo.png",
     clientText:
       "Understanding the customers’ requirement with accuracy is what Kylo strives for. They put in great effort to make us understand the complexities and helped us feel comfortable with their customer centric approach and interaction.",
-    clientImg: "/assets/images/testimonials/ActiveSolutionsMD.jpg",
+    clientImg: "/assets/images/testimonials/ActiveSolutionsMD.png",
     clientName: "Bharath Aditya",
     clientPosition: "Managing Director",
     company: "Active Solutions",

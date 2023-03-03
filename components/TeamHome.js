@@ -40,7 +40,7 @@ const MEMBER_DATA = [
     memberPosition: "Tech Team",
   },
   {
-    memberImg: "/assets/images/team/kyloteamupdated/Priya Verma.png",
+    memberImg: "/assets/images/team/kyloteamupdated/Priya VermaU.png",
     memberName: "Priya Verma",
     memberPosition: "UI/UX Team",
   },

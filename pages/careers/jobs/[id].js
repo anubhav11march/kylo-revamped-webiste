@@ -179,7 +179,7 @@ const JobDetails = () => {
                         className="form-control"
                         name="phone"
                         placeholder="Phone Number"
-                        maxLength={10}
+                        maxLength={15}
                         minLength={10}
                         value={form.phone}
                         onChange={handleChange}
@@ -192,16 +192,20 @@ const JobDetails = () => {
                     <div className="form-group pr-10 form-group-2">
                       <select name="designation" onChange={handleChange}>
                         <option value="">Designation Applying for</option>
-                        <option value="React Developer">React Developer</option>
-                        <option value="Backend Developer">
-                          Backend Developer
-                        </option>
+                        <option value={`${data?.jobTitle}`}>{data?.jobTitle}</option>
+
                       </select>
                     </div>
                   </div>
 
                   <div className="field-format d-sm-flex justify-content-between mb-40">
-                    <div className="form-group pr-10 form-group-2">
+                    <div
+                      className="form-group pr-10 form-group-2"
+                      onClick={() =>
+                        document.querySelector("#resume").click()
+                      }
+                      style={{ cursor: "pointer" }}
+                    >
                       <input
                         type="file"
                         className="form-control"

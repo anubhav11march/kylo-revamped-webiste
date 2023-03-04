@@ -56,6 +56,7 @@ const PortfolioTwo = ({ extraClass }) => {
                         >
                           <Tab eventKey="all" title="Show All"> */}
           <Row className="mt-70">
+            {/* //TODO: + icon and SOS trim */}
             {PORTFOLIO_ALL.map(
               (
                 { portfolioImg, portfolioLink, portfolioTitle, portfolioText },

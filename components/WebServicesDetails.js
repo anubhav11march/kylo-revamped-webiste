@@ -39,9 +39,11 @@ const WebServicesDetails = () => {
             <div className="services__details-content">
               <h2>Web App Development</h2>
               <p>
-                We build beautiful and responsive frontend and backend
-                supported web applications to fulfill real world client
-                requirements.
+                We specialise in creating beautiful yet powerful custom web applications that are tailored to meet your unique business needs. Our team has the skills and experience necessary to turn your ideas to reality.
+
+                From designing and developing user-friendly interfaces to implementing secure and scalable backend systems, we're committed to delivering top-quality solutions to help you achieve your business goals.
+                We’ll take your web app to the next level and help you stand out in today's competitive digital landscape!
+
               </p>
               <div className="key__benefits">
                 <div
@@ -64,15 +66,76 @@ const WebServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
-                <div>
-                  <p>
+                <h3 className='mb-4'>Technologies</h3>
+                {/* <p>
                     Angular, React, React, Vue.js, jQuery, SASS,
                     Bootstrap, HTML5, CSS3, NodeJS, PHP, Python, MySQL, MongoDB, AWS,
                     Redis, Firebase
-                  </p>
+                  </p> */}
+                <div className="d-flex justify-content-between mt-2">
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p className="m-auto">Nodejs</p>
+                  </div>
+                </div>
+
+                <div className="d-flex justify-content-between">
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p>Nodejs</p>
+                  </div>
+                  <div className='text-center'>
+                    <i className="fa-solid fa-briefcase"></i>
+                    <p className="m-auto">Nodejs</p>
+                  </div>
                 </div>
               </div>
+
+
 
               <div className="key__factors">
                 <div className="key__factors-title">

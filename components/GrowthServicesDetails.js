@@ -40,7 +40,7 @@ const GrowthServicesDetails = () => {
             <div className="services__details-content">
               <h2>Growth Hacking</h2>
               <p>
-                We build products and ensure they reach the desired customers.
+                We build products and ensure they reach the target audience which ultimately helps accelerate their company growth.
               </p>
               <div className="key__benefits">
                 <div
@@ -61,7 +61,7 @@ const GrowthServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <div>
                     Intercom, Google Analytics, Mixpanel

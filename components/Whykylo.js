@@ -240,7 +240,8 @@ const WhyKylo = ({ extraClass }) => {
                 >
                   <img
                     style={{
-                      width: "100%",
+                      // width: "100%",
+                      overflowX : "hidden",
                       height: "100%",
                       borderRadius: "10px",
                     }}

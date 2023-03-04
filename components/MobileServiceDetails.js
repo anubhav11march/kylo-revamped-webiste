@@ -40,8 +40,11 @@ const MobileServicesDetails = () => {
             <div className="services__details-content">
               <h2>Mobile App Development</h2>
               <p>
-                We build Native and Cross Platform applications that work
-                dynamically with all devices, screen sizes and resolutions.
+                We specialise in mobile app development and are passionate about building native and cross platform apps that are not only aesthetically pleasing but also highly functional.
+
+                From ideation and design to testing and deployment, we provide end-to-end services that cater to your specific business needs.
+                We’ll help you create a mobile app that delivers a seamless user experience and boosts your business growth!
+
               </p>
               <div className="key__benefits">
                 <div
@@ -49,22 +52,22 @@ const MobileServicesDetails = () => {
                   style={{ display: "flex", columnGap: "40px" }}
                 >
                   <ul>
+                    <li>Android & iOS</li>
                     <li>Native + React Native</li>
+                    <li>Hybrid & Progressive</li>
                     <li>Wearables</li>
-                    <li>Biometric sensors</li>
-                    <li>Geo tracking</li>
                   </ul>
                   <ul>
-                    <li>Game development</li>
+                    <li>Geo tracking</li>
+                    <li>Game Development</li>
                     <li>Mobile-enabled IoT solutions</li>
                     <li>Augmented & Virtual reality</li>
-                    <li>Location sensing</li>
                   </ul>
                 </div>
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <div>
                     Android, iOS, Ionic, React Native, PWA, Flutter

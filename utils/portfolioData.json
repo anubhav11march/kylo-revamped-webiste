@@ -1,17 +1,52 @@
 [
   {
-    "id": "1",
-    "portfolioImg": "/assets/images/portfolio/updated/Zeta.png",
-    "portfolioLink": "/portfolio/1",
-    "portfolioTitle": "Zeta",
-    "portfolioText": "No more concerns about gas mileage, gasoline prices, insurance, or vehicle breakdowns! Zeta has made driving around cities more convenient for commuters, and it is rapidly increasing its reach to multiple places. Customers enjoy greater control, privacy, and freedom thanks to Zeta's self-driving automobiles. With the Zeta app on your phone, you can book a self-drive automobile in whatever city you visit and feel right at home."
-  },
-  {
     "id": "2",
     "portfolioImg": "/assets/images/portfolio/updated/xPay+.png",
     "portfolioLink": "/portfolio/2",
     "portfolioTitle": "xPay+",
     "portfolioText": "xPay+ is a Fintech SAAS Platform offering Payment Solutions for Commercial Transport Industry & Corporates through prepaid loadable Rupay cards. Companies can manage fleet expenses, toll expenses, fuel expenses and lending to transport companies."
+  },
+  {
+    "id": "16",
+    "portfolioImg": "/assets/images/portfolio/updated/Viosa.png",
+    "portfolioLink": "/portfolio/16",
+    "portfolioTitle": "Viosa",
+    "portfolioText": "VIOSA is the EdTech industry's first unified technology platform that coaches students in acquiring sector-based competencies, helps them build their professional profiles, & guides them to achieve their aspirational employment through video courses, MCQ tests etc. The platform also has automated mock interviews where the users can practice in a real time interview environment with a real human like bot interviewer. Users can also create resumes in the easiest way possible with the help of AI powered by ChatGPT."
+  },
+  {
+    "id": "12",
+    "portfolioImg": "/assets/images/portfolio/updated/SOS.png",
+    "portfolioLink": "/portfolio/12",
+    "portfolioTitle": "SOS Children's Village India",
+    "portfolioText": "SOS Children's Village India uses social media and SOS Children's Village India websites to connect investors and entrepreneurs, with the potential to encourage entrepreneurship by broadening the pool of investors beyond the conventional circle of owners, family, and venture capitalists."
+  },
+  {
+    "id": "10",
+    "portfolioImg": "/assets/images/portfolio/updated/Flywise.png",
+    "portfolioLink": "/portfolio/10",
+    "portfolioTitle": "Flywise",
+    "portfolioText": "Flywise is India's best overseas education platform which unlike any traditional consultancies travel with you till you land your dream job in North America or Europe."
+  },
+  {
+    "id": "5",
+    "portfolioImg": "/assets/images/portfolio/updated/Flicksbuddy.png",
+    "portfolioLink": "/portfolio/5",
+    "portfolioTitle": "Flicksbuddy",
+    "portfolioText": "It is a social networking platform for Movies, TV shows and Web Series fans to connect with each other. Not only can you rate and review all that you watch, but you also get to share and discuss with your friends and the Flicksbuddy community."
+  },
+  {
+    "id": "19",
+    "portfolioImg": "/assets/images/portfolio/updated/SaverIt.png",
+    "portfolioLink": "/portfolio/19",
+    "portfolioTitle": "SaverIt",
+    "portfolioText": "It is a Mobile based restaurants commerce platform for restaurants to sell their surplus food prepared daily where customers can avail heavy discounts during the mentioned time period."
+  },
+  {
+    "id": "1",
+    "portfolioImg": "/assets/images/portfolio/updated/Zeta.png",
+    "portfolioLink": "/portfolio/1",
+    "portfolioTitle": "Zeta",
+    "portfolioText": "No more concerns about gas mileage, gasoline prices, insurance, or vehicle breakdowns! Zeta has made driving around cities more convenient for commuters, and it is rapidly increasing its reach to multiple places. Customers enjoy greater control, privacy, and freedom thanks to Zeta's self-driving automobiles. With the Zeta app on your phone, you can book a self-drive automobile in whatever city you visit and feel right at home."
   },
   {
     "id": "3",
@@ -27,13 +62,6 @@
     "portfolioLink": "/portfolio/4",
     "portfolioTitle": "Joya",
     "portfolioText": "Joya is one of the top companies in baby food products in Thailand selling D2C through their website and getting the customers onboarded for their subscriptions."
-  },
-  {
-    "id": "5",
-    "portfolioImg": "/assets/images/portfolio/updated/Flicksbuddy.png",
-    "portfolioLink": "/portfolio/5",
-    "portfolioTitle": "Flicksbuddy",
-    "portfolioText": "It is a social networking platform for Movies, TV shows and Web Series fans to connect with each other. Not only can you rate and review all that you watch, but you also get to share and discuss with your friends and the Flicksbuddy community."
   },
   {
     "id": "6",
@@ -64,25 +92,11 @@
     "portfolioText": "Mega Grain is a convenient trading facility that introduces buyers & sellers globally to perform business operations in Agri commodities. Likewise, other B2B platforms, Mega solution also goes through Seven easy processes which are Enquiry or Product Offer, Screen Verify Enquiry, Price Quoted, Negotiation, Inspection, Logistics  & Payment."
   },
   {
-    "id": "10",
-    "portfolioImg": "/assets/images/portfolio/updated/Flywise.png",
-    "portfolioLink": "/portfolio/10",
-    "portfolioTitle": "Flywise",
-    "portfolioText": "Flywise is India's best overseas education platform which unlike any traditional consultancies travel with you till you land your dream job in North America or Europe."
-  },
-  {
     "id": "11",
     "portfolioImg": "/assets/images/portfolio/updated/iMoney.png",
     "portfolioLink": "/portfolio/11",
     "portfolioTitle": "iMoney",
     "portfolioText": "iMoney wallet started its journey in 2017, headquartered in New Delhi, India. Their strength lies in Digital Payments, Prepaid Cards, Cashbacks and Analytics. iMoney Wallet is considered as one of the most vibrant start-ups among peers. It has attracted top talents in the past two years."
-  },
-  {
-    "id": "12",
-    "portfolioImg": "/assets/images/portfolio/updated/SOS.png",
-    "portfolioLink": "/portfolio/12",
-    "portfolioTitle": "SOS Children's Village India",
-    "portfolioText": "SOS Children's Village India uses social media and SOS Children's Village India websites to connect investors and entrepreneurs, with the potential to encourage entrepreneurship by broadening the pool of investors beyond the conventional circle of owners, family, and venture capitalists."
   },
   {
     "id": "13",
@@ -107,13 +121,6 @@
     "portfolioText": "Finaccru helps to automate your accounting using technology such as Artificial Intelligence, Machine Learning and Robotic Process Automation (RPA), through our proprietary developed software, to perform tasks that would typically be done manually. This includes tasks such as bookkeeping, invoicing, and financial reporting."
   },
   {
-    "id": "16",
-    "portfolioImg": "/assets/images/portfolio/updated/Viosa.png",
-    "portfolioLink": "/portfolio/16",
-    "portfolioTitle": "Viosa",
-    "portfolioText": "VIOSA is the EdTech industry's first unified technology platform that coaches students in acquiring sector-based competencies, helps them build their professional profiles, & guides them to achieve their aspirational employment through video courses, MCQ tests etc. The platform also has automated mock interviews where the users can practice in a real time interview environment with a real human like bot interviewer. Users can also create resumes in the easiest way possible with the help of AI powered by ChatGPT."
-  },
-  {
     "id": "17",
     "portfolioImg": "/assets/images/portfolio/updated/Unicap.png",
     "portfolioLink": "/portfolio/17",
@@ -126,13 +133,6 @@
     "portfolioLink": "/portfolio/18",
     "portfolioTitle": "Samunnati",
     "portfolioText": "Samunnati is an open agri network to unlock the trillion-dollar plus potential of Indian agriculture industry with smallholder farmers at the center of it. It is an educational streaming platform in regional languages for best agricultural practices."
-  },
-  {
-    "id": "19",
-    "portfolioImg": "/assets/images/portfolio/updated/SaverIt.png",
-    "portfolioLink": "/portfolio/19",
-    "portfolioTitle": "SaverIt",
-    "portfolioText": "It is a Mobile based restaurants commerce platform for restaurants to sell their surplus food prepared daily where customers can avail heavy discounts during the mentioned time period."
   },
   {
     "id": "20",
@@ -167,6 +167,6 @@
     "portfolioImg": "/assets/images/portfolio/updated/Glocal.png",
     "portfolioLink": "/portfolio/24",
     "portfolioTitle": "Glocal CareX",
-    "portfolioText": "Glocal CareX is a listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
+    "portfolioText": "Glocal CareX is a Singapore based listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
   }
 ]

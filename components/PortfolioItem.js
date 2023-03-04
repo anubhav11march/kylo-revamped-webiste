@@ -17,11 +17,14 @@ const PortfolioItem = ({
           <img src={portfolioImg} alt="portfolio" />
           <div className="portfolio__text">
             <p>{portfolioCat}</p>
-            <h3 className="text-center">
+            <h6 className="text-center">
               {/* <Link href={portfolioLink}> */}
-              <a>{portfolioTitle}</a>
+              <a>{portfolioTitle.slice(0, 11) + (portfolioTitle.length > 11 ? ".." : "")}</a>
+              <span style={{ fontSize: "15px", background: "#c3f318", borderRadius: "50px", marginLeft: "5px", padding: "5px" }}>
+                <i className="fas fa-plus"></i>
+              </span>
               {/* </Link> */}
-            </h3>
+            </h6>
             {/* <div className="portfolio__link">
               <Link href={portfolioLink}>
               <a>
@@ -32,7 +35,7 @@ const PortfolioItem = ({
           </div>
         </div>
       </div>
-    </Col>
+    </Col >
   );
 };
 

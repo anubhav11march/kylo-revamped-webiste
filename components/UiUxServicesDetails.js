@@ -40,8 +40,7 @@ const UiUxServicesDetails = () => {
             <div className="services__details-content">
               <h2>UI/UX Designing</h2>
               <p>
-                Everything great built seems futile, if it does not have a
-                likeable design.
+                Everything great built seems futile, if it does not have a likable design. We create amazing user-friendly products and help your business stand out from the crowd using our UI/UX expertise.
               </p>
               <div className="key__benefits">
                 <div
@@ -62,7 +61,7 @@ const UiUxServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <div>
                     After Effects, Premiere Pro, Blender,

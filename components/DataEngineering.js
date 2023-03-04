@@ -40,8 +40,7 @@ const DataEngineering = () => {
             <div className="services__details-content">
               <h2>Data Engineering</h2>
               <p>
-                We build beautiful and responsive frontend and backend supported
-                web applications to fulfill real world client requirements.
+                Our team of data engineers designs and builds systems for collecting, storing, and analyzing data at scale and converting it into usable form.
               </p>
               <div className="key__benefits">
                 <div
@@ -64,7 +63,7 @@ const DataEngineering = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <p>
                     Angular, React, React, Vue.js, jQuery, SASS, Bootstrap,

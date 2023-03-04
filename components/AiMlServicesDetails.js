@@ -40,8 +40,7 @@ const AiMlServicesDetails = () => {
             <div className="services__details-content">
               <h2>AI/ML/Chatbot</h2>
               <p>
-                We’re always innovating and stay updated with upcoming trends
-                in technology and will take you along on this journey.
+                We are always innovating, stay updated with the upcoming trends in technology and will take you along on this journey.
               </p>
               <div className="key__benefits">
                 <div
@@ -58,7 +57,7 @@ const AiMlServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <div>Dialogflow, Google Assistant</div>
                 </div>

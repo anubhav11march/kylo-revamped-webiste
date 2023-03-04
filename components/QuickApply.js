@@ -160,7 +160,7 @@ const QuickApply = () => {
                             className="form-control"
                             name="phone"
                             placeholder="Phone Number"
-                            maxLength={10}
+                            maxLength={15}
                             minLength={10}
                             value={form.phone}
                             onChange={handleChange}
@@ -183,7 +183,13 @@ const QuickApply = () => {
                       </div>
 
                       <div className="field-format d-sm-flex justify-content-between mb-40">
-                        <div className="form-group pr-10 form-group-2">
+                        <div 
+                          className="form-group pr-10 form-group-2" 
+                          onClick={() =>
+                            document.querySelector("#resume").click()
+                          }
+                          style={{ cursor : "pointer"}}
+                        >
                           <input
                             type="file"
                             className="form-control"
@@ -201,9 +207,6 @@ const QuickApply = () => {
                                 : "File Uploaded"}
                             </p>
                             <img
-                              onClick={() =>
-                                document.querySelector("#resume").click()
-                              }
                               src="/assets/images/upload.png"
                             />
                           </div>

@@ -31,16 +31,16 @@ const TeamMemberCard = ({
       ) : (
         <>
           <div className="join-us">
-            <div style={{ display : "flex"}}>
+            <div style={{ display: "flex" }}>
               <Image src={logo} width={"35px"} height={"1px"} alt="kylo-logo" />
-              <h3 style={{ marginBottom : "0px", marginLeft : "12px" }}>
+              <h3 style={{ marginBottom: "0px", marginLeft: "12px" }}>
 
                 Careers
               </h3>
             </div>
-            <p>This could be you ! Come work with us at Kylo Apps</p>
+            <p>You could be next! Come join our amazing team.</p>
             <Link href="/careers">
-              <h6>view openings</h6>
+              <h6 style={{ fontSize : "18px", color: "#7432ff" }}>View Openings</h6>
             </Link>
           </div>
         </>

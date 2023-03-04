@@ -40,8 +40,7 @@ const Branding = () => {
             <div className="services__details-content">
               <h2>Branding</h2>
               <p>
-                We build beautiful and responsive frontend and backend supported
-                web applications to fulfill real world client requirements.
+                We give a specific name and image to your company’s products and services by creating and shaping the brand from the scratch.
               </p>
               <div className="key__benefits">
                 <div
@@ -64,7 +63,7 @@ const Branding = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <p>
                     Angular, React, React, Vue.js, jQuery, SASS, Bootstrap,

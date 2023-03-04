@@ -40,8 +40,7 @@ const Devops = () => {
             <div className="services__details-content">
               <h2>DevOps</h2>
               <p>
-                We build beautiful and responsive frontend and backend supported
-                web applications to fulfill real world client requirements.
+                We combine development and operations to unite people, processes, and technology in application planning, development, delivery, and operations.
               </p>
               <div className="key__benefits">
                 <div
@@ -64,7 +63,7 @@ const Devops = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <p>
                     Angular, React, React, Vue.js, jQuery, SASS, Bootstrap,

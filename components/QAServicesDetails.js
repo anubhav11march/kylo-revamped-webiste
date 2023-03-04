@@ -40,8 +40,7 @@ const QAServicesDetails = () => {
             <div className="services__details-content">
               <h2>Quality Assurance</h2>
               <p>
-                No product is deemed a market fit without rigorous testing, we
-                have the solution to this test.
+                No product is deemed a market fit without rigorous testing, we have the solution to this test, our manual plus automation testing.
               </p>
               <div className="key__benefits">
                 <div
@@ -62,7 +61,7 @@ const QAServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Tech Stack:</h4>
+                <h4>Technologies</h4>
                 <div>
                   <div>
                     Manual Testing, Selenium, Appium, AWS Device

@@ -20,7 +20,12 @@ const NavMenu = ({ mobile }) => {
       <li>
         <Link href="/">
           <a className={HomePath === "/" ? "active" : ""}>
-            Home
+            {
+              HomePath === "/" ?
+              "H"
+              :
+              "Home"
+            }
           </a>
         </Link>
       </li>

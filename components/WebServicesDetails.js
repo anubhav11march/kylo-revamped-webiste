@@ -193,9 +193,9 @@ const WebServicesDetails = () => {
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
-                <h2>
+                {/* <h2>
                   One Time <span>Per Patient</span>
-                </h2>
+                </h2> */}
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -255,10 +255,10 @@ const WebServicesDetails = () => {
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
-                <h2>
+                {/* <h2>
                   Ongoing
                   <span>&nbsp;Every Month</span>
-                </h2>
+                </h2> */}
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -343,6 +343,7 @@ const WebServicesDetails = () => {
                       into financial impact and org
                     </p>
                   </VerticalTimelineElement>
+
                 </VerticalTimeline>
                 {/* <div className="partner-section section-gap-80">
                   <div className="container">
@@ -404,7 +405,7 @@ const WebServicesDetails = () => {
                     </div>
                   </div>
                 </div> */}
-                <div className="key__benefits-content">
+                {/* <div className="key__benefits-content">
                   <ul>
                     <li>Sea of Tranquility dispassionate observer dream.</li>
                     <li>
@@ -416,15 +417,15 @@ const WebServicesDetails = () => {
                       mind&apos;s eye.
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
-              <p>
+              {/* <p>
                 Kindling the energy hidden in matter the only home we&apos;ve
                 ever known radio telescope decipherment descended from
                 astronomers rogue. Prime number network of wormholes take
                 root. Kindling the energy hidden in matter the only home
                 we&apos;ve ever known radio telescope decipherment descended.
-              </p>
+              </p> */}
             </div>
           </Col>
         </Row>

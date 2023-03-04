@@ -22,7 +22,7 @@ const NavMenu = ({ mobile }) => {
           <a className={HomePath === "/" ? "active" : ""}>
             {
               HomePath === "/" ?
-              "H"
+              "Home"
               :
               "Home"
             }

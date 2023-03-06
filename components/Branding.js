@@ -40,7 +40,11 @@ const Branding = () => {
             <div className="services__details-content">
               <h2>Branding</h2>
               <p>
-                We give a specific name and image to your company’s products and services by creating and shaping the brand from the scratch.
+                We specialise in branding and are passionate about helping businesses establish a strong and memorable brand identity. Our team of experts has the creativity and expertise to develop brand strategies that align with your business goals and resonate with your target audience.
+
+                From developing brand guidelines and designing marketing collateral to creating a unique brand voice and message, we use cutting-edge tools and design principles to ensure that your brand stands out and captures the attention of your customers.
+                We’ll help you create a brand that communicates your value and vision to the world!
+
               </p>
               <div className="key__benefits">
                 <div
@@ -48,34 +52,53 @@ const Branding = () => {
                   style={{ display: "flex", columnGap: "40px" }}
                 >
                   <ul>
-                    <li>Single page apps</li>
-                    <li>Enterprise web apps</li>
-                    <li>Microservices architecture</li>
-                    <li>APIs & Integrations</li>
+                    <li>Social Media / Email Marketing</li>
+                    <li>Brochure Designing</li>
+                    <li>Presentation/ Deck Designing</li>
                   </ul>
                   <ul>
-                    <li>Progressive web apps</li>
-                    <li>Responsive web apps</li>
-                    <li>Cloud-Native applications</li>
-                    <li>Upgradation & Migration</li>
+                    <li>Logo Designing</li>
+                    <li>Envelope / Letterhead Designing</li>
+                    <li>Business Card Designing</li>
                   </ul>
                 </div>
               </div>
 
               <div className="tech__stack">
                 <h4>Technologies</h4>
-                <div>
-                  <p>
-                    Angular, React, React, Vue.js, jQuery, SASS, Bootstrap,
-                    HTML5, CSS3, NodeJS, PHP, Python, MySQL, MongoDB, AWS,
-                    Redis, Firebase
-                  </p>
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Figma</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Canva</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Premiere Pro</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Illustrator</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Photoshop</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>AdobeXD</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="key__factors">
                 <div className="key__factors-title">
-                  <h3>Key Factors</h3>
+                  <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex">
@@ -83,10 +106,9 @@ const Branding = () => {
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Business Automation</h5>
+                      <h5>Recognition</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Build awareness and attract target audience.
                       </p>
                     </div>
                   </div>
@@ -95,10 +117,9 @@ const Branding = () => {
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Critical Analysis</h5>
+                      <h5>Loyalty</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Create emotional connections which increase repeat sales.
                       </p>
                     </div>
                   </div>
@@ -109,10 +130,9 @@ const Branding = () => {
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Risk Protection</h5>
+                      <h5>Differentiation </h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Stand out in crowded markets and differentiate from competitors.
                       </p>
                     </div>
                   </div>
@@ -121,10 +141,9 @@ const Branding = () => {
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Annual Report</h5>
+                      <h5>Credibility</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Build trust and reputation with customers and stakeholders.
                       </p>
                     </div>
                   </div>
@@ -150,14 +169,10 @@ const Branding = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Kickoff</h3>
+                    <h3 className="vertical-timeline-element-title">Discovery</h3>
                     <p>
-                      We define your virtual care management program's objectives, and
-                      together we develop goals and milestones to help you keep on track
-                      to deliver superior care. By pairing together a deep understanding
-                      of your policies and processes with our in-depth knowledge of
-                      Medicare program requirements, we create a clinical design that
-                      works for your organization.
+                      We understand your brand and target audience to create a design that reflects your values and resonates with your customers.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -180,137 +195,11 @@ const Branding = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Implementation & Training
+                      Research & Ideation
                     </h3>
 
                     <p>
-                      We conduct an install of our software to integrate directly into
-                      your electronic health record system during this step. Once
-                      implementation is complete, we will train your full team on the
-                      clinical design and software functionality to ensure they are
-                      fully prepared at launch.
-                    </p>
-                  </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  One Time <span>Per Patient</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-                    // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    icon={
-                      <div
-                        className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
-                      >
-                        <i className="far fa-plus" />
-                      </div>
-                    }
-                  >
-                    <h3 className="vertical-timeline-element-title">
-                      Patient Education & Enrollment
-                    </h3>
-                    <p>
-                      Patient enrollment can be one of the largest challenges to any
-                      virtual care management program, so we devise in-person and
-                      telephone-based enrollment workflows. We help identify the best
-                      patients for your program and streamline the enrollment process by
-                      automatically uploading all eligible patients to the software.
-                    </p>
-                  </VerticalTimelineElement>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{
-                      background: "#3051a5",
-                      color: "#fff",
-                      border: "1px solid #fff",
-                    }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
-                    // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    icon={
-                      <div
-                        className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
-                      >
-                        <i className="far fa-plus" />
-                      </div>
-                    }
-                  >
-                    <h3 className="vertical-timeline-element-title">
-                      Care Plan Development & Exchange
-                    </h3>
-
-                    <p>
-                      Care planning is a crucial but time-consuming component of virtual
-                      care management. We offer care plans created by physicians that
-                      use evidence-based protocol or work with your clinical staff to
-                      create your own templates for upload. By automating the care
-                      planning process, we save your clinical staff hours of work.
-                    </p>
-                  </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  Ongoing
-                  <span>&nbsp;Every Month</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-                    // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    icon={
-                      <div
-                        className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
-                      >
-                        <i className="far fa-plus" />
-                      </div>
-                    }
-                  >
-                    <h3 className="vertical-timeline-element-title">
-                      Monthly Care Coordination
-                    </h3>
-                    <p>
-                      We help you establish a continuity of care through a designated
-                      care manager who regularly engages with patients through proven
-                      workflows that include a twelve-month patient engagement plan.
-                    </p>
-                  </VerticalTimelineElement>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{
-                      background: "#3051a5",
-                      color: "#fff",
-                      border: "1px solid #fff",
-                    }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
-                    // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    icon={
-                      <div
-                        className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
-                      >
-                        <i className="far fa-plus" />
-                      </div>
-                    }
-                  >
-                    <h3 className="vertical-timeline-element-title">
-                      Time Tracking & Billing Documentation
-                    </h3>
-
-                    <p>
-                      We implement a process to push charges into your electronic health
-                      record system automatically. This allows for quick review and
-                      submission that saves billing teams hours at the end of the month
-                      while tracking reimbursement and compliance requirements.
+                      We brainstorm design concepts and present several options for your review and feedback.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -333,16 +222,94 @@ const Branding = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Ongoing Client Success
+                      Design
                     </h3>
 
                     <p>
-                      After a successful launch, we meet on a quarterly cadence to
-                      review your care management program's performance. We dig deep
-                      into financial impact and org
+                      We develop the chosen concept into a polished design that is visually appealing and functional.
                     </p>
                   </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{
+                      background: "#3051a5",
+                      color: "#fff",
+                      border: "1px solid #fff",
+                    }}
+                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    // date="2011 - present"
+                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    icon={
+                      <div
+                        className="d-flex justify-content-center"
+                        style={{ height: "100%", translate: "0% 35%" }}
+                      >
+                        <i className="far fa-plus" />
+                      </div>
+                    }
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Refinement
+                    </h3>
 
+                    <p>
+                      We refine the design based on your feedback and make any necessary revisions.
+                    </p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{
+                      background: "rgb(33, 150, 243)",
+                      color: "#fff",
+                      border: "1px solid #fff",
+                    }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    // date="2011 - present"
+                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    icon={
+                      <div
+                        className="d-flex justify-content-center"
+                        style={{ height: "100%", translate: "0% 35%" }}
+                      >
+                        <i className="far fa-plus" />
+                      </div>
+                    }
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Finalisation
+                    </h3>
+
+                    <p>
+                      We deliver the final design files in multiple formats for various applications.
+                    </p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{
+                      background: "#3051a5",
+                      color: "#fff",
+                      border: "1px solid #fff",
+                    }}
+                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    // date="2011 - present"
+                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    icon={
+                      <div
+                        className="d-flex justify-content-center"
+                        style={{ height: "100%", translate: "0% 35%" }}
+                      >
+                        <i className="far fa-plus" />
+                      </div>
+                    }
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Implementation
+                    </h3>
+
+                    <p>
+                      We can also assist with the implementation of the design in various mediums, such as brochures, websites, and social media.
+                    </p>
+                  </VerticalTimelineElement>
                 </VerticalTimeline>
               </div>
             </div>

@@ -40,7 +40,8 @@ const GrowthServicesDetails = () => {
             <div className="services__details-content">
               <h2>Growth Hacking</h2>
               <p>
-                We build products and ensure they reach the target audience which ultimately helps accelerate their company growth.
+                We build products and ensure they reach the desired customers by identifying growth opportunities, devising creative strategies, and implementing data-driven tactics to drive user acquisition, engagement, and retention. We use a combination of creativity and data analysis to help your business achieve rapid and sustainable growth.
+                We’ll help you hack your way to success!
               </p>
               <div className="key__benefits">
                 <div
@@ -62,16 +63,27 @@ const GrowthServicesDetails = () => {
 
               <div className="tech__stack">
                 <h4>Technologies</h4>
-                <div>
-                  <div>
-                    Intercom, Google Analytics, Mixpanel
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Intercom</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Google Analaytics</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Mixpanel</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div className="key__factors">
                 <div className="key__factors-title">
-                  <h3>Key Factors</h3>
+                  <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex">
@@ -79,10 +91,9 @@ const GrowthServicesDetails = () => {
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Business Automation</h5>
+                      <h5>Rapid Growth</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Generates fast and sustainable business growth with minimal resources.
                       </p>
                     </div>
                   </div>
@@ -91,10 +102,9 @@ const GrowthServicesDetails = () => {
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Critical Analysis</h5>
+                      <h5>Cost-Effective</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Low-cost, high-impact marketing techniques that increase ROI.
                       </p>
                     </div>
                   </div>
@@ -105,10 +115,9 @@ const GrowthServicesDetails = () => {
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Risk Protection</h5>
+                      <h5>Data-Driven</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Uses data to make informed decisions and optimize strategies for maximum growth
                       </p>
                     </div>
                   </div>
@@ -117,10 +126,9 @@ const GrowthServicesDetails = () => {
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Annual Report</h5>
+                      <h5>Agile & Flexible</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Flexible approach allows to quickly pivot strategies as per changing market conditions.
                       </p>
                     </div>
                   </div>
@@ -146,14 +154,9 @@ const GrowthServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Kickoff</h3>
+                    <h3 className="vertical-timeline-element-title">Goal Setting</h3>
                     <p>
-                      We define your virtual care management program's objectives, and
-                      together we develop goals and milestones to help you keep on track
-                      to deliver superior care. By pairing together a deep understanding
-                      of your policies and processes with our in-depth knowledge of
-                      Medicare program requirements, we create a clinical design that
-                      works for your organization.
+                      We understand your problem statement and define business goals, such as increasing website traffic, improving user engagement, generating more leads etc.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -176,15 +179,12 @@ const GrowthServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Implementation & Training
+                      User Acquisition
                     </h3>
 
                     <p>
-                      We conduct an install of our software to integrate directly into
-                      your electronic health record system during this step. Once
-                      implementation is complete, we will train your full team on the
-                      clinical design and software functionality to ensure they are
-                      fully prepared at launch.
+                      We identify the target audience and develop strategies like social media marketing, content marketing, paid advertising and more to acquire new users.
+
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -208,14 +208,10 @@ const GrowthServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Patient Education & Enrollment
+                      User Activation
                     </h3>
                     <p>
-                      Patient enrollment can be one of the largest challenges to any
-                      virtual care management program, so we devise in-person and
-                      telephone-based enrollment workflows. We help identify the best
-                      patients for your program and streamline the enrollment process by
-                      automatically uploading all eligible patients to the software.
+                      We optimize the user experience to encourage user activation, such as through user onboarding, personalized recommendations, or gamification.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -238,15 +234,11 @@ const GrowthServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Care Plan Development & Exchange
+                      Retention
                     </h3>
 
                     <p>
-                      Care planning is a crucial but time-consuming component of virtual
-                      care management. We offer care plans created by physicians that
-                      use evidence-based protocol or work with your clinical staff to
-                      create your own templates for upload. By automating the care
-                      planning process, we save your clinical staff hours of work.
+                      We develop strategies to retain users, such as through email marketing, loyalty programs, or community engagement.
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -271,12 +263,11 @@ const GrowthServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Monthly Care Coordination
+                      Referral
                     </h3>
                     <p>
-                      We help you establish a continuity of care through a designated
-                      care manager who regularly engages with patients through proven
-                      workflows that include a twelve-month patient engagement plan.
+                      We leverage the existing user base to acquire new users through referral programs, viral marketing, or social sharing.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -299,43 +290,11 @@ const GrowthServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Time Tracking & Billing Documentation
+                      Analytics
                     </h3>
 
                     <p>
-                      We implement a process to push charges into your electronic health
-                      record system automatically. This allows for quick review and
-                      submission that saves billing teams hours at the end of the month
-                      while tracking reimbursement and compliance requirements.
-                    </p>
-                  </VerticalTimelineElement>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{
-                      background: "rgb(33, 150, 243)",
-                      color: "#fff",
-                      border: "1px solid #fff",
-                    }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-                    // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    icon={
-                      <div
-                        className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
-                      >
-                        <i className="far fa-plus" />
-                      </div>
-                    }
-                  >
-                    <h3 className="vertical-timeline-element-title">
-                      Ongoing Client Success
-                    </h3>
-
-                    <p>
-                      After a successful launch, we meet on a quarterly cadence to
-                      review your care management program's performance. We dig deep
-                      into financial impact and org
+                      We measure and analyse the effectiveness of the growth hacking strategies and adjust the approach as needed.
                     </p>
                   </VerticalTimelineElement>
 

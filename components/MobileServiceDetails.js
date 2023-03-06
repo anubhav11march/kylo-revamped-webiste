@@ -68,16 +68,35 @@ const MobileServicesDetails = () => {
 
               <div className="tech__stack">
                 <h4>Technologies</h4>
-                <div>
-                  <div>
-                    Android, iOS, Ionic, React Native, PWA, Flutter
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Android</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>iOS</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>React Native</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>PWA</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Flutter</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div className="key__factors">
                 <div className="key__factors-title">
-                  <h3>Key Factors</h3>
+                  <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex">
@@ -85,10 +104,9 @@ const MobileServicesDetails = () => {
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Business Automation</h5>
+                      <h5>Convenience</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Accessible on-the-go, even without internet connection.
                       </p>
                     </div>
                   </div>
@@ -97,10 +115,9 @@ const MobileServicesDetails = () => {
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Critical Analysis</h5>
+                      <h5>User Engagement</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Increase engagement and interaction with easy access to device hardware.
                       </p>
                     </div>
                   </div>
@@ -111,10 +128,10 @@ const MobileServicesDetails = () => {
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Risk Protection</h5>
+                      <h5>High Performance</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Offer fast load times, perform smoothly and store data locally.
+
                       </p>
                     </div>
                   </div>
@@ -123,10 +140,10 @@ const MobileServicesDetails = () => {
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Annual Report</h5>
+                      <h5>Data Security</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Can be designed with enhanced security features to protect user data.
+
                       </p>
                     </div>
                   </div>
@@ -152,14 +169,10 @@ const MobileServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Kickoff</h3>
+                    <h3 className="vertical-timeline-element-title">Detailed Consultation</h3>
                     <p>
-                      We define your virtual care management program's objectives, and
-                      together we develop goals and milestones to help you keep on track
-                      to deliver superior care. By pairing together a deep understanding
-                      of your policies and processes with our in-depth knowledge of
-                      Medicare program requirements, we create a clinical design that
-                      works for your organization.
+                      We start with a thorough consultation and clear your doubts by understanding your target audience, business objectives, and feature requirements.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -182,15 +195,12 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Implementation & Training
+                      Planning & Analysis
                     </h3>
 
                     <p>
-                      We conduct an install of our software to integrate directly into
-                      your electronic health record system during this step. Once
-                      implementation is complete, we will train your full team on the
-                      clinical design and software functionality to ensure they are
-                      fully prepared at launch.
+                      After finalising the scope of work, our product team creates a draft which includes the entire project plan as per your vision.
+
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -214,14 +224,11 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Patient Education & Enrollment
+                      Design & Wireframing
                     </h3>
                     <p>
-                      Patient enrollment can be one of the largest challenges to any
-                      virtual care management program, so we devise in-person and
-                      telephone-based enrollment workflows. We help identify the best
-                      patients for your program and streamline the enrollment process by
-                      automatically uploading all eligible patients to the software.
+                      We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -244,15 +251,12 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Care Plan Development & Exchange
+                      Development
                     </h3>
 
                     <p>
-                      Care planning is a crucial but time-consuming component of virtual
-                      care management. We offer care plans created by physicians that
-                      use evidence-based protocol or work with your clinical staff to
-                      create your own templates for upload. By automating the care
-                      planning process, we save your clinical staff hours of work.
+                      We build the app's back-end infrastructure and develop the front-end with agile methodologies.
+
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -277,12 +281,11 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Monthly Care Coordination
+                      Testing
                     </h3>
                     <p>
-                      We help you establish a continuity of care through a designated
-                      care manager who regularly engages with patients through proven
-                      workflows that include a twelve-month patient engagement plan.
+                      We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -305,14 +308,12 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Time Tracking & Billing Documentation
+                      Deployment & Launch
                     </h3>
 
                     <p>
-                      We implement a process to push charges into your electronic health
-                      record system automatically. This allows for quick review and
-                      submission that saves billing teams hours at the end of the month
-                      while tracking reimbursement and compliance requirements.
+                      We deploy the app to play store and app store and provide support during launch to address any issues.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -335,13 +336,12 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Ongoing Client Success
+                      Maintenance & Updates
                     </h3>
 
                     <p>
-                      After a successful launch, we meet on a quarterly cadence to
-                      review your care management program's performance. We dig deep
-                      into financial impact and org
+                      We provide ongoing maintenance, bug fixes, performance improvements, and feature enhancements to meet your evolving needs.
+
                     </p>
                   </VerticalTimelineElement>
 

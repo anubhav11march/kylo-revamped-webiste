@@ -8,7 +8,7 @@ const SectionTitle = ({ subTitle, titleFirst, titleSecond, smallFont }) => {
         className="section__title"
         style={{ fontSize: smallFont ? "40px" : "" }}
       >
-        <span>{titleFirst}&nbsp;</span>
+        <span><nobr>{titleFirst}</nobr>&nbsp;</span>
         {titleSecond}
       </h2>
     </>

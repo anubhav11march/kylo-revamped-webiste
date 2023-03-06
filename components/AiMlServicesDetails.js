@@ -40,7 +40,10 @@ const AiMlServicesDetails = () => {
             <div className="services__details-content">
               <h2>AI/ML/Chatbot</h2>
               <p>
-                We are always innovating, stay updated with the upcoming trends in technology and will take you along on this journey.
+                We have expertise in AI/ML and chatbot development, and we're passionate about helping businesses leverage the latest technologies to enhance their operations and fulfil their unique business needs.
+
+                We use cutting-edge technologies to deliver intelligent solutions that improve your business processes and customer engagement.
+                We’ll help you create an AI-powered future for your business today!
               </p>
               <div className="key__benefits">
                 <div
@@ -58,14 +61,27 @@ const AiMlServicesDetails = () => {
 
               <div className="tech__stack">
                 <h4>Technologies</h4>
-                <div>
-                  <div>Dialogflow, Google Assistant</div>
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>TensorFlow</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>DialogFlow</p>
+                    </div>
+                    <div className='col text-center'>
+                      <i className="fa-solid fa-briefcase"></i>
+                      <p style={{ paddingRight: "0px" }}>Google Assistant</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="key__factors">
                 <div className="key__factors-title">
-                  <h3>Key Factors</h3>
+                  <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex">
@@ -73,10 +89,9 @@ const AiMlServicesDetails = () => {
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Business Automation</h5>
+                      <h5>Automation</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Automates repetitive tasks for increased efficiency and accuracy.
                       </p>
                     </div>
                   </div>
@@ -85,10 +100,10 @@ const AiMlServicesDetails = () => {
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Critical Analysis</h5>
+                      <h5>Cost-Effective</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Reduces labor costs, improves productivity and ROI.
+
                       </p>
                     </div>
                   </div>
@@ -99,10 +114,10 @@ const AiMlServicesDetails = () => {
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Risk Protection</h5>
+                      <h5>24/7 Availability</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Provides round-the-clock support to enhance customer experience.
+
                       </p>
                     </div>
                   </div>
@@ -111,10 +126,9 @@ const AiMlServicesDetails = () => {
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
                     <div className="key__factors-text">
-                      <h5>Annual Report</h5>
+                      <h5>Scalability</h5>
                       <p>
-                        Energy only home we&apos;ve ever known deciphe scended
-                        from rogue.
+                        Can handle high volumes of data and tasks with personalised experience.
                       </p>
                     </div>
                   </div>
@@ -140,14 +154,9 @@ const AiMlServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Kickoff</h3>
+                    <h3 className="vertical-timeline-element-title">Consultation & Identification</h3>
                     <p>
-                      We define your virtual care management program's objectives, and
-                      together we develop goals and milestones to help you keep on track
-                      to deliver superior care. By pairing together a deep understanding
-                      of your policies and processes with our in-depth knowledge of
-                      Medicare program requirements, we create a clinical design that
-                      works for your organization.
+                      We understand your business needs, define project scope, and select appropriate tools and technologies.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -170,15 +179,11 @@ const AiMlServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Implementation & Training
+                      Data Colletion & Preparation
                     </h3>
 
                     <p>
-                      We conduct an install of our software to integrate directly into
-                      your electronic health record system during this step. Once
-                      implementation is complete, we will train your full team on the
-                      clinical design and software functionality to ensure they are
-                      fully prepared at launch.
+                      We gather, clean and preprocess data for machine learning models and chatbot training.
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -202,14 +207,11 @@ const AiMlServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Patient Education & Enrollment
+                      Model Selection & Training
                     </h3>
                     <p>
-                      Patient enrollment can be one of the largest challenges to any
-                      virtual care management program, so we devise in-person and
-                      telephone-based enrollment workflows. We help identify the best
-                      patients for your program and streamline the enrollment process by
-                      automatically uploading all eligible patients to the software.
+                      We select AI/ML models, train the models on preprocessed data, test the models for performance, and refine the models based on results.
+
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -232,15 +234,11 @@ const AiMlServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Care Plan Development & Exchange
+                      Development
                     </h3>
 
                     <p>
-                      Care planning is a crucial but time-consuming component of virtual
-                      care management. We offer care plans created by physicians that
-                      use evidence-based protocol or work with your clinical staff to
-                      create your own templates for upload. By automating the care
-                      planning process, we save your clinical staff hours of work.
+                      We design the UI, define the conversational flow and train the chatbot on natural language processing capabilities.
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -265,12 +263,10 @@ const AiMlServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Monthly Care Coordination
+                      Integration & Deployment
                     </h3>
                     <p>
-                      We help you establish a continuity of care through a designated
-                      care manager who regularly engages with patients through proven
-                      workflows that include a twelve-month patient engagement plan.
+                      We integrate AI/ML models or chatbots with your application or website, deploy to a cloud environment and ensure security.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -293,43 +289,11 @@ const AiMlServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Time Tracking & Billing Documentation
+                      Testing & Maintenance
                     </h3>
 
                     <p>
-                      We implement a process to push charges into your electronic health
-                      record system automatically. This allows for quick review and
-                      submission that saves billing teams hours at the end of the month
-                      while tracking reimbursement and compliance requirements.
-                    </p>
-                  </VerticalTimelineElement>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{
-                      background: "rgb(33, 150, 243)",
-                      color: "#fff",
-                      border: "1px solid #fff",
-                    }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-                    // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    icon={
-                      <div
-                        className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
-                      >
-                        <i className="far fa-plus" />
-                      </div>
-                    }
-                  >
-                    <h3 className="vertical-timeline-element-title">
-                      Ongoing Client Success
-                    </h3>
-
-                    <p>
-                      After a successful launch, we meet on a quarterly cadence to
-                      review your care management program's performance. We dig deep
-                      into financial impact and org
+                      Performance and provide ongoing maintenance and improvements.
                     </p>
                   </VerticalTimelineElement>
 

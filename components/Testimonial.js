@@ -7,7 +7,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const TESTIMONIAL_DATA = [
   {
-    clientLogo: "/assets/images/testimonials/client-logo/RentoutLogo123.png",
+    clientLogo: "/assets/images/testimonials/client-logo/RentoutLogoNew.jpg",
     clientText:
       "Team Kylo has been highly reliable. Also, they are very responsive and ready to fix any type of application issues. Their biggest strength is their pricing which is unbeatable in the market. They delivered an amazing application to us.",
     clientImg: "/assets/images/testimonials/RentoutFounder.jpg",
@@ -37,7 +37,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/SteloLogo.png",
     clientText:
       "Kylo Apps delivered a top-notch app which exceeded our expectations. The responsibility with which the team operated really helped us in banking on them easily. All their team members were very cooperative and responsive.",
-    clientImg: "/assets/images/testimonials/SteloFounder.jpg",
+    clientImg: "/assets/images/testimonials/SteloFounderNew.jpeg",
     clientName: "Sumeet Jain",
     clientPosition: "Founder",
     company: "Stelo",

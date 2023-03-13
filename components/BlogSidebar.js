@@ -70,7 +70,7 @@ const BlogSidebar = () => {
                   <div className="sidebar__rc-thumb">
                     <Link href={`/blog/${_id}`}>
                       <a>
-                        <img src={thumbnail} alt="blog" />
+                        <img src={thumbnail} alt="blog" className='blog-img-test'/>
                       </a>
                     </Link>
                   </div>

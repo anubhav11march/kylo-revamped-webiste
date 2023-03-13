@@ -8,13 +8,15 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(null);
 
+  const emailObj = { email : email}
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("email: ", email);
 
     const res = await fetch("/api/emails", {
       method: "POST",
-      body: JSON.stringify(email),
+      body: JSON.stringify(emailObj),
       headers: {
         "Content-Type": "application/json",
       },

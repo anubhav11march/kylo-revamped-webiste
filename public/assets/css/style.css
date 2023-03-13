@@ -5185,7 +5185,7 @@ textarea {
 }
 .sidebar__rc-thumb {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -5193,9 +5193,9 @@ textarea {
   -o-border-radius: 10px;
 }
 .sidebar__rc-thumb img {
-  object-fit: cover;
-  height: 92px;
-  width: 240px!important;
+  /* object-fit: cover; */
+  /* height: 92px;
+  width: 240px; */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -5206,6 +5206,11 @@ textarea {
   -moz-transition: all 1.5s ease-in-out;
   -ms-transition: all 1.5s ease-in-out;
   -o-transition: all 1.5s ease-in-out;
+}
+.blog-img-test{
+  height: 92px;
+  width: 100px;
+  max-width: fit-content;
 }
 .sidebar__rc-thumb:hover img {
   transform: scale(1.1);

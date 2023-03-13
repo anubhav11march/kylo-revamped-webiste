@@ -208,6 +208,7 @@ const QuickApply = () => {
                             </p>
                             <img
                               src="/assets/images/upload.png"
+                              width={"20px"}
                             />
                           </div>
                         </div>

@@ -27,7 +27,12 @@
 .side-info nav.mobile-menu ul li a:hover {
   color: #7432ff;
 }
-.header__area.sticky .main-menu-3 ul li .active {
+/* .header__area.sticky .main-menu-3 ul li .active {
+  color: #7432ff !important;
+} */
+
+.header__area.sticky .main-menu-3 ul li .active,
+.header__area.sticky .main-menu ul li .active {
   color: #7432ff !important;
 }
 

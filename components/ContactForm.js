@@ -15,6 +15,8 @@ const ContactForm = () => {
 
   const [form, setForm] = useState(INITIAL_VALUES);
 
+  const [countryCode, setCountryCode] = useState("+91");
+
   const [uploadSuccess, setUploadSuccess] = useState(false);
 
   const handleChange = (e) => {
@@ -146,8 +148,18 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  <div className="field-format d-sm-flex justify-content-between mb-40">
-                    <div className="form-group pr-10 form-group-2">
+                  <div className="d-flex w-100" style={{ marginBottom : "30px"}}>
+                    <div style={{ width:"200px", lineHeight:"55px"}}>
+                      <select>
+                        <option>+91</option>
+                        <option>+92</option>
+                        <option>+93</option>
+                        <option>+94</option>
+                        <option>+95</option>
+                        
+                      </select>
+                    </div>
+                    <div className="form-group pr-10 form-group-2" style={{ width:"100%", paddingLeft:"5px"}}>
                       <input
                         type="text"
                         className="form-control"
@@ -160,6 +172,8 @@ const ContactForm = () => {
                         onChange={handleChange}
                       />
                     </div>
+                  </div>
+                  <div className="field-format d-sm-flex justify-content-between mb-40">
                     <div className="form-group pr-10 form-group-2">
                       <input
                         type="text"

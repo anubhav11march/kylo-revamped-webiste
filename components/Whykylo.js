@@ -244,6 +244,7 @@ const WhyKylo = ({ extraClass }) => {
                       overflowX : "hidden",
                       height: "100%",
                       borderRadius: "10px",
+                      objectFit:"cover"
                     }}
                     src="/assets/images/carrier/Videothumbnail.jpg"
                   />

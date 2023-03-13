@@ -56,7 +56,7 @@ const Hero = () => {
             <div className="hero__content">
               {/* <h4 className="section__sub-title">Kylo Apps</h4> */}
               <h3 className="hero__title">
-                <span>Transforming businesses through</span>
+                <span>Transforming <nobr>businesses through</nobr></span>
               </h3>
               <div style={{ height: "50px" }}>
                 <Typical

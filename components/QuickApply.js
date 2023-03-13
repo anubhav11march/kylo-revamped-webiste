@@ -133,7 +133,7 @@ const QuickApply = () => {
                             name="fullName"
                             value={form.fullName}
                             onChange={handleChange}
-                            placeholder="Full Name"
+                            placeholder="Full Name *"
                             required
                           />
                         </div>
@@ -147,7 +147,7 @@ const QuickApply = () => {
                             name="email"
                             onChange={handleChange}
                             value={form.email}
-                            placeholder="Email Address"
+                            placeholder="Email Address *"
                             required
                           />
                         </div>
@@ -159,7 +159,7 @@ const QuickApply = () => {
                             type="text"
                             className="form-control"
                             name="phone"
-                            placeholder="Phone Number"
+                            placeholder="Phone Number *"
                             maxLength={15}
                             minLength={10}
                             value={form.phone}
@@ -194,7 +194,7 @@ const QuickApply = () => {
                             type="file"
                             className="form-control"
                             name="resume"
-                            placeholder="Upload Resume"
+                            placeholder="Upload Resume *"
                             required
                             style={{ display: "none" }}
                             id="resume"
@@ -246,6 +246,7 @@ const QuickApply = () => {
                         className="about-s-1 d-none d-lg-block quick_apply-s-1"
                         src="/assets/images/shape/about/about-s-1.png"
                         alt=""
+                        // style={{ objectFit:"cover"}}
                       />
                       <img
                         className="quick_apply-shape-7"

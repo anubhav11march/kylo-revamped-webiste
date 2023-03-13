@@ -5,7 +5,7 @@ import SectionTitle from "./SectionTitle";
 
 const Faq = () => {
   return (
-    <section className="faq__area fix p-relative pt-105 pb-60 faq__rs">
+    <section className="faq__area fix p-relative pb-60 faq__rs">
       <div className="faq__shape">
         <img
           className="faq-shape-1 d-none d-lg-block"

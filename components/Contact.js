@@ -5,53 +5,45 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <section className="contact__area fix p-relative pt-120 pb-190">
-      
+
       <Container>
-        
+
         <Row className="align-items-center">
 
           <Col xl={6} lg={7} md={8}>
-            <div className="contact__info">
+            <div className="contact__info ">
 
-              <div className="contact__info-content d-flex mb-30">
-              <div className="container">
-        <div className="col">
-          <Link href="https://www.facebook.com/kyloapps">
-            <a target={"_blank"}>
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
-          </Link>
-        </div>
-        <div className="col">
-          <Link href="https://www.facebook.com/kyloapps">
-            <a target={"_blank"}>
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
-          </Link>
-        </div>
-        <div className="col">
-          <Link href="https://www.facebook.com/kyloapps">
-            <a target={"_blank"}>
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
-          </Link>
-        </div>
-        <div className="col">
-          <Link href="https://www.facebook.com/kyloapps">
-            <a target={"_blank"}>
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
-          </Link>
-        </div>
-        <div className="col">
-          <Link href="https://www.facebook.com/kyloapps">
-            <a target={"_blank"}>
-              <i className="fa-brands fa-facebook-f"></i>
-            </a>
-          </Link>
-        </div>
-      </div>
-      <div className="w-100"></div>
+              <div className="contact__info-content d-flex flex-column mb-30">
+                <div className="container" style={{padding:"0"}}>
+                  <div className="footer__widget-social mb-30" style={{ width:"22rem"}}>
+                    <Link href="https://www.linkedin.com/company/kylo-apps">
+                      <a target={"_blank"}>
+                        <i className="fa-brands fa-linkedin"></i>
+                      </a>
+                    </Link>
+                    <Link href="https://www.instagram.com/kyloappsglobal/">
+                      <a target={"_blank"}>
+                        <i className="fa-brands fa-instagram"></i>
+                      </a>
+                    </Link>
+                    <Link href="https://twitter.com/kyloapps">
+                      <a target={"_blank"}>
+                        <i className="fa-brands fa-twitter"></i>
+                      </a>
+                    </Link>
+                    <Link href="https://www.youtube.com/@kyloapps">
+                      <a target={"_blank"}>
+                        <i className="fa-brands fa-youtube"></i>
+                      </a>
+                    </Link>
+                    <Link href="https://www.facebook.com/kyloapps">
+                      <a target={"_blank"}>
+                        <i className="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="w-100"></div>
                 <div className="contact__info-icon">
                   <i className="fa-solid fa-location-dot"></i>
                 </div>

@@ -19,10 +19,11 @@ const HomeOne = () => {
   return (
     <Layout
       pageTitle="
-    KYLO APPS | Transforming businesses throughhhh"
+    KYLO APPS | Transforming businesses through"
     >
       <Header heroLogo="/assets/images/logo/kylo-image.png" />
-      <main>
+      
+      <main style={{ overflow : "hidden"}}>
         <Hero />
         <About
           subTitle="About Us"

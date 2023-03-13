@@ -315,7 +315,7 @@ textarea {
   content: "";
   left: 0;
   bottom: 5px;
-  width: 86%;
+  width: 75%;
   height: 9px;
   background: #f2dac0;
   z-index: -1;

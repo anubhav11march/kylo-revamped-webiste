@@ -75,6 +75,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
   return (
     <section
       className={`${testimonialArea} fix p-relative ${paddingTop} pb-120`}
+      style={{ height:"90rem"}}
     >
       <div className="testimonials__shape">
         <img
@@ -168,7 +169,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
               )}
             </Swiper>
             {/* <h6>SWIPER</h6> */}
-            <div className="swiper-pagination"></div>
+            <div className="swiper-pagination" style={{position:"relative", bottom:"0px"}}></div>
           </Col>
         </Row>
       </Container>

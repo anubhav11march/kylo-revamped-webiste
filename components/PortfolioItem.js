@@ -20,7 +20,7 @@ const PortfolioItem = ({
             <h6 className="text-center">
               {/* <Link href={portfolioLink}> */}
               <a>{portfolioTitle.slice(0, 11) + (portfolioTitle.length > 11 ? ".." : "")}</a>
-              <span style={{ fontSize: "15px", background: "#c3f318", borderRadius: "50px", marginLeft: "5px", padding: "5px" }}>
+              <span style={{ fontSize: "18px", background: "#c3f318", borderRadius: "50%", marginLeft: "5px", padding: "5px 7px", color:"white" }}>
                 <i className="fas fa-plus"></i>
               </span>
               {/* </Link> */}

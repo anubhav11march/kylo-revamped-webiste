@@ -66,7 +66,7 @@ const Customer = () => {
                                             <img src="assets/images/brand/logo-5.png" alt=""/>                                            
                                         </div>                                
                                     </SwiperSlide>                                
-                                </Swiper>                                
+                                </Swiper>
                             {/* <h6>SWIPER</h6> */}
                             </div>
                         </Col>

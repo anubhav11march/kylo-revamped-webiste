@@ -42,8 +42,8 @@ const Facts = () => {
               <div className="facts__content-text">
                 <SectionTitle
                   subTitle="Why Choose us"
-                  titleFirst="One stop solution for"
-                  titleSecond="all your tech needs"
+                  titleFirst="One stop solution"
+                  titleSecond=" for all your tech needs"
                 />
                 <p>
                   We understand that tech can be complex and hard to set up. It

@@ -47,8 +47,8 @@ const WhatWePromise = () => {
               <div className="facts__content-text">
                 <SectionTitle
                   subTitle="What we promise"
-                  titleFirst="Skyrocket your growth"
-                  titleSecond="with us"
+                  titleFirst="Skyrocket your growth "
+                  titleSecond=" with us"
                   smallFont={true}
                 />
 

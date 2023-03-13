@@ -44,7 +44,7 @@ const Experience = ({ extraClass }) => {
                 <SectionTitle
                   subTitle="Engineered for excellence"
                   titleFirst="Planning to transform"
-                  titleSecond="your business?"
+                  titleSecond=" your business?"
                 />
                 <p>
                   We can help you with the Estimation, Prototype, Minimum Viable

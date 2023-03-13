@@ -118,10 +118,13 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
         <Row>
           <Col xl={12}>
             <Swiper
-              navigation={{
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev'
-              }}
+              // navigation={{
+              //   // nextEle: '.swiper-button-next',
+              //   // prevEl: '.swiper-button-prev'
+              //   prevEl : '.swiper-button-prev',
+              //   nextEl : '.swiper-button-next'
+              // }}
+              navigation={true}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,

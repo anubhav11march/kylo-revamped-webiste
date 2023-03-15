@@ -74,8 +74,8 @@ const TESTIMONIAL_DATA = [
 const Testimonial = ({ testimonialArea, paddingTop }) => {
   return (
     <section
-      className={`${testimonialArea} fix p-relative ${paddingTop} pb-120`}
-      style={{ height:"90rem"}}
+      className={`${testimonialArea} fix p-relative ${paddingTop} mb-120`}
+      style={{ height:"65rem"}}
     >
       <div className="testimonials__shape">
         <img
@@ -101,7 +101,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
         />
       </div>
       <Container>
-        <Row className="mb-65">
+        <Row className="">
           <Col xl={12}>
             <div className="testimonials__title text-center">
               <SectionTitle
@@ -118,12 +118,6 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
         <Row>
           <Col xl={12}>
             <Swiper
-              // navigation={{
-              //   // nextEle: '.swiper-button-next',
-              //   // prevEl: '.swiper-button-prev'
-              //   prevEl : '.swiper-button-prev',
-              //   nextEl : '.swiper-button-next'
-              // }}
               navigation={true}
               autoplay={{
                 delay: 2500,

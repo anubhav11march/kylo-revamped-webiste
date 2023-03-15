@@ -3261,6 +3261,10 @@ textarea {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+.portfolio__text h6{
+  font-size: 32px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 575px) {
@@ -3801,7 +3805,7 @@ textarea {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   font-size: 25px;
-  color: #c3f318;
+  color: #fff;
   position: relative;
   z-index: 2;
   cursor: pointer;
@@ -3878,7 +3882,7 @@ textarea {
   top: 0;
   background: #fffef2;
   margin: auto;
-  height: 73%;
+  height: 95%;
   width: 100%;
   z-index: -1;
 }
@@ -4044,7 +4048,7 @@ textarea {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  height: 35em;
+  height: 30em;
   margin-bottom: 2em;
   position: relative;
 }

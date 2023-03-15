@@ -43,13 +43,13 @@ const Contact = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="w-100"></div>
-                <div className="contact__info-icon">
+                {/* <div className="w-100"></div> */}
+                <div className="contact__info-icon" style={{ position : "relative", top:"25px"}}>
                   <i className="fa-solid fa-location-dot"></i>
                 </div>
                 <div className="contact__info-title">
-                  <h5>Office Address</h5>
-                  <p>
+                  <h5 style={{ left : "15px"}}>Office Address</h5>
+                  <p style={{ position:"relative", left : "15px"}}>
                     203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi, India
                     110034
                   </p>

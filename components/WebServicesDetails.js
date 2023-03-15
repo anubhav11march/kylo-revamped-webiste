@@ -270,7 +270,7 @@ const WebServicesDetails = () => {
                     }}
                     contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255) ", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"

@@ -152,7 +152,7 @@ const JobDetails = () => {
                         name="fullName"
                         value={form.fullName}
                         onChange={handleChange}
-                        placeholder="Full Name"
+                        placeholder="Full Name *"
                         required
                       />
                     </div>
@@ -166,7 +166,7 @@ const JobDetails = () => {
                         name="email"
                         onChange={handleChange}
                         value={form.email}
-                        placeholder="Email Address"
+                        placeholder="Email Address *"
                         required
                       />
                     </div>
@@ -178,7 +178,7 @@ const JobDetails = () => {
                         type="text"
                         className="form-control"
                         name="phone"
-                        placeholder="Phone Number"
+                        placeholder="Phone Number *"
                         maxLength={15}
                         minLength={10}
                         value={form.phone}
@@ -227,6 +227,7 @@ const JobDetails = () => {
                             document.querySelector("#resume").click()
                           }
                           src="/assets/images/upload.png"
+                          width={"20px"}
                         />
                       </div>
                     </div>

@@ -71,6 +71,7 @@ const Footer = () => {
                         type="email"
                         className="form-control"
                         placeholder="Email address"
+                        value={email}
                         onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>

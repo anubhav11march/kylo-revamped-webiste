@@ -181,10 +181,10 @@ const Devops = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -194,21 +194,21 @@ const Devops = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Planning</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Planning</h3>
+                    <p style={{ color : "#fff"}}>
                       We identify the project requirements, define the project scope, and establish a development plan.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -228,10 +228,10 @@ const Devops = () => {
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -241,17 +241,17 @@ const Devops = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Continuous Delivery</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Continuous Delivery</h3>
+                    <p style={{ color : "#fff"}}>
                       We deploy code changes to the production environment automatically, ensuring that the changes are stable and functional.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "#3051a5", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(227, 220, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -268,10 +268,10 @@ const Devops = () => {
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -288,10 +288,10 @@ const Devops = () => {
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "#3051a5", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentStyle={{ background: "rgb(227, 220, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"

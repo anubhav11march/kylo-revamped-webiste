@@ -7,7 +7,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const TESTIMONIAL_DATA = [
   {
-    clientLogo: "/assets/images/testimonials/client-logo/RentoutLogoNew.jpg",
+    clientLogo: "/assets/images/testimonials/client-logo/RentoutLogoNeww.jpg",
     clientText:
       "Team Kylo has been highly reliable. Also, they are very responsive and ready to fix any type of application issues. Their biggest strength is their pricing which is unbeatable in the market. They delivered an amazing application to us.",
     clientImg: "/assets/images/testimonials/RentoutFounder.jpg",
@@ -16,7 +16,7 @@ const TESTIMONIAL_DATA = [
     company: "Rentout",
   },
   {
-    clientLogo: "/assets/images/testimonials/client-logo/ActiveSolutionsLogo.png",
+    clientLogo: "/assets/images/testimonials/client-logo/ActiveSolutionsLogoNew.jpeg",
     clientText:
       "Understanding the customers’ requirement with accuracy is what Kylo strives for. They put in great effort to make us understand the complexities and helped us feel comfortable with their customer centric approach and interaction.",
     clientImg: "/assets/images/testimonials/ActiveSolutionsMD.png",
@@ -115,14 +115,16 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ paddingTop : "3rem"}}>
           <Col xl={12}>
             <Swiper
+
               navigation={true}
               autoplay={{
                 delay: 2500,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
               }}
+              on
               modules={[Autoplay, Navigation, Pagination]}
               spaceBetween={30}
               slidesPerView={"auto"}

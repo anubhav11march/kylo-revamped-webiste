@@ -185,10 +185,10 @@ const UiUxServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -198,8 +198,8 @@ const UiUxServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Detailed Consultation</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>Detailed Consultation</h3>
+                    <p style={{ color:"#fff"}}>
                       We start with a thorough consultation, clear doubts and finalise the project scope by understanding your business requirements.
 
                     </p>
@@ -207,13 +207,13 @@ const UiUxServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220, 255)"}}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -238,10 +238,10 @@ const UiUxServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -251,10 +251,10 @@ const UiUxServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Ideation
                     </h3>
-                    <p>
+                    <p style={{ color:"#fff"}}>
                     We create concepts based on research and your vision for the project.
 
                     </p>
@@ -262,13 +262,13 @@ const UiUxServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -294,10 +294,10 @@ const UiUxServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -307,10 +307,10 @@ const UiUxServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Prototyping
                     </h3>
-                    <p>
+                    <p style={{ color:"#fff"}}>
                     We develop interactive prototypes for testing and iteration.
 
                     </p>
@@ -318,13 +318,13 @@ const UiUxServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background:"rgb(227,220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -346,13 +346,13 @@ const UiUxServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116, 50, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -362,11 +362,11 @@ const UiUxServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Testing & Refinement
                     </h3>
 
-                    <p>
+                    <p style={{ color:"#fff"}}>
                     We test the design with users to ensure usability and make necessary improvements.
 
                     </p>

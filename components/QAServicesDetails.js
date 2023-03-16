@@ -153,10 +153,10 @@ const QAServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -166,21 +166,21 @@ const QAServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Consultation & Planning</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Consultation & Planning</h3>
+                    <p style={{ color : "#fff"}}>
                       We define test objectives, strategies, scope, and test cases based on requirements.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)"}}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -201,13 +201,13 @@ const QAServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(116, 50, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -217,11 +217,11 @@ const QAServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Defect Management
                     </h3>
 
-                    <p>
+                    <p style={{ color : "#fff"}}>
                       We track, report, prioritise, and resolve the defects found during the testing phase.
                     </p>
                   </VerticalTimelineElement>
@@ -229,13 +229,13 @@ const QAServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -256,13 +256,13 @@ const QAServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116, 50, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -272,11 +272,11 @@ const QAServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Acceptance Testing
                     </h3>
 
-                    <p>
+                    <p style={{ color : "#fff"}}>
                       We perform user acceptance testing to ensure that the application meets business requirements and user expectations.
 
                     </p>
@@ -284,13 +284,13 @@ const QAServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"

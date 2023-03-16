@@ -141,10 +141,10 @@ const AiMlServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -154,21 +154,21 @@ const AiMlServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Consultation & Identification</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Consultation & Identification</h3>
+                    <p style={{ color : "#fff"}}>
                       We understand your business needs, define project scope, and select appropriate tools and technologies.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -193,10 +193,10 @@ const AiMlServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -217,13 +217,13 @@ const AiMlServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -249,10 +249,10 @@ const AiMlServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -272,13 +272,13 @@ const AiMlServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)"}}
                     icon={
                       <div
                         className="d-flex justify-content-center"

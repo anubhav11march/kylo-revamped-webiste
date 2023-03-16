@@ -6,9 +6,13 @@ import "../public/assets/css/mobile-menu.css"
 import "../public/assets/css/default.css"
 import "../public/assets/css/style.css"
 
+import Script from "next/script";
+
 function MyApp({ Component, pageProps }) {
   return (
-      <Component {...pageProps} />
+
+      <Component {...pageProps} />  
+
   );
 }
 

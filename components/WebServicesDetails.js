@@ -188,10 +188,10 @@ const WebServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -201,21 +201,21 @@ const WebServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Detailed Consultation</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Detailed Consultation</h3>
+                    <p style={{ color : "#fff"}}>
                       We start with a thorough consultation and clear your doubts by understanding your target audience, business objectives, and feature requirements.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -241,10 +241,10 @@ const WebServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -254,23 +254,23 @@ const WebServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Design & Wireframing
-                    </h3>
-                    <p>
-                      We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
+                   </h3>
+                    <p style={{ color : "#fff"}}>
+                     We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(116, 50, 255) ", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)"}}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -296,10 +296,10 @@ const WebServicesDetails = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -309,23 +309,23 @@ const WebServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Testing
-                    </h3>
-                    <p>
-                      We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
+                   </h3>
+                    <p style={{ color : "#fff"}}>
+                     We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227, 220, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -346,13 +346,13 @@ const WebServicesDetails = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116, 50, 255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116, 50, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -360,13 +360,13 @@ const WebServicesDetails = () => {
                       >
                         <i className="far fa-plus" />
                       </div>
-                    }
+                   }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Maintenance & Updates
-                    </h3>
+                   </h3>
 
-                    <p>
+                   <p style={{ color : "#fff"}}>
                       We provide ongoing maintenance, bug fixes, performance improvements, and feature enhancements to meet your evolving needs.
                     </p>
                   </VerticalTimelineElement>

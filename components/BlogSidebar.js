@@ -6,6 +6,8 @@ const BlogSidebar = () => {
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
 
+  const [keyword, setKeyword] = useState(null);
+
   useEffect(() => {
     setLoading(true);
     fetch("/api/blogs")
@@ -24,11 +26,13 @@ const BlogSidebar = () => {
   return (
     <div className="blog__sidebar">
       <div className="sidebar__widget-search mb-40">
-        <form action="#">
-          <input type="text" placeholder="Keywords" />
-          <button type="submit">
+        <form>
+          <input type="text" placeholder="Keywords" onChange={(e) => setKeyword(e.target.value)}/>
+          <Link href={`/blog?keyword=${keyword}`}>
+          <button>
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
+          </Link>
         </form>
       </div>
       <div className="sidebar__widget mb-40">
@@ -66,7 +70,7 @@ const BlogSidebar = () => {
                 { _id, thumbnail, category, date, title },
                 index
               ) => (
-                <li className="sidebar__rc-item">
+                <li className="sidebar__rc-item" key={index}>
                   <div className="sidebar__rc-thumb">
                     <Link href={`/blog/${_id}`}>
                       <a>

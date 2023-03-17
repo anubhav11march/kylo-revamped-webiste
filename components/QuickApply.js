@@ -55,7 +55,7 @@ const QuickApply = () => {
     await uploadFile();
 
     if (!URL.current) {
-      alert("Something went wrong !!");
+      alert("Something went wrong!");
       return;
     }
 
@@ -78,9 +78,9 @@ const QuickApply = () => {
     if (data.success) {
       setUploading(false);
       setUploadSuccess(true);
-      alert("Application Sent !!");
+      alert("Application Sent!");
       setForm(INITIAL_VALUES);
-    } else alert("Something went wrong!!");
+    } else alert("Something went wrong!");
   };
 
   // useEffect(() => {

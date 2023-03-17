@@ -37,9 +37,9 @@ const ContactForm = () => {
     });
     const data = await res.json();
     if (data.success) {
-      alert("Message Sent !!");
+      alert("Message Sent!");
       setForm(INITIAL_VALUES);
-    } else alert("Something went wrong!!");
+    } else alert("Something went wrong!");
   };
 
   useEffect(() => {

@@ -25,7 +25,7 @@ const Footer = () => {
     const data = await res.json();
     console.log(`Form DATA : `, data)
     if (data.success) {
-      alert("Subscribed to the Newsletter !!");
+      alert("Subscribed to the Newsletter!");
       setEmail("");
     } else {
       setSubmitted(false);

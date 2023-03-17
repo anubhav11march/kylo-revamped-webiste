@@ -13,7 +13,7 @@ const NavMenu = ({ mobile }) => {
 
   const HomePath = router.pathname
 
-  console.log(HomePath)
+  // console.log(HomePath)
 
   return (
     <ul className="main-menu__links">

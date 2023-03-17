@@ -2,10 +2,18 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
 import BlogHomeCard from "./BlogHomeCard";
+import { useRouter } from "next/router";
 
 // import ScrollToTop from "react-scroll-to-top";
 
 const BlogHome = ({ extraClass }) => {
+
+  const router = useRouter();
+
+  const categoryQuery = router.pathname.replace("/", "");
+
+  console.log(`TESTTTT : `, categoryQuery) 
+
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
 
@@ -17,7 +25,8 @@ const BlogHome = ({ extraClass }) => {
         setData(data?.data);
         setLoading(false);
       });
-  }, []);
+      console.log(`Finding Query : `, categoryQuery);
+  }, [categoryQuery]);
 
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;

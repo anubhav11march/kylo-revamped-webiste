@@ -26,7 +26,7 @@ const BlogHomeCard = ({
   blogTitle,
   blogAuthor
 }) => {
-  console.log(`Author : `, blogAuthor)
+  // console.log(`Author : `, blogAuthor)
   return (
     <Col xl={4} lg={4} md={6}>
       <div className="blog__item mb-40">

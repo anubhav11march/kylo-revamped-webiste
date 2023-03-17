@@ -65,13 +65,21 @@ const Blog = () => {
 
   useEffect(() => {
     setLoading(true);
+    if(query.keyword && query.keyword !== "" && query.keyword !== "undefined"){
+      fetch(`/api/blogs?keyword=${query.keyword}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data?.data);
+        setLoading(false);
+      });
+    }
     fetch(`/api/blogs?category=${query.category}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data?.data);
         setLoading(false);
       });
-  }, [query.category]);
+  }, [query.keyword, query.category]);
 
 
   if (isLoading) return <p>Loading...</p>;

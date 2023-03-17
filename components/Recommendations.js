@@ -45,7 +45,7 @@ const Recommendations = () => {
   return (
     <section className="about__area  p-relative pt-120 pb-100 about__pb">
       <Container>
-        <div className="about__title mb-80 text-center">
+        <div className="about__title mb-80 text-center section__title-home">
           <SectionTitle
             subTitle="RECOMMENDATIONS"
             titleFirst="Globally trusted for innovative development"

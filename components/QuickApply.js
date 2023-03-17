@@ -456,7 +456,7 @@ const QuickApply = () => {
                         )}
                       </button>
                       {uploadSuccess ?
-                        <h6 style={{ paddingTop: "21px" }}>Application submitted Successfully!</h6>
+                        <h6 style={{ paddingTop: "21px" }}>Your response has been recorded successfully!</h6>
                         :
                         <></>
                       }

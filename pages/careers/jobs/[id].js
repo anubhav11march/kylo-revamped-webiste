@@ -87,7 +87,7 @@ const JobDetails = () => {
     const data = await res.json();
     if (data.success) {
       setUploading(false);
-      alert("Application Sent!");
+      alert("Your response has been recorded successfully!");
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!");
   };

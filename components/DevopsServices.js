@@ -124,7 +124,7 @@ const Devops = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -135,7 +135,7 @@ const Devops = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -149,7 +149,7 @@ const Devops = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -161,7 +161,7 @@ const Devops = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -195,7 +195,7 @@ const Devops = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Planning</h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We identify the project requirements, define the project scope, and establish a development plan.
                     </p>
                   </VerticalTimelineElement>
@@ -222,7 +222,7 @@ const Devops = () => {
                       Continuous Integration
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We integrate code changes into a shared repository, test the changes, and detect and fix issues early in the development process.
                     </p>
                   </VerticalTimelineElement>
@@ -242,7 +242,7 @@ const Devops = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Continuous Delivery</h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We deploy code changes to the production environment automatically, ensuring that the changes are stable and functional.
                     </p>
                   </VerticalTimelineElement>
@@ -262,7 +262,7 @@ const Devops = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">Continuous Deployment</h3>
-                    <p>
+                    <p className="zero-padding-right">
                       We automatically release code changes to the production environment after successful testing and verification
                     </p>
                   </VerticalTimelineElement>
@@ -282,7 +282,7 @@ const Devops = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">Monitoring & Logging</h3>
-                    <p>
+                    <p className="zero-padding-right">
                       We monitor the application and infrastructure performance, log and analyse errors and issues, and identify areas for improvement.
                     </p>
                   </VerticalTimelineElement>
@@ -302,7 +302,7 @@ const Devops = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title">Collaboration</h3>
-                    <p>
+                    <p className="zero-padding-right">
                       We foster collaboration between development, operations, and other stakeholders to streamline the development process and improve application quality.
                     </p>
                   </VerticalTimelineElement>

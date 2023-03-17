@@ -96,7 +96,7 @@ const QAServicesDetails = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width:"50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -108,7 +108,7 @@ const QAServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width:"50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -121,7 +121,7 @@ const QAServicesDetails = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width:"50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -133,7 +133,7 @@ const QAServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width:"50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -167,7 +167,7 @@ const QAServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Consultation & Planning</h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We define test objectives, strategies, scope, and test cases based on requirements.
                     </p>
                   </VerticalTimelineElement>
@@ -194,7 +194,7 @@ const QAServicesDetails = () => {
                       Test Execution
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We run the tests (manual/automated), record the results, and report defects found.
                     </p>
                   </VerticalTimelineElement>
@@ -221,7 +221,7 @@ const QAServicesDetails = () => {
                       Defect Management
                     </h3>
 
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We track, report, prioritise, and resolve the defects found during the testing phase.
                     </p>
                   </VerticalTimelineElement>
@@ -249,7 +249,7 @@ const QAServicesDetails = () => {
                       Regression Testing
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We retest the fixed defects and verify that the changes made have not introduced new issues.
                     </p>
                   </VerticalTimelineElement>
@@ -276,7 +276,7 @@ const QAServicesDetails = () => {
                       Acceptance Testing
                     </h3>
 
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We perform user acceptance testing to ensure that the application meets business requirements and user expectations.
 
                     </p>
@@ -304,7 +304,7 @@ const QAServicesDetails = () => {
                       Test Closure
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We evaluate the testing process, create a test summary report, and obtain final sign-off.
                     </p>
                   </VerticalTimelineElement>

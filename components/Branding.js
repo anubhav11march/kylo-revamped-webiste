@@ -101,7 +101,7 @@ const Branding = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -112,7 +112,7 @@ const Branding = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -125,7 +125,7 @@ const Branding = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -136,7 +136,7 @@ const Branding = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -156,10 +156,10 @@ const Branding = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116,50,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -169,8 +169,8 @@ const Branding = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Discovery</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Discovery</h3>
+                    <p style={{ color : "#fff"}}>
                       We understand your brand and target audience to create a design that reflects your values and resonates with your customers.
 
                     </p>
@@ -178,13 +178,13 @@ const Branding = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227,220,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227,220,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220,255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -205,13 +205,13 @@ const Branding = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116,50,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116,50,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -221,24 +221,24 @@ const Branding = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Design
                     </h3>
 
-                    <p>
+                    <p style={{ color : "#fff"}}>
                       We develop the chosen concept into a polished design that is visually appealing and functional.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227,220,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227,220,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220,255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -259,13 +259,13 @@ const Branding = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116,50,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116,50,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -275,24 +275,24 @@ const Branding = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Finalisation
                     </h3>
 
-                    <p>
+                    <p style={{ color : "#fff"}}>
                       We deliver the final design files in multiple formats for various applications.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227,220,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227,220,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220,255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"

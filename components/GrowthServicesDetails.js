@@ -86,7 +86,7 @@ const GrowthServicesDetails = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -97,7 +97,7 @@ const GrowthServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -110,7 +110,7 @@ const GrowthServicesDetails = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -121,7 +121,7 @@ const GrowthServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -155,7 +155,7 @@ const GrowthServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Goal Setting</h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We understand your problem statement and define business goals, such as increasing website traffic, improving user engagement, generating more leads etc.
                     </p>
                   </VerticalTimelineElement>
@@ -182,7 +182,7 @@ const GrowthServicesDetails = () => {
                       User Acquisition
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We identify the target audience and develop strategies like social media marketing, content marketing, paid advertising and more to acquire new users.
 
                     </p>
@@ -210,7 +210,7 @@ const GrowthServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       User Activation
                     </h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We optimize the user experience to encourage user activation, such as through user onboarding, personalized recommendations, or gamification.
                     </p>
                   </VerticalTimelineElement>
@@ -237,7 +237,7 @@ const GrowthServicesDetails = () => {
                       Retention
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We develop strategies to retain users, such as through email marketing, loyalty programs, or community engagement.
                     </p>
                   </VerticalTimelineElement>
@@ -265,7 +265,7 @@ const GrowthServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Referral
                     </h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We leverage the existing user base to acquire new users through referral programs, viral marketing, or social sharing.
 
                     </p>
@@ -293,7 +293,7 @@ const GrowthServicesDetails = () => {
                       Analytics
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We measure and analyse the effectiveness of the growth hacking strategies and adjust the approach as needed.
                     </p>
                   </VerticalTimelineElement>

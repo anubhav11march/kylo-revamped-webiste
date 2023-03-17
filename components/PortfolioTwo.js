@@ -35,6 +35,31 @@ const PortfolioTwo = ({ extraClass }) => {
           src="/assets/images/shape/portfolio/p-s-5.png"
           alt=""
         />
+        <img
+          className="p-s-6  d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-1.png"
+          alt=""
+        />
+        <img
+          className="p-s-7"
+          src="/assets/images/shape/portfolio/p-s-2.png"
+          alt=""
+        />
+        <img
+          className="p-s-8 d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-3.png"
+          alt=""
+        />
+        <img
+          className="p-s-9"
+          src="/assets/images/shape/portfolio/p-s-4.png"
+          alt=""
+        />
+        <img
+          className="p-s-10 d-none d-xxl-block"
+          src="/assets/images/shape/portfolio/p-s-5.png"
+          alt=""
+        />
       </div>
       <Container>
         <Row>

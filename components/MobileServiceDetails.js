@@ -99,7 +99,7 @@ const MobileServicesDetails = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -110,7 +110,7 @@ const MobileServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -123,7 +123,7 @@ const MobileServicesDetails = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -135,7 +135,7 @@ const MobileServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -170,7 +170,7 @@ const MobileServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Detailed Consultation</h3>
-                    <p style={{ color : "#fff"}}>
+                    <p style={{ color : "#fff"}} className="zero-padding-right">
                       We start with a thorough consultation and clear your doubts by understanding your target audience, business objectives, and feature requirements.
                     </p>
                   </VerticalTimelineElement>
@@ -197,7 +197,7 @@ const MobileServicesDetails = () => {
                       Planning & Analysis
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       After finalising the scope of work, our product team creates a draft which includes the entire project plan as per your vision.
 
                     </p>
@@ -225,7 +225,7 @@ const MobileServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Design & Wireframing
                    </h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}} >
                      We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
                     </p>
                   </VerticalTimelineElement>
@@ -252,8 +252,8 @@ const MobileServicesDetails = () => {
                       Development
                     </h3>
 
-                    <p>
-                      We build the app's back-end infrastructure and develop the front-end with agile methodologies.
+                    <p className="zero-padding-right">
+                      We  build the app's back-end infrastructure and develop the front-end with agile methodologies.
                     </p>
                   </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -280,7 +280,7 @@ const MobileServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
                       Testing
                    </h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}} >
                      We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
                     </p>
                   </VerticalTimelineElement>
@@ -307,8 +307,8 @@ const MobileServicesDetails = () => {
                       Deployment & Launch
                     </h3>
 
-                    <p>
-                      We deploy the app to the server and provide support during launch to address any issues.
+                    <p className="zero-padding-right">
+                      We  deploy the app to the server and provide support during launch to address any issues.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -334,7 +334,7 @@ const MobileServicesDetails = () => {
                       Maintenance & Updates
                    </h3>
 
-                   <p style={{ color : "#fff"}}>
+                   <p className="zero-padding-right" style={{ color : "#fff"}} >
                       We provide ongoing maintenance, bug fixes, performance improvements, and feature enhancements to meet your evolving needs.
                     </p>
                   </VerticalTimelineElement>

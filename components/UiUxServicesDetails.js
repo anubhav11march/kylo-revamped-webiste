@@ -127,7 +127,7 @@ const UiUxServicesDetails = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -138,7 +138,7 @@ const UiUxServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -152,7 +152,7 @@ const UiUxServicesDetails = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -164,7 +164,7 @@ const UiUxServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -199,7 +199,7 @@ const UiUxServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>Detailed Consultation</h3>
-                    <p style={{ color:"#fff"}}>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                       We start with a thorough consultation, clear doubts and finalise the project scope by understanding your business requirements.
 
                     </p>
@@ -227,7 +227,7 @@ const UiUxServicesDetails = () => {
                       Research
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                     We understand user needs and gather information on competitors to create a competitive design.
                     </p>
                   </VerticalTimelineElement>
@@ -254,7 +254,7 @@ const UiUxServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Ideation
                     </h3>
-                    <p style={{ color:"#fff"}}>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                     We create concepts based on research and your vision for the project.
 
                     </p>
@@ -282,7 +282,7 @@ const UiUxServicesDetails = () => {
                       Wireframing
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                     We create low-fidelity wireframes to explore layout and functionality options.
                     </p>
                   </VerticalTimelineElement>
@@ -310,7 +310,7 @@ const UiUxServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Prototyping
                     </h3>
-                    <p style={{ color:"#fff"}}>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                     We develop interactive prototypes for testing and iteration.
 
                     </p>
@@ -338,7 +338,7 @@ const UiUxServicesDetails = () => {
                       Visual Design
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                     We create high-fidelity designs with branding and user interface elements.
 
                     </p>
@@ -366,7 +366,7 @@ const UiUxServicesDetails = () => {
                       Testing & Refinement
                     </h3>
 
-                    <p style={{ color:"#fff"}}>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                     We test the design with users to ensure usability and make necessary improvements.
 
                     </p>

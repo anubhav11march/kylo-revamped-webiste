@@ -84,7 +84,7 @@ const AiMlServicesDetails = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -95,7 +95,7 @@ const AiMlServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -109,7 +109,7 @@ const AiMlServicesDetails = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -121,7 +121,7 @@ const AiMlServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -155,7 +155,7 @@ const AiMlServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Consultation & Identification</h3>
-                    <p style={{ color : "#fff"}}>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We understand your business needs, define project scope, and select appropriate tools and technologies.
                     </p>
                   </VerticalTimelineElement>
@@ -182,7 +182,7 @@ const AiMlServicesDetails = () => {
                       Data Colletion & Preparation
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We gather, clean and preprocess data for machine learning models and chatbot training.
                     </p>
                   </VerticalTimelineElement>
@@ -206,10 +206,10 @@ const AiMlServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff"}}>
                       Model Selection & Training
                     </h3>
-                    <p>
+                    <p className="zero-padding-right" style={{ color: "#fff"}}>
                       We select AI/ML models, train the models on preprocessed data, test the models for performance, and refine the models based on results.
 
                     </p>
@@ -237,7 +237,7 @@ const AiMlServicesDetails = () => {
                       Development
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We design the UI, define the conversational flow and train the chatbot on natural language processing capabilities.
                     </p>
                   </VerticalTimelineElement>
@@ -262,10 +262,10 @@ const AiMlServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff"}}>
                       Integration & Deployment
                     </h3>
-                    <p>
+                    <p className="zero-padding-right" style={{ color: "#fff"}}>
                       We integrate AI/ML models or chatbots with your application or website, deploy to a cloud environment and ensure security.
                     </p>
                   </VerticalTimelineElement>
@@ -278,7 +278,7 @@ const AiMlServicesDetails = () => {
                     }}
                     contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(116, 50, 255)"}}
+                    iconStyle={{ background: "rgb(227, 220, 255)"}}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -292,7 +292,7 @@ const AiMlServicesDetails = () => {
                       Testing & Maintenance
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       Performance and provide ongoing maintenance and improvements.
                     </p>
                   </VerticalTimelineElement>

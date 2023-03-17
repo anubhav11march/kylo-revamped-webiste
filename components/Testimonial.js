@@ -37,7 +37,7 @@ const TESTIMONIAL_DATA = [
     clientLogo: "/assets/images/testimonials/client-logo/SteloLogo.png",
     clientText:
       "Kylo Apps delivered a top-notch app which exceeded our expectations. The responsibility with which the team operated really helped us in banking on them easily. All their team members were very cooperative and responsive.",
-    clientImg: "/assets/images/testimonials/SteloFounderNew.jpeg",
+    clientImg: "/assets/images/testimonials/SteloFounderNew.png",
     clientName: "Sumeet Jain",
     clientPosition: "Founder",
     company: "Stelo",

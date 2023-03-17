@@ -67,7 +67,7 @@ const DataEngineering = () => {
               <div className="tech__stack">
                 <h4>Technologies</h4>
                 <div className='container'>
-                  <div className='row'>
+                  <div className='row' style={{ width:"25%"}}>
                     <div className='col text-center'>
                       <i className="fa-solid fa-briefcase"></i>
                       <p style={{ paddingRight: "0px" }}>SQL</p>
@@ -85,7 +85,7 @@ const DataEngineering = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-briefcase"></i>
                     </div>
@@ -97,7 +97,7 @@ const DataEngineering = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-chart-bar"></i>
                     </div>
@@ -111,7 +111,7 @@ const DataEngineering = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-unlock-keyhole"></i>
                     </div>
@@ -123,7 +123,7 @@ const DataEngineering = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex">
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
                       <i className="fa-solid fa-file-lines"></i>
                     </div>
@@ -143,10 +143,10 @@ const DataEngineering = () => {
                 <VerticalTimeline lineColor={"#A1A1A1"}>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116,50,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -156,21 +156,21 @@ const DataEngineering = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Data Collection</h3>
-                    <p>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff"}}>Data Collection</h3>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                       We collect data from various sources and store it in a central repository.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227,220,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227,220,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220,255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -184,7 +184,7 @@ const DataEngineering = () => {
                       Data Transformation
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We transform data into a structured format and prepare it for analysis.
 
                     </p>
@@ -192,13 +192,13 @@ const DataEngineering = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116,50,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116,50,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -208,24 +208,24 @@ const DataEngineering = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Data Integration
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                       We integrate data from multiple sources to provide a complete picture.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227,220,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227,220,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220,255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -239,7 +239,7 @@ const DataEngineering = () => {
                       Data Storage
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We store data in secure and scalable data warehouses or data lakes.
 
                     </p>
@@ -247,13 +247,13 @@ const DataEngineering = () => {
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "rgb(116,50,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(116,50,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(116,50,255)", color: "#fff" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -263,24 +263,24 @@ const DataEngineering = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title" style={{ color:"#fff"}}>
                       Data Processing
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right" style={{ color:"#fff"}}>
                       We process and analyze data using advanced algorithms and tools.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "#3051a5",
+                      background: "rgb(227,220,255)",
                       color: "#fff",
                       border: "1px solid #fff",
                     }}
-                    contentArrowStyle={{ borderRight: "7px solid  #3051a5" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(227,220,255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "rgb(227,220,255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -294,7 +294,7 @@ const DataEngineering = () => {
                       Data Visualisation
                     </h3>
 
-                    <p>
+                    <p className="zero-padding-right">
                       We present the data in a way that makes it easy to understand and interpret for better decision-making.
                     </p>
                   </VerticalTimelineElement>

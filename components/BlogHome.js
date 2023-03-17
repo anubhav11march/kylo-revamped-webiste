@@ -12,7 +12,7 @@ const BlogHome = ({ extraClass }) => {
 
   const categoryQuery = router.pathname.replace("/", "");
 
-  console.log(`TESTTTT : `, categoryQuery) 
+  // console.log(`TESTTTT : `, categoryQuery) 
 
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);

@@ -10,7 +10,7 @@ const JobSchema = new mongoose.Schema({
   whatWeOffer: { type: String, required: true },
   selectionProcess: { type: String, required: true },
   
-  date: {
+  date: { 
     type: Date,
     default: Date.now(),
   },

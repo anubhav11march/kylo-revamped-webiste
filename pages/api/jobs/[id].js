@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     case "PUT":
       try {
         const updatedRole = await Jobs.findByIdAndUpdate(
-          req.params.id,
+          req.query.id,
           req.body,
           {
             new: true,

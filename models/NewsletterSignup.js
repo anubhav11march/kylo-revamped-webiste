@@ -6,8 +6,7 @@ const NewsletterSchema = new mongoose.Schema({
         required: true
     },
     date: {
-        type: Date,
-        default: Date.now(),
+        type: String,
     },
 });
 mongoose.models = {};

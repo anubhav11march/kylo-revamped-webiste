@@ -7,6 +7,7 @@ const INITIAL_VALUES = {
   email: "",
   city: "",
   phone: "",
+  phoneWithCountryCode:"",
   budget: "",
   message: "",
 };
@@ -25,6 +26,8 @@ const ContactForm = () => {
   };
 
   const handleSubmit = async (e) => {
+    form.phoneWithCountryCode = `+${countryCode}-${form.phone}`
+    form.phone = form.phoneWithCountryCode
     e.preventDefault();
     console.log("form: ", form);
 
@@ -37,7 +40,7 @@ const ContactForm = () => {
     });
     const data = await res.json();
     if (data.success) {
-      alert("Message Sent!");
+      alert("Your record has been submitted successfully!");
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!");
   };
@@ -104,7 +107,7 @@ const ContactForm = () => {
                         type="text"
                         className="form-control"
                         name="firstName"
-                        placeholder="First Name"
+                        placeholder="First Name *"
                         value={form.firstName}
                         onChange={handleChange}
                         required
@@ -150,7 +153,7 @@ const ContactForm = () => {
 
                   <div className="d-flex w-100" style={{ marginBottom: "30px" }}>
                     <div style={{ width: "200px", lineHeight: "55px" }}>
-                      <select>
+                      <select onChange={(e) => setCountryCode(e.target.value)}>
                         <option data-countryCode="IN" value="91">(+91)</option>
                         <option data-countryCode="DZ" value="213">(+213)</option>
                         <option data-countryCode="AD" value="376">(+376)</option>

@@ -31,6 +31,7 @@ const QuickApply = () => {
 
   const [countryCode, setCountryCode] = useState("+91");
 
+
   const URL = useRef();
 
   const uploadFile = async () => {
@@ -50,6 +51,7 @@ const QuickApply = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     setUploading(true);
 
     await uploadFile();
@@ -62,7 +64,7 @@ const QuickApply = () => {
     const formData = {
       fullName: form.fullName,
       email: form.email,
-      phone: form.phone,
+      phone: `+${countryCode}-${form.phone}`,
       designation: form.designation,
       resume: URL.current,
     };
@@ -158,7 +160,7 @@ const QuickApply = () => {
 
                       <div className="d-flex w-100" style={{ marginBottom: "30px" }}>
                         <div style={{ width: "200px", lineHeight: "55px" }}>
-                          <select>
+                          <select onChange={(e) => {setCountryCode(e.target.value)}}>
                             <option data-countryCode="IN" value="91">(+91)</option>
                             <option data-countryCode="DZ" value="213">(+213)</option>
                             <option data-countryCode="AD" value="376">(+376)</option>

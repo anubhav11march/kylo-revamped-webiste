@@ -6,9 +6,10 @@ import Link from "next/link";
 const Footer = () => {
 
   const [email, setEmail] = useState("");
+  const [date, setDate] = useState(new Date().toUTCString().slice(5, 16))
   const [submitted, setSubmitted] = useState(null);
 
-  const emailObj = { email : email}
+  const emailObj = { email : email, date : date}
 
   const handleSubmit = async (e) => {
     e.preventDefault();

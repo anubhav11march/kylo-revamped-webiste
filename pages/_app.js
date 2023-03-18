@@ -7,12 +7,19 @@ import "../public/assets/css/default.css"
 import "../public/assets/css/style.css"
 
 import Script from "next/script";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-
-      <Component {...pageProps} />  
-
+    <>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="test content desc" />
+        <meta name="author" content="Kylo Apps" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <Component {...pageProps} />
+    </>
   );
 }
 

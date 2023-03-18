@@ -31,6 +31,18 @@ export default async function handler(req, res) {
         res.status(400).json({ success: false, error: err.message });
       }
       break;
+    case "DELETE":
+      try {
+        const message = await Applications.findByIdAndDelete(req.query.id);
+        //  console.log("DELEETEDD");
+        if (!message) res.status(400).json({ success: false, message: "Message not found" });
+        res
+          .status(200)
+          .json({ success: true, message: "Application deleted successfully" });
+      } catch (err) {
+        res.status(400).json({ success: false, error: err.message });
+      }
+      break;
     default:
       res.status(400).json({ success: false, message: "Default request" });
       break;

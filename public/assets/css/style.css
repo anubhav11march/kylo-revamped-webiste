@@ -2280,7 +2280,7 @@ textarea {
 @media only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
   .services__details-shape img.s-details-s-2 {
-    top: 15%;
+    top: 9%;
   }
 }
 .services__details-shape img.s-details-s-3 {
@@ -2290,7 +2290,7 @@ textarea {
 @media only screen and (min-width: 1400px) and (max-width: 1700px),
   only screen and (min-width: 1200px) and (max-width: 1399px) {
   .services__details-shape img.s-details-s-3 {
-    top: 15%;
+    top: 9%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

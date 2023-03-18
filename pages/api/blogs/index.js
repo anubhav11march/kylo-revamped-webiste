@@ -16,6 +16,7 @@ export default async function handler(req, res) {
   // *********************************************************************
 
   switch (req.method) {
+    //Client Side
     case "POST":
       try {
         const blog = await Blogs.create(req.body);
@@ -24,11 +25,12 @@ export default async function handler(req, res) {
         res.status(400).json({ success: false, error: err.message });
       }
       break;
+    // Admin
     case "GET":
       try {
         let blogs = await Blogs.find({});
         const { category, keyword } = req.query;
-      
+
         if (category && category !== "" && category !== "undefined") {
           blogs = blogs.filter((blog) => blog.category === category);
         }
@@ -42,8 +44,19 @@ export default async function handler(req, res) {
         res.status(400).json({ success: false, error: err.message });
       }
       break;
+    case "DELETE":
+      try {
+        const message = await Blogs.findByIdAndDelete(req.query.id);
+        //  console.log("DELEETEDD");
+        if (!message) res.status(400).json({ success: false, message: "Message not found" });
+        res
+          .status(200)
+          .json({ success: true, message: "Blog deleted successfully" });
+      } catch (err) {
+        res.status(400).json({ success: false, error: err.message });
+      }
+      break;
 
-    
     default:
       res.status(400).json({ success: false, message: "Default request" });
       break;

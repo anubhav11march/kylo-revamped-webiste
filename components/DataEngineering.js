@@ -69,11 +69,14 @@ const DataEngineering = () => {
                 <div className='container'>
                   <div className='row' style={{ width:"25%"}}>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+
+
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL"/>
                       <p style={{ paddingRight: "0px" }}>SQL</p>
                     </div>
-                    <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <div className='col text-center tech-title'>
+                    {/* <img class="tech-icon" src="<img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL">"/> */}
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ZlfaTePLZzK8NqMox3xC4sjummEjK3wemtgda67Y.svg" alt="Python"/>
                       <p style={{ paddingRight: "0px" }}>Python</p>
                     </div>
                   </div>

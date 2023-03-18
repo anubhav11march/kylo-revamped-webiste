@@ -2195,9 +2195,11 @@ textarea {
   -o-animation: hero-shape-5 2s linear 0s infinite alternate;
   animation: hero-shape-5 2s linear 0s infinite alternate;
 }
+
 .why_kylo-s-2 {
   left: 6%;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services__shape img.services-s-2 {
     top: 9%;
@@ -2630,6 +2632,11 @@ textarea {
   -o-border-radius: 50%;
   background: #4a4f61;
   line-height: 20px;
+}
+
+.tech-icon{
+  height: 1.8rem;
+  transition: height .3s;
 }
 
 /*----------------------------------------*/

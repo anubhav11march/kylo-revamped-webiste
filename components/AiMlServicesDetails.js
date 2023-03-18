@@ -68,11 +68,11 @@ const AiMlServicesDetails = () => {
                       <p style={{ paddingRight: "0px" }}>TensorFlow</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/44SvHAhucqlRgvk2wrG0LrDgtNGaONggc3MdH6Og.svg" alt="Dialogflow"/>
                       <p style={{ paddingRight: "0px" }}>DialogFlow</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/U0GicUuynPN57tx1sHEb7sY4gbqbPCWrXHo0K5sY.svg" alt="Google Assistant"/>
                       <p style={{ paddingRight: "0px" }}>Google Assistant</p>
                     </div>
                   </div>

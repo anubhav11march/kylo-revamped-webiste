@@ -69,22 +69,22 @@ const QAServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/5Ke1eu1ztraXleScCkuDlOThT0YWeJRC7zrb6dIO.svg" alt="Manual Testing"/>
                       <p style={{ paddingRight: "0px" }}>Manual Testing</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/NqYIxhl5s8Hk2VfmeHOFzqNjb4tiekJByhDpYLnC.svg" alt="Appium"/>
                       <p style={{ paddingRight: "0px" }}>Appium</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ACxSEdfx8icIKwsHJ8sJK45A97OIx7NM45RgKqpp.svg" alt="Selenium"/>
                       <p style={{ paddingRight: "0px" }}>Selenium</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/qkh2GBCZeAYnGG6MBaCjPIZP5wlntvT0HQBs3DjQ.svg" alt="AWS Device Farm"/>
                       <p style={{ paddingRight: "0px" }}>AWS Device Farm</p>
                     </div>                    <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/QFjYyqpd5XO6cPqoe4F26PAwOtWBW5Wal1CnO2pu.svg" alt="Browserstack"/>
                       <p style={{ paddingRight: "0px" }}>Browserstack</p>
                     </div>
                   </div>

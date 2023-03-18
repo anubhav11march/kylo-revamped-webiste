@@ -72,49 +72,49 @@ const UiUxServicesDetails = () => {
                       <p style={{ paddingRight: "0px" }}>Figma</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/PT7M1xymH5E3Jh1d1a2FBWVUHjPeGqYRn9eF2gKg.svg" alt="After Effects"/>
                       <p style={{ paddingRight: "0px" }}>After Effects</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/R47oTgf8OzT1OfxzokaafIZsatwLH16r1b1BqGsY.svg" alt="Premiere Pro"/>
                       <p style={{ paddingRight: "0px" }}>Premiere Pro</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ZLCJoLGgoFcdRae5t2rfo11BShD2NFvyhFjP5AZB.svg" alt="Blender"/>
                       <p style={{ paddingRight: "0px" }}>Blender</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/5vON9eoHLRYiMgy3V9OaWPt44GniilO2cPybFijX.png" alt="Lottie"/>
                       <p style={{ paddingRight: "0px" }}>Lottie</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/cLCZaVkGxPvdxl9rsMtExn4TV3Ng2LVT2SiFVd0L.svg" alt="Sketch"/>
                       <p style={{ paddingRight: "0px" }}>Sketch</p>
                     </div>
                     <div className="w-100"></div>
 
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/aZ9Fyl4WjRPhEfJLYE5WS7NjNCySaV3tSxYxbXp6.svg" alt="Illustrator"/>
                       <p style={{ paddingRight: "0px" }}>Illustrator</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/7bydjJQ90VbcbTRJjaDZcRl7Rq3oMxnAHzG5Tk6Z.svg" alt="Photoshop"/>
                       <p style={{ paddingRight: "0px" }}>Photoshop</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/T09UuXtKy0hJPs90VkFHDzgme4PvesWJfOJXYuNf.svg" alt="Framer"/>
                       <p style={{ paddingRight: "0px" }}>Framer</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/xEdgJnpp90k6eBF3IP1eH4rU2hPli4eLBlbVxDrb.svg" alt="Marvel"/>
                       <p style={{ paddingRight: "0px" }}>Marvel</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/vgYCJ8g5pDhRZdp1vzSJ5tnU04rVIuJg2cD8WGfO.svg" alt="Invision"/>
                       <p style={{ paddingRight: "0px" }}>Invision</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ZQhnednfJqDpLlIDPBA7s6YTfB4pTvTegKGQ9axF.svg" alt="Adobe XD"/>
                       <p style={{ paddingRight: "0px" }}>AdobeXD</p>
                     </div>
 

@@ -7,6 +7,7 @@ const NewsletterSchema = new mongoose.Schema({
     },
     date: {
         type: String,
+        default : Date().slice(4,16)
     },
 });
 mongoose.models = {};

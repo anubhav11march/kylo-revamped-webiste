@@ -71,23 +71,23 @@ const MobileServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/9qDqySCBRpar1bUkZFiY84gtY64odCKXKNeDkLjh.svg" alt="Android"/>
                       <p style={{ paddingRight: "0px" }}>Android</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/H0DelwCzrjRhrivBEvPHfBILzVWzSmjSUwiHtNUo.svg" alt="iOS"/>
                       <p style={{ paddingRight: "0px" }}>iOS</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/KNQ8WrzJzRZB3dHTTFQsXsGgkG9YIVuYye4VHu5r.svg" alt="React Native"/>
                       <p style={{ paddingRight: "0px" }}>React Native</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/bMiZS7h8gKjmuS2X1BeywnVNPPvKXRgAEi3pM64j.svg" alt="PWA"/>
                       <p style={{ paddingRight: "0px" }}>PWA</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/hnF3dWwBYf3QRKa1Q9I3mh0IKtJU6jDfewt3Td0H.webp" alt="Flutter"/>
                       <p style={{ paddingRight: "0px" }}>Flutter</p>
                     </div>
                   </div>

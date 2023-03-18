@@ -66,15 +66,15 @@ const GrowthServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/i2vkPouCFaDbYRTJdy5JkEBNOytKc7hFhGHkYeoN.svg" alt="Intercom"/>
                       <p style={{ paddingRight: "0px" }}>Intercom</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/jXj3Wwd1cLDtIitCuMNVuSWS0gRKU5X2Ny84p6g3.svg" alt="Google Analytics"/>
                       <p style={{ paddingRight: "0px" }}>Google Analaytics</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/6VzWYjohNKSmpmafUew463ztyKcjBVxZ5y2O4xK4.svg" alt="Mixpanel"/>
                       <p style={{ paddingRight: "0px" }}>Mixpanel</p>
                     </div>
                   </div>

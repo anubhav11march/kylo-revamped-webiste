@@ -70,55 +70,55 @@ const WebServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/TT8t0lt7ASZV8hMFQoMpAD56ynv60afbZiU131rc.svg" alt="React"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/TT8t0lt7ASZV8hMFQoMpAD56ynv60afbZiU131rc.svg" alt="React" />
                       <p style={{ paddingRight: "0px" }}>ReactJS</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" alt="React"/>
+                      <img class="tech-icon" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" alt="React" />
                       <p style={{ paddingRight: "0px" }}>NextJS</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/9JB5jPah24Ho6D2iqhWHAFZOvnZg38pMsYGb857s.svg" alt="jQuery"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/9JB5jPah24Ho6D2iqhWHAFZOvnZg38pMsYGb857s.svg" alt="jQuery" />
                       <p style={{ paddingRight: "0px" }}>jQuery</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/QFllOoobIEKGYRg81hSz3phI9EQfgdLHWD3ghmhL.svg" alt="SASS"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/QFllOoobIEKGYRg81hSz3phI9EQfgdLHWD3ghmhL.svg" alt="SASS" />
                       <p style={{ paddingRight: "0px" }}>SASS</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/tVFKioaVRNdEnSuuxvE3t5IOYX4DbepbhpXt3BUN.svg" alt="Bootstrap"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/tVFKioaVRNdEnSuuxvE3t5IOYX4DbepbhpXt3BUN.svg" alt="Bootstrap" />
                       <p style={{ paddingRight: "0px" }}>Bootstrap</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/EHdq0irLuXAALW4GKc5NVLCgbjGgz6Ui3oPFQhMO.svg" alt="HTML5"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/EHdq0irLuXAALW4GKc5NVLCgbjGgz6Ui3oPFQhMO.svg" alt="HTML5" />
                       <p style={{ paddingRight: "0px" }}>HTML5</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/JXEN6A3lJmAAoLft1PnSF1FN1fLuV8MJUzJI9A8f.svg" alt="CSS 3"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/JXEN6A3lJmAAoLft1PnSF1FN1fLuV8MJUzJI9A8f.svg" alt="CSS 3" />
                       <p style={{ paddingRight: "0px" }}>CSS3</p>
                     </div>
                     <div className="w-100"></div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/tfcTx2OOi78i7qTswFmj9h95VXCgAYyGZ0qDklTt.svg" alt="NodeJS"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/tfcTx2OOi78i7qTswFmj9h95VXCgAYyGZ0qDklTt.svg" alt="NodeJS" />
                       <p style={{ paddingRight: "0px" }}>NodeJs</p>
                     </div><div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL" />
                       <p style={{ paddingRight: "0px" }}>MySQL</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/xe5FfXEhYH7vEuCdYnSx3MdeVfG2thwP6tX8jVkO.svg" alt="MongoDB"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/xe5FfXEhYH7vEuCdYnSx3MdeVfG2thwP6tX8jVkO.svg" alt="MongoDB" />
                       <p style={{ paddingRight: "0px" }}>MongoDB</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/uCmBo0x0hXAyMmMLuPWbc966EiJYLTwcK7yHiaXw.svg" alt="AWS"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/uCmBo0x0hXAyMmMLuPWbc966EiJYLTwcK7yHiaXw.svg" alt="AWS" />
                       <p style={{ paddingRight: "0px" }}>AWS</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/kw0X2KORtrZG3ObUSIqCECUf90xuPFbASpzSVICF.svg" alt="Redis"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/kw0X2KORtrZG3ObUSIqCECUf90xuPFbASpzSVICF.svg" alt="Redis" />
                       <p style={{ paddingRight: "0px" }}>Redis</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/rXOG6YXO8TcuvZ3BHBM0FNfZJ1HqQsTy6vjCeWL4.svg" alt="Firebase"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/rXOG6YXO8TcuvZ3BHBM0FNfZJ1HqQsTy6vjCeWL4.svg" alt="Firebase" />
                       <p style={{ paddingRight: "0px" }}>Firebase</p>
                     </div>
                   </div>
@@ -134,7 +134,11 @@ const WebServicesDetails = () => {
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex">
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-briefcase"></i>
+                      <span style={{ paddingLeft: "15px" }}>
+                        <svg width="30" height="30" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.189 10.157L9.57 18H1C0.448 18 0 17.552 0 17V11.602L8.189 10.157ZM17 0C17.552 0 18 0.448 18 1V17C18 17.552 17.552 18 17 18H11.602L8.428 0H17ZM6.397 0L7.841 8.188L0 9.57V1C0 0.448 0.448 0 1 0H6.397Z" fill="#7432ff" />
+                        </svg>
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Compatibility</h5>
@@ -145,7 +149,12 @@ const WebServicesDetails = () => {
                   </div>
                   <div className="key__factors-content mb-40 d-sm-flex">
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-chart-bar"></i>
+                      <span style={{ paddingLeft: "15px" }}>
+                        <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 9C11.3261 9 12.5979 9.52678 13.5355 10.4645C14.4732 11.4021 15 12.6739 15 14V20H5V14C5 12.6739 5.52678 11.4021 6.46447 10.4645C7.40215 9.52678 8.67392 9 10 9ZM3.288 12.006C3.12886 12.5428 3.03485 13.0968 3.008 13.656L3 14V20H9.13169e-08V15.5C-0.000196807 14.6376 0.318028 13.8054 0.893635 13.1632C1.46924 12.521 2.2617 12.1139 3.119 12.02L3.289 12.006H3.288ZM16.712 12.006C17.6019 12.0602 18.4376 12.452 19.0486 13.1012C19.6596 13.7505 19.9999 14.6084 20 15.5V20H17V14C17 13.307 16.9 12.638 16.712 12.006ZM3.5 6C4.16304 6 4.79893 6.26339 5.26777 6.73223C5.73661 7.20107 6 7.83696 6 8.5C6 9.16304 5.73661 9.79893 5.26777 10.2678C4.79893 10.7366 4.16304 11 3.5 11C2.83696 11 2.20107 10.7366 1.73223 10.2678C1.26339 9.79893 1 9.16304 1 8.5C1 7.83696 1.26339 7.20107 1.73223 6.73223C2.20107 6.26339 2.83696 6 3.5 6V6ZM16.5 6C17.163 6 17.7989 6.26339 18.2678 6.73223C18.7366 7.20107 19 7.83696 19 8.5C19 9.16304 18.7366 9.79893 18.2678 10.2678C17.7989 10.7366 17.163 11 16.5 11C15.837 11 15.2011 10.7366 14.7322 10.2678C14.2634 9.79893 14 9.16304 14 8.5C14 7.83696 14.2634 7.20107 14.7322 6.73223C15.2011 6.26339 15.837 6 16.5 6V6ZM10 0C11.0609 0 12.0783 0.421427 12.8284 1.17157C13.5786 1.92172 14 2.93913 14 4C14 5.06087 13.5786 6.07828 12.8284 6.82843C12.0783 7.57857 11.0609 8 10 8C8.93913 8 7.92172 7.57857 7.17157 6.82843C6.42143 6.07828 6 5.06087 6 4C6 2.93913 6.42143 1.92172 7.17157 1.17157C7.92172 0.421427 8.93913 0 10 0V0Z" fill="#7432ff" />
+                        </svg>
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Improved Collaboration</h5>
@@ -159,7 +168,7 @@ const WebServicesDetails = () => {
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex">
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-unlock-keyhole"></i>
+                      <i className="fa-solid fa-lock"></i>
                     </div>
                     <div className="key__factors-text">
                       <h5>Data Security</h5>
@@ -170,7 +179,12 @@ const WebServicesDetails = () => {
                   </div>
                   <div className="key__factors-content mb-40 d-sm-flex">
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-file-lines"></i>
+                      <span style={{ paddingLeft: "15px" }}>
+                      <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.89701 15.86L5.80701 11.95L8.63601 14.778L13.207 10.208L15 12V7H10L11.793 8.793L8.63601 11.95L5.80801 9.121L0.862008 14.067C0.291937 12.787 -0.0017877 11.4012 8.18577e-06 10C8.18577e-06 4.477 4.47701 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C8.41801 20.001 6.85839 19.6262 5.44962 18.9065C4.04084 18.1867 2.82321 17.1425 1.89701 15.86V15.86Z" fill="#7432ff"/>
+</svg>
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Scalability</h5>
@@ -201,8 +215,8 @@ const WebServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Detailed Consultation</h3>
-                    <p style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>Detailed Consultation</h3>
+                    <p style={{ color: "#fff" }}>
                       We start with a thorough consultation and clear your doubts by understanding your target audience, business objectives, and feature requirements.
                     </p>
                   </VerticalTimelineElement>
@@ -254,11 +268,11 @@ const WebServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Design & Wireframing
-                   </h3>
-                    <p style={{ color : "#fff"}}>
-                     We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
+                    </h3>
+                    <p style={{ color: "#fff" }}>
+                      We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -270,7 +284,7 @@ const WebServicesDetails = () => {
                     }}
                     contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(227, 220, 255)"}}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -309,11 +323,11 @@ const WebServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Testing
-                   </h3>
-                    <p style={{ color : "#fff"}}>
-                     We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
+                    </h3>
+                    <p style={{ color: "#fff" }}>
+                      We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -360,13 +374,13 @@ const WebServicesDetails = () => {
                       >
                         <i className="far fa-plus" />
                       </div>
-                   }
+                    }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Maintenance & Updates
-                   </h3>
+                    </h3>
 
-                   <p style={{ color : "#fff"}}>
+                    <p style={{ color: "#fff" }}>
                       We provide ongoing maintenance, bug fixes, performance improvements, and feature enhancements to meet your evolving needs.
                     </p>
                   </VerticalTimelineElement>

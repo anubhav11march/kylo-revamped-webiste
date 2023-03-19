@@ -71,23 +71,23 @@ const MobileServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/9qDqySCBRpar1bUkZFiY84gtY64odCKXKNeDkLjh.svg" alt="Android"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/9qDqySCBRpar1bUkZFiY84gtY64odCKXKNeDkLjh.svg" alt="Android" />
                       <p style={{ paddingRight: "0px" }}>Android</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/H0DelwCzrjRhrivBEvPHfBILzVWzSmjSUwiHtNUo.svg" alt="iOS"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/H0DelwCzrjRhrivBEvPHfBILzVWzSmjSUwiHtNUo.svg" alt="iOS" />
                       <p style={{ paddingRight: "0px" }}>iOS</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/KNQ8WrzJzRZB3dHTTFQsXsGgkG9YIVuYye4VHu5r.svg" alt="React Native"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/KNQ8WrzJzRZB3dHTTFQsXsGgkG9YIVuYye4VHu5r.svg" alt="React Native" />
                       <p style={{ paddingRight: "0px" }}>React Native</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/bMiZS7h8gKjmuS2X1BeywnVNPPvKXRgAEi3pM64j.svg" alt="PWA"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/bMiZS7h8gKjmuS2X1BeywnVNPPvKXRgAEi3pM64j.svg" alt="PWA" />
                       <p style={{ paddingRight: "0px" }}>PWA</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/hnF3dWwBYf3QRKa1Q9I3mh0IKtJU6jDfewt3Td0H.webp" alt="Flutter"/>
+                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/hnF3dWwBYf3QRKa1Q9I3mh0IKtJU6jDfewt3Td0H.webp" alt="Flutter" />
                       <p style={{ paddingRight: "0px" }}>Flutter</p>
                     </div>
                   </div>
@@ -99,9 +99,16 @@ const MobileServicesDetails = () => {
                   <h3>Key Benefits</h3>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-briefcase"></i>
+                      <span style={{ paddingLeft: "15px" }}>
+                        <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z" fill="#7432ff" />
+                        </svg>
+
+
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Convenience</h5>
@@ -110,9 +117,15 @@ const MobileServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-chart-bar"></i>
+                      <span style={{ paddingLeft: "15px" }}>
+                        <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM5 10C5 11.3261 5.52678 12.5979 6.46447 13.5355C7.40215 14.4732 8.67392 15 10 15C11.3261 15 12.5979 14.4732 13.5355 13.5355C14.4732 12.5979 15 11.3261 15 10H13C13 10.7956 12.6839 11.5587 12.1213 12.1213C11.5587 12.6839 10.7956 13 10 13C9.20435 13 8.44129 12.6839 7.87868 12.1213C7.31607 11.5587 7 10.7956 7 10H5Z" fill="#7432ff" />
+                        </svg>
+
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>User Engagement</h5>
@@ -123,9 +136,16 @@ const MobileServicesDetails = () => {
                   </div>
                 </div>
                 <div className="key__factors-wrapper d-flex">
-                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-unlock-keyhole"></i>
+                      <span style={{ paddingLeft: "15px" }}>
+                        <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.416 0.623979L15.482 11.223C15.5321 11.2983 15.5608 11.3857 15.5652 11.4761C15.5695 11.5664 15.5492 11.6562 15.5065 11.736C15.4639 11.8157 15.4003 11.8824 15.3228 11.9289C15.2452 11.9754 15.1564 11.9999 15.066 12H0.934C0.843558 11.9999 0.754822 11.9754 0.677243 11.9289C0.599664 11.8824 0.536148 11.8157 0.493459 11.736C0.45077 11.6562 0.430508 11.5664 0.434829 11.4761C0.439151 11.3857 0.467895 11.2983 0.518 11.223L7.584 0.623979C7.62966 0.5555 7.69152 0.499353 7.76409 0.460519C7.83666 0.421685 7.91769 0.401367 8 0.401367C8.08231 0.401367 8.16334 0.421685 8.23591 0.460519C8.30848 0.499353 8.37034 0.5555 8.416 0.623979V0.623979ZM1 14H15C15.2652 14 15.5196 14.1053 15.7071 14.2929C15.8946 14.4804 16 14.7348 16 15C16 15.2652 15.8946 15.5196 15.7071 15.7071C15.5196 15.8946 15.2652 16 15 16H1C0.734784 16 0.48043 15.8946 0.292893 15.7071C0.105357 15.5196 0 15.2652 0 15C0 14.7348 0.105357 14.4804 0.292893 14.2929C0.48043 14.1053 0.734784 14 1 14Z" fill="#7432ff" />
+                        </svg>
+
+
+                      </span>
+
                     </div>
                     <div className="key__factors-text">
                       <h5>High Performance</h5>
@@ -135,9 +155,9 @@ const MobileServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
+                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-file-lines"></i>
+                      <i className="fa-solid fa-lock"></i>
                     </div>
                     <div className="key__factors-text">
                       <h5>Data Security</h5>
@@ -169,8 +189,8 @@ const MobileServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Detailed Consultation</h3>
-                    <p style={{ color : "#fff"}} className="zero-padding-right">
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>Detailed Consultation</h3>
+                    <p style={{ color: "#fff" }} className="zero-padding-right">
                       We start with a thorough consultation and clear your doubts by understanding your target audience, business objectives, and feature requirements.
                     </p>
                   </VerticalTimelineElement>
@@ -222,11 +242,11 @@ const MobileServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Design & Wireframing
-                   </h3>
-                    <p className="zero-padding-right" style={{ color : "#fff"}} >
-                     We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
+                    </h3>
+                    <p className="zero-padding-right" style={{ color: "#fff" }} >
+                      We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -238,7 +258,7 @@ const MobileServicesDetails = () => {
                     }}
                     contentArrowStyle={{ borderRight: "7px solid  rgb(227, 220, 255)" }}
                     // date="2011 - present"
-                    iconStyle={{ background: "rgb(227, 220, 255)"}}
+                    iconStyle={{ background: "rgb(227, 220, 255)" }}
                     icon={
                       <div
                         className="d-flex justify-content-center"
@@ -277,11 +297,11 @@ const MobileServicesDetails = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Testing
-                   </h3>
-                    <p className="zero-padding-right" style={{ color : "#fff"}} >
-                     We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
+                    </h3>
+                    <p className="zero-padding-right" style={{ color: "#fff" }} >
+                      We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -328,13 +348,13 @@ const MobileServicesDetails = () => {
                       >
                         <i className="far fa-plus" />
                       </div>
-                   }
+                    }
                   >
-                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>
+                    <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Maintenance & Updates
-                   </h3>
+                    </h3>
 
-                   <p className="zero-padding-right" style={{ color : "#fff"}} >
+                    <p className="zero-padding-right" style={{ color: "#fff" }} >
                       We provide ongoing maintenance, bug fixes, performance improvements, and feature enhancements to meet your evolving needs.
                     </p>
                   </VerticalTimelineElement>

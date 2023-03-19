@@ -90,7 +90,14 @@ const DataEngineering = () => {
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-briefcase"></i>
+                    <span style={{ paddingLeft: "15px" }}>
+                    <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM5 10C5 11.3261 5.52678 12.5979 6.46447 13.5355C7.40215 14.4732 8.67392 15 10 15C11.3261 15 12.5979 14.4732 13.5355 13.5355C14.4732 12.5979 15 11.3261 15 10H13C13 10.7956 12.6839 11.5587 12.1213 12.1213C11.5587 12.6839 10.7956 13 10 13C9.20435 13 8.44129 12.6839 7.87868 12.1213C7.31607 11.5587 7 10.7956 7 10H5Z" fill="#7432ff"/>
+</svg>
+
+
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Data Quality</h5>
@@ -102,7 +109,12 @@ const DataEngineering = () => {
                   </div>
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-chart-bar"></i>
+                    <span style={{ paddingLeft: "15px" }}>
+                      <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.89701 15.86L5.80701 11.95L8.63601 14.778L13.207 10.208L15 12V7H10L11.793 8.793L8.63601 11.95L5.80801 9.121L0.862008 14.067C0.291937 12.787 -0.0017877 11.4012 8.18577e-06 10C8.18577e-06 4.477 4.47701 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C8.41801 20.001 6.85839 19.6262 5.44962 18.9065C4.04084 18.1867 2.82321 17.1425 1.89701 15.86V15.86Z" fill="#7432ff"/>
+</svg>
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Scalability </h5>
@@ -116,7 +128,13 @@ const DataEngineering = () => {
                 <div className="key__factors-wrapper d-flex">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-unlock-keyhole"></i>
+                    <span style={{ paddingLeft: "15px" }}>
+                    <svg width="30" height="30" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.783 1.826L9 0L17.217 1.826C17.4391 1.87536 17.6377 1.99897 17.78 2.1764C17.9224 2.35384 18 2.57452 18 2.802V12.789C17.9999 13.7767 17.756 14.7492 17.2899 15.62C16.8238 16.4908 16.1499 17.2331 15.328 17.781L9 22L2.672 17.781C1.85027 17.2332 1.17646 16.4911 0.710348 15.6205C0.244236 14.7498 0.000236356 13.7776 0 12.79V2.802C3.90378e-05 2.57452 0.0776379 2.35384 0.21999 2.1764C0.362341 1.99897 0.560937 1.87536 0.783 1.826V1.826ZM9 12.5L11.939 14.045L11.378 10.773L13.755 8.455L10.469 7.977L9 5L7.53 7.977L4.245 8.455L6.622 10.773L6.062 14.045L9 12.5Z" fill="#7432ff"/>
+</svg>
+
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Efficiency </h5>
@@ -128,7 +146,13 @@ const DataEngineering = () => {
                   </div>
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
-                      <i className="fa-solid fa-file-lines"></i>
+                    <span style={{ paddingLeft: "15px" }}>
+                    <svg width="30" height="30" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 0H19C19.2652 0 19.5196 0.105357 19.7071 0.292893C19.8946 0.48043 20 0.734784 20 1V17C20 17.2652 19.8946 17.5196 19.7071 17.7071C19.5196 17.8946 19.2652 18 19 18H1C0.734784 18 0.48043 17.8946 0.292893 17.7071C0.105357 17.5196 0 17.2652 0 17V1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0V0ZM5 10V14H7V10H5ZM9 4V14H11V4H9ZM13 7V14H15V7H13Z" fill="#7432ff"/>
+</svg>
+
+
+                      </span>
                     </div>
                     <div className="key__factors-text">
                       <h5>Insights </h5>

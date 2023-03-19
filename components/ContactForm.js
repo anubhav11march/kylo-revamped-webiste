@@ -111,6 +111,7 @@ const ContactForm = () => {
                         value={form.firstName}
                         onChange={handleChange}
                         required
+                        aria-required="true"
                       />
                     </div>
                     <div className="form-group pr-10 form-group-2">
@@ -118,7 +119,7 @@ const ContactForm = () => {
                         type="text"
                         className="form-control"
                         name="lastName"
-                        placeholder="Last Name"
+                        placeholder="Last Name *"
                         required
                         value={form.lastName}
                         onChange={handleChange}
@@ -132,7 +133,7 @@ const ContactForm = () => {
                         type="email"
                         className="form-control"
                         name="email"
-                        placeholder="Email Address"
+                        placeholder="Email Address *"
                         required
                         value={form.email}
                         onChange={handleChange}
@@ -376,7 +377,7 @@ const ContactForm = () => {
                         type="text"
                         className="form-control"
                         name="phone"
-                        placeholder="Phone Number"
+                        placeholder="Phone Number *"
                         maxLength={15}
                         minLength={10}
                         required
@@ -391,7 +392,7 @@ const ContactForm = () => {
                         type="text"
                         className="form-control"
                         name="budget"
-                        placeholder="Your Budget"
+                        placeholder="Your Budget *"
                         required
                         value={form.budget}
                         onChange={handleChange}

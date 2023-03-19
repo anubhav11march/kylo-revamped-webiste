@@ -1603,7 +1603,7 @@ textarea {
   border-radius: 0px 0px 50% 50%;
   /* padding:2% 8% 20% 8%; */
   border: 15px solid #c3f318;
-  background-image: url("../images/Kylo\ Website\ Pics/linkedin-sales-solutions-QgYvORVDdd8-unsplash.jpg");
+  background-image: url("../images/Kylo\ Website\ Pics/linkedin-sales-solutions-QgYvORVDdd8-unsplash 2.jpg");
   /* background-size: 100% 100%; */
   background-size: 758px 100%;
   background-position: -200px 0;
@@ -2562,6 +2562,11 @@ textarea {
   font-size: 30px;
   color: #7432ff;
   padding-left: 15px;
+}
+.key__factors-icon svg {
+  /* font-size: 30px; */
+  color: #7432ff;
+  /* padding-left: 15px; */
 }
 @media (max-width: 575px) {
   .key__factors-text {

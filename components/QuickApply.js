@@ -24,6 +24,10 @@ const QuickApply = () => {
   const [isLoading, setLoading] = useState(false);
 
   const [form, setForm] = useState(INITIAL_VALUES);
+
+  const [chooseDesignation, setChooseDesignation] = useState(null);
+  const [fileUploadedByClient, setFileUploadedByClient] = useState(null);
+
   const [fileUpload, setFileupload] = useState(null);
   const [uploading, setUploading] = useState(false);
 
@@ -51,6 +55,30 @@ const QuickApply = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+
+    if (form.designation == "") {
+      setChooseDesignation(false);
+      console.log("Empty", form.designation);
+      return;
+    }
+
+    if (form.designation != "") {
+      setChooseDesignation(true);
+      console.log("AA gya", form.designation);
+    }
+
+    if (fileUpload===null) {
+      setFileUploadedByClient(false);
+      console.log("No file");
+      return;
+    }
+
+    if (fileUpload!=null) {
+      setFileUploadedByClient(true);
+      console.log("File", fileUpload);
+    }
+
 
     setUploading(true);
 
@@ -80,7 +108,7 @@ const QuickApply = () => {
     if (data.success) {
       setUploading(false);
       setUploadSuccess(true);
-      alert("Application Sent!");
+      alert("Your application has been recoded successfully!");
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!");
   };
@@ -160,7 +188,7 @@ const QuickApply = () => {
 
                       <div className="d-flex w-100" style={{ marginBottom: "30px" }}>
                         <div style={{ width: "200px", lineHeight: "55px" }}>
-                          <select onChange={(e) => {setCountryCode(e.target.value)}}>
+                          <select onChange={(e) => { setCountryCode(e.target.value) }}>
                             <option data-countryCode="IN" value="91">(+91)</option>
                             <option data-countryCode="DZ" value="213">(+213)</option>
                             <option data-countryCode="AD" value="376">(+376)</option>
@@ -404,6 +432,7 @@ const QuickApply = () => {
 
                             }
                           </select>
+                          {chooseDesignation===false ? "Please select the role you are applying for*" : ""}
                         </div>
                       </div>
 
@@ -420,7 +449,6 @@ const QuickApply = () => {
                             className="form-control"
                             name="resume"
                             placeholder="Upload Resume *"
-                            required
                             style={{ display: "none" }}
                             id="resume"
                             onChange={(e) => setFileupload(e.target.files[0])}
@@ -436,6 +464,7 @@ const QuickApply = () => {
                               width={"20px"}
                             />
                           </div>
+                        <p>{fileUploadedByClient===false ? "Please upload your resume*" : ""}</p>
                         </div>
                       </div>
 
@@ -457,11 +486,11 @@ const QuickApply = () => {
                           "Send to us"
                         )}
                       </button>
-                      {uploadSuccess ?
+                      {/* {uploadSuccess ?
                         <h6 style={{ paddingTop: "21px" }}>Your response has been recorded successfully!</h6>
                         :
                         <></>
-                      }
+                      } */}
                     </form>
                   </div>
                 </Col>

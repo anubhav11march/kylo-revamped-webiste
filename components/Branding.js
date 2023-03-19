@@ -69,27 +69,27 @@ const Branding = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png" alt="Figma"/>
                       <p style={{ paddingRight: "0px" }}>Figma</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://assets.stickpng.com/images/5842a622a6515b1e0ad75af9.png" alt="Canva"/>
                       <p style={{ paddingRight: "0px" }}>Canva</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/R47oTgf8OzT1OfxzokaafIZsatwLH16r1b1BqGsY.svg" alt="Premiere Pro"/>
                       <p style={{ paddingRight: "0px" }}>Premiere Pro</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/aZ9Fyl4WjRPhEfJLYE5WS7NjNCySaV3tSxYxbXp6.svg" alt="Illustrator"/>
                       <p style={{ paddingRight: "0px" }}>Illustrator</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/7bydjJQ90VbcbTRJjaDZcRl7Rq3oMxnAHzG5Tk6Z.svg" alt="Photoshop"/>
                       <p style={{ paddingRight: "0px" }}>Photoshop</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ZQhnednfJqDpLlIDPBA7s6YTfB4pTvTegKGQ9axF.svg" alt="Adobe XD"/>
                       <p style={{ paddingRight: "0px" }}>AdobeXD</p>
                     </div>
                   </div>

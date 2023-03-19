@@ -70,48 +70,48 @@ const Devops = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/uCmBo0x0hXAyMmMLuPWbc966EiJYLTwcK7yHiaXw.svg" alt="AWS"/>
                       <p style={{ paddingRight: "0px" }}>AWS</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://companieslogo.com/img/orig/DOCN-6eec72eb.png?t=1660638083" alt="Digital Ocean"/>
                       <p style={{ paddingRight: "0px" }}>Digital Ocean</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="Azure"/>
                       <p style={{ paddingRight: "0px" }}>Azure</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/rXOG6YXO8TcuvZ3BHBM0FNfZJ1HqQsTy6vjCeWL4.svg" alt="Firebase"/>
                       <p style={{ paddingRight: "0px" }}>Firebase</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/U0GicUuynPN57tx1sHEb7sY4gbqbPCWrXHo0K5sY.svg" alt="Google Cloud"/>
                       <p style={{ paddingRight: "0px" }}>Google Cloud</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"/>
                       <p style={{ paddingRight: "0px" }}>Github</p>
                     </div>
                     <div className="w-100"></div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1024px-Npm-logo.svg.png" alt="NPM"/>
                       <p style={{ paddingRight: "0px" }}>NPM</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://cdn.iconscout.com/icon/free/png-256/nginx-3628948-3030173.png" alt="Nginx"/>
                       <p style={{ paddingRight: "0px" }}>Nginx</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Apache_Feather_Logo.svg/800px-Apache_Feather_Logo.svg.png" alt="Apache"/>
                       <p style={{ paddingRight: "0px" }}>Apache</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://seeklogo.com/images/D/docker-logo-CF97D0124B-seeklogo.com.png" alt="Docker"/>
                       <p style={{ paddingRight: "0px" }}>Docker</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://assets.stickpng.com/images/58480a44cef1014c0b5e4917.png" alt="Kubernetes"/>
                       <p style={{ paddingRight: "0px" }}>Kubernetes</p>
                     </div>
 

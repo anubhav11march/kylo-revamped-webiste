@@ -68,7 +68,7 @@ const UiUxServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png" alt="Figma"/>
                       <p style={{ paddingRight: "0px" }}>Figma</p>
                     </div>
                     <div className='col text-center'>

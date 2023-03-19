@@ -66,7 +66,7 @@ const DataEngineering = () => {
 
               <div className="tech__stack">
                 <h4>Technologies</h4>
-                <div className='container'>
+                <div className='container' style={{ paddingLeft : "0px"}}>
                   <div className='row' style={{ width:"25%"}}>
                     <div className='col text-center'>
 

@@ -74,7 +74,7 @@ const WebServicesDetails = () => {
                       <p style={{ paddingRight: "0px" }}>ReactJS</p>
                     </div>
                     <div className='col text-center'>
-                      <i className="fa-solid fa-briefcase"></i>
+                    <img class="tech-icon" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" alt="React"/>
                       <p style={{ paddingRight: "0px" }}>NextJS</p>
                     </div>
                     <div className='col text-center'>

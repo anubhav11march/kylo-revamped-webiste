@@ -153,7 +153,7 @@ const JobDetails = () => {
 
             <br />
 
-            <p>Skills</p>
+            <p>Selection Process</p>
             <ul style={{ paddingLeft: "25px" }}>
               {data?.selectionProcess?.split("|").map((item, index) => (
                 <li key={index} style={{ listStyle: "disc" }}>

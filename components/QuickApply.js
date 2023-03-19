@@ -108,7 +108,7 @@ const QuickApply = () => {
     if (data.success) {
       setUploading(false);
       setUploadSuccess(true);
-      alert("Your application has been recoded successfully!");
+      alert("Your response has been recorded successfully!");
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!");
   };

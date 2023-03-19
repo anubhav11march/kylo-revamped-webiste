@@ -12,6 +12,15 @@ import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-RBE32FWFR0"></Script>
+      <Script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RBE32FWFR0');
+      </Script>
       <Head>
         <meta charset="UTF-8" />
         <meta name="keywords" content="test content desc" />

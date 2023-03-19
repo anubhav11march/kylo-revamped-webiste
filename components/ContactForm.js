@@ -96,12 +96,12 @@ const ContactForm = () => {
             md={{ span: 10, offset: 2 }}
           >
             <div className="contact__form contact__form-2">
-              <div className="contact__form-title mb-40">
+              <div className="contact__form-title mb-20">
                 <h4>Send us a message</h4>
               </div>
               <div className="contact__form-content">
                 <form id="contact-form" onSubmit={handleSubmit}>
-                  <div className="field-format d-sm-flex justify-content-between mb-40">
+                  <div className="field-format d-sm-flex justify-content-between mb-20">
                     <div className="form-group pr-10 form-group-2">
                       <input
                         type="text"
@@ -127,7 +127,7 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  <div className="field-format d-sm-flex justify-content-between mb-40">
+                  <div className="field-format d-sm-flex justify-content-between mb-20">
                     <div className="form-group pr-10 form-group-2">
                       <input
                         type="email"
@@ -144,7 +144,7 @@ const ContactForm = () => {
                         type="text"
                         className="form-control"
                         name="city"
-                        placeholder="City"
+                        placeholder="City *"
                         required
                         value={form.city}
                         onChange={handleChange}
@@ -152,7 +152,7 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex w-100" style={{ marginBottom: "30px" }}>
+                  <div className="d-flex w-100" style={{ marginBottom: "20px" }}>
                     <div style={{ width: "200px", lineHeight: "55px" }}>
                       <select onChange={(e) => setCountryCode(e.target.value)}>
                         <option data-countryCode="IN" value="91">(+91)</option>
@@ -386,7 +386,7 @@ const ContactForm = () => {
                       />
                     </div>
                   </div>
-                  <div className="field-format d-sm-flex justify-content-between mb-40">
+                  <div className="field-format d-sm-flex justify-content-between mb-20">
                     <div className="form-group pr-10 form-group-2">
                       <input
                         type="text"
@@ -400,7 +400,7 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  {/* <div className="form-group mb-40">
+                  {/* <div className="form-group mb-20">
                                             <input type="text" className="form-control" name="subject" placeholder="Subject Here"/>
                                         </div> */}
 

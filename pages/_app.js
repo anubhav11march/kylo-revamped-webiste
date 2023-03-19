@@ -9,18 +9,14 @@ import "../public/assets/css/style.css"
 import Script from "next/script";
 import Head from "next/head";
 
+import GoogleAnalytics from "@bradgarropy/next-google-analytics";
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* <!-- Google tag (gtag.js) --> */}
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-RBE32FWFR0"></Script>
-      <Script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
+      {/* <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RBE32FWFR0"></Script> */}
 
-        gtag('config', 'G-RBE32FWFR0');
-      </Script>
+      <GoogleAnalytics measurementId="G-RBE32FWFR0"/>
       <Head>
         <meta charset="UTF-8" />
         <meta name="keywords" content="test content desc" />

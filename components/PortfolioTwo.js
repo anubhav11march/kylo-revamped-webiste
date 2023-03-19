@@ -60,6 +60,76 @@ const PortfolioTwo = ({ extraClass }) => {
           src="/assets/images/shape/portfolio/p-s-5.png"
           alt=""
         />
+        <img
+          className="p-s-11  d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-1.png"
+          alt=""
+        />
+        <img
+          className="p-s-12"
+          src="/assets/images/shape/portfolio/p-s-2.png"
+          alt=""
+        />
+        <img
+          className="p-s-13 d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-3.png"
+          alt=""
+        />
+        <img
+          className="p-s-14"
+          src="/assets/images/shape/portfolio/p-s-4.png"
+          alt=""
+        />
+        <img
+          className="p-s-15 d-none d-xxl-block"
+          src="/assets/images/shape/portfolio/p-s-5.png"
+          alt=""
+        />
+        <img
+          className="p-s-16  d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-1.png"
+          alt=""
+        />
+        <img
+          className="p-s-17"
+          src="/assets/images/shape/portfolio/p-s-2.png"
+          alt=""
+        />
+        <img
+          className="p-s-18 d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-3.png"
+          alt=""
+        />
+        <img
+          className="p-s-19"
+          src="/assets/images/shape/portfolio/p-s-4.png"
+          alt=""
+        />
+        <img
+          className="p-s-20 d-none d-xxl-block"
+          src="/assets/images/shape/portfolio/p-s-5.png"
+          alt=""
+        />
+         <img
+          className="p-s-21  d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-1.png"
+          alt=""
+        />
+        <img
+          className="p-s-22"
+          src="/assets/images/shape/portfolio/p-s-2.png"
+          alt=""
+        />
+        <img
+          className="p-s-23 d-none d-sm-block"
+          src="/assets/images/shape/portfolio/p-s-3.png"
+          alt=""
+        />
+        <img
+          className="p-s-24"
+          src="/assets/images/shape/portfolio/p-s-4.png"
+          alt=""
+        />
       </div>
       <Container>
         <Row>

@@ -70,55 +70,55 @@ const WebServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/TT8t0lt7ASZV8hMFQoMpAD56ynv60afbZiU131rc.svg" alt="React" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/TT8t0lt7ASZV8hMFQoMpAD56ynv60afbZiU131rc.svg" alt="React" />
                       <p style={{ paddingRight: "0px" }}>ReactJS</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" alt="React" />
+                      <img class="tech-icon tech-icon-spacing" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" alt="React" />
                       <p style={{ paddingRight: "0px" }}>NextJS</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/9JB5jPah24Ho6D2iqhWHAFZOvnZg38pMsYGb857s.svg" alt="jQuery" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/9JB5jPah24Ho6D2iqhWHAFZOvnZg38pMsYGb857s.svg" alt="jQuery" />
                       <p style={{ paddingRight: "0px" }}>jQuery</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/QFllOoobIEKGYRg81hSz3phI9EQfgdLHWD3ghmhL.svg" alt="SASS" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/QFllOoobIEKGYRg81hSz3phI9EQfgdLHWD3ghmhL.svg" alt="SASS" />
                       <p style={{ paddingRight: "0px" }}>SASS</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/tVFKioaVRNdEnSuuxvE3t5IOYX4DbepbhpXt3BUN.svg" alt="Bootstrap" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/tVFKioaVRNdEnSuuxvE3t5IOYX4DbepbhpXt3BUN.svg" alt="Bootstrap" />
                       <p style={{ paddingRight: "0px" }}>Bootstrap</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/EHdq0irLuXAALW4GKc5NVLCgbjGgz6Ui3oPFQhMO.svg" alt="HTML5" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/EHdq0irLuXAALW4GKc5NVLCgbjGgz6Ui3oPFQhMO.svg" alt="HTML5" />
                       <p style={{ paddingRight: "0px" }}>HTML5</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/JXEN6A3lJmAAoLft1PnSF1FN1fLuV8MJUzJI9A8f.svg" alt="CSS 3" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/JXEN6A3lJmAAoLft1PnSF1FN1fLuV8MJUzJI9A8f.svg" alt="CSS 3" />
                       <p style={{ paddingRight: "0px" }}>CSS3</p>
                     </div>
                     <div className="w-100"></div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/tfcTx2OOi78i7qTswFmj9h95VXCgAYyGZ0qDklTt.svg" alt="NodeJS" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/tfcTx2OOi78i7qTswFmj9h95VXCgAYyGZ0qDklTt.svg" alt="NodeJS" />
                       <p style={{ paddingRight: "0px" }}>NodeJs</p>
                     </div><div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL" />
                       <p style={{ paddingRight: "0px" }}>MySQL</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/xe5FfXEhYH7vEuCdYnSx3MdeVfG2thwP6tX8jVkO.svg" alt="MongoDB" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/xe5FfXEhYH7vEuCdYnSx3MdeVfG2thwP6tX8jVkO.svg" alt="MongoDB" />
                       <p style={{ paddingRight: "0px" }}>MongoDB</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/uCmBo0x0hXAyMmMLuPWbc966EiJYLTwcK7yHiaXw.svg" alt="AWS" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/uCmBo0x0hXAyMmMLuPWbc966EiJYLTwcK7yHiaXw.svg" alt="AWS" />
                       <p style={{ paddingRight: "0px" }}>AWS</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/kw0X2KORtrZG3ObUSIqCECUf90xuPFbASpzSVICF.svg" alt="Redis" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/kw0X2KORtrZG3ObUSIqCECUf90xuPFbASpzSVICF.svg" alt="Redis" />
                       <p style={{ paddingRight: "0px" }}>Redis</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/rXOG6YXO8TcuvZ3BHBM0FNfZJ1HqQsTy6vjCeWL4.svg" alt="Firebase" />
+                      <img class="tech-icon tech-icon-spacing" src="https://squareboat.com/storage/services/sub_services/tecnology/rXOG6YXO8TcuvZ3BHBM0FNfZJ1HqQsTy6vjCeWL4.svg" alt="Firebase" />
                       <p style={{ paddingRight: "0px" }}>Firebase</p>
                     </div>
                   </div>
@@ -209,7 +209,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -233,7 +233,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%",flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -262,7 +262,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%",flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -288,7 +288,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%",flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -317,7 +317,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%",flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -343,7 +343,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%",flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -370,7 +370,7 @@ const WebServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%",flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>

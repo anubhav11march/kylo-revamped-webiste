@@ -13,7 +13,7 @@ const TeamMemberCard = ({
   joinus,
 }) => {
   return (
-    <Col xl={3} lg={3} md={6} className="mb-40">
+    <Col xl={3} lg={3} md={6} className="mb-40 team__tablet__card">
       {!joinus ? (
         <>
           <div className="team__thumb">

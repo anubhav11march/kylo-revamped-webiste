@@ -171,9 +171,9 @@ const Jobs = () => {
             >
               <Col className="position-relative">
                 <div className="d-flex">
-                  <h5>{job?.jobTitle}</h5>
+                  <h5 style={{ width:"70%"}}>{job?.jobTitle}</h5>
                   &nbsp; &nbsp;
-                  <h7>|&nbsp;&nbsp;{job?.workType}</h7>
+                  <p><span className='zero-display-span' >|</span>&nbsp;&nbsp;<span><nobr>{job?.workType}</nobr></span></p>
                 </div>
                 <p style={{ paddingRight: "60px" }}>{job?.description}</p>
                 <div

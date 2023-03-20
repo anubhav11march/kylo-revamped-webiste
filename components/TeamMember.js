@@ -39,7 +39,7 @@ const TeamMember = ({subTitle}) => {
                             </div>
                         </Col>
                     </Row>  
-                    <Row className="d-flex justify-content-around">                        
+                    <Row className="d-flex justify-content-around team__tablet__card">                        
                     {MEMBER_DATA.map(
                               ({memberImg, memberLink, memberName, memberPosition}, index) => (
                                   <TeamMemberCard

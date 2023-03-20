@@ -9,7 +9,7 @@ const SectionTitle = ({ subTitle, titleFirst, titleSecond, smallFont }) => {
         // style={{ fontSize: smallFont ? "40px" : "" }}
       >
         {
-          titleFirst === "Planning To Transform" ? 
+          titleFirst === "Planning To Transform" || titleFirst === "Planning to transform"  || titleFirst=== "Skyrocket your growth" ? 
           <span><nobr>{titleFirst}</nobr></span>
           :
           <span>{titleFirst}</span>

@@ -177,7 +177,7 @@ const DataEngineering = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -201,7 +201,7 @@ const DataEngineering = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -229,7 +229,7 @@ const DataEngineering = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -256,7 +256,7 @@ const DataEngineering = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -284,7 +284,7 @@ const DataEngineering = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -311,7 +311,7 @@ const DataEngineering = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", translate: "0% 35%" }}
+                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
                         <i className="far fa-plus" />
                       </div>

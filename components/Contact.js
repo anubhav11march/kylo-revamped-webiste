@@ -15,29 +15,29 @@ const Contact = () => {
 
               <div className="contact__info-content d-flex flex-column mb-30">
                 <div className="container" style={{padding:"0"}}>
-                  <div className="footer__widget-social mb-30" style={{ width:"22rem"}}>
+                  <div className="footer__widget-social mb-30 contact__info-social-icons-mobile" style={{ width:"22rem"}}>
                     <Link href="https://www.linkedin.com/company/kylo-apps">
-                      <a target={"_blank"}>
+                      <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-linkedin"></i>
                       </a>
                     </Link>
                     <Link href="https://www.instagram.com/kyloappsglobal/">
-                      <a target={"_blank"}>
+                      <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-instagram"></i>
                       </a>
                     </Link>
                     <Link href="https://twitter.com/kyloapps">
-                      <a target={"_blank"}>
+                      <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-twitter"></i>
                       </a>
                     </Link>
                     <Link href="https://www.youtube.com/@kyloapps">
-                      <a target={"_blank"}>
+                      <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-youtube"></i>
                       </a>
                     </Link>
                     <Link href="https://www.facebook.com/kyloapps">
-                      <a target={"_blank"}>
+                      <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-facebook-f"></i>
                       </a>
                     </Link>

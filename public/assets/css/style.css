@@ -2525,7 +2525,7 @@ textarea {
 }
 
 .key__factors {
-  margin-top: 68px;
+  margin-top: 60px;
 }
 .key__factors-title {
   margin-bottom: 40px;
@@ -4605,7 +4605,7 @@ textarea {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  height: 29em;
+  height: 28em;
   margin-bottom: 2em;
   position: relative;
 }
@@ -4619,7 +4619,7 @@ textarea {
   }
 }
 .testimonials__logo {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonials__logo {

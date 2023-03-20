@@ -67,7 +67,7 @@ const MobileServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Technologies</h4>
+                <h4 className="mb-50">Technologies</h4>
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
@@ -117,7 +117,7 @@ const MobileServicesDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
+                  <div className="key__factors-content mb-50 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
                       <span style={{ paddingLeft: "15px" }}>
                         <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

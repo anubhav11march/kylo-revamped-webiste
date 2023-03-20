@@ -62,9 +62,9 @@ const GrowthServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Technologies</h4>
+                <h4 className='mb-50'>Technologies</h4>
                 <div className='container'>
-                  <div className='row'>
+                  <div className='row' style={{ width: "50%" }}>
                     <div className='col text-center'>
                     <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/i2vkPouCFaDbYRTJdy5JkEBNOytKc7hFhGHkYeoN.svg" alt="Intercom"/>
                       <p style={{ paddingRight: "0px" }}>Intercom</p>

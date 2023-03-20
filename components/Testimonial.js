@@ -124,7 +124,7 @@ const Testimonial = ({ testimonialArea, paddingTop }) => {
                 delay: 2500,
                 disableOnInteraction: true,
               }}
-              on
+              on="true"
               modules={[Autoplay, Navigation, Pagination]}
               spaceBetween={30}
               slidesPerView={"auto"}

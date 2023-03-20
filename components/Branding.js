@@ -65,7 +65,7 @@ const Branding = () => {
               </div>
 
               <div className="tech__stack">
-                <h4>Technologies</h4>
+                <h4 className='mb-50'>Technologies</h4>
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
@@ -73,7 +73,7 @@ const Branding = () => {
                       <p style={{ paddingRight: "0px" }}>Figma</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://assets.stickpng.com/images/5842a622a6515b1e0ad75af9.png" alt="Canva"/>
+                    <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png" alt="Canva"/>
                       <p style={{ paddingRight: "0px" }}>Canva</p>
                     </div>
                     <div className='col text-center'>

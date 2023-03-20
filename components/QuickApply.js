@@ -109,6 +109,8 @@ const QuickApply = () => {
       setUploading(false);
       setUploadSuccess(true);
       alert("Your response has been recorded successfully!");
+      setFileupload(null);
+    document.getElementById("myselectbox").selectedIndex = 0;
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!");
   };
@@ -424,7 +426,7 @@ const QuickApply = () => {
 
                       <div className="field-format d-sm-flex justify-content-between mb-40">
                         <div className="form-group pr-10 form-group-2">
-                          <select name="designation" onChange={handleChange}>
+                          <select name="designation" id="myselectbox" onChange={handleChange}>
                             <option value="">Position applying for</option>
                             {
                               jobData.length > 0 && jobData.map((x, y) =>

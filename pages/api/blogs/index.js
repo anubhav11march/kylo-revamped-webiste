@@ -36,8 +36,13 @@ export default async function handler(req, res) {
         }
 
         if (keyword && keyword !== "" && keyword !== "undefined") {
-          blogs = blogs.filter((blog) => blog.author === keyword);
+
+          blogs = blogs.filter((blog) => {
+            return ((blog.title.toLowerCase().includes(keyword.toLowerCase()) || blog.category.toLowerCase().includes(keyword.toLowerCase())) || blog.author.toLowerCase().includes(keyword.toLowerCase()));
+          })
+
         }
+
 
         res.status(200).json({ success: true, data: blogs });
       } catch (err) {

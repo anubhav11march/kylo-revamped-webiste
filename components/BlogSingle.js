@@ -79,8 +79,11 @@ const Blog = () => {
         setData(data?.data);
         setLoading(false);
       });
+
   }, [query.keyword, query.category]);
 
+
+  console.log(data)
 
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;

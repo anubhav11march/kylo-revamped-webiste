@@ -35,7 +35,7 @@ const Jobs = () => {
     fetch(`/api/jobs?department=${query.department}&workType=${query.workType}`)
       .then((res) => res.json())
       .then((data) => {
-        setData(data?.data);
+        setData(data?.data.reverse());
         setLoading(false);
       });
   }, [query]);

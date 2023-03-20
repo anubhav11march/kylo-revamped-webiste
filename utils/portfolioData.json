@@ -42,6 +42,13 @@
     "portfolioText": "It is a Mobile based restaurants commerce platform for restaurants to sell their surplus food prepared daily where customers can avail heavy discounts during the mentioned time period."
   },
   {
+    "id": "14",
+    "portfolioImg": "/assets/images/portfolio/updated/Billberry.png",
+    "portfolioLink": "/portfolio/14",
+    "portfolioTitle": "Billberry",
+    "portfolioText": "It is a restaurant management software for users to track orders of different outlets, and analytical performance on different metrics. The application is available on Web, Android and IOS."
+  },
+  {
     "id": "1",
     "portfolioImg": "/assets/images/portfolio/updated/Zeta.png",
     "portfolioLink": "/portfolio/1",
@@ -78,18 +85,25 @@
     "portfolioText": "Plan your trip with real human beings. On Triponvo platform, travel experts can be onboarded and itineraries can be created for travellers for 50+ destinations. Travellers can also schedule one on one sessions with the travel experts for guidance."
   },
   {
-    "id": "8",
-    "portfolioImg": "/assets/images/portfolio/updated/Bachat Cards.png",
-    "portfolioLink": "/portfolio/8",
-    "portfolioTitle": "Bachat Cards",
-    "portfolioText": "Bachat cards is a one stop destination for buying Prepaid virtual cards to manage users’ spending, loading and transactions on the platform. Users can also access their profiles, promo codes and redeem cashback against vouchers from multiple brands."
+    "id": "24",
+    "portfolioImg": "/assets/images/portfolio/updated/Glocal.png",
+    "portfolioLink": "/portfolio/24",
+    "portfolioTitle": "Glocal CareX",
+    "portfolioText": "Glocal CareX is a Singapore based listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
   },
   {
-    "id": "9",
-    "portfolioImg": "/assets/images/portfolio/updated/Mega.png",
-    "portfolioLink": "/portfolio/9",
-    "portfolioTitle": "Mega Grain",
-    "portfolioText": "Mega Grain is a convenient trading facility that introduces buyers & sellers globally to perform business operations in Agri commodities. Likewise, other B2B platforms, Mega solution also goes through Seven easy processes which are Enquiry or Product Offer, Screen Verify Enquiry, Price Quoted, Negotiation, Inspection, Logistics  & Payment."
+    "id": "22",
+    "portfolioImg": "/assets/images/portfolio/updated/LoopERP.png",
+    "portfolioLink": "/portfolio/22",
+    "portfolioTitle": "Loop ERP",
+    "portfolioText": "Loop ERP App is designed to solve the challenges of Retail, Distribution and Manufacturing business that keep entrepreneurs tied to their desks. Loop ERP has been designed for Apparel and Footwear, FMCG, F&B, Electronics & Telecommunication and Pharmaceutical businesses that need complete visibility over their entire organisational structure."
+  },
+  {
+    "id": "18",
+    "portfolioImg": "/assets/images/portfolio/updated/Sammunati.png",
+    "portfolioLink": "/portfolio/18",
+    "portfolioTitle": "Samunnati",
+    "portfolioText": "Samunnati is an open agri network to unlock the trillion-dollar plus potential of Indian agriculture industry with smallholder farmers at the center of it. It is an educational streaming platform in regional languages for best agricultural practices."
   },
   {
     "id": "11",
@@ -97,6 +111,27 @@
     "portfolioLink": "/portfolio/11",
     "portfolioTitle": "iMoney",
     "portfolioText": "iMoney wallet started its journey in 2017, headquartered in New Delhi, India. Their strength lies in Digital Payments, Prepaid Cards, Cashbacks and Analytics. iMoney Wallet is considered as one of the most vibrant start-ups among peers. It has attracted top talents in the past two years."
+  },
+  {
+    "id": "8",
+    "portfolioImg": "/assets/images/portfolio/updated/Bachat Cards.png",
+    "portfolioLink": "/portfolio/8",
+    "portfolioTitle": "Bachat Cards",
+    "portfolioText": "Bachat cards is a one stop destination for buying Prepaid virtual cards to manage users’ spending, loading and transactions on the platform. Users can also access their profiles, promo codes and redeem cashback against vouchers from multiple brands."
+  },
+  {
+    "id": "21",
+    "portfolioImg": "/assets/images/portfolio/updated/Aspire.png",
+    "portfolioLink": "/portfolio/21",
+    "portfolioTitle": "Aspire",
+    "portfolioText": "Aspire is a Proptech company based out of Bangalore, India and selects only what's the best for you according to your requirements and provides a personalized home buying experience with all guidance needed for home loans and legal documentation to its registration. The platform also has a transformer homebuying experience dashboard, where homebuyers and builders can view all of their payments, documentations, amenities and everything else concerning to make their buying experience special and convenient."
+  },
+  {
+    "id": "9",
+    "portfolioImg": "/assets/images/portfolio/updated/Mega.png",
+    "portfolioLink": "/portfolio/9",
+    "portfolioTitle": "Mega Grain",
+    "portfolioText": "Mega Grain is a convenient trading facility that introduces buyers & sellers globally to perform business operations in Agri commodities. Likewise, other B2B platforms, Mega solution also goes through Seven easy processes which are Enquiry or Product Offer, Screen Verify Enquiry, Price Quoted, Negotiation, Inspection, Logistics  & Payment."
   },
   {
     "id": "13",
@@ -107,32 +142,11 @@
   },
 
   {
-    "id": "14",
-    "portfolioImg": "/assets/images/portfolio/updated/Billberry.png",
-    "portfolioLink": "/portfolio/14",
-    "portfolioTitle": "Billberry",
-    "portfolioText": "It is a restaurant management software for users to track orders of different outlets, and analytical performance on different metrics. The application is available on Web, Android and IOS."
-  },
-  {
     "id": "15",
     "portfolioImg": "/assets/images/portfolio/updated/Finaccru.png",
     "portfolioLink": "/portfolio/15",
     "portfolioTitle": "Finaccru",
     "portfolioText": "Finaccru helps to automate your accounting using technology such as Artificial Intelligence, Machine Learning and Robotic Process Automation (RPA), through our proprietary developed software, to perform tasks that would typically be done manually. This includes tasks such as bookkeeping, invoicing, and financial reporting."
-  },
-  {
-    "id": "17",
-    "portfolioImg": "/assets/images/portfolio/updated/Unicap.png",
-    "portfolioLink": "/portfolio/17",
-    "portfolioTitle": "Unicap",
-    "portfolioText": "Unicap is a Web Platform for curated investment opportunities beyond Stocks, Fixed Deposits and Gold in instruments such as Corporate bonds, Leasing, REITs, Startup Equity, Inventory financing etc."
-  },
-  {
-    "id": "18",
-    "portfolioImg": "/assets/images/portfolio/updated/Sammunati.png",
-    "portfolioLink": "/portfolio/18",
-    "portfolioTitle": "Samunnati",
-    "portfolioText": "Samunnati is an open agri network to unlock the trillion-dollar plus potential of Indian agriculture industry with smallholder farmers at the center of it. It is an educational streaming platform in regional languages for best agricultural practices."
   },
   {
     "id": "20",
@@ -142,31 +156,18 @@
     "portfolioText": "Kot Kacheri is an on demand legal services availing mobile application platform where users can create an account and choose from 20+ legal services like Tax filing, Corporate case, Personal cases etc. The users can share documents and get video consultation from the lawyers on the app itself."
   },
   {
-    "id": "21",
-    "portfolioImg": "/assets/images/portfolio/updated/Aspire.png",
-    "portfolioLink": "/portfolio/21",
-    "portfolioTitle": "Aspire",
-    "portfolioText": "Aspire is a Proptech company based out of Bangalore, India and selects only what's the best for you according to your requirements and provides a personalized home buying experience with all guidance needed for home loans and legal documentation to its registration. The platform also has a transformer homebuying experience dashboard, where homebuyers and builders can view all of their payments, documentations, amenities and everything else concerning to make their buying experience special and convenient."
+    "id": "17",
+    "portfolioImg": "/assets/images/portfolio/updated/Unicap.png",
+    "portfolioLink": "/portfolio/17",
+    "portfolioTitle": "Unicap",
+    "portfolioText": "Unicap is a Web Platform for curated investment opportunities beyond Stocks, Fixed Deposits and Gold in instruments such as Corporate bonds, Leasing, REITs, Startup Equity, Inventory financing etc."
   },
-  {
-    "id": "22",
-    "portfolioImg": "/assets/images/portfolio/updated/LoopERP.png",
-    "portfolioLink": "/portfolio/22",
-    "portfolioTitle": "Loop ERP",
-    "portfolioText": "Loop ERP App is designed to solve the challenges of Retail, Distribution and Manufacturing business that keep entrepreneurs tied to their desks. Loop ERP has been designed for Apparel and Footwear, FMCG, F&B, Electronics & Telecommunication and Pharmaceutical businesses that need complete visibility over their entire organisational structure."
-  },
+  
   {
     "id": "23",
     "portfolioImg": "/assets/images/portfolio/updated/ActiveSollutions.png",
     "portfolioLink": "/portfolio/23",
     "portfolioTitle": "Active Solutions",
     "portfolioText": "Active Solutions is an OEM company based out of Saudi Arabia with presence in GCC, MENA and APAC regions. They provide consulting services in various domains like product, project management, strategy, human resource and management."
-  },
-  {
-    "id": "24",
-    "portfolioImg": "/assets/images/portfolio/updated/Glocal.png",
-    "portfolioLink": "/portfolio/24",
-    "portfolioTitle": "Glocal CareX",
-    "portfolioText": "Glocal CareX is a Singapore based listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
   }
 ]

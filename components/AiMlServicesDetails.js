@@ -53,6 +53,8 @@ const AiMlServicesDetails = () => {
                   <ul>
                     <li>Machine Learning Chatbots</li>
                     <li>Responsive Chatbots</li>
+                  </ul>
+                  <ul>
                     <li>Conversational Chatbot</li>
                     <li>Appointment Scheduling</li>
                   </ul>
@@ -171,7 +173,7 @@ const AiMlServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
+                        style={{ height: "100%", flexWrap: "wrap", alignContent: "center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -195,7 +197,7 @@ const AiMlServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
+                        style={{ height: "100%", flexWrap: "wrap", alignContent: "center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -223,7 +225,7 @@ const AiMlServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
+                        style={{ height: "100%", flexWrap: "wrap", alignContent: "center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -250,7 +252,7 @@ const AiMlServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
+                        style={{ height: "100%", flexWrap: "wrap", alignContent: "center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -279,7 +281,7 @@ const AiMlServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
+                        style={{ height: "100%", flexWrap: "wrap", alignContent: "center" }}
                       >
                         <i className="far fa-plus" />
                       </div>
@@ -305,7 +307,7 @@ const AiMlServicesDetails = () => {
                     icon={
                       <div
                         className="d-flex justify-content-center"
-                        style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
+                        style={{ height: "100%", flexWrap: "wrap", alignContent: "center" }}
                       >
                         <i className="far fa-plus" />
                       </div>

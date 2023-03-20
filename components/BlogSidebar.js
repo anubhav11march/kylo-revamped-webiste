@@ -27,7 +27,7 @@ const BlogSidebar = () => {
     <div className="blog__sidebar">
       <div className="sidebar__widget-search mb-40">
         <form>
-          <input type="text" placeholder="Keywords" onChange={(e) => setKeyword(e.target.value)}/>
+          <input style={{color:"#fff"}} type="text" placeholder="Keywords" onChange={(e) => setKeyword(e.target.value)}/>
           <Link href={`/blog?keyword=${keyword}`}>
           <button>
             <i className="fa-solid fa-magnifying-glass"></i>
@@ -101,26 +101,32 @@ const BlogSidebar = () => {
           <h3>Services</h3>
         </div>
         <div className="sidebar__widget-tags">
-          <Link href="/single-blog">
-            <a>App</a>
+          <Link href="/web-app-development">
+            <a>Web Development</a>
           </Link>
-          <Link href="/single-blog">
-            <a>Branding</a>
+          <Link href="/mobile-app-development">
+            <a>Mobile App Development</a>
           </Link>
-          <Link href="/single-blog">
-            <a>Web Design</a>
-          </Link>
-          <Link href="/single-blog">
+          <Link href="/uiux-designing">
             <a>UI/UX Designing</a>
           </Link>
-          <Link href="/single-blog">
-            <a>Landing</a>
+          <Link href="/aiml-development">
+            <a>AI/ML/Chatbot</a>
           </Link>
-          <Link href="/single-blog">
-            <a>Development</a>
+          <Link href="/growth-hacking">
+            <a>Growth Hacking</a>
           </Link>
-          <Link href="/single-blog">
-            <a>Digital Marketing</a>
+          <Link href="/quality-assurance">
+            <a>Quality Assurance</a>
+          </Link>
+          <Link href="/devops">
+            <a>DevOps</a>
+          </Link>
+          <Link href="/data-engineering">
+            <a>Data Engineering</a>
+          </Link>
+          <Link href="/branding">
+            <a>Branding</a>
           </Link>
         </div>
       </div>

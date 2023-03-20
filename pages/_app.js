@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
     <>
       {/* <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-RBE32FWFR0"></Script> */}
 
-      <GoogleAnalytics measurementId="G-RBE32FWFR0"/>
+      <GoogleAnalytics measurementId="G-Y9CXFEN66V"/>
       <Head>
         <meta charset="UTF-8" />
         <meta name="keywords" content="test content desc" />

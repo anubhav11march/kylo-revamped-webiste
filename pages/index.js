@@ -19,7 +19,7 @@ const HomeOne = () => {
   return (
     <Layout
       pageTitle="
-    KYLO APPS | Transforming businesses through"
+    KYLO APPS | Transforming Businesses Through Technologies"
     >
       <Header heroLogo="/assets/images/logo/kylo-image.png" />
       

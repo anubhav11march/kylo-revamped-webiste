@@ -40,7 +40,7 @@ const ContactForm = () => {
     });
     const data = await res.json();
     if (data.success) {
-      alert("Your record has been submitted successfully!");
+      alert("Your response has been recorded successfully!");
       setForm(INITIAL_VALUES);
     } else alert("Something went wrong!");
   };

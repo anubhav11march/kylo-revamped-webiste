@@ -38,7 +38,7 @@ export default async function handler(req, res) {
         if (keyword && keyword !== "" && keyword !== "undefined") {
 
           blogs = blogs.filter((blog) => {
-            return ((blog.title.toLowerCase().includes(keyword.toLowerCase()) || blog.category.toLowerCase().includes(keyword.toLowerCase())) || blog.author.toLowerCase().includes(keyword.toLowerCase()));
+            return ((blog.title.toLowerCase().includes(keyword.toLowerCase()) || blog.category.toLowerCase().includes(keyword.toLowerCase())));
           })
 
         }

@@ -1,12 +1,16 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const BlogSidebar = () => {
+
+  const { query } = useRouter();
 
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
 
   const [keyword, setKeyword] = useState(null);
+  const [keywordPlaceholder, setKeywordPlaceholder] = useState(null);
 
   useEffect(() => {
     setLoading(true);
@@ -16,6 +20,14 @@ const BlogSidebar = () => {
         setData(data?.data);
         setLoading(false);
       });
+
+      if(query.keyword){
+        setKeywordPlaceholder(query.keyword);
+      }
+
+      if(query.keyword || query.category){
+        window.scrollTo(0,600);
+      }
   }, []);
 
   if (isLoading) return <p>Loading...</p>;
@@ -27,7 +39,7 @@ const BlogSidebar = () => {
     <div className="blog__sidebar">
       <div className="sidebar__widget-search mb-40">
         <form>
-          <input style={{color:"#fff"}} type="text" placeholder="Keywords" onChange={(e) => setKeyword(e.target.value)}/>
+          <input style={{color:"#fff"}} type="text" placeholder={keywordPlaceholder ? `${keywordPlaceholder}`: `Keywords`} onChange={(e) => setKeyword(e.target.value)}/>
           <Link href={`/blog?keyword=${keyword}`}>
           <button>
             <i className="fa-solid fa-magnifying-glass"></i>

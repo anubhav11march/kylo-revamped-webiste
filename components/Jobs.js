@@ -38,7 +38,17 @@ const Jobs = () => {
         setData(data?.data.reverse());
         setLoading(false);
       });
+
+      if(query.department || query.workType){
+        window.scrollTo(0, 550);
+    }
   }, [query]);
+
+  useEffect(() => {
+    if(query.department || query.workType){
+        console.log(query.department, "cbdhjbdhjsbchds", query.workType)
+    }
+  }, [])
 
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No blog data</p>;
@@ -171,11 +181,12 @@ const Jobs = () => {
             >
               <Col className="position-relative">
                 <div className="d-flex">
-                  <h5 style={{ width:"70%"}}>{job?.jobTitle}</h5>
+                  {/* <h5 style={{ width:"70%"}}>{job?.jobTitle}</h5> */}
+                  <h5 className='w-70-mobile'>{job?.jobTitle}</h5>
                   &nbsp; &nbsp;
                   <p><span className='zero-display-span' >|</span>&nbsp;&nbsp;<span><nobr>{job?.workType}</nobr></span></p>
                 </div>
-                <p style={{ paddingRight: "60px" }}>{job?.description}</p>
+                <p className="jobRole__desc" style={{ paddingRight: "60px" }}>Apply Now</p>
                 <div
                   style={{ position: "absolute", left: "95%", top: "38%" }}
                 >

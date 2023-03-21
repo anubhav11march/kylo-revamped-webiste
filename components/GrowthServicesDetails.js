@@ -46,7 +46,7 @@ const GrowthServicesDetails = () => {
               <div className="key__benefits">
                 <div
                   className="key__benefits-content"
-                  style={{ display: "flex", columnGap: "40px" }}
+                  style={{ display: "flex", columnGap: "150px" }}
                 >
                   <ul>
                     <li>Analytics</li>
@@ -199,7 +199,7 @@ const GrowthServicesDetails = () => {
                         className="d-flex justify-content-center"
                         style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
-                        <i className="far fa-plus" />
+                        <i className="fas fa-plus" style={{ fontSize:"11px"}}/>
                       </div>
                     }
                   >
@@ -254,7 +254,7 @@ const GrowthServicesDetails = () => {
                         className="d-flex justify-content-center"
                         style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
-                        <i className="far fa-plus" />
+                        <i className="fas fa-plus" style={{ fontSize:"11px"}} />
                       </div>
                     }
                   >
@@ -310,7 +310,7 @@ const GrowthServicesDetails = () => {
                         className="d-flex justify-content-center"
                         style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
-                        <i className="far fa-plus" />
+                        <i className="fas fa-plus" style={{ fontSize:"11px"}} />
                       </div>
                     }
                   >

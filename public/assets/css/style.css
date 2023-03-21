@@ -2306,7 +2306,7 @@ textarea {
 @media only screen and (min-width: 1400px) and (max-width: 1700px),
   only screen and (min-width: 1200px) and (max-width: 1399px) {
   .services__details-shape img.s-details-s-3 {
-    top: 9%;
+    top: 8%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9126,6 +9126,14 @@ textarea {
   height: auto;
 }
 
+.jobRole__desc{
+  transition: all 0.3s ease-in-out;
+}
+
+.jobRole__desc:hover{
+  color: #7432ff!important;
+}
+
 .job_jd-header {
   padding: 30px 20%;
   background: #f8f9fa;
@@ -9138,6 +9146,10 @@ textarea {
 @media (max-width: 575px) {
   .zero-display-span{
     display: none!important;
+  }
+
+  .w-70-mobile{
+    width: 70%!important;
   }
 
   .quick_apply {

@@ -66,7 +66,7 @@ const Devops = () => {
               </div> */}
 
               <div className="tech__stack">
-                <h4 className='mb-50'>Technologies</h4>
+                <h3 className='mb-50'>Technologies</h3>
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
@@ -111,7 +111,7 @@ const Devops = () => {
                       <p style={{ paddingRight: "0px" }}>Docker</p>
                     </div>
                     <div className='col text-center'>
-                    <img class="tech-icon" src="https://assets.stickpng.com/images/58480a44cef1014c0b5e4917.png" alt="Kubernetes"/>
+                    <img class="tech-icon" src="https://seeklogo.com/images/K/kubernetes-logo-3A67038EAB-seeklogo.com.png" alt="Kubernetes"/>
                       <p style={{ paddingRight: "0px" }}>Kubernetes</p>
                     </div>
 
@@ -143,10 +143,19 @@ const Devops = () => {
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                     <span style={{ paddingLeft: "15px" }}>
-                    <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z" fill="#7432ff"/>
+                    <svg width="30" height="30" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_601_2067)">
+<path d="M31.2567 14.4386C31.2567 15.0255 30.7733 15.5089 30.1864 15.5089H21.1746C20.5876 15.5089 20.1043 15.0255 20.1043 14.4386V5.42678C20.1043 4.83984 20.5876 4.35648 21.1746 4.35648H28.2873C29.2885 3.5624 30.2899 2.8719 31.2912 2.35386C30.946 2.21561 30.5662 2.14648 30.1864 2.14648H21.1746C19.3791 2.14648 17.8945 3.59666 17.8945 5.42658V14.4384C17.8945 16.2339 19.3447 17.7185 21.1746 17.7185L30.1864 17.7187C31.9819 17.7187 33.4665 16.2685 33.4665 14.4386V7.53302C32.6378 8.3271 31.9128 9.12143 31.2567 9.98463L31.2567 14.4386Z" fill="#7432FF"/>
+<path d="M33.8134 3.28615C31.5 4.04577 28.5997 6.04845 25.9065 9.50118L24.3181 7.74032C24.0762 7.46406 23.6276 7.46406 23.3857 7.74032L22.2118 9.0522C21.97 9.29401 22.0047 9.70829 22.2463 9.91539L25.8718 13.3682C26.1825 13.6444 26.6659 13.5753 26.873 13.2302C28.7721 9.74292 30.8438 7.15332 34.331 4.18386C34.7455 3.80404 34.3657 3.11331 33.8132 3.28601L33.8134 3.28615Z" fill="#7432FF"/>
+<path d="M13.8563 8.18887C13.8563 11.5261 11.1508 14.2313 7.81387 14.2313C4.47669 14.2313 1.77148 11.5261 1.77148 8.18887C1.77148 4.85193 4.47669 2.14648 7.81387 2.14648C11.1508 2.14648 13.8563 4.85193 13.8563 8.18887Z" fill="#7432FF"/>
+<path d="M23.7301 21.1365H18.2746C18.2746 21.1365 13.061 16.9585 12.6121 16.5787C12.1287 16.2333 11.2999 15.8535 10.4023 15.8535L5.1195 15.8538C3.2204 15.8538 1.70117 17.373 1.70117 19.2721V32.5308C1.70117 33.2904 2.32255 33.8774 3.08217 33.8774H12.5083C13.2679 33.8774 13.8893 33.256 13.8893 32.4964L13.8548 24.555L15.6157 25.9707C16.0991 26.3505 16.7207 26.5576 17.3421 26.5576H23.6953C25.1454 26.5576 26.4228 25.4526 26.5267 24.0025C26.5613 22.4832 25.3183 21.1367 23.7302 21.1367L23.7301 21.1365Z" fill="#7432FF"/>
+</g>
+<defs>
+<clipPath id="clip0_601_2067">
+<rect width="32.8786" height="32" fill="white" transform="translate(1.60938 1.875)"/>
+</clipPath>
+</defs>
 </svg>
-
 
                       </span>
                     </div>
@@ -236,7 +245,7 @@ const Devops = () => {
                         className="d-flex justify-content-center"
                         style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
-                        <i className="far fa-plus" />
+                        <i className="fas fa-plus" style={{ fontSize:"11px"}}/>
                       </div>
                     }
                   >
@@ -259,7 +268,7 @@ const Devops = () => {
                         className="d-flex justify-content-center"
                         style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
-                        <i className="far fa-plus" />
+                        <i className="fas fa-plus" style={{ fontSize:"11px"}}/>
                       </div>
                     }
                   >
@@ -303,8 +312,8 @@ const Devops = () => {
                       </div>
                     }
                   >
-                    <h3 className="vertical-timeline-element-title">Monitoring & Logging</h3>
-                    <p className="zero-padding-right">
+                    <h3 className="vertical-timeline-element-title" style={{ color : "#fff"}}>Monitoring & Logging</h3>
+                    <p className="zero-padding-right" style={{ color : "#fff"}}>
                       We monitor the application and infrastructure performance, log and analyse errors and issues, and identify areas for improvement.
                     </p>
                   </VerticalTimelineElement>
@@ -319,7 +328,7 @@ const Devops = () => {
                         className="d-flex justify-content-center"
                         style={{ height: "100%", flexWrap:"wrap", alignContent:"center" }}
                       >
-                        <i className="far fa-plus" />
+                        <i className="fas fa-plus" style={{ fontSize:"11px"}} />
                       </div>
                     }
                   >

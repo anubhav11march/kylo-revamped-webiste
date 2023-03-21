@@ -3155,7 +3155,7 @@ textarea {
 /* ***************************** */
 
 .portfolio__shape-2 img.p-s-12 {
-  top: 66%;
+  top: 89%;
   left: 12px;
   max-width: 104px;
   z-index: -1;
@@ -3169,13 +3169,13 @@ textarea {
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__shape-2 img.p-s-12 {
-    top: 48%;
+    top: 71%;
     left: 19px;
   }
 }
 @media (max-width: 575px) {
   .portfolio__shape-2 img.p-s-12 {
-    top: 48%;
+    top: 71%;
     left: 6px;
   }
 }
@@ -3211,7 +3211,7 @@ textarea {
 /* ***************************** */
 
 .portfolio__shape-2 img.p-s-22 {
-  top: 66%;
+  top: 72%;
   left: 12px;
   max-width: 104px;
   z-index: -1;
@@ -3225,13 +3225,13 @@ textarea {
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio__shape-2 img.p-s-22 {
-    top: 68%;
+    top: 74%;
     left: 19px;
   }
 }
 @media (max-width: 575px) {
   .portfolio__shape-2 img.p-s-22 {
-    top: 69.8%;
+    top: 73.8%;
     left: -16px;
   }
 }

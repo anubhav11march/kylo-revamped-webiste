@@ -62,7 +62,7 @@ const AiMlServicesDetails = () => {
               </div>
 
               <div className="tech__stack">
-                <h4 className='mb-50'>Technologies</h4>
+                <h3 className='mb-50'>Technologies</h3>
                 <div className='container' style={{ paddingLeft: "0px" }}>
                   <div className='row' style={{ width: "50%" }}>
                     <div className='col text-center'>

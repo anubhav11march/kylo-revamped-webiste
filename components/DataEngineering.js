@@ -39,7 +39,7 @@ const DataEngineering = () => {
             </div>
             <div className="services__details-content">
               <h2>Data Engineering</h2>
-              <p>
+              <p style={{ marginBottom:"48px"}}>
                 We help businesses leverage their data to drive insights and improve decision-making. Our team has the expertise to design and implement efficient data pipelines that help you collect, store, process, and analyze data at scale. We use cutting-edge technologies and best practices to ensure that your data infrastructure is robust, secure, and scalable.
                 We’ll help you unlock the true potential of your data and gain a competitive edge!
 

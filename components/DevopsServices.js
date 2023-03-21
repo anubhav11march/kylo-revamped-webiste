@@ -39,7 +39,7 @@ const Devops = () => {
             </div>
             <div className="services__details-content">
               <h2>DevOps</h2>
-              <p>
+              <p style={{ marginBottom:"48px"}}>
                 Our team is dedicated to helping businesses streamline their software development and deployment processes. We design and implement efficient and automated DevOps pipelines that help you deliver high-quality software products faster and more reliably.
 
                 We use cutting-edge technologies and best practices to ensure that your software development life cycle is smooth and efficient.

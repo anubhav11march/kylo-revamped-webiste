@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   const [form, setForm] = useState(INITIAL_VALUES);
 
-  const [countryCode, setCountryCode] = useState("+91");
+  const [countryCode, setCountryCode] = useState("91");
 
   const [uploadSuccess, setUploadSuccess] = useState(false);
 

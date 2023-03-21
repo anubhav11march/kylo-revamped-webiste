@@ -7,7 +7,7 @@ const NewsletterSchema = new mongoose.Schema({
     },
     date: {
         type: String,
-        default : Date().slice(4,16)
+        default : (new Date()).toLocaleDateString("en-GB")
     },
 });
 mongoose.models = {};

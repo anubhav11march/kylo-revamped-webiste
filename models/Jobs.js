@@ -11,8 +11,8 @@ const JobSchema = new mongoose.Schema({
   selectionProcess: { type: String, required: true },
   
   date: { 
-    type: Date,
-    default: Date.now(),
+    type: String,
+    default: (new Date()).toLocaleDateString("en-GB"),
   },
 });
 mongoose.models = {};

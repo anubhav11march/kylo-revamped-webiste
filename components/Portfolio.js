@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
 import PortfolioItem from "./PortfolioItem";
-import PORTFOLIO_ALL from "../utils/portfolioData.json";
+import PORTFOLIO_ALL from "../utils/portfolioDataHomepage.json";
 // const PORTFOLIO_ALL = [
 //   {
 //     portfolioImg: "/assets/images/portfolio/p-1.png",

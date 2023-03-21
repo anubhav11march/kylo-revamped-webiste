@@ -9,8 +9,8 @@ const ClientMessageSchema = new mongoose.Schema({
     budget: String,
     message: String,
     date: {
-        type: Date,
-        default: Date.now()
+        type: String,
+        default: (new Date()).toLocaleDateString("en-GB"),
     }
 });
 mongoose.models = {};

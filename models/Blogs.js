@@ -11,7 +11,7 @@ const BlogSchema = new mongoose.Schema({
   description: { type: String, required: true },
   date: {
     type: String,
-    default: Date.now(),
+    default: (new Date()).toLocaleDateString("en-GB"),
   },
 });
 mongoose.models = {};

@@ -7,9 +7,9 @@ const ApplicationSchema = new mongoose.Schema({
   designation: { type: String, required: true },
   resume: { type: String, required: true },
   date: {
-    type: Date,
-    default: Date.now(),
-  },
+    type: String,
+    default : (new Date()).toLocaleDateString("en-GB")
+},
 });
 mongoose.models = {};
 module.exports =  mongoose.model("Applications", ApplicationSchema);

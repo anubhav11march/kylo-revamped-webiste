@@ -43,7 +43,7 @@ const MEMBER_DATA = [
 ];
 const Recommendations = () => {
   return (
-    <section className="about__area  p-relative pt-120 pb-100 about__pb">
+    <section className="about__area  p-relative pt-120 pb-100 about__pb pt-50-mobile">
       <Container>
         <div className="about__title mb-80 text-center section__title-home">
           <SectionTitle

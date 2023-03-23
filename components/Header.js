@@ -92,9 +92,9 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
               <div className="sidebar__contact mb-30">
                 <div className="contact-list mb-30">
                   <ul>
-                    <li>
-                      <i className="fas fa-map-marker-alt"></i>203-204, NDM 1,
-                      Netaji Subjash Place, Pitampura, Delhi, India 110034
+                    <li className="d-flex">
+                      <i className="col-sm-4 fas fa-map-marker-alt" style={{position: "relative", top: "6px", left:"4px"}}></i>
+                      <span className="col-sm-8" style={{ position: "relative", left: "20px"}}>203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi, India 110034</span>
                     </li>
                     <div className="contact__info-content d-flex">
                       <div className="contact__info-icon">

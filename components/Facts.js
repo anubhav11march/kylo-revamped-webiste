@@ -68,7 +68,7 @@ const Facts = () => {
                 </div>
               </div> */}
               <div className="about__content">
-                <ul>
+                <ul className="display-grid-mobile">
                   <li>Highly skilled team</li>
                   <li>Proper consultation</li>
                   <li>Complete transparency</li>

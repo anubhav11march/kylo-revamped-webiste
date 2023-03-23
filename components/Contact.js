@@ -15,7 +15,7 @@ const Contact = () => {
 
               <div className="contact__info-content d-flex flex-column mb-30">
                 <div className="container" style={{padding:"0"}}>
-                  <div className="footer__widget-social mb-30 contact__info-social-icons-mobile" style={{ width:"22rem"}}>
+                  <div className="zero-mb-mobile footer__widget-social mb-30 contact__info-social-icons-mobile" style={{ width:"22rem"}}>
                     <Link href="https://www.linkedin.com/company/kylo-apps">
                       <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-linkedin"></i>

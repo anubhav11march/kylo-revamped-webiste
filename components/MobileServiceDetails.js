@@ -49,7 +49,7 @@ const MobileServicesDetails = () => {
               <div className="key__benefits">
                 <div
                   className="key__benefits-content"
-                  style={{ display: "flex", columnGap: "150px" }}
+                  style={{ display: "flex", columnGap: "12vw" }}
                 >
                   <ul>
                     <li>Android & iOS</li>

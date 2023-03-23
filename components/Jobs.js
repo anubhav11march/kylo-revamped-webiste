@@ -81,6 +81,7 @@ const Jobs = () => {
         <Row className="mb-20">
           <Col xs={12} xl={6} className="mb-20 mb-md-0">
             <select
+            style={{ height :"55px"}}
               onChange={(e) => {
                 if(e.target.value==="none"){
                   if(!query.workType){
@@ -107,6 +108,7 @@ const Jobs = () => {
           </Col>
           <Col xs={12} xl={6}>
             <select
+            style={{ height :"55px"}}
               onChange={(e) => {
                 if(e.target.value==="none"){
                   if(!query.department){

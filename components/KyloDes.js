@@ -6,7 +6,7 @@ import SectionTitle from "./SectionTitle";
 
 const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
   return (
-    <section className="about__area fix p-relative pt-120 pb-120 about__pb">
+    <section className="about__area pb-50-mobile fix p-relative pt-120 pb-120 about__pb">
       <Container>
         <Row>
           <Col xxl={7} xl={8} lg={10} md={10}>

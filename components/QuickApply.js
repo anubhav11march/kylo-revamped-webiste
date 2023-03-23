@@ -190,7 +190,7 @@ const QuickApply = () => {
 
                       <div className="d-flex w-100" style={{ marginBottom: "30px" }}>
                         <div style={{ width: "200px", lineHeight: "55px" }}>
-                          <select onChange={(e) => { setCountryCode(e.target.value) }}>
+                          <select onChange={(e) => { setCountryCode(e.target.value) }} style={{ height :"55px"}}>
                             <option data-countrycode="IN" value="91">(+91)</option>
                             <option data-countrycode="DZ" value="213">(+213)</option>
                             <option data-countrycode="AD" value="376">(+376)</option>
@@ -426,7 +426,7 @@ const QuickApply = () => {
 
                       <div className="field-format d-sm-flex justify-content-between mb-40">
                         <div className="form-group pr-10 form-group-2">
-                          <select name="designation" id="myselectbox" onChange={handleChange}>
+                          <select name="designation" id="myselectbox" onChange={handleChange} style={{ height :"55px"}}>
                             <option value="">Position applying for</option>
                             {
                               jobData.length > 0 && jobData.map((x, y) =>

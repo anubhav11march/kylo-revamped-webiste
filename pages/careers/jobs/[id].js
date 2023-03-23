@@ -200,7 +200,7 @@ const JobDetails = () => {
 
                   <div className="d-flex w-100" style={{ marginBottom: "30px" }}>
                     <div style={{ width: "200px", lineHeight: "55px" }}>
-                      <select>
+                      <select style={{ height :"55px"}}>
                         <option data-countryCode="IN" value="91">(+91)</option>
                         <option data-countryCode="DZ" value="213">(+213)</option>
                         <option data-countryCode="AD" value="376">(+376)</option>
@@ -435,7 +435,7 @@ const JobDetails = () => {
 
                   <div className="field-format d-sm-flex justify-content-between mb-40">
                     <div className="form-group pr-10 form-group-2">
-                      <select name="designation" onChange={handleChange}>
+                      <select name="designation" onChange={handleChange} style={{ height :"55px"}}>
                         <option value="">Designation Applying for</option>
                         <option value={`${data?.jobTitle}`}>{data?.jobTitle}</option>
 

@@ -849,7 +849,7 @@ textarea {
 .sidebar__contact ul li i {
   color: #8b61ff;
   vertical-align: middle;
-  width: 25px;
+  width: 10px;
   display: inline-block;
 }
 .sidebar__social {
@@ -1810,6 +1810,15 @@ textarea {
 /*----------------------------------------*/
 /*  04. About CSS
 /*----------------------------------------*/
+
+@media (max-width : 575px) {
+  .pt-50-mobile{
+    padding-top: 50px!important;
+  }
+  .pb-50-mobile{
+    padding-bottom: 50px!important;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .about__pb {
@@ -2667,6 +2676,14 @@ textarea {
 /*----------------------------------------*/
 /*  06. Facts CSS
 /*----------------------------------------*/
+
+@media (max-width : 500px){
+  .display-grid-mobile{
+    display: grid!important;
+    font-size: 18px!important;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
@@ -4259,7 +4276,7 @@ textarea {
 }
 @media (max-width: 575px) {
   .experience__shape img.experience-s-2 {
-    top: 4%;
+    top: -1%;
   }
 }
 .experience__shape img.experience-s-3 {
@@ -5402,10 +5419,18 @@ textarea {
     padding: 30px 25px 15px 32px;
   }
 }
+
+@media (max-width : 991px){
+  .blog__content{
+    min-height: 20px!important;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px) {
   .blog__content {
     padding: 25px 25px 15px 32px;
+    min-height: 250px!important;
   }
 }
 .blog__single {
@@ -5448,6 +5473,13 @@ textarea {
   padding: 50px;
   position: relative;
 }
+
+@media (max-width:768px){
+  .blog__single-content-tag {
+    right: 30px!important;
+  }
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
   .blog__single-content {
@@ -5630,6 +5662,16 @@ textarea {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
+@media (max-width:450px){
+  .blog__pagination ul li a {
+    font-size: 16px!important;
+    width: 30px!important;
+    height: 30px!important;
+    line-height: 30px!important;
+  }
+}
+
 .blog__pagination ul li a:hover {
   background: #4a4f61;
   color: #ffffff;
@@ -8951,6 +8993,9 @@ textarea {
 
 @media (max-width: 450px) {
 
+  .zero-mb-mobile{
+    margin-bottom: 0px!important;
+  }
   .contact__info-social-icons-mobile{
     width: 13rem!important;
   }

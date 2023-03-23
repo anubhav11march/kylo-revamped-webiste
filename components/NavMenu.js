@@ -35,10 +35,10 @@ const NavMenu = ({ mobile }) => {
           <a className={Path === "about" ? "active" : ""}>About</a>
         </Link>
       </li>
-      <li>
+      <li onClick={showActive}>
         <a className={Path === "services" ? "active" : ""}>Services</a>
 
-        <button className="dropdown" onClick={showActive}>
+        <button className="dropdown">
           <i className="fa-solid fa-chevron-left"></i>
         </button>
         <ul className="submenu">

@@ -50,7 +50,7 @@ const KyloDes = ({ subTitle, titleFirst, titleSecond }) => {
                 our teammates, by giving them the finest opportunities and
                 challenges required for growth.
               </p>
-              <p>
+              <p style={{ marginTop : "20px"}}>
                 With clear transparency in structure, everyone in the team right
                 from an intern to a senior executive gets an equal chance to
                 work and make an impact. Flexible work timings and clear growth

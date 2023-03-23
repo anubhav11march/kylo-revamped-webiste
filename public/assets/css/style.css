@@ -829,7 +829,7 @@ textarea {
 
 /* sidebar */
 .sidebar__contact {
-  margin-top: 30px;
+  margin-top: 20px;
   display: inline-block;
 }
 .sidebar__contact h4 {
@@ -2685,6 +2685,31 @@ textarea {
 @media (max-width: 575px){
   .tech-icon-spacing{
     margin-bottom: 15px;
+  }
+
+}
+
+@media (min-width : 575px) {
+  .zero-display-computer{
+    display: none!important;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 429px) {
+  .pl-zero-tech-icon-mobile{
+    padding-left: 0px!important;
+  }
+
+  .pr-zero-tech-icon-mobile{
+    padding-right: 0px!important;
+  }
+
+  .pl-65-tech-icon-mobile{
+    padding-left: 65px!important;
+  }
+
+  .pr-65-tech-icon-mobile{
+    padding-right: 65px!important;
   }
 }
 
@@ -5041,6 +5066,19 @@ textarea {
 /*----------------------------------------*/
 /*  11. Blog CSS
 /*----------------------------------------*/
+
+@media (min-width:992px){
+  .zero-display-computer-lg{
+    display: none!important;
+  }
+}
+
+@media (max-width:991px){
+  .zero-display-computer-lg-blog{
+    display: none!important;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .blog__area-pb {
@@ -6180,6 +6218,10 @@ textarea {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .zero-pr-mobile{
+    padding-right: 0px!important;
+  }
 }
 @media (max-width: 575px) {
   .comment__form-content .field-format .form-group-2 {
@@ -6326,6 +6368,12 @@ textarea {
 /*----------------------------------------*/
 /*  13. Footer CSS
 /*----------------------------------------*/
+
+@media (max-width:575px) {
+  .pl-20-mobile{
+    padding-left: 20px!important;
+  }
+}
 .footer__area {
   background: #1d233a;
 }
@@ -9186,6 +9234,14 @@ textarea {
   margin-top: 50px;
   font-size: 50px;
 }
+
+@media (max-width:767px){
+  .d-flex-md-mobile{
+    display: flex!important;
+    justify-content: center!important;
+  }
+}
+
 .contact__form {
   margin-top: -304px;
   background: #ffffff;
@@ -9353,6 +9409,12 @@ textarea {
     padding: 30px 5%;
   }
 } */
+
+@media (max-width : 1199px){
+  .mb-20-jobs{
+    margin-bottom: 20px!important;
+  }
+}
 
 @media (min-width: 1400px) {
   .footer_padding {

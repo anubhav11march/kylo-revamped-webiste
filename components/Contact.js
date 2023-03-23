@@ -99,7 +99,7 @@ const Contact = () => {
                 <span>Ready to&nbsp;</span>
                 transform your business?
               </h2>
-              <div className="contact__title-icon">
+              <div className="contact__title-icon d-flex-md-mobile">
                 <Link href="#contact">
                   <a>
                     <i className="fa-solid fa-arrow-down-long"></i>

@@ -51,7 +51,7 @@ const About = ({ subTitle, titleFirst, titleSecond, aboutpic }) => {
                 team’s expertise and modern IT advancements, we deliver custom
                 applications that fit the needs and behavior of end users.
               </p>
-              <p>
+              <p style={{ marginTop : "20px"}}>
                 With innovation, passion, accountability and customer focus as
                 our core values, our mission is to enhance growth of our clients
                 with innovative design and development and to deliver the finest

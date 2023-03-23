@@ -5,6 +5,7 @@ import BlogSidebar from './BlogSidebar';
 import BlogPagination from './BlogPagination';
 import { useState, useEffect } from "react";
 import { useRouter } from 'next/router';
+import BlogSidebarKeyword from './BlogSidebarKeyword';
 
 
 // const BLOG_DATA = [   
@@ -48,7 +49,7 @@ import { useRouter } from 'next/router';
 //       blogTitle:"Prim umber network ormholes take hidden musics",
 //       blogText:"Kindling the energy hidden in matter the only home we've ever known radio telescope decipherment descended from astronomers rogue."
 //     } 
-    
+
 //   ];
 
 const Blog = () => {
@@ -65,13 +66,13 @@ const Blog = () => {
 
   useEffect(() => {
     setLoading(true);
-    if(query.keyword && query.keyword !== "" && query.keyword !== "undefined"){
+    if (query.keyword && query.keyword !== "" && query.keyword !== "undefined") {
       fetch(`/api/blogs?keyword=${query.keyword}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data?.data);
-        setLoading(false);
-      });
+        .then((res) => res.json())
+        .then((data) => {
+          setData(data?.data);
+          setLoading(false);
+        });
     }
     fetch(`/api/blogs?category=${query.category}`)
       .then((res) => res.json())
@@ -91,9 +92,19 @@ const Blog = () => {
   const currentRecords = data.slice(indexOfFirstRecord, indexOfLastRecord);
   const nPages = Math.ceil(data.length / recordsPerPage);
 
-    return (
+  return (
+    <>
+      {/* <section className="">
+      </section> */}
       <section className="blog__area blog__area-pb p-relative pt-120 pb-260">
+
         <Container>
+          <Row className='zero-display-computer-lg' style={{paddingTop:"0px"}}>
+            <Col xl={8} lg={8}>
+              <BlogSidebarKeyword />
+            </Col>
+
+          </Row>
           <Row>
             <Col xl={8} lg={8}>
               <div className="blog__wrapper">
@@ -136,11 +147,9 @@ const Blog = () => {
           </Row>
         </Container>
       </section>
-    );
+    </>
+  );
 };
 
 
-
 export default Blog;
-
-//http://localhost:3000/blog

@@ -37,7 +37,7 @@ const BlogSidebar = () => {
 
   return (
     <div className="blog__sidebar">
-      <div className="sidebar__widget-search mb-40">
+      <div className="sidebar__widget-search mb-40 zero-display-computer-lg-blog">
         <form>
           <input style={{color:"#fff"}} type="text" placeholder={keywordPlaceholder ? `${keywordPlaceholder}`: `Keywords`} onChange={(e) => setKeyword(e.target.value)}/>
           <Link href={`/blog?keyword=${keyword}`}>

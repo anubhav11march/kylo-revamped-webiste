@@ -53,13 +53,14 @@ const QAServicesDetails = () => {
                 >
                   <ul>
                     <li>Automation testing</li>
-                    <li>Manual testing</li>
+                    <li>API & UI/UX testing</li>
                     <li>User acceptance testing</li>
                   </ul>
                   <ul>
-                    <li>API & UI/UX testing</li>
-                    <li>Performance testing</li>
+                  <li>Manual testing</li>
+                    
                     <li>Database testing</li>
+                    <li>Performance testing</li>
                   </ul>
                 </div>
               </div>
@@ -69,24 +70,26 @@ const QAServicesDetails = () => {
                 <div className='container'>
                   <div className='row'>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/5Ke1eu1ztraXleScCkuDlOThT0YWeJRC7zrb6dIO.svg" alt="Manual Testing" />
-                      <p style={{ paddingRight: "0px" }}>Manual Testing</p>
-                    </div>
-                    <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/NqYIxhl5s8Hk2VfmeHOFzqNjb4tiekJByhDpYLnC.svg" alt="Appium" />
+                      <img className="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/NqYIxhl5s8Hk2VfmeHOFzqNjb4tiekJByhDpYLnC.svg" alt="Appium" />
                       <p style={{ paddingRight: "0px" }}>Appium</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ACxSEdfx8icIKwsHJ8sJK45A97OIx7NM45RgKqpp.svg" alt="Selenium" />
+                      <img className="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/ACxSEdfx8icIKwsHJ8sJK45A97OIx7NM45RgKqpp.svg" alt="Selenium" />
                       <p style={{ paddingRight: "0px" }}>Selenium</p>
                     </div>
                     <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/qkh2GBCZeAYnGG6MBaCjPIZP5wlntvT0HQBs3DjQ.svg" alt="AWS Device Farm" />
-                      <p style={{ paddingRight: "0px" }}>AWS Device Farm</p>
-                    </div>                    <div className='col text-center'>
-                      <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/QFjYyqpd5XO6cPqoe4F26PAwOtWBW5Wal1CnO2pu.svg" alt="Browserstack" />
+                      <img className="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/QFjYyqpd5XO6cPqoe4F26PAwOtWBW5Wal1CnO2pu.svg" alt="Browserstack" />
                       <p style={{ paddingRight: "0px" }}>Browserstack</p>
                     </div>
+                    <div className='w-100 zero-display-computer'></div>
+                    <div className='col text-center'>
+                      <img className="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/5Ke1eu1ztraXleScCkuDlOThT0YWeJRC7zrb6dIO.svg" alt="Manual Testing" />
+                      <p style={{ paddingRight: "0px" }}>Manual Testing</p>
+                    </div>
+                    <div className='col text-center'>
+                      <img className="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/qkh2GBCZeAYnGG6MBaCjPIZP5wlntvT0HQBs3DjQ.svg" alt="AWS Device Farm" />
+                      <p style={{ paddingRight: "0px" }}>AWS Device Farm</p>
+                    </div>                    
                   </div>
                 </div>
               </div>

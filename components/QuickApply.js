@@ -408,7 +408,7 @@ const QuickApply = () => {
 
                           </select>
                         </div>
-                        <div className="form-group pr-10 form-group-2" style={{ width: "100%", paddingLeft: "5px" }}>
+                        <div className="form-group pr-10 zero-pr-mobile form-group-2" style={{ width: "100%", paddingLeft: "5px" }}>
                           <input
                             type="text"
                             className="form-control"

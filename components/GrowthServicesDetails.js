@@ -50,11 +50,12 @@ const GrowthServicesDetails = () => {
                 >
                   <ul>
                     <li>Analytics</li>
-                    <li>SEO</li>
+                    <li>Optimization Score Enhancement</li>
                     <li>A/B analysis</li>
                   </ul>
                   <ul>
-                    <li>Optimization Score Enhancement</li>
+                  <li>SEO</li>
+                    
                     <li>Version adoption Percentage</li>
                     <li>Device traffic analysis</li>
                   </ul>

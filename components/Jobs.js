@@ -79,7 +79,7 @@ const Jobs = () => {
       >
         <h3 className="mb-20">Open Positions</h3>
         <Row className="mb-20">
-          <Col xs={12} xl={6} className="mb-20 mb-md-0">
+          <Col xs={12} xl={6} className="mb-20 mb-md-0 mb-20-jobs">
             <select
             style={{ height :"55px"}}
               onChange={(e) => {

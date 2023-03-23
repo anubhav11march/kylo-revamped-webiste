@@ -92,10 +92,20 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
               <div className="sidebar__contact mb-30">
                 <div className="contact-list mb-30">
                   <ul>
-                    <li className="d-flex">
-                      <i className="col-sm-4 fas fa-map-marker-alt" style={{position: "relative", top: "6px", left:"4px"}}></i>
-                      <span className="col-sm-8" style={{ position: "relative", left: "20px"}}>203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi, India 110034</span>
-                    </li>
+                    <div className="contact__info-content d-flex">
+                      <div className="contact__info-icon">
+                        <i
+                          style={{ color: "#8b61ff" }}
+                          className="fas fa-map-marker-alt"
+                        ></i>
+                      </div>
+                      <div className="contact__info-title">
+                        <h5>Address</h5>
+                        <p>
+                        203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi, India 110034
+                        </p>
+                      </div>
+                    </div>
                     <div className="contact__info-content d-flex">
                       <div className="contact__info-icon">
                         <i
@@ -142,22 +152,27 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
                   </ul>
                   <div className="sidebar__social">
                     <Link href="https://www.linkedin.com/company/kylo-apps">
-                      <a>
+                      <a target={"_blank"}>
                         <i className="fa-brands fa-linkedin"></i>
                       </a>
                     </Link>
                     <Link href="https://www.instagram.com/kyloappsglobal/">
-                      <a>
+                      <a target={"_blank"}>
                         <i className="fa-brands fa-instagram"></i>
                       </a>
                     </Link>
                     <Link href="https://twitter.com/kyloapps">
-                      <a>
+                      <a target={"_blank"}>
                         <i className="fa-brands fa-twitter"></i>
                       </a>
                     </Link>
+                    <Link href="https://www.youtube.com/@kyloapps">
+                      <a target={"_blank"}>
+                        <i className="fa-brands fa-youtube"></i>
+                      </a>
+                    </Link>
                     <Link href="https://www.facebook.com/kyloapps">
-                      <a>
+                      <a target={"_blank"}>
                         <i className="fa-brands fa-facebook-f"></i>
                       </a>
                     </Link>

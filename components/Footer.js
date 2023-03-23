@@ -51,7 +51,7 @@ const Footer = () => {
   }, [submitted])
   return (
     <footer>
-      <div className="footer__area fix p-relative pt-150 pb-40">
+      <div className="footer__area fix p-relative pt-150 pb-40 pl-20-mobile">
         <div className="footer__shape">
           <img
             className="footer-shape-1"

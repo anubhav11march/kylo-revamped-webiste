@@ -377,7 +377,7 @@ const ContactForm = () => {
                         type="text"
                         className="form-control"
                         name="phone"
-                        placeholder="Phone Number *"
+                        placeholder="Phone No. *"
                         maxLength={15}
                         minLength={10}
                         required

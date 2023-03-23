@@ -93,7 +93,7 @@ const Devops = () => {
                       <img class="tech-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" />
                       <p style={{ paddingRight: "0px" }}>Github</p>
                     </div>
-                    <div className="w-100"></div>
+                    <div className="w-100 zero-display-span"></div>
                     <div className='col text-center'>
                       <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1024px-Npm-logo.svg.png" alt="NPM" />
                       <p style={{ paddingRight: "0px" }}>NPM</p>

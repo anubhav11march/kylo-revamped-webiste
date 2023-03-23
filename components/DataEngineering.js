@@ -67,11 +67,11 @@ const DataEngineering = () => {
               <div className="tech__stack">
                 <h3 className='mb-50'>Technologies</h3>
                 <div className='container' style={{ paddingLeft : "0px"}}>
-                  <div className='row' style={{ width:"25%"}}>
+                  <div className='row w-200-medium pl-30-mobile' style={{ width:"25%"}}>
                     <div className='col text-center' style={{ paddingRight:"50px"}}>
 
 
-                    <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL"/>
+                    <img class="tech-icon " src="https://squareboat.com/storage/services/sub_services/tecnology/y4i617ADRirp4ggK7s7DQRg2zBI4EErXlMwo2057.svg" alt="MySQL"/>
                       <p style={{ paddingRight: "0px" }}>SQL</p>
                     </div>
                     <div className='col text-center tech-title'>
@@ -87,7 +87,7 @@ const DataEngineering = () => {
                 <div className="key__factors-title">
                   <h3>Key Benefits</h3>
                 </div>
-                <div className="key__factors-wrapper d-flex">
+                <div className="key__factors-wrapper d-flex pl-30-mobile">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
                     <span style={{ paddingLeft: "15px" }}>
@@ -133,7 +133,7 @@ const DataEngineering = () => {
                     </div>
                   </div>
                 </div>
-                <div className="key__factors-wrapper d-flex">
+                <div className="key__factors-wrapper d-flex pl-30-mobile">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : '50%'}}>
                     <div className="key__factors-icon">
                     <span style={{ paddingLeft: "15px" }}>

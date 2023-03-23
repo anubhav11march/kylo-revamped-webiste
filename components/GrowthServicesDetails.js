@@ -46,7 +46,7 @@ const GrowthServicesDetails = () => {
               <div className="key__benefits">
                 <div
                   className="key__benefits-content"
-                  style={{ display: "flex", columnGap: "150px" }}
+                  style={{ display: "flex", columnGap: "12vw" }}
                 >
                   <ul>
                     <li>Analytics</li>
@@ -64,7 +64,7 @@ const GrowthServicesDetails = () => {
               <div className="tech__stack">
                 <h4 className='mb-50'>Technologies</h4>
                 <div className='container'>
-                  <div className='row' style={{ width: "50%" }}>
+                  <div className='row w-50p-medium' style={{ width: "100%" }}>
                     <div className='col text-center'>
                     <img class="tech-icon" src="https://squareboat.com/storage/services/sub_services/tecnology/i2vkPouCFaDbYRTJdy5JkEBNOytKc7hFhGHkYeoN.svg" alt="Intercom"/>
                       <p style={{ paddingRight: "0px" }}>Intercom</p>
@@ -85,7 +85,7 @@ const GrowthServicesDetails = () => {
                 <div className="key__factors-title">
                   <h3>Key Benefits</h3>
                 </div>
-                <div className="key__factors-wrapper d-flex">
+                <div className="key__factors-wrapper d-flex pl-30-mobile">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                     <span style={{ paddingLeft: "15px" }}>
@@ -120,7 +120,7 @@ const GrowthServicesDetails = () => {
                     </div>
                   </div>
                 </div>
-                <div className="key__factors-wrapper d-flex">
+                <div className="key__factors-wrapper d-flex pl-30-mobile">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width : "50%"}}>
                     <div className="key__factors-icon">
                     <span style={{ paddingLeft: "15px" }}>

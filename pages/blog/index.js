@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 
 const BlogPage = () => {
   return (
-    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
+    <Layout pageTitle="KYLO APPS | Transforming Businesses Through Technology">
       <PageHeader title="Blog" crumbTitle="Blog" />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"

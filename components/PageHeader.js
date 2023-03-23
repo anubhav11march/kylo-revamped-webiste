@@ -11,11 +11,29 @@ const PageHeader = ({title, crumbTitle}) => {
             src="/assets/images/shape/page-title/page-title-s-1.png"
             alt=""
           />
-          <img
-            className="page-title-s-2"
-            src="/assets/images/shape/page-title/page-title-s-2.png"
-            alt=""
-          />
+          {
+            title === "Mobile App Development" || title === "Web App Development"
+              ?
+              title === "Mobile App Development" 
+                ?
+                <img
+                  className="page-title-s-2 zero-display-mobile"
+                  src="/assets/images/shape/page-title/page-title-s-2.png"
+                  alt=""
+                />
+                 :
+                <img
+                  className="page-title-s-2 zero-display-mobile-380"
+                  src="/assets/images/shape/page-title/page-title-s-2.png"
+                  alt=""
+                />
+              : 
+              <img
+                className="page-title-s-2"
+                src="/assets/images/shape/page-title/page-title-s-2.png"
+                alt=""
+            />
+          }
           <img
             className="page-title-s-3"
             src="/assets/images/shape/page-title/page-title-s-3.png"
@@ -44,7 +62,7 @@ const PageHeader = ({title, crumbTitle}) => {
         </div>
         <Container>
           <Row className="align-items-center">
-            <Col xl={6} lg={6} md={6} sm={10}>
+            <Col xl={6} lg={6} md={6} sm={10} className="w-51percent-md">
               <div className="page__title-wrapper">
                 <h2 className="page__title-heading"><nobr>{title}</nobr></h2>
               </div>
@@ -92,7 +110,7 @@ const PageHeader = ({title, crumbTitle}) => {
             </Col>
             <Col xl={6} lg={6} md={6} sm={10}>
               <nav aria-label="breadcrumb">
-                <ol className="breadcrumb">
+                <ol className="breadcrumb justify-content-start-mobile mt-1-mobile">
                   <li className="breadcrumb-item">
                     <Link href="/">
                       <a>Home</a>

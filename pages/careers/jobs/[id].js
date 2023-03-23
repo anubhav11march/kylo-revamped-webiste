@@ -97,7 +97,7 @@ const JobDetails = () => {
   };
 
   return (
-    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
+    <Layout pageTitle="KYLO APPS | Transforming Businesses Through Technology">
       {/* <PageHeader title="Careers" crumbTitle="Careers" /> */}
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"

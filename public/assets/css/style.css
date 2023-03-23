@@ -2561,6 +2561,9 @@ textarea {
   .key__factors-content {
     margin-right: 15px;
   }
+  .pl-30-mobile{
+    padding-left: 30px!important;
+  }
 }
 .key__factors-icon {
   margin-right: 30px;
@@ -2665,6 +2668,18 @@ textarea {
 .tech-icon{
   height: 1.8rem;
   transition: height .3s;
+}
+
+@media (min-width:991px) {
+  .w-50p-medium{
+    width: 50%!important;
+  }
+}
+
+@media (max-width:1199px){
+  .w-200-medium{
+    width: 200px!important;
+  }
 }
 
 @media (max-width: 575px){
@@ -8133,15 +8148,49 @@ textarea {
   z-index: 2;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .w-51percent-md{
+    width: 51%!important;
+  }
+
+  .justify-content-start-mobile{
+    justify-content: flex-start!important;
+  }
+
   .page__title-shape img.page-title-s-2 {
-    right: 42%;
+    right: 2%;
+  }
+
+  .mt-1-mobile{
+    margin-top: 7px!important;
   }
 }
+
+@media (max-width: 768px) {
+  .page__title-shape img.page-title-s-2 {
+    right: 8%!important;
+  }
+}
+
 @media (max-width: 575px) {
   .page__title-shape img.page-title-s-2 {
-    right: 8%;
+    right: 2%!important;
   }
 }
+
+/* Mobile app development */
+@media (max-width : 415px) {
+  .zero-display-mobile{
+    display: none!important;
+  }
+}
+
+/* Web app Development */
+@media (max-width : 380px) {
+  .zero-display-mobile-380{
+    display: none!important;
+  }
+}
+
 .page__title-shape img.page-title-s-3 {
   top: 22%;
   left: 0;

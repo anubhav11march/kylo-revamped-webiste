@@ -48,7 +48,7 @@ const AiMlServicesDetails = () => {
               <div className="key__benefits">
                 <div
                   className="key__benefits-content"
-                  style={{ display: "flex", columnGap: "150px" }}
+                  style={{ display: "flex", columnGap: "12vw" }}
                 >
                   <ul>
                     <li>Machine Learning Chatbots</li>
@@ -64,7 +64,7 @@ const AiMlServicesDetails = () => {
               <div className="tech__stack">
                 <h3 className='mb-50'>Technologies</h3>
                 <div className='container' style={{ paddingLeft: "0px" }}>
-                  <div className='row' style={{ width: "50%" }}>
+                  <div className='row w-50p-medium' style={{ width: "100%" }}>
                     <div className='col text-center'>
                       <img class="tech-icon" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3254442/tensorflow-icon-md.png" alt="Tensor Flow" />
                       <p style={{ paddingRight: "0px" }}>TensorFlow</p>
@@ -85,7 +85,7 @@ const AiMlServicesDetails = () => {
                 <div className="key__factors-title">
                   <h3>Key Benefits</h3>
                 </div>
-                <div className="key__factors-wrapper d-flex">
+                <div className="key__factors-wrapper d-flex pl-30-mobile">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
                       {/* <span style={{ paddingLeft: "15px" }}>
@@ -122,7 +122,7 @@ const AiMlServicesDetails = () => {
                     </div>
                   </div>
                 </div>
-                <div className="key__factors-wrapper d-flex">
+                <div className="key__factors-wrapper d-flex pl-30-mobile">
                   <div className="key__factors-content mb-40 d-sm-flex" style={{ width: "50%" }}>
                     <div className="key__factors-icon">
                       <span style={{ paddingLeft: "15px" }}>

@@ -14,7 +14,7 @@ const ServicesDetailsPage = () => {
     .replace("-", " ")
     .replace("app-", "");
   return (
-    <Layout pageTitle=" KYLO APPS | Transforming businesses through">
+    <Layout pageTitle="KYLO APPS | Transforming Businesses Through Technology">
       <PageHeader title={"Web App Development"} crumbTitle={"Web App Development"} />
       <Header
         heroLogo="/assets/images/logo/kylo-image.png"

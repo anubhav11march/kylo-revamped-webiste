@@ -9351,7 +9351,7 @@ textarea {
 }
 @media (max-width: 575px) {
   .contact__form-content .field-format .form-group-2 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

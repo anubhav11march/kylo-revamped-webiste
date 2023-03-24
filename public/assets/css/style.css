@@ -1595,6 +1595,10 @@ textarea {
   .hero__thumb-image {
     text-align: left;
   }
+
+  .left-12p-hero__thumb-img{
+    left: 12%!important;
+  }
 }
 .hero__thumb-image img {
   position: relative;

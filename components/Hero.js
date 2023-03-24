@@ -114,7 +114,7 @@ const Hero = () => {
                   alt=""
                 />
               </div>
-              <div className="hero__thumb-image">
+              <div className="hero__thumb-image left-12p-hero__thumb-img">
                 <img src="/assets/images/Home Page/H1.jpg" alt="" />
               </div>
             </div>

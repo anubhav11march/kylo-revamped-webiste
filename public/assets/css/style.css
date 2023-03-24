@@ -5083,8 +5083,12 @@ textarea {
     display: none!important;
   }
 
-  .pt-40{
+  .pt-40-blogs-md{
     padding-top: 40px!important;
+  }
+
+  .mt-40-blogs-md{
+    margin-top: 40px!important;
   }
 }
 

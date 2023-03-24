@@ -237,11 +237,7 @@ const MobileServicesDetails = () => {
 
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  One Time <span>Per Patient</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -291,12 +287,7 @@ const MobileServicesDetails = () => {
                       We  build the app's back-end infrastructure and develop the front-end with agile methodologies.
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  Ongoing
-                  <span>&nbsp;Every Month</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -375,6 +366,9 @@ const MobileServicesDetails = () => {
                   </VerticalTimelineElement>
 
                 </VerticalTimeline>
+                {/* <h2>
+                  One Time <span>Per Patient</span>
+                </h2> */}
               </div>
             </div>
           </Col>

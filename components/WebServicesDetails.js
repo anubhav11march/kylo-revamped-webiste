@@ -203,6 +203,8 @@ const WebServicesDetails = () => {
                   </div>
                 </div>
               </div>
+
+
               <div className="key__benefits">
                 <div className="key__benefits-title">
                   <h3>Process We Follow</h3>
@@ -224,7 +226,7 @@ const WebServicesDetails = () => {
                     }
                   >
                     <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>Detailed Consultation</h3>
-                    <p style={{ color: "#fff" }}>
+                    <p className="zero-pr" style={{ color: "#fff" }}>
                       We start with a thorough consultation and clear your doubts by understanding your target audience, business objectives, and feature requirements.
                     </p>
                   </VerticalTimelineElement>
@@ -251,16 +253,12 @@ const WebServicesDetails = () => {
                       Planning & Analysis
                     </h3>
 
-                    <p>
+                    <p className="zero-pr">
                       After finalising the scope of work, our product team creates a draft which includes the entire project plan as per your vision.
 
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  One Time <span>Per Patient</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -279,7 +277,7 @@ const WebServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Design & Wireframing
                     </h3>
-                    <p style={{ color: "#fff" }}>
+                    <p className="zero-pr" style={{ color: "#fff" }}>
                       We create mockups that showcase the app's layout and functionality and align with your brand and user experience expectations.
                     </p>
                   </VerticalTimelineElement>
@@ -306,16 +304,11 @@ const WebServicesDetails = () => {
                       Development
                     </h3>
 
-                    <p>
+                    <p className="zero-pr">
                       We build the app's back-end infrastructure and develop the front-end with agile methodologies.
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  Ongoing
-                  <span>&nbsp;Every Month</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -334,7 +327,7 @@ const WebServicesDetails = () => {
                     <h3 className="vertical-timeline-element-title" style={{ color: "#fff" }}>
                       Testing
                     </h3>
-                    <p style={{ color: "#fff" }}>
+                    <p className="zero-pr" style={{ color: "#fff" }}>
                       We rigorously test the app to ensure it meets all requirements and is compatible with various devices and platforms.
                     </p>
                   </VerticalTimelineElement>
@@ -361,7 +354,7 @@ const WebServicesDetails = () => {
                       Deployment & Launch
                     </h3>
 
-                    <p>
+                    <p className="zero-pr">
                       We deploy the app to the server and provide support during launch to address any issues.
                     </p>
                   </VerticalTimelineElement>
@@ -388,12 +381,16 @@ const WebServicesDetails = () => {
                       Maintenance & Updates
                     </h3>
 
-                    <p style={{ color: "#fff" }}>
+                    <p className="zero-pr" style={{ color: "#fff" }}>
                       We provide ongoing maintenance, bug fixes, performance improvements, and feature enhancements to meet your evolving needs.
                     </p>
                   </VerticalTimelineElement>
 
                 </VerticalTimeline>
+                {/* <h2>
+                  One Time <span>Per Patient</span>
+                </h2> */}
+              
                 {/* <div className="partner-section section-gap-80">
                   <div className="container">
                     <div className="section-heading text-center mb-50">

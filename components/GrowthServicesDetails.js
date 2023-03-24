@@ -213,11 +213,7 @@ const GrowthServicesDetails = () => {
 
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  One Time <span>Per Patient</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -267,12 +263,7 @@ const GrowthServicesDetails = () => {
                       We develop strategies to retain users, such as through email marketing, loyalty programs, or community engagement.
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  Ongoing
-                  <span>&nbsp;Every Month</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -325,6 +316,10 @@ const GrowthServicesDetails = () => {
                   </VerticalTimelineElement>
 
                 </VerticalTimeline>
+                {/* <h2>
+                  One Time <span>Per Patient</span>
+                </h2> */}
+                
               </div>
             </div>
           </Col>

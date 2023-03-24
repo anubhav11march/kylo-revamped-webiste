@@ -211,11 +211,7 @@ const AiMlServicesDetails = () => {
                       We gather, clean and preprocess data for machine learning models and chatbot training.
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  One Time <span>Per Patient</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -266,12 +262,7 @@ const AiMlServicesDetails = () => {
                       We design the UI, define the conversational flow and train the chatbot on natural language processing capabilities.
                     </p>
                   </VerticalTimelineElement>
-                </VerticalTimeline>
-                {/* <h2>
-                  Ongoing
-                  <span>&nbsp;Every Month</span>
-                </h2> */}
-                <VerticalTimeline lineColor={"#A1A1A1"}>
+
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(116, 50, 255)", color: "#fff" }}
@@ -323,6 +314,10 @@ const AiMlServicesDetails = () => {
                   </VerticalTimelineElement>
 
                 </VerticalTimeline>
+                {/* <h2>
+                  One Time <span>Per Patient</span>
+                </h2> */}
+                
               </div>
             </div>
           </Col>

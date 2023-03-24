@@ -2199,6 +2199,11 @@ textarea {
 /*----------------------------------------*/
 /*  05. Services CSS
 /*----------------------------------------*/
+
+.zero-pr{
+  padding-right: 0px!important;
+}
+
 .services__area {
   background: #1d233a;
 }
@@ -2724,13 +2729,13 @@ textarea {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px),
+/* @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
   .facts__pb {
     padding-bottom: 110px;
   }
-}
+} */
 .facts__thumb-shape img {
   position: absolute;
 }
@@ -5691,7 +5696,7 @@ textarea {
   only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
   .blog__sidebar {
-    padding-top: 70px;
+    /* padding-top: 70px; */
     padding-left: 0;
   }
 }

@@ -47,7 +47,7 @@ const BlogSidebar = () => {
           </Link>
         </form>
       </div>
-      <div className="sidebar__widget mb-40 mt-40-blogs-md">
+      <div className="sidebar__widget mb-40 mt-70-blogs-md">
         <div className="sidebar__widget-title">
           <h3>Categories</h3>
         </div>

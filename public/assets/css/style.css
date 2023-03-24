@@ -5082,6 +5082,10 @@ textarea {
   .zero-display-computer-lg-blog{
     display: none!important;
   }
+
+  .pt-40{
+    padding-top: 40px!important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),

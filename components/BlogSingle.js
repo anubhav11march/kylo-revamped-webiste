@@ -96,7 +96,7 @@ const Blog = () => {
     <>
       {/* <section className="">
       </section> */}
-      <section className="blog__area blog__area-pb p-relative pt-120 pb-260">
+      <section className="blog__area blog__area-pb p-relative pt-120 pt-40 pb-260">
 
         <Container>
           <Row className='zero-display-computer-lg' style={{paddingTop:"0px"}}>

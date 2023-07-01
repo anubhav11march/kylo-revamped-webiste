@@ -110,7 +110,7 @@ const PortfolioTwo = ({ extraClass }) => {
           src="/assets/images/shape/portfolio/p-s-5.png"
           alt=""
         />
-         <img
+        <img
           className="p-s-21  d-none d-sm-block"
           src="/assets/images/shape/portfolio/p-s-1.png"
           alt=""
@@ -215,6 +215,14 @@ const PortfolioTwo = ({ extraClass }) => {
                             </Row>
                           </Tab>
                       </Tabs>   */}
+
+          {/* {
+  "id": "24",
+  "portfolioImg": "/assets/images/portfolio/updated/Glocal.png",
+  "portfolioLink": "/portfolio/24",
+  "portfolioTitle": "Glocal CareX",
+  "portfolioText": "Glocal CareX is a Singapore based listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
+}, */}
         </div>
       </Container>
     </section>

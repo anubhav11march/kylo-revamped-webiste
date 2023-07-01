@@ -7,7 +7,7 @@ const INITIAL_VALUES = {
   email: "",
   city: "",
   phone: "",
-  phoneWithCountryCode:"",
+  phoneWithCountryCode: "",
   budget: "",
   message: "",
 };
@@ -154,7 +154,7 @@ const ContactForm = () => {
 
                   <div className="d-flex w-100" style={{ marginBottom: "20px" }}>
                     <div style={{ width: "200px", lineHeight: "55px" }}>
-                      <select onChange={(e) => setCountryCode(e.target.value)} style={{ height :"55px"}}>
+                      <select onChange={(e) => setCountryCode(e.target.value)} style={{ height: "55px" }}>
                         <option data-countryCode="IN" value="91">(+91)</option>
                         <option data-countryCode="DZ" value="213">(+213)</option>
                         <option data-countryCode="AD" value="376">(+376)</option>

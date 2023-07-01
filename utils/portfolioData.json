@@ -62,7 +62,6 @@
     "portfolioTitle": "HealthDBi",
     "portfolioText": "HealthDBI is a Leads Management Platform for the healthcare industry in the United States. Companies can onboard and create teams and meticulously find leads from a database of more than 1 million records."
   },
-
   {
     "id": "4",
     "portfolioImg": "/assets/images/portfolio/updated/joya.png",
@@ -83,13 +82,6 @@
     "portfolioLink": "/portfolio/7",
     "portfolioTitle": "Triponvo",
     "portfolioText": "Plan your trip with real human beings. On Triponvo platform, travel experts can be onboarded and itineraries can be created for travellers for 50+ destinations. Travellers can also schedule one on one sessions with the travel experts for guidance."
-  },
-  {
-    "id": "24",
-    "portfolioImg": "/assets/images/portfolio/updated/Glocal.png",
-    "portfolioLink": "/portfolio/24",
-    "portfolioTitle": "Glocal CareX",
-    "portfolioText": "Glocal CareX is a Singapore based listing + leads sourcing + advertising + ecommerce + CRM platform where companies can list and promote their services, exhibitions etc, host live events and sell their physical or virtual products. Buyers can book tickets or demand quotations for the products from the listed companies. These are stored as leads on the platform which companies can use for their business development. Companies can also analyse the performance of their listings and join multiple communities on the platform."
   },
   {
     "id": "22",
@@ -140,7 +132,6 @@
     "portfolioTitle": "Hermann Gmeiner Schools",
     "portfolioText": "Hermann Gmeiner Schools & Training Institutions are under one the largest non profit organisations in the world- SOS Children's Villages and has over 12 institutions across India. All the 12 sites are lively and vibrant. Parents and students can log in to pay fees, store documents, watch tutorials etc."
   },
-
   {
     "id": "15",
     "portfolioImg": "/assets/images/portfolio/updated/Finaccru.png",
@@ -162,7 +153,6 @@
     "portfolioTitle": "Unicap",
     "portfolioText": "Unicap is a Web Platform for curated investment opportunities beyond Stocks, Fixed Deposits and Gold in instruments such as Corporate bonds, Leasing, REITs, Startup Equity, Inventory financing etc."
   },
-  
   {
     "id": "23",
     "portfolioImg": "/assets/images/portfolio/updated/ActiveSollutions.png",

@@ -29,12 +29,13 @@ export default async function handler(req, res) {
         const updatedRole = await Jobs.findByIdAndUpdate(
           req.query.id,
           req.body,
-          {
-            new: true,
-            runValidators: true,
-            useFindAndModify: false,
-          }
+          // {
+          //   new: true,
+          //   runValidators: true,
+          //   useFindAndModify: false,
+          // }
         );
+        console.log("called")
         res.status(200).json({ success: true, updatedRole });
       } catch (err) {
         res.status(400).json({ success: false, error: err.message });

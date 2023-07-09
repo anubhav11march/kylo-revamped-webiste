@@ -1,3 +1,5 @@
+
+import emailjs from 'emailjs-com';
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -25,24 +27,44 @@ const ContactForm = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = async (e) => {
-    form.phoneWithCountryCode = `+${countryCode}-${form.phone}`
-    form.phone = form.phoneWithCountryCode
-    e.preventDefault();
-    console.log("form: ", form);
 
-    const res = await fetch("/api/clients", {
-      method: "POST",
-      body: JSON.stringify(form),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const data = await res.json();
-    if (data.success) {
-      alert("Your response has been recorded successfully!");
-      setForm(INITIAL_VALUES);
-    } else alert("Something went wrong!");
+  // template_je00jpt
+  const handleSubmit = async (e) => {
+    try {
+
+      form.phoneWithCountryCode = `+${countryCode}-${form.phone}`
+      form.phone = form.phoneWithCountryCode
+      e.preventDefault();
+      console.log("form: ", form);
+
+      const res = await fetch("/api/clients", {
+        method: "POST",
+        body: JSON.stringify(form),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      // emailjs
+      const templateParams = {
+        from_name: form.firstName + form.lastName,
+        from_email: form?.email,
+        message: form?.message,
+      };
+
+      emailjs.init('0bNXCvnZNqyFQPIBY');
+      const resp = await emailjs.send('service_ahyxida', 'template_je00jpt', templateParams)
+      console.log(resp)
+
+      const data = await res.json();
+      if (data.success) {
+
+        alert("Your response has been recorded successfully!");
+        setForm(INITIAL_VALUES);
+      } else alert("Something went wrong!");
+    } catch (error) {
+      console.log(error)
+    }
   };
 
   useEffect(() => {

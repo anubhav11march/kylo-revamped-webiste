@@ -151,7 +151,7 @@ const Jobs = () => {
           </Row>
         </header>
         <main className="jobs-padding">
-          <strong>There are currently no available positions at the moment.</strong>
+          <strong>There are no open positions currently.</strong>
         </main>
       </section>
     </>

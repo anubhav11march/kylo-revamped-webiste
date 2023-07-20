@@ -39,14 +39,14 @@ const Jobs = () => {
         setLoading(false);
       });
 
-      if(query.department || query.workType){
-        window.scrollTo(0, 550);
+    if (query.department || query.workType) {
+      window.scrollTo(0, 550);
     }
   }, [query]);
 
   useEffect(() => {
-    if(query.department || query.workType){
-        console.log(query.department, "cbdhjbdhjsbchds", query.workType)
+    if (query.department || query.workType) {
+      console.log(query.department, "cbdhjbdhjsbchds", query.workType)
     }
   }, [])
 
@@ -70,137 +70,141 @@ const Jobs = () => {
 
   return (
     <>
-    <section className="pb-100">
-      <header
-        className="jobs-padding"
-        style={{
-          background: "#F8F9FA",
-        }}
-      >
-        <h3 className="mb-20">Open Positions</h3>
-        <Row className="mb-20">
-          <Col xs={12} xl={6} className="mb-20 mb-md-0 mb-20-jobs">
-            <select
-            style={{ height :"55px"}}
-              onChange={(e) => {
-                if(e.target.value==="none"){
-                  if(!query.workType){
-                    push(`/careers/jobs`)
-                  }else{
-                    push(`/careers/jobs?workType=${query.workType}`)
+      <section className="pb-100">
+        <header
+          className="jobs-padding"
+          style={{
+            background: "#F8F9FA",
+          }}
+        >
+          <h3 className="mb-20">Open Positions</h3>
+          <Row className="mb-20">
+            <Col xs={12} xl={6} className="mb-20 mb-md-0 mb-20-jobs">
+              <select
+                style={{ height: "55px" }}
+                onChange={(e) => {
+                  if (e.target.value === "none") {
+                    if (!query.workType) {
+                      push(`/careers/jobs`)
+                    } else {
+                      push(`/careers/jobs?workType=${query.workType}`)
+                    }
                   }
-                }
-                else{
-                  if(!query.workType){
-                    push(`/careers/jobs?department=${e.target.value}`)
+                  else {
+                    if (!query.workType) {
+                      push(`/careers/jobs?department=${e.target.value}`)
+                    }
+                    else {
+                      push(`/careers/jobs?department=${e.target.value}&workType=${query.workType}`)
+                    }
                   }
-                  else{
-                    push(`/careers/jobs?department=${e.target.value}&workType=${query.workType}`)
+                }}
+                value={query.department || "none"}
+              >
+                <option value="none">Choose Department</option>
+                <option value="Tech">Tech</option>
+                <option value="Non-Tech">Non-Tech</option>
+              </select>
+            </Col>
+            <Col xs={12} xl={6}>
+              <select
+                style={{ height: "55px" }}
+                onChange={(e) => {
+                  if (e.target.value === "none") {
+                    if (!query.department) {
+                      push(`/careers/jobs`)
+                    } else {
+                      push(`/careers/jobs?department=${query.department}`)
+                    }
                   }
-                }
-              }}
-              value={query.department || "none"}
-            >
-              <option value="none">Choose Department</option>
-              <option value="Tech">Tech</option>
-              <option value="Non-Tech">Non-Tech</option>
-            </select>
-          </Col>
-          <Col xs={12} xl={6}>
-            <select
-            style={{ height :"55px"}}
-              onChange={(e) => {
-                if(e.target.value==="none"){
-                  if(!query.department){
-                    push(`/careers/jobs`)
-                  }else{
-                    push(`/careers/jobs?department=${query.department}`)
+                  else {
+                    if (!query.department) {
+                      push(`/careers/jobs?workType=${e.target.value}`)
+                    }
+                    else {
+                      push(`/careers/jobs?department=${query.department}&workType=${e.target.value}`)
+                    }
                   }
-                }
-                else{
-                  if(!query.department){
-                    push(`/careers/jobs?workType=${e.target.value}`)
-                  }
-                  else{
-                    push(`/careers/jobs?department=${query.department}&workType=${e.target.value}`)
-                  }
-                }
-              }}
-              value={query.workType || "none"}
-            >
-              <option value="none">Choose Work Type</option>
-              <option value="Full-Time">Full-Time</option>
-              <option value="Internship">Internship</option>
-            </select>
-          </Col>
-        </Row>
-        <Row>
-          <Col style={{ position: "relative" }}>
-            <input
-              className="pl-50"
-              type="text"
-              placeholder="Search for Job Title"
-              value={wordEntered}
-              onChange={handleFilter}
-            />
-            <img
-              style={{ position: "absolute", left: "30px", top: "20px" }}
-              src="/assets/images/search.png"
-            />
-          </Col>
-        </Row>
-      </header>
-      <main className="jobs-padding">
-        {wordEntered?.length > 0
-          ? filterData?.map((job, id) => (
-            <Row
-              onClick={() => push(`jobs/${job._id}`)}
-              key={id}
-              className="border pt-20 pb-20 mb-20 jobCard"
-              style={{ cursor: "pointer" }}
-            >
-              <Col className="position-relative">
-                <div className="d-flex">
-                  <h5>{job?.jobTitle}</h5>
-                  &nbsp; &nbsp;
-                  <h7>|&nbsp;&nbsp;{job?.workType}</h7>
-                </div>
-                <p style={{ paddingRight: "60px" }}>{job?.description}</p>
-                <div
-                  style={{ position: "absolute", left: "95%", top: "38%" }}
-                >
-                  {">"}
-                </div>
-              </Col>
-            </Row>
-          ))
-          : data?.map((job, id) => (
-            <Row
-              onClick={() => push(`jobs/${job._id}`)}
-              key={id}
-              className="border pt-20 pb-20 mb-20 jobCard"
-              style={{ cursor: "pointer" }}
-            >
-              <Col className="position-relative">
-                <div className="d-flex">
-                  {/* <h5 style={{ width:"70%"}}>{job?.jobTitle}</h5> */}
-                  <h5 className='w-70-mobile'>{job?.jobTitle}</h5>
-                  &nbsp; &nbsp;
-                  <p><span className='zero-display-span' >|</span>&nbsp;&nbsp;<span><nobr>{job?.workType}</nobr></span></p>
-                </div>
-                <p className="jobRole__desc" style={{ paddingRight: "60px" }}>Apply Now</p>
-                <div
-                  style={{ position: "absolute", left: "95%", top: "38%" }}
-                >
-                  {">"}
-                </div>
-              </Col>
-            </Row>
-          ))}
-      </main>
-    </section>
+                }}
+                value={query.workType || "none"}
+              >
+                <option value="none">Choose Work Type</option>
+                <option value="Full-Time">Full-Time</option>
+                <option value="Internship">Internship</option>
+              </select>
+            </Col>
+          </Row>
+          <Row>
+            <Col style={{ position: "relative" }}>
+              <input
+                className="pl-50"
+                type="text"
+                placeholder="Search for Job Title"
+                value={wordEntered}
+                onChange={handleFilter}
+              />
+              <img
+                style={{ position: "absolute", left: "30px", top: "20px" }}
+                src="/assets/images/search.png"
+              />
+            </Col>
+          </Row>
+        </header>
+        <main className="jobs-padding">
+          <strong>There are currently no available positions at the moment.</strong>
+        </main>
+      </section>
     </>
   );
 }
 
 export default Jobs
+
+
+// removed code
+// wordEntered?.length > 0
+//           ? filterData?.map((job, id) => (
+//             <Row
+//               onClick={() => push(`jobs/${job._id}`)}
+//               key={id}
+//               className="border pt-20 pb-20 mb-20 jobCard"
+//               style={{ cursor: "pointer" }}
+//             >
+//               <Col className="position-relative">
+//                 <div className="d-flex">
+//                   <h5>{job?.jobTitle}</h5>
+//                   &nbsp; &nbsp;
+//                   <h7>|&nbsp;&nbsp;{job?.workType}</h7>
+//                 </div>
+//                 <p style={{ paddingRight: "60px" }}>{job?.description}</p>
+//                 <div
+//                   style={{ position: "absolute", left: "95%", top: "38%" }}
+//                 >
+//                   {">"}
+//                 </div>
+//               </Col>
+//             </Row>
+//           ))
+//           : data?.map((job, id) => (
+//             <Row
+//               onClick={() => push(`jobs/${job._id}`)}
+//               key={id}
+//               className="border pt-20 pb-20 mb-20 jobCard"
+//               style={{ cursor: "pointer" }}
+//             >
+//               <Col className="position-relative">
+//                 <div className="d-flex">
+//                   {/* <h5 style={{ width:"70%"}}>{job?.jobTitle}</h5> */}
+//                   <h5 className='w-70-mobile'>{job?.jobTitle}</h5>
+//                   &nbsp; &nbsp;
+//                   <p><span className='zero-display-span' >|</span>&nbsp;&nbsp;<span><nobr>{job?.workType}</nobr></span></p>
+//                 </div>
+//                 <p className="jobRole__desc" style={{ paddingRight: "60px" }}>Apply Now</p>
+//                 <div
+//                   style={{ position: "absolute", left: "95%", top: "38%" }}
+//                 >
+//                   {">"}
+//                 </div>
+//               </Col>
+//             </Row>
+//           ))

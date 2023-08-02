@@ -3,9 +3,8 @@ import NextCors from "nextjs-cors";
 import Blogs from "../../../models/Blogs";
 
 connectDatabase();
-
 export default async function handler(req, res) {
-    
+
   await NextCors(req, res, {
     // Options
     methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
@@ -14,7 +13,6 @@ export default async function handler(req, res) {
   });
 
   // *********************************************************************
-
   switch (req.method) {
     case "GET":
       try {
@@ -28,27 +26,28 @@ export default async function handler(req, res) {
     case "PUT":
       try {
         const blog = await Blogs.findByIdAndUpdate(
-          req.params.id,
+          req.query.id,
           req.body,
-          {
-            new: true,
-            runValidators: true,
-            useFindAndModify: false,
-          }
+          // {
+          //   new: true,
+          //   runValidators: true,
+          //   useFindAndModify: false,
+          // }
         );
-        res.status(200).json({ success: true, blog });
+        return res.status(200).json({ success: true, blog });
       } catch (err) {
-        res.status(400).json({ success: false, error: err.message });
+        console.log(err)
+        return res.status(400).json({ success: false, error: err.message });
       }
 
     case "DELETE":
       try {
-        const blog = await Blogs.findByIdAndDelete(req.params.id);
-        res
+        const blog = await Blogs.findByIdAndDelete(req.query.id);
+        return res
           .status(200)
           .json({ success: true, message: "Blog deleted successfully" });
       } catch (err) {
-        res.status(400).json({ success: false, error: err.message });
+        return res.status(400).json({ success: false, error: err.message });
       }
 
     default:

@@ -78,9 +78,9 @@ const clientImages = [
   {
     src: product7
   },
-  {
-    src: product8
-  },
+  // {
+  //   src: product8
+  // },
   {
     src: product9
   },
@@ -114,7 +114,7 @@ const Recommendations = () => {
       </Container>
       <div className="container my-4 d-flex justify-content-center flex-wrap gap-4">
         {clientImages.map(({ src }, index) => (
-          <img src={src.src} key={index} width="90px" height="90px" style={{ objectFit: 'contain' }} className="mx-4" />
+          <img src={src.src} key={index} width="90px" height="90px" style={{ objectFit: 'contain', background: `${index === 1 && "#cbc3c3"}`, padding: `${index === 1 && "8px"}` }} className="mx-4" />
         ))}
       </div>
       <Marquee pauseOnHover speed="80" gradient={false}>

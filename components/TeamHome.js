@@ -17,7 +17,7 @@ const MEMBER_DATA = [
   {
     memberImg: "/assets/images/team/raghib.jpeg",
     memberName: "Raghib Najmi",
-    memberPosition: "",
+    memberPosition: "Tech Project Manager",
   },
   {
     memberImg: "/assets/images/team/kyloteamupdated/Arzoo Sirohi.png",

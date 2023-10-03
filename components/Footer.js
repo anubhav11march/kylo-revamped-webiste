@@ -21,7 +21,7 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(null);
 
-  const emailObj = { email : email}
+  const emailObj = { email: email }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -89,11 +89,11 @@ const Footer = () => {
                       />
                     </div>
                     {
-                      submitted == false ? 
-                      
-                      <button type="disabled">Subscribed !</button>
-                      :
-                      <button type="submit">Subscribe</button>
+                      submitted == false ?
+
+                        <button type="disabled">Subscribed !</button>
+                        :
+                        <button type="submit">Subscribe</button>
 
                     }
                   </div>
@@ -182,7 +182,7 @@ const Footer = () => {
                       <Link href="/devops">
                         <a id="footer_link">DevOps</a>
                       </Link>
-                    </li> 
+                    </li>
                     <li>
                       <Link href="/data-engineering">
                         <a id="footer_link">Data Engineering</a>
@@ -260,6 +260,11 @@ const Footer = () => {
                       <p>
                         <Link href="tel:+918920607430">
                           <a>+91-8920607430</a>
+                        </Link>
+                      </p>
+                      <p>
+                        <Link href="tel:+918920607430">
+                          <a>+91-8447648730</a>
                         </Link>
                       </p>
                     </div>

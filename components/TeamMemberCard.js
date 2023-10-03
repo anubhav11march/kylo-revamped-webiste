@@ -17,7 +17,7 @@ const TeamMemberCard = ({
       {!joinus ? (
         <>
           <div className="team__thumb">
-            <img src={memberImg} alt="member" />
+            <img src={memberImg} alt="member" style={{ objectPosition: 'top' }} />
           </div>
           <div className="team__content text-center">
             {/* <Link href={memberLink}> */}
@@ -40,7 +40,7 @@ const TeamMemberCard = ({
             </div>
             <p>You could be next! Come join our amazing team.</p>
             <Link href="/careers">
-              <h6 style={{ fontSize : "18px", color: "#7432ff" }}>View Openings</h6>
+              <h6 style={{ fontSize: "18px", color: "#7432ff" }}>View Openings</h6>
             </Link>
           </div>
         </>

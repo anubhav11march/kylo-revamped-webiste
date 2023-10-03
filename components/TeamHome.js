@@ -15,6 +15,11 @@ const MEMBER_DATA = [
     memberPosition: "Founder",
   },
   {
+    memberImg: "/assets/images/team/raghib.jpeg",
+    memberName: "Raghib Najmi",
+    memberPosition: "",
+  },
+  {
     memberImg: "/assets/images/team/kyloteamupdated/Arzoo Sirohi.png",
     memberName: "Arzoo Sirohi",
     memberPosition: "HR Team",
@@ -79,6 +84,7 @@ const MEMBER_DATA = [
     memberName: "Sulekha Bansal",
     memberPosition: "Graphic Design Team",
   },
+
   {
     joinus: true,
   },

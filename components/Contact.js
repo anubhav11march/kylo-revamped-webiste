@@ -14,8 +14,8 @@ const Contact = () => {
             <div className="contact__info ">
 
               <div className="contact__info-content d-flex flex-column mb-30">
-                <div className="container" style={{padding:"0"}}>
-                  <div className="zero-mb-mobile footer__widget-social mb-30 contact__info-social-icons-mobile" style={{ width:"22rem"}}>
+                <div className="container" style={{ padding: "0" }}>
+                  <div className="zero-mb-mobile footer__widget-social mb-30 contact__info-social-icons-mobile" style={{ width: "22rem" }}>
                     <Link href="https://www.linkedin.com/company/kylo-apps">
                       <a target={"_blank"} className='contact__info-social-icons-mb-mobile'>
                         <i className="fa-brands fa-linkedin"></i>
@@ -44,12 +44,12 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* <div className="w-100"></div> */}
-                <div className="contact__info-icon" style={{ position : "relative", top:"25px"}}>
+                <div className="contact__info-icon" style={{ position: "relative", top: "25px" }}>
                   <i className="fa-solid fa-location-dot"></i>
                 </div>
                 <div className="contact__info-title">
-                  <h5 style={{ left : "15px"}}>Office Address</h5>
-                  <p style={{ position:"relative", left : "15px"}}>
+                  <h5 style={{ left: "15px" }}>Office Address</h5>
+                  <p style={{ position: "relative", left: "15px" }}>
                     203-204, NDM 1, Netaji Subhash Place, Pitampura, Delhi, India
                     110034
                   </p>
@@ -69,6 +69,11 @@ const Contact = () => {
                   <p>
                     <Link href="tel:+918920607430">
                       <a>+91-8920607430</a>
+                    </Link>
+                  </p>
+                  <p>
+                    <Link href="tel:+918920607430">
+                      <a>+91-8447648730</a>
                     </Link>
                   </p>
                 </div>

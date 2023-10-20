@@ -25,6 +25,7 @@ const MEMBER_DATA = [
     memberPosition: "HR Team",
   },
   {
+
     memberImg: "/assets/images/team/kyloteamupdated/Amit Sharma.png",
     memberName: "Amit Sharma",
     memberPosition: "Tech Team",

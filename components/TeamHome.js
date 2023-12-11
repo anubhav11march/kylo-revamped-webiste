@@ -14,11 +14,11 @@ const MEMBER_DATA = [
     memberName: "Saumya Thakur",
     memberPosition: "Founder",
   },
-  {
-    memberImg: "/assets/images/team/raghib.jpeg",
-    memberName: "Raghib Najmi",
-    memberPosition: "Tech Project Manager",
-  },
+  // {
+  //   memberImg: "/assets/images/team/raghib.jpeg",
+  //   memberName: "Raghib Najmi",
+  //   memberPosition: "Tech Project Manager",
+  // },
   {
     memberImg: "/assets/images/team/kyloteamupdated/Arzoo Sirohi.png",
     memberName: "Arzoo Sirohi",

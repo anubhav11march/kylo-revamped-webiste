@@ -16,7 +16,7 @@ const TeamPage = () => {
         menuClass="main-menu-3"
       />
       <main>
-        <TeamMember subTitle="Let's Create Something" />
+        {/* <TeamMember subTitle="Let's Create Something" /> */}
         <LetsWork />
       </main>
       <Footer />
